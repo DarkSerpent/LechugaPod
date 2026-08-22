@@ -14,3 +14,10 @@ The following cards are given new custom artworks with this set:
 * Ygra, Eater of All = Rumia, Youkai of the Dusk (Touhou Project)
 * Itazura, Lingering Wick = Rin Kaenbyou, Shopping District (Touhou Project)
 * Smaug the Impenetrable = Galmieux, Ardor Manifest (Shadowverse: Worlds Beyond)
+
+Included are also custom lands with flavor text:
+* Plains = Garden of the Sun (Touhou Project)
+* Island = Misty Lake (Touhou Project)
+* Swamp = Muenzuka (Touhou Project)
+* Mountain = Youkai Mountain (Touhou Project)
+* Forest = Forest of Magic (Touhou Project)

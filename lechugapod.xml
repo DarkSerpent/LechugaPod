@@ -334,6 +334,181 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Plains</name>
+            <text>({T}: Add {W}.)</text>
+            <prop>
+                <layout>normal</layout>
+                <format-future>legal</format-future>
+                <coloridentity>W</coloridentity>
+                <format-historic>legal</format-historic>
+                <format-commander>legal</format-commander>
+                <format-standard>legal</format-standard>
+                <format-standardbrawl>legal</format-standardbrawl>
+                <type>Basic Land — Plains</type>
+                <format-predh>legal</format-predh>
+                <format-timeless>legal</format-timeless>
+                <format-modern>legal</format-modern>
+                <cmc>0</cmc>
+                <format-alchemy>legal</format-alchemy>
+                <format-legacy>legal</format-legacy>
+                <format-duel>legal</format-duel>
+                <format-pioneer>legal</format-pioneer>
+                <format-paupercommander>legal</format-paupercommander>
+                <maintype>Land</maintype>
+                <format-pauper>legal</format-pauper>
+                <format-brawl>legal</format-brawl>
+                <format-vintage>legal</format-vintage>
+                <format-gladiator>legal</format-gladiator>
+                <format-premodern>legal</format-premodern>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <side>front</side>
+                <format-penny>legal</format-penny>
+            </prop>
+            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(Touhou).png">CLM</set>
+            <tablerow>0</tablerow>
+        </card>
+
+        <card>
+            <name>Island</name>
+            <text>({T}: Add {U}.)</text>
+            <prop>
+                <layout>normal</layout>
+                <format-future>legal</format-future>
+                <coloridentity>U</coloridentity>
+                <format-historic>legal</format-historic>
+                <format-commander>legal</format-commander>
+                <format-standard>legal</format-standard>
+                <format-standardbrawl>legal</format-standardbrawl>
+                <type>Basic Land — Island</type>
+                <format-predh>legal</format-predh>
+                <format-timeless>legal</format-timeless>
+                <format-modern>legal</format-modern>
+                <cmc>0</cmc>
+                <format-alchemy>legal</format-alchemy>
+                <format-legacy>legal</format-legacy>
+                <format-duel>legal</format-duel>
+                <format-pioneer>legal</format-pioneer>
+                <format-paupercommander>legal</format-paupercommander>
+                <maintype>Land</maintype>
+                <format-pauper>legal</format-pauper>
+                <format-brawl>legal</format-brawl>
+                <format-vintage>legal</format-vintage>
+                <format-gladiator>legal</format-gladiator>
+                <format-premodern>legal</format-premodern>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <side>front</side>
+                <format-penny>legal</format-penny>
+            </prop>
+            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(Touhou).png">CLM</set>
+            <tablerow>0</tablerow>
+        </card>
+
+        <card>
+            <name>Swamp</name>
+            <text>({T}: Add {B}.)</text>
+            <prop>
+                <layout>normal</layout>
+                <format-future>legal</format-future>
+                <coloridentity>B</coloridentity>
+                <format-historic>legal</format-historic>
+                <format-commander>legal</format-commander>
+                <format-standard>legal</format-standard>
+                <format-standardbrawl>legal</format-standardbrawl>
+                <type>Basic Land — Swamp</type>
+                <format-predh>legal</format-predh>
+                <format-timeless>legal</format-timeless>
+                <format-modern>legal</format-modern>
+                <cmc>0</cmc>
+                <format-alchemy>legal</format-alchemy>
+                <format-legacy>legal</format-legacy>
+                <format-duel>legal</format-duel>
+                <format-pioneer>legal</format-pioneer>
+                <format-paupercommander>legal</format-paupercommander>
+                <maintype>Land</maintype>
+                <format-pauper>legal</format-pauper>
+                <format-brawl>legal</format-brawl>
+                <format-vintage>legal</format-vintage>
+                <format-gladiator>legal</format-gladiator>
+                <format-premodern>legal</format-premodern>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <side>front</side>
+                <format-penny>legal</format-penny>
+            </prop>
+            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(Touhou).png">CLM</set>
+            <tablerow>0</tablerow>
+        </card>
+
+        <card>
+            <name>Mountain</name>
+            <text>({T}: Add {R}.)</text>
+            <prop>
+                <layout>normal</layout>
+                <format-future>legal</format-future>
+                <coloridentity>R</coloridentity>
+                <format-historic>legal</format-historic>
+                <format-commander>legal</format-commander>
+                <format-standard>legal</format-standard>
+                <format-standardbrawl>legal</format-standardbrawl>
+                <type>Basic Land — Mountain</type>
+                <format-predh>legal</format-predh>
+                <format-timeless>legal</format-timeless>
+                <format-modern>legal</format-modern>
+                <cmc>0</cmc>
+                <format-alchemy>legal</format-alchemy>
+                <format-legacy>legal</format-legacy>
+                <format-duel>legal</format-duel>
+                <format-pioneer>legal</format-pioneer>
+                <format-paupercommander>legal</format-paupercommander>
+                <maintype>Land</maintype>
+                <format-pauper>legal</format-pauper>
+                <format-brawl>legal</format-brawl>
+                <format-vintage>legal</format-vintage>
+                <format-gladiator>legal</format-gladiator>
+                <format-premodern>legal</format-premodern>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <side>front</side>
+                <format-penny>legal</format-penny>
+            </prop>
+            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Mountain%20(Touhou).png">CLM</set>
+            <tablerow>0</tablerow>
+        </card>
+
+        <card>
+            <name>Forest</name>
+            <text>({T}: Add {G}.)</text>
+            <prop>
+                <layout>normal</layout>
+                <format-future>legal</format-future>
+                <coloridentity>G</coloridentity>
+                <format-historic>legal</format-historic>
+                <format-commander>legal</format-commander>
+                <format-standard>legal</format-standard>
+                <format-standardbrawl>legal</format-standardbrawl>
+                <type>Basic Land — Forest</type>
+                <format-predh>legal</format-predh>
+                <format-timeless>legal</format-timeless>
+                <format-modern>legal</format-modern>
+                <cmc>0</cmc>
+                <format-alchemy>legal</format-alchemy>
+                <format-legacy>legal</format-legacy>
+                <format-duel>legal</format-duel>
+                <format-pioneer>legal</format-pioneer>
+                <format-paupercommander>legal</format-paupercommander>
+                <maintype>Land</maintype>
+                <format-pauper>legal</format-pauper>
+                <format-brawl>legal</format-brawl>
+                <format-vintage>legal</format-vintage>
+                <format-gladiator>legal</format-gladiator>
+                <format-premodern>legal</format-premodern>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <side>front</side>
+                <format-penny>legal</format-penny>
+            </prop>
+            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Forest%20(Touhou).png">CLM</set>
+            <tablerow>0</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>
