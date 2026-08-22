@@ -189,6 +189,27 @@ At the beginning of your end step, you may return target creature card with powe
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Selenia, the Cursed Heart</name>
+            <text>Flying, lifelink
+If you would gain life, you gain twice that much life instead.
+When Selenia dies, create a legendary black Aura Curse enchantment token named Selenia's Curse attached to target opponent. The token has enchant player and &quot;If enchanted player would lose life, they lose twice that much life instead.&quot;</text>
+            <prop>
+                <layout>normal</layout>
+                <colors>WB</colors>
+                <coloridentity>WB</coloridentity>
+                <manacost>4WB</manacost>
+                <type>Legendary Creature — Angel Warrior</type>
+                <cmc>6</cmc>
+                <pt>2/5</pt>
+                <maintype>Creature</maintype>
+                <side>front</side>
+            </prop>
+            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Seiga%20Kaku%2C%20the%20Wicked%20Hermit.png">CLM</set>
+
+            <tablerow>2</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>
