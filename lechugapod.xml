@@ -35,6 +35,31 @@
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Romana II</name>
+            <text>Vigilance
+{1}, {T}: Create a tapped token that's a copy of target token that entered this turn.
+Doctor's companion (You can have two commanders if the other is the Doctor.)</text>
+            <prop>
+                <layout>normal</layout>
+                <colors>W</colors>
+                <coloridentity>W</coloridentity>
+                <manacost>3W</manacost>
+                <format-commander>legal</format-commander>
+                <type>Legendary Creature — Time Lord Scientist</type>
+                <cmc>4</cmc>
+                <format-legacy>legal</format-legacy>
+                <format-duel>legal</format-duel>
+                <pt>3/3</pt>
+                <maintype>Creature</maintype>
+                <format-vintage>legal</format-vintage>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <side>front</side>
+            </prop>
+            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Subaru%2C%20Accreting%20Life.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>
