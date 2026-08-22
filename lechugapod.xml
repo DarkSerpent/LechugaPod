@@ -307,6 +307,33 @@ Whenever a Food is put into a graveyard from the battlefield, put two +1/+1 coun
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Smaug the Impenetrable</name>
+            <text>Flying, indestructible, haste
+Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</text>
+            <prop>
+                <layout>normal</layout>
+                <colors>BR</colors>
+                <coloridentity>BR</coloridentity>
+                <format-historic>legal</format-historic>
+                <manacost>5BR</manacost>
+                <format-commander>legal</format-commander>
+                <type>Legendary Creature — Dragon</type>
+                <format-timeless>legal</format-timeless>
+                <cmc>7</cmc>
+                <format-legacy>legal</format-legacy>
+                <format-duel>legal</format-duel>
+                <pt>8/7</pt>
+                <maintype>Creature</maintype>
+                <format-vintage>legal</format-vintage>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <side>front</side>
+            </prop>
+            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Galmieux%2C%20Ardor%20Manifest.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>
