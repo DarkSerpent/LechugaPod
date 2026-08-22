@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_carddatabase version="4">
+
+  <sets>
+    <set>
+      <name>CLM</name>
+      <longname>Certified Lechuga Moment</longname>
+      <settype>Custom</settype>
+      <releasedate>2026-08-22</releasedate>
+    </set>
+  </sets>
+
+  <cards>
+
+        <card>
+            <name>The Sixth Doctor</name>
+            <text>Time Lord's Prerogative — Whenever you cast a historic spell, copy it, except the copy isn't legendary. This ability triggers only once each turn. (Artifacts, legendaries, and Sagas are historic. A copy of a permanent spell becomes a token.)</text>
+            <prop>
+                <layout>normal</layout>
+                <colors>UG</colors>
+                <coloridentity>UG</coloridentity>
+                <manacost>4GU</manacost>
+                <format-commander>legal</format-commander>
+                <type>Legendary Creature — Time Lord Doctor</type>
+                <cmc>6</cmc>
+                <format-legacy>legal</format-legacy>
+                <format-duel>legal</format-duel>
+                <pt>3/3</pt>
+                <maintype>Creature</maintype>
+                <format-vintage>legal</format-vintage>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <side>front</side>
+            </prop>
+            <set rarity="rare" picurl="https://github.com/DarkSerpent/LechugaPod/blob/main/assets/cards/Echidna,%20Witch%20of%20Greed.png?raw=true">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
+  </cards>
+
+</cockatrice_carddatabase>
