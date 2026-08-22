@@ -23,3 +23,5 @@ Included are also custom lands with flavor text:
 * Forest = Forest of Magic (Touhou Project)
 * Command Tower = Hakurei Shrine (Touhou Project)
 * Rogue's Passage = Gap (Touhou Project)
+* Exotic Orchard = The Netherworld (Touhou Project)
+
