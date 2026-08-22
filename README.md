@@ -8,3 +8,4 @@ The following cards are given new custom artworks with this set:
 * Aminatou, Veil Piercer = The Herta, Peerless Gem (Honkai: Star Rail)
 * Kilo, Apogee Mind = Kashin Koji, Fuuma Sorcerer (Fate Grand Order)
 * Mirko, Obsessive Theorist = Elliott, Administrator of the Ends (Friend's OC)
+* Selenia, the Cursed Heart = Seiga Kaku, the Wicked Hermit (Touhou Project)
