@@ -5,3 +5,4 @@ The following cards are given new custom artworks with this set:
 * Gisela, Blade of Goldnight = Shana, Flame-Haired Hunter (Shakugan no Shana)
 * Romana II = Subaru, Accreting Life (Re:Zero)
 * Sidar Jabari of Zhalfir = Solitude Maximus, King of Imperium (OC)
+* Aminatou, Veil Piercer = The Herta, Peerless Gem (Honkai: Star Rail)
