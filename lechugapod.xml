@@ -254,6 +254,41 @@ Whenever you cast an artifact creature or Equipment spell, you may copy that spe
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Ygra, Eater of All</name>
+            <text>Ward—Sacrifice a Food.
+Other creatures are Food artifacts in addition to their other types and have &quot;{2}, {T}, Sacrifice this permanent: You gain 3 life.&quot;
+Whenever a Food is put into a graveyard from the battlefield, put two +1/+1 counters on Ygra.</text>
+            <prop>
+                <layout>normal</layout>
+                <format-future>legal</format-future>
+                <colors>BG</colors>
+                <coloridentity>BG</coloridentity>
+                <format-historic>legal</format-historic>
+                <manacost>3BG</manacost>
+                <format-commander>legal</format-commander>
+                <format-standard>legal</format-standard>
+                <format-standardbrawl>legal</format-standardbrawl>
+                <type>Legendary Creature — Elemental Cat</type>
+                <format-timeless>legal</format-timeless>
+                <format-modern>legal</format-modern>
+                <cmc>5</cmc>
+                <format-alchemy>legal</format-alchemy>
+                <format-legacy>legal</format-legacy>
+                <format-duel>legal</format-duel>
+                <format-pioneer>legal</format-pioneer>
+                <pt>6/6</pt>
+                <maintype>Creature</maintype>
+                <format-vintage>legal</format-vintage>
+                <format-brawl>legal</format-brawl>
+                <format-gladiator>legal</format-gladiator>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <side>front</side>
+            </prop>
+            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Rumia%2C%20Youkai%20of%20the%20Dusk.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>
