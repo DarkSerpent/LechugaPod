@@ -60,6 +60,32 @@ Doctor's companion (You can have two commanders if the other is the Doctor.)</te
             <tablerow>2</tablerow>
         </card>
 
+            <name>Gisela, Blade of Goldnight</name>
+            <text>Flying, first strike
+If a source would deal damage to an opponent or a permanent an opponent controls, that source deals double that damage to that player or permanent instead.
+If a source would deal damage to you or a permanent you control, prevent half that damage, rounded up.</text>
+            <prop>
+                <layout>normal</layout>
+                <colors>WR</colors>
+                <coloridentity>WR</coloridentity>
+                <manacost>4RWW</manacost>
+                <format-commander>legal</format-commander>
+                <type>Legendary Creature — Angel</type>
+                <format-modern>legal</format-modern>
+                <cmc>7</cmc>
+                <format-legacy>legal</format-legacy>
+                <format-duel>legal</format-duel>
+                <pt>5/5</pt>
+                <maintype>Creature</maintype>
+                <format-vintage>legal</format-vintage>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <side>front</side>
+                <format-penny>legal</format-penny>
+            </prop>
+            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Shana%2C%20Flame-Haired%20Hunter.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>
