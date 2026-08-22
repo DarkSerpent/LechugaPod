@@ -6,3 +6,4 @@ The following cards are given new custom artworks with this set:
 * Romana II = Subaru, Accreting Life (Re:Zero)
 * Sidar Jabari of Zhalfir = Solitude Maximus, King of Imperium (OC)
 * Aminatou, Veil Piercer = The Herta, Peerless Gem (Honkai: Star Rail)
+* Kilo, Apogee Mind = Kashin Koji, Fuuma Sorcerer (Fate Grand Order)
