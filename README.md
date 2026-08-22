@@ -29,4 +29,5 @@ Included are also custom lands with flavor text:
 * Twisted Landscape = Bamboo Forest of the Lost (Touhou Project)
 * Mortuary Mire = Road of Reconsideration (Touhou Project)
 * The Shire = Human Village (Touhou Project)
+* Fabled Passage = Hakurei Shrine Gate (Touhou Project)
 
