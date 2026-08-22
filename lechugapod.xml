@@ -509,6 +509,35 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
             <tablerow>0</tablerow>
         </card>
 
+        <card>
+            <name>Command Tower</name>
+            <text>{T}: Add one mana of any color in your commander's color identity.</text>
+            <prop>
+                <layout>normal</layout>
+                <format-historic>legal</format-historic>
+                <format-commander>legal</format-commander>
+                <format-standardbrawl>legal</format-standardbrawl>
+                <type>Land</type>
+                <format-timeless>legal</format-timeless>
+                <format-modern>legal</format-modern>
+                <cmc>0</cmc>
+                <format-alchemy>legal</format-alchemy>
+                <format-legacy>legal</format-legacy>
+                <format-duel>legal</format-duel>
+                <format-pioneer>legal</format-pioneer>
+                <format-paupercommander>legal</format-paupercommander>
+                <maintype>Land</maintype>
+                <format-pauper>legal</format-pauper>
+                <format-brawl>legal</format-brawl>
+                <format-vintage>legal</format-vintage>
+                <format-gladiator>legal</format-gladiator>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <side>front</side>
+            </prop>
+            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(Touhou).png">CLM</set>
+            <tablerow>0</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>

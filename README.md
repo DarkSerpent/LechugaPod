@@ -21,3 +21,4 @@ Included are also custom lands with flavor text:
 * Swamp = Muenzuka (Touhou Project)
 * Mountain = Youkai Mountain (Touhou Project)
 * Forest = Forest of Magic (Touhou Project)
+* Command Tower = Hakurei Shrine (Touhou Project)
