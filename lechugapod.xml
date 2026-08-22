@@ -112,6 +112,30 @@ Whenever Sidar Jabari deals combat damage to a player, return target Knight crea
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Aminatou, Veil Piercer</name>
+            <text>At the beginning of your upkeep, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
+Each enchantment card in your hand has miracle. Its miracle cost is equal to its mana cost reduced by {4}. (You may cast a card for its miracle cost when you draw it if it's the first card you drew this turn.)</text>
+            <prop>
+                <layout>normal</layout>
+                <colors>WUB</colors>
+                <coloridentity>WUB</coloridentity>
+                <manacost>1WUB</manacost>
+                <format-commander>legal</format-commander>
+                <type>Legendary Creature — Human Wizard</type>
+                <cmc>4</cmc>
+                <format-legacy>legal</format-legacy>
+                <format-duel>legal</format-duel>
+                <pt>2/4</pt>
+                <maintype>Creature</maintype>
+                <format-vintage>legal</format-vintage>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <side>front</side>
+            </prop>
+            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/The%20Herta%2C%20Peerless%20Gem.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>
