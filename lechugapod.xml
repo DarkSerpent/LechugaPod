@@ -226,6 +226,34 @@ Whenever you cast an artifact creature or Equipment spell, you may copy that spe
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Avatar Roku, Firebender</name>
+            <text>Whenever a player attacks, add six {R}. Until end of combat, you don't lose this mana as steps end.
+{R}{R}{R}: Target creature gets +3/+0 until end of turn.</text>
+            <prop>
+                <layout>normal</layout>
+                <colors>R</colors>
+                <coloridentity>R</coloridentity>
+                <format-historic>legal</format-historic>
+                <manacost>3RRR</manacost>
+                <format-commander>legal</format-commander>
+                <type>Legendary Creature — Human Avatar</type>
+                <format-timeless>legal</format-timeless>
+                <cmc>6</cmc>
+                <format-legacy>legal</format-legacy>
+                <format-duel>legal</format-duel>
+                <pt>6/6</pt>
+                <maintype>Creature</maintype>
+                <format-vintage>legal</format-vintage>
+                <format-brawl>legal</format-brawl>
+                <format-gladiator>legal</format-gladiator>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <side>front</side>
+            </prop>
+            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujiwara%20no%20Mokou%2C%20the%20Immortal.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>

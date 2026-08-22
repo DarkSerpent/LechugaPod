@@ -10,3 +10,4 @@ The following cards are given new custom artworks with this set:
 * Mirko, Obsessive Theorist = Elliott, Administrator of the Ends (Friend's OC)
 * Selenia, the Cursed Heart = Seiga Kaku, the Wicked Hermit (Touhou Project)
 * The Everforger = Kogasa Tatara, the Forgotten Umbrella (Touhou Project)
+* Avatar Roku, Firebender = Fujiwara no Mokou, the Immortal (Touhou Project)
