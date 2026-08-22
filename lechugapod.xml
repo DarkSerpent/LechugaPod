@@ -365,7 +365,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
                 <side>front</side>
                 <format-penny>legal</format-penny>
             </prop>
-            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(Touhou).png">CLM</set>
+            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(Touhou).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -400,7 +400,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
                 <side>front</side>
                 <format-penny>legal</format-penny>
             </prop>
-            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(Touhou).png">CLM</set>
+            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(Touhou).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -435,7 +435,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
                 <side>front</side>
                 <format-penny>legal</format-penny>
             </prop>
-            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(Touhou).png">CLM</set>
+            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(Touhou).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -470,7 +470,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
                 <side>front</side>
                 <format-penny>legal</format-penny>
             </prop>
-            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Mountain%20(Touhou).png">CLM</set>
+            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Mountain%20(Touhou).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -505,7 +505,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
                 <side>front</side>
                 <format-penny>legal</format-penny>
             </prop>
-            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Forest%20(Touhou).png">CLM</set>
+            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Forest%20(Touhou).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -534,7 +534,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
                 <format-oathbreaker>legal</format-oathbreaker>
                 <side>front</side>
             </prop>
-            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(Touhou).png">CLM</set>
+            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(Touhou).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
