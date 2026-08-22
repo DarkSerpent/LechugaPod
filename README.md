@@ -12,3 +12,4 @@ The following cards are given new custom artworks with this set:
 * The Everforger = Kogasa Tatara, the Forgotten Umbrella (Touhou Project)
 * Avatar Roku, Firebender = Fujiwara no Mokou, the Immortal (Touhou Project)
 * Ygra, Eater of All = Rumia, Youkai of the Dusk (Touhou Project)
+* Itazura, Lingering Wick = Rin Kaenbyou, Shopping District (Touhou Project)

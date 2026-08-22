@@ -289,6 +289,24 @@ Whenever a Food is put into a graveyard from the battlefield, put two +1/+1 coun
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Itazura, Lingering Wick</name>
+            <text>At the beginning of your upkeep, exile the top three cards of your library. Each opponent secretly chooses a number 0 or greater. Then those numbers are revealed. Choose an opponent with the highest number. Itazura deals that much damage to them, then they may cast a spell from among those cards without paying its mana cost. You put a card from among them that wasn't cast this way into your hand.</text>
+            <prop>
+                <layout>normal</layout>
+                <colors>UR</colors>
+                <coloridentity>UR</coloridentity>
+                <manacost>2UR</manacost>
+                <type>Legendary Creature — Spirit</type>
+                <cmc>4</cmc>
+                <pt>1/5</pt>
+                <maintype>Creature</maintype>
+                <side>front</side>
+            </prop>
+            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Rin%20Kaenbyou%2C%20Shopping%20District.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>
