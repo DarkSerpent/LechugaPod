@@ -24,4 +24,5 @@ Included are also custom lands with flavor text:
 * Command Tower = Hakurei Shrine (Touhou Project)
 * Rogue's Passage = Gap (Touhou Project)
 * Exotic Orchard = The Netherworld (Touhou Project)
+* Xander's Lounge = Scarlet Devil Mansion (Touhou Project)
 
