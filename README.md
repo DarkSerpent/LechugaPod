@@ -2,8 +2,9 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 
 The following cards are given new custom artworks with this set:
 * The Sixth Doctor = Echidna, the Witch of Greed (Re:Zero)
-* Gisela, Blade of Goldnight = Shana, Flame-Haired Hunter (Shakugan no Shana)
 * Romana II = Subaru, Accreting Life (Re:Zero)
+* Gisela, Blade of Goldnight = Shana, Flame-Haired Hunter (Shakugan no Shana)
 * Sidar Jabari of Zhalfir = Solitude Maximus, King of Imperium (Friend's OC)
 * Aminatou, Veil Piercer = The Herta, Peerless Gem (Honkai: Star Rail)
 * Kilo, Apogee Mind = Kashin Koji, Fuuma Sorcerer (Fate Grand Order)
+* Mirko, Obsessive Theorist = Elliott, Administrator of the Ends (Friend's OC)
