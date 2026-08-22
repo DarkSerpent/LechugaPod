@@ -22,3 +22,4 @@ Included are also custom lands with flavor text:
 * Mountain = Youkai Mountain (Touhou Project)
 * Forest = Forest of Magic (Touhou Project)
 * Command Tower = Hakurei Shrine (Touhou Project)
+* Rogue's Passage = Gap (Touhou Project)
