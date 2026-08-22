@@ -27,4 +27,5 @@ Included are also custom lands with flavor text:
 * Xander's Lounge = Scarlet Devil Mansion (Touhou Project)
 * Llanowar Wastes = The Great Youkai Forest (Touhou Project)
 * Twisted Landscape = Bamboo Forest of the Lost (Touhou Project)
+* Mortuary Mire = Road of Reconsideration (Touhou Project)
 
