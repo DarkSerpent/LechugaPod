@@ -136,6 +136,34 @@ Each enchantment card in your hand has miracle. Its miracle cost is equal to its
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Kilo, Apogee Mind</name>
+            <text>Haste
+Whenever Kilo becomes tapped, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)</text>
+            <prop>
+                <layout>normal</layout>
+                <colors>WUR</colors>
+                <coloridentity>WUR</coloridentity>
+                <format-historic>legal</format-historic>
+                <manacost>URW</manacost>
+                <format-commander>legal</format-commander>
+                <type>Legendary Artifact Creature — Robot Artificer</type>
+                <format-timeless>legal</format-timeless>
+                <cmc>3</cmc>
+                <format-legacy>legal</format-legacy>
+                <format-duel>legal</format-duel>
+                <pt>3/3</pt>
+                <maintype>Creature</maintype>
+                <format-vintage>legal</format-vintage>
+                <format-brawl>legal</format-brawl>
+                <format-gladiator>legal</format-gladiator>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <side>front</side>
+            </prop>
+            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kashin%20Koji%2C%20Fuuma%20Sorcerer.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>
