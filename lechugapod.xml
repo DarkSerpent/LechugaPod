@@ -646,7 +646,7 @@ Cycling {3} ({3}, Discard this card: Draw a card.)</text>
                 <type>Land</type>
                 <format-commander>legal</format-commander>
             </prop>
-            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Llanowar%20astes%20(Touhou).png">CLM</set>
+            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Llanowar%20Wastes%20(Touhou).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
