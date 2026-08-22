@@ -28,4 +28,5 @@ Included are also custom lands with flavor text:
 * Llanowar Wastes = The Great Youkai Forest (Touhou Project)
 * Twisted Landscape = Bamboo Forest of the Lost (Touhou Project)
 * Mortuary Mire = Road of Reconsideration (Touhou Project)
+* The Shire = Human Village (Touhou Project)
 
