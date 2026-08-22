@@ -206,7 +206,23 @@ When Selenia dies, create a legendary black Aura Curse enchantment token named S
                 <side>front</side>
             </prop>
             <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Seiga%20Kaku%2C%20the%20Wicked%20Hermit.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
 
+        <card>
+            <name>The Everforger</name>
+            <text>Rulebreaker — A deck with this commander can have artifact creature and Equipment cards of any color identity and any basic land cards.
+Whenever you cast an artifact creature or Equipment spell, you may copy that spell. Do this only once each turn. (The copy becomes a token.)</text>
+            <prop>
+                <layout>normal</layout>
+                <manacost>6</manacost>
+                <type>Legendary Artifact Creature — Construct</type>
+                <cmc>6</cmc>
+                <pt>4/5</pt>
+                <maintype>Creature</maintype>
+                <side>front</side>
+            </prop>
+            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kogasa%20Tatara%2C%20the%20Forgotten%20Umbrella.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 

@@ -9,3 +9,4 @@ The following cards are given new custom artworks with this set:
 * Kilo, Apogee Mind = Kashin Koji, Fuuma Sorcerer (Fate Grand Order)
 * Mirko, Obsessive Theorist = Elliott, Administrator of the Ends (Friend's OC)
 * Selenia, the Cursed Heart = Seiga Kaku, the Wicked Hermit (Touhou Project)
+* The Everforger = Kogasa Tatara, the Forgotten Umbrella (Touhou Project)
