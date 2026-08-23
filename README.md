@@ -21,6 +21,7 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 * Itazura, Lingering Wick = Rin Kaenbyou, Shopping District (Touhou Project)
 * Maarika, Brutal Gladiator = Fujiwara no Mokou, the Undying (Touhou Project)
 * Karametra, God of Harvests = Suwako Moriya, Mountain Goddess (Touhou Project)
+* Hapatra, Vizier of Poisons = Suwako, Though the Wind Cries (Touhou Project)
 ### Shadowverse: Worlds Beyond
 * Smaug the Impenetrable = Galmieux, Ardor Manifest (Shadowverse: Worlds Beyond)
 ### Friend's OCs

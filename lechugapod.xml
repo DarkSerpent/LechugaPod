@@ -1575,6 +1575,37 @@ Whenever you cast a creature spell, you may search your library for a Forest or 
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Hapatra, Vizier of Poisons</name>
+            <text>Whenever Hapatra deals combat damage to a player, you may put a -1/-1 counter on target creature.
+Whenever you put one or more -1/-1 counters on a creature, create a 1/1 green Snake creature token with deathtouch.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>BG</coloridentity>
+                <cmc>2</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <manacost>BG</manacost>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Human Cleric</type>
+                <pt>2/2</pt>
+                <format-commander>legal</format-commander>
+                <colors>BG</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000076" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Suwako%2C%20Though%20the%20Wind%20Cries.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>
