@@ -30,6 +30,8 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 * Lightning Greaves = Innate Dream (Touhou Project)
 * Skullclamp = Miraculous Ofuda (Touhou Project)
 * Fellwar Stone = Kourindou's Curios (Touhou Project)
+### Honkai: Star Rail
+* Sol Ring = Dimension Reduction Dice (Honkai: Star Rail)
 
 ## Lands
 ### Touhou Project

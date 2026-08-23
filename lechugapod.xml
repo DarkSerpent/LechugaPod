@@ -31,7 +31,7 @@
                 <format-oathbreaker>legal</format-oathbreaker>
                 <side>front</side>
             </prop>
-            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Echidna%2C%20Witch%20of%20Greed.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000001" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Echidna%2C%20Witch%20of%20Greed.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -56,7 +56,7 @@ Doctor's companion (You can have two commanders if the other is the Doctor.)</te
                 <format-oathbreaker>legal</format-oathbreaker>
                 <side>front</side>
             </prop>
-            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Subaru%2C%20Accreting%20Life.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000002" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Subaru%2C%20Accreting%20Life.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -83,7 +83,7 @@ If a source would deal damage to you or a permanent you control, prevent half th
                 <side>front</side>
                 <format-penny>legal</format-penny>
             </prop>
-            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Shana%2C%20Flame-Haired%20Hunter.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000003" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Shana%2C%20Flame-Haired%20Hunter.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -108,7 +108,7 @@ Whenever Sidar Jabari deals combat damage to a player, return target Knight crea
                 <format-oathbreaker>legal</format-oathbreaker>
                 <side>front</side>
             </prop>
-            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Solitude%20Maximus%2C%20King%20of%20Imperium.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000004" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Solitude%20Maximus%2C%20King%20of%20Imperium.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -132,7 +132,7 @@ Each enchantment card in your hand has miracle. Its miracle cost is equal to its
                 <format-oathbreaker>legal</format-oathbreaker>
                 <side>front</side>
             </prop>
-            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/The%20Herta%2C%20Peerless%20Gem.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000005" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/The%20Herta%2C%20Peerless%20Gem.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -160,7 +160,7 @@ Whenever Kilo becomes tapped, proliferate. (Choose any number of permanents and/
                 <format-oathbreaker>legal</format-oathbreaker>
                 <side>front</side>
             </prop>
-            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kashin%20Koji%2C%20Fuuma%20Sorcerer.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000006" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kashin%20Koji%2C%20Fuuma%20Sorcerer.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -185,7 +185,7 @@ At the beginning of your end step, you may return target creature card with powe
                 <format-oathbreaker>legal</format-oathbreaker>
                 <side>front</side>
             </prop>
-            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Elliott%2C%20Administrator%20of%20the%20Ends.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000007" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Elliott%2C%20Administrator%20of%20the%20Ends.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -205,7 +205,7 @@ When Selenia dies, create a legendary black Aura Curse enchantment token named S
                 <maintype>Creature</maintype>
                 <side>front</side>
             </prop>
-            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Seiga%20Kaku%2C%20the%20Wicked%20Hermit.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000008" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Seiga%20Kaku%2C%20the%20Wicked%20Hermit.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -222,7 +222,7 @@ Whenever you cast an artifact creature or Equipment spell, you may copy that spe
                 <maintype>Creature</maintype>
                 <side>front</side>
             </prop>
-            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kogasa%20Tatara%2C%20the%20Forgotten%20Umbrella.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000009" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kogasa%20Tatara%2C%20the%20Forgotten%20Umbrella.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -250,7 +250,7 @@ Whenever you cast an artifact creature or Equipment spell, you may copy that spe
                 <format-oathbreaker>legal</format-oathbreaker>
                 <side>front</side>
             </prop>
-            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujiwara%20no%20Mokou%2C%20the%20Immortal.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000010" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujiwara%20no%20Mokou%2C%20the%20Immortal.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -285,7 +285,7 @@ Whenever a Food is put into a graveyard from the battlefield, put two +1/+1 coun
                 <format-oathbreaker>legal</format-oathbreaker>
                 <side>front</side>
             </prop>
-            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Rumia%2C%20Youkai%20of%20the%20Dusk.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000011" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Rumia%2C%20Youkai%20of%20the%20Dusk.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -303,7 +303,7 @@ Whenever a Food is put into a graveyard from the battlefield, put two +1/+1 coun
                 <maintype>Creature</maintype>
                 <side>front</side>
             </prop>
-            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Rin%20Kaenbyou%2C%20Shopping%20District.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000012" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Rin%20Kaenbyou%2C%20Shopping%20District.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -330,7 +330,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
                 <format-oathbreaker>legal</format-oathbreaker>
                 <side>front</side>
             </prop>
-            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Galmieux%2C%20Ardor%20Manifest.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000013" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Galmieux%2C%20Ardor%20Manifest.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -365,8 +365,8 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
                 <side>front</side>
                 <format-penny>legal</format-penny>
             </prop>
-            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(Touhou).png">CLM</set>
-            <set rarity="rare" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(Honkai%20Star%20Rail).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000014" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000015" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(Honkai%20Star%20Rail).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -401,8 +401,8 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
                 <side>front</side>
                 <format-penny>legal</format-penny>
             </prop>
-            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(Touhou).png">CLM</set>
-            <set rarity="rare" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(Honkai%20Star%20Rail).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000016" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000017" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(Honkai%20Star%20Rail).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -437,8 +437,8 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
                 <side>front</side>
                 <format-penny>legal</format-penny>
             </prop>
-            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(Touhou).png">CLM</set>
-            <set rarity="rare" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(Honkai%20Star%20Rail).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000018" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000019" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(Honkai%20Star%20Rail).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -473,8 +473,8 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
                 <side>front</side>
                 <format-penny>legal</format-penny>
             </prop>
-            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Mountain%20(Touhou).png">CLM</set>
-            <set rarity="rare" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Mountain%20(Honkai%20Star%20Rail).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000020" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Mountain%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000021" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Mountain%20(Honkai%20Star%20Rail).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -509,8 +509,8 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
                 <side>front</side>
                 <format-penny>legal</format-penny>
             </prop>
-            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Forest%20(Touhou).png">CLM</set>
-            <set rarity="rare" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Forest%20(Honkai%20Star%20Rail).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000022" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Forest%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000023" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Forest%20(Honkai%20Star%20Rail).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -541,7 +541,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
                 <format-future>legal</format-future>
                 <format-commander>legal</format-commander>
             </prop>
-            <set rarity="rare" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Wastes%20(Honkai%20Star%20Rail).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000024" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Wastes%20(Honkai%20Star%20Rail).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -570,8 +570,8 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
                 <format-oathbreaker>legal</format-oathbreaker>
                 <side>front</side>
             </prop>
-            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(Touhou).png">CLM</set>
-            <set rarity="rare" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(Honkai%20Star%20Rail).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000025" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000026" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(Honkai%20Star%20Rail).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -601,7 +601,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
                 <format-future>legal</format-future>
                 <format-commander>legal</format-commander>
             </prop>
-            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Rogue%E2%80%99s%20Passage%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000027" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Rogue%E2%80%99s%20Passage%20(Touhou).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -624,7 +624,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
                 <type>Land</type>
                 <format-commander>legal</format-commander>
             </prop>
-            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Exotic%20Orchard%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000028" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Exotic%20Orchard%20(Touhou).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -652,7 +652,7 @@ Cycling {3} ({3}, Discard this card: Draw a card.)</text>
                 <type>Land — Island Swamp Mountain</type>
                 <format-commander>legal</format-commander>
             </prop>
-            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Xander%E2%80%99s%20Lounge%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000029" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Xander%E2%80%99s%20Lounge%20(Touhou).png">CLM</set>
             <tablerow>0</tablerow>
             <cipt>1</cipt>
         </card>
@@ -683,7 +683,7 @@ Cycling {3} ({3}, Discard this card: Draw a card.)</text>
                 <type>Land</type>
                 <format-commander>legal</format-commander>
             </prop>
-            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Llanowar%20Wastes%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000030" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Llanowar%20Wastes%20(Touhou).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -712,7 +712,7 @@ Cycling {B}{R}{G} ({B}{R}{G}, Discard this card: Draw a card.)</text>
                 <type>Land</type>
                 <format-commander>legal</format-commander>
             </prop>
-            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Bamboo20Forest20of20the20Lost%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000031" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Bamboo20Forest20of20the20Lost%20(Touhou).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -738,7 +738,7 @@ When this land enters, you may put target creature card from your graveyard on t
                 <type>Land</type>
                 <format-commander>legal</format-commander>
             </prop>
-            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Mortuary%20Mire%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000032" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Mortuary%20Mire%20(Touhou).png">CLM</set>
             <tablerow>0</tablerow>
             <cipt>1</cipt>
         </card>
@@ -767,7 +767,7 @@ When this land enters, you may put target creature card from your graveyard on t
                 <type>Legendary Land</type>
                 <format-commander>legal</format-commander>
             </prop>
-            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/The%20Shire%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000033" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/The%20Shire%20(Touhou).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -797,7 +797,7 @@ When this land enters, you may put target creature card from your graveyard on t
                 <format-future>legal</format-future>
                 <format-commander>legal</format-commander>
             </prop>
-            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Fabled%20Passage%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000034" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Fabled%20Passage%20(Touhou).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -823,7 +823,7 @@ When this land enters, you may put target creature card from your graveyard on t
                 <type>Legendary Land</type>
                 <format-commander>legal</format-commander>
             </prop>
-            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Urborg%2C%20Tomb%20of%20Yawgmoth%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000035" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Urborg%2C%20Tomb%20of%20Yawgmoth%20(Touhou).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -846,7 +846,7 @@ When this land enters, you may put target creature card from your graveyard on t
                 <type>Land</type>
                 <format-commander>legal</format-commander>
             </prop>
-            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Vault%20of%20the%20Archangel%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000036" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Vault%20of%20the%20Archangel%20(Touhou).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -869,7 +869,7 @@ When this land enters, you may put target creature card from your graveyard on t
                 <type>Land</type>
                 <format-commander>legal</format-commander>
             </prop>
-            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Cabal%20Coffers%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000037" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Cabal%20Coffers%20(Touhou).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -893,7 +893,7 @@ Whenever an Angel you control enters, you gain 1 life.
                 <type>Land</type>
                 <format-commander>legal</format-commander>
             </prop>
-            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Seraph%20Sanctuary%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000038" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Seraph%20Sanctuary%20(Touhou).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -916,7 +916,7 @@ Whenever an Angel you control enters, you gain 1 life.
                 <type>Legendary Land</type>
                 <format-commander>legal</format-commander>
             </prop>
-            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Hall%20of%20Heliod%E2%80%99s%20Generosity%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000039" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Hall%20of%20Heliod%E2%80%99s%20Generosity%20(Touhou).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -937,7 +937,8 @@ Whenever an Angel you control enters, you gain 1 life.
                 <type>Artifact</type>
                 <format-commander>legal</format-commander>
             </prop>
-            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000040" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000049" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Sol%20Ring%20(Honkai%20Star%20Rail).png">CLM</set>
             <tablerow>1</tablerow>
         </card>
 
@@ -964,7 +965,7 @@ Channel — {3}{U}, Discard this card: Return target artifact, creature, enchant
                 <type>Legendary Land</type>
                 <format-commander>legal</format-commander>
             </prop>
-            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Otawara%2C%20Soaring%20City%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000041" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Otawara%2C%20Soaring%20City%20(Touhou).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -990,7 +991,7 @@ At the beginning of your upkeep, you lose 1 life for each burden counter on The 
                 <type>Legendary Artifact</type>
                 <format-commander>legal</format-commander>
             </prop>
-            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/The%20One%20Ring%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000042" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/The%20One%20Ring%20(Touhou).png">CLM</set>
             <tablerow>1</tablerow>
         </card>
 
@@ -1020,7 +1021,7 @@ At the beginning of your upkeep, you lose 1 life for each burden counter on The 
                 <type>Artifact</type>
                 <format-commander>legal</format-commander>
             </prop>
-             <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Arcane%20Signet%20(Touhou).png">CLM</set>
+             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000043" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Arcane%20Signet%20(Touhou).png">CLM</set>
             <tablerow>1</tablerow>
         </card>
 
@@ -1047,7 +1048,7 @@ Equip {0}</text>
                 <type>Artifact — Equipment</type>
                 <format-commander>legal</format-commander>
             </prop>
-             <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Lightning%20Greaves%20(Touhou).png">CLM</set>
+             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000044" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Lightning%20Greaves%20(Touhou).png">CLM</set>
             <tablerow>1</tablerow>
         </card>
 
@@ -1071,7 +1072,7 @@ Equip {1}</text>
                 <type>Artifact — Equipment</type>
                 <format-commander>legal</format-commander>
             </prop>
-             <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Skullclamp%20(Touhou).png">CLM</set>
+             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000045" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Skullclamp%20(Touhou).png">CLM</set>
             <tablerow>1</tablerow>
         </card>
 
@@ -1096,7 +1097,7 @@ Equip {1}</text>
                 <type>Artifact</type>
                 <format-commander>legal</format-commander>
             </prop>
-             <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Fellwar%20Stone%20(Touhou).png">CLM</set>
+             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000046" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Fellwar%20Stone%20(Touhou).png">CLM</set>
             <tablerow>1</tablerow>
         </card>
 
@@ -1121,7 +1122,7 @@ Equip {1}</text>
                 <type>Land</type>
                 <format-commander>legal</format-commander>
             </prop>
-            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/City%20of%20Brass%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000047" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/City%20of%20Brass%20(Touhou).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -1146,7 +1147,7 @@ Equip {1}</text>
                 <type>Land</type>
                 <format-commander>legal</format-commander>
             </prop>
-            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Ancient%20Tomb%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000048" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Ancient%20Tomb%20(Touhou).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -1172,7 +1173,7 @@ Aminatou, the Fateshifter can be your commander.</text>
                 <format-commander>legal</format-commander>
                 <colors>WUB</colors>
             </prop>
-            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/planeswalkers/Black%20Swan%2C%20Memetic%20Entity.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000049" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/planeswalkers/Black%20Swan%2C%20Memetic%20Entity.png">CLM</set>
             <tablerow>1</tablerow>
         </card>
 
