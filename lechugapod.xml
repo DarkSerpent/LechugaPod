@@ -1150,6 +1150,32 @@ Equip {1}</text>
             <tablerow>0</tablerow>
         </card>
 
+        <card>
+            <name>Aminatou, the Fateshifter</name>
+            <text>[+1]: Draw a card, then put a card from your hand on top of your library.
+[−1]: Exile another target permanent you own, then return it to the battlefield under your control.
+[−6]: Choose left or right. Each player gains control of all nonland permanents other than Aminatou controlled by the next player in the chosen direction.
+Aminatou, the Fateshifter can be your commander.</text>
+            <prop>
+                <loyalty>3</loyalty>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>WUB</coloridentity>
+                <cmc>3</cmc>
+                <manacost>WUB</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Planeswalker</maintype>
+                <layout>normal</layout>
+                <type>Legendary Planeswalker — Aminatou</type>
+                <format-commander>legal</format-commander>
+                <colors>WUB</colors>
+            </prop>
+            <set rarity="rare" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/planeswalkers/Black%20Swan%2C%20Memetic%20Entity.png">CLM</set>
+            <tablerow>1</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>
