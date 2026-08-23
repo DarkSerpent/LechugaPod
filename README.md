@@ -38,4 +38,5 @@ Included are also custom lands with flavor text:
 * Cabal Coffers = Myouren Temple Cemetery (Touhou Project)
 * Seraph Sanctuary = Heaven (Touhou Project)
 * Hall of Heliod’s Generosity = Moriya Shrine (Touhou Project)
+* Otawara, Soaring City = Shining Needle Castle (Touhou Project)
 
