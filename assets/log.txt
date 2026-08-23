@@ -8,7 +8,6 @@ artifacts/Prismatic Lens (Honkai Star Rail).png | 2026-08-23 18:21:40
 artifacts/Sensei’s Divining Top (Honkai Star Rail).png | 2026-08-23 18:21:40
 artifacts/Skullclamp (Touhou).png | 2026-08-23 18:21:40
 artifacts/Sol Ring (Honkai Star Rail).png | 2026-08-23 18:21:40
-artifacts/Sol Ring (ReZero).png | 2026-08-23 18:21:41
 artifacts/Sol Ring (Touhou).png | 2026-08-23 18:21:41
 artifacts/Talisman of Dominance (Honkai Star Rail).png | 2026-08-23 18:21:41
 artifacts/Talisman of Hierarchy (Honkai Star Rail).png | 2026-08-23 18:21:42
@@ -37,7 +36,6 @@ cards/Suwako Moriya, Mountain Goddess.png | 2026-08-23 18:21:50
 cards/Suwako, Though the Wind Cries.png | 2026-08-23 18:21:50
 cards/The Herta, Peerless Gem.png | 2026-08-23 18:21:51
 cards/Yukari Yakumo, Boundary Master.png | 2026-08-23 18:21:51
-lands/Academy Ruins (ReZero).png | 2026-08-23 18:21:51
 lands/Ancient Tomb (Touhou).png | 2026-08-23 18:21:52
 lands/Bojuka Bog (Honkai Star Rail).png | 2026-08-23 18:21:52
 lands/Cabal Coffers (Touhou).png | 2026-08-23 18:21:52
@@ -92,3 +90,5 @@ lands/Wastes (Touhou).png | 2026-08-23 18:22:09
 lands/Watery Grave (Honkai Star Rail).png | 2026-08-23 18:22:09
 lands/Xander’s Lounge (Touhou).png | 2026-08-23 18:22:09
 planeswalkers/Black Swan, Memetic Entity.png | 2026-08-23 18:22:10
+artifacts/Sol Ring (ReZero).png | 2026-08-23 18:57:39
+lands/Academy Ruins (ReZero).png | 2026-08-23 18:57:39
