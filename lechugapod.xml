@@ -1606,6 +1606,37 @@ Whenever you put one or more -1/-1 counters on a creature, create a 1/1 green Sn
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Kaza, Roil Chaser</name>
+            <text>Flying, haste
+{T}: The next instant or sorcery spell you cast this turn costs {X} less to cast, where X is the number of Wizards you control as this ability resolves.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>UR</coloridentity>
+                <cmc>2</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <manacost>UR</manacost>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Human Wizard</type>
+                <pt>1/2</pt>
+                <format-commander>legal</format-commander>
+                <colors>UR</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000077" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kirisame%20Marisa%2C%20Western%20Magician.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>
