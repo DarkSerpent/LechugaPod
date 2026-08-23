@@ -90,5 +90,7 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 * Mountain = Huatien (Shadowverse: Worlds Beyond)
 * Forest = Elven Forest (Shadowverse: Worlds Beyond)
 * Wastes = Vellsar (Shadowverse: Worlds Beyond)
-* Command Tower = (Shadowverse: Worlds Beyond)
+* Command Tower = The Morning Star (Shadowverse: Worlds Beyond)
+* Treasure Vault = Ardent Torch (Shadowverse: Worlds Beyond)
+* Dragon-Cursed Halls = Ardent Torch (Shadowverse: Worlds Beyond)
 
