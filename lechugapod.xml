@@ -957,6 +957,36 @@ At the beginning of your upkeep, you lose 1 life for each burden counter on The 
             <tablerow>1</tablerow>
         </card>
 
+        <card>
+            <name>Arcane Signet</name>
+            <text>{T}: Add one mana of any color in your commander's color identity.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-paupercommander>legal</format-paupercommander>
+                <format-standardbrawl>legal</format-standardbrawl>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-pauper>legal</format-pauper>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <cmc>2</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <manacost>2</manacost>
+                <format-alchemy>legal</format-alchemy>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Artifact</maintype>
+                <layout>normal</layout>
+                <type>Artifact</type>
+                <format-commander>legal</format-commander>
+            </prop>
+             <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Arcane%20Signet%20(Touhou).png">CLM</set>
+            <tablerow>1</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>
