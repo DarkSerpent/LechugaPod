@@ -1,6 +1,6 @@
 This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the BAT file grabs the XML file from this repository and places it in your Local AppData folder. It also (should) close Cockatrice if it's running so the custom set can load.
 
-The following cards are given new custom artworks with this set:
+The following Creature Cards are given new custom artworks with this set:
 * The Sixth Doctor = Echidna, the Witch of Greed (Re:Zero)
 * Romana II = Subaru, Accreting Life (Re:Zero)
 * Gisela, Blade of Goldnight = Shana, Flame-Haired Hunter (Shakugan no Shana)
@@ -14,6 +14,9 @@ The following cards are given new custom artworks with this set:
 * Ygra, Eater of All = Rumia, Youkai of the Dusk (Touhou Project)
 * Itazura, Lingering Wick = Rin Kaenbyou, Shopping District (Touhou Project)
 * Smaug the Impenetrable = Galmieux, Ardor Manifest (Shadowverse: Worlds Beyond)
+
+Included are also custom artifacts with flavor text:
+* Sol Ring = Yin-Yang Orbs (Touhou Project)
 
 Included are also custom lands with flavor text:
 * Plains = Garden of the Sun (Touhou Project)
