@@ -82,4 +82,5 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 * Watery Grave = The Shackling Prison (Honkai: Star Rail)
 * Bojuka Bog = Fyxestroll Garden (Honkai: Star Rail)
 * Exotic Orchard = Grove of Epiphany (Honkai: Star Rail)
+* Command Beacon = Pillars of Creation (Honkai: Star Rail)
 
