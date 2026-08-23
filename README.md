@@ -56,6 +56,10 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 * City of Brass = Old Capital (Touhou Project)
 * Ancient Tomb = Great Mausoleum (Touhou Project)
 ### Honkai: Star Rail
+* Plains = Belobog (Honkai: Star Rail)
 * Island = Styxia (Honkai: Star Rail)
+* Swamp = Penacony (Honkai: Star Rail)
+* Mountain = Amphoreus (Honkai: Star Rail)
+* Forest = The Xianzhou Luofu(Honkai: Star Rail)
 * Wastes = Astral Express (Honkai: Star Rail)
 
