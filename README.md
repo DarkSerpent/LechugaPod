@@ -92,5 +92,6 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 * Wastes = Vellsar (Shadowverse: Worlds Beyond)
 * Command Tower = The Morning Star (Shadowverse: Worlds Beyond)
 * Treasure Vault = Ardent Torch (Shadowverse: Worlds Beyond)
-* Dragon-Cursed Halls = Ardent Torch (Shadowverse: Worlds Beyond)
+* Dragon-Cursed Halls = Fangs of Ardent Destruction (Shadowverse: Worlds Beyond)
+* Fabled Passage = The Journey Ahead (Shadowverse: Worlds Beyond)
 

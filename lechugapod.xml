@@ -806,6 +806,7 @@ When this land enters, you may put target creature card from your graveyard on t
                 <format-commander>legal</format-commander>
             </prop>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000034" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Fabled%20Passage%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000073" flavorName="Shadowverse" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Fabled%20Passage%20(Shadowverse).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
