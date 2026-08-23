@@ -55,8 +55,9 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 * Prismatic Lens = Mysterious Magnetism (Honkai: Star Rail)
 * Talisman of Hierarchy = Laurel Crown of Planar Shifts (Honkai: Star Rail)
 * Lightning Greaves = Shattered Star Bait (Honkai: Star Rail)
-### Re:Zero `1`
-* Sol Ring = Corridor of Memories (Re:Zero)
+### Re:Zero `2`
+* Sol Ring = Dream Arts (Re:Zero)
+* Thought Vessel = Corridor of Memories (Re:Zero)
 
 ## Lands
 ### Touhou Project `22`

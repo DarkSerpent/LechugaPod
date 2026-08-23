@@ -1788,6 +1788,29 @@ Doctor's companion (You can have two commanders if the other is the Doctor.)</te
             <tablerow>0</tablerow>
         </card>
 
+        <card>
+            <name>Thought Vessel</name>
+            <text>You have no maximum hand size.
+{T}: Add {C}.</text>
+            <prop>
+                <format-paupercommander>legal</format-paupercommander>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-pauper>legal</format-pauper>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <cmc>2</cmc>
+                <manacost>2</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Artifact</maintype>
+                <layout>normal</layout>
+                <type>Artifact</type>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000087" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Thought%20Vessel%20(ReZero).png">CLM</set>
+            <tablerow>1</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>
