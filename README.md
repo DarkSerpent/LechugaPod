@@ -1,6 +1,6 @@
 <div align="center"><img src="https://github.com/DarkSerpent/LechugaPod/blob/main/assets/readme.png?raw=true" height="350"></div>
 
-This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the BAT file grabs the XML file from this repository and places it in your Local AppData folder. It also (should) close Cockatrice if it's running so the custom set can load. All alternate card arts are contained under the set "CLM (Certified Lechuga Moment)".
+This repo contains Custom Cards for my MTG Pod. Running the BAT file grabs the XML file from this repository and places it in your Local AppData folder. It also (should) close Cockatrice if it's running so the custom set can load. All alternate card arts are contained under the set "CLM (Certified Lechuga Moment)".
 
 > ⚠️ **WARNING:** THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
 
