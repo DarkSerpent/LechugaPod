@@ -1051,6 +1051,7 @@ Equip {0}</text>
                 <format-commander>legal</format-commander>
             </prop>
              <set rarity="rare" uuid="00000000-0000-0000-0000-000000000044" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Lightning%20Greaves%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000061" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Lightning%20Greaves%20(Honkai%20Star%20Rail).png">CLM</set>
             <tablerow>1</tablerow>
         </card>
 

@@ -44,6 +44,7 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 * Arcane Signet = Family Ties (Honkai: Star Rail)
 * Prismatic Lens = Mysterious Magnetism (Honkai: Star Rail)
 * Talisman of Hierarchy = Laurel Crown of Planar Shifts (Honkai: Star Rail)
+* Lightning Greaves = Shattered Star Bait (Honkai: Star Rail)
 
 ## Lands
 ### Touhou Project
