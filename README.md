@@ -34,4 +34,5 @@ Included are also custom lands with flavor text:
 * Vault of the Archangel = Hakugyokurou (Touhou Project)
 * Cabal Coffers = Myouren Temple Cemetery (Touhou Project)
 * Seraph Sanctuary = Heaven (Touhou Project)
+* Hall of Heliod’s Generosity = Moriya Shrine (Touhou Project)
 
