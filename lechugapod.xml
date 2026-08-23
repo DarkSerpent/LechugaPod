@@ -764,6 +764,32 @@ When this land enters, you may put target creature card from your graveyard on t
             <tablerow>0</tablerow>
         </card>
 
+        <card>
+            <name>Urborg, Tomb of Yawgmoth</name>
+            <text>Each land is a Swamp in addition to its other land types.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-predh>legal</format-predh>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <cmc>0</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Land</maintype>
+                <layout>normal</layout>
+                <type>Legendary Land</type>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Urborg%2C%20Tomb%20of%20Yawgmoth%20(Touhou).png">CLM</set>
+            <tablerow>0</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>
