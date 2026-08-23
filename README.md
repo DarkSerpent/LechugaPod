@@ -3,17 +3,17 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 > ⚠️ **WARNING:** THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
 
 ## Creature Cards
-### Re:Zero
+### Re:Zero `2`
 * The Sixth Doctor = Echidna, the Witch of Greed (Re:Zero)
 * Romana II = Subaru, Accreting Life (Re:Zero)
-### Shakugan no Shana
+### Shakugan no Shana `1`
 * Gisela, Blade of Goldnight = Shana, Flame-Haired Hunter (Shakugan no Shana)
-### Honkai: Star Rail
+### Honkai: Star Rail `2`
 * Aminatou, Veil Piercer = The Herta, Peerless Gem (Honkai: Star Rail)
 * Fire Lord Azula = Asta, Lead Astronomer (Honkai: Star Rail)
-### Fate Grand Order
+### Fate Grand Order `1`
 * Kilo, Apogee Mind = Kashin Koji, Fuuma Sorcerer (Fate Grand Order)
-### Touhou Project
+### Touhou Project `11`
 * Selenia, the Cursed Heart = Seiga Kaku, the Wicked Hermit (Touhou Project)
 * The Everforger = Kogasa Tatara, the Forgotten Umbrella (Touhou Project)
 * Avatar Roku, Firebender = Fujiwara no Mokou, the Immortal (Touhou Project)
@@ -25,25 +25,25 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 * Kaza, Roil Chaser = Marisa Kirisame, Western Magician (Touhou Project)
 * Ty Lee, Chi Blocker = Cirno, Fairy of the Ice (Touhou Project)
 * Mirko Vosk, Mind Drinker = Remilia Scarlet, Imperishable Night (Touhou Project)
-### Shadowverse: Worlds Beyond
+### Shadowverse: Worlds Beyond `1`
 * Smaug the Impenetrable = Galmieux, Ardor Manifest (Shadowverse: Worlds Beyond)
-### Friend's OCs
+### Friend's OCs `2`
 * Sidar Jabari of Zhalfir = Solitude Maximus, King of Imperium (Friend's OC)
 * Mirko, Obsessive Theorist = Elliott, Administrator of the Ends (Friend's OC)
 
 ## Planeswalkers
-### Honkai: Star Rail
+### Honkai: Star Rail `1`
 * Aminatou, the Fateshifter = Black Swan, Memetic Entity (Honkai: Star Rail)
 
 ## Artifact Cards
-### Touhou Project
+### Touhou Project `6`
 * Sol Ring = Yin-Yang Orbs (Touhou Project)
 * The One Ring = Miracle Mallet (Touhou Project)
 * Arcane Signet = Mini-Hakkero (Touhou Project)
 * Lightning Greaves = Innate Dream (Touhou Project)
 * Skullclamp = Miraculous Ofuda (Touhou Project)
 * Fellwar Stone = Kourindou's Curios (Touhou Project)
-### Honkai: Star Rail
+### Honkai: Star Rail `9`
 * Sol Ring = Dimension Reduction Dice (Honkai: Star Rail)
 * Commander's Sphere = A-Ruan Pouch (Honkai: Star Rail)
 * Sensei's Divining Top = Fortune Glue (Honkai: Star Rail)
@@ -55,7 +55,7 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 * Lightning Greaves = Shattered Star Bait (Honkai: Star Rail)
 
 ## Lands
-### Touhou Project
+### Touhou Project `22`
 * Plains = Garden of the Sun (Touhou Project)
 * Island = Misty Lake (Touhou Project)
 * Swamp = Muenzuka (Touhou Project)
@@ -78,7 +78,7 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 * Otawara, Soaring City = Shining Needle Castle (Touhou Project)
 * City of Brass = Old Capital (Touhou Project)
 * Ancient Tomb = Great Mausoleum (Touhou Project)
-### Honkai: Star Rail
+### Honkai: Star Rail `12`
 * Plains = Belobog (Honkai: Star Rail)
 * Island = Styxia (Honkai: Star Rail)
 * Swamp = Penacony (Honkai: Star Rail)
@@ -91,7 +91,7 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 * Bojuka Bog = Fyxestroll Garden (Honkai: Star Rail)
 * Exotic Orchard = Grove of Epiphany (Honkai: Star Rail)
 * Command Beacon = Pillars of Creation (Honkai: Star Rail)
-### Shadowverse: Worlds Beyond
+### Shadowverse: Worlds Beyond `10`
 * Plains = Aleister (Shadowverse: Worlds Beyond)
 * Island = Togh Keyoh (Shadowverse: Worlds Beyond)
 * Swamp = Naterra (Shadowverse: Worlds Beyond)
