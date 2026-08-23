@@ -1038,6 +1038,31 @@ Equip {1}</text>
             <tablerow>1</tablerow>
         </card>
 
+        <card>
+            <name>Fellwar Stone</name>
+            <text>{T}: Add one mana of any color that a land an opponent controls could produce.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-premodern>legal</format-premodern>
+                <format-predh>legal</format-predh>
+                <format-paupercommander>legal</format-paupercommander>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-pauper>legal</format-pauper>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <cmc>2</cmc>
+                <manacost>2</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Artifact</maintype>
+                <layout>normal</layout>
+                <type>Artifact</type>
+                <format-commander>legal</format-commander>
+            </prop>
+             <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Fellwar%20Stone%20(Touhou).png">CLM</set>
+            <tablerow>1</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>
