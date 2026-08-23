@@ -73,4 +73,5 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 * Wastes = Astral Express (Honkai: Star Rail)
 * Command Tower = Herta Space Station (Honkai: Star Rail)
 * Hall of Heliod’s Generosity = Artisanship Commission (Honkai: Star Rail)
+* Watery Grave = The Shackling Prison (Honkai: Star Rail)
 
