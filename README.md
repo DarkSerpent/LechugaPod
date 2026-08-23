@@ -19,6 +19,7 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 * Avatar Roku, Firebender = Fujiwara no Mokou, the Immortal (Touhou Project)
 * Ygra, Eater of All = Rumia, Youkai of the Dusk (Touhou Project)
 * Itazura, Lingering Wick = Rin Kaenbyou, Shopping District (Touhou Project)
+* Maarika, Brutal Gladiator = Fujiwara no Mokou, the Undying (Touhou Project)
 ### Shadowverse: Worlds Beyond
 * Smaug the Impenetrable = Galmieux, Ardor Manifest (Shadowverse: Worlds Beyond)
 ### Friend's OCs
