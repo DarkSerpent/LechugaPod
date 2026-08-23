@@ -883,6 +883,27 @@ Whenever an Angel you control enters, you gain 1 life.
             <tablerow>0</tablerow>
         </card>
 
+        <card>
+            <name>Sol Ring</name>
+            <text>{T}: Add {C}{C}.</text>
+            <prop>
+                <format-predh>legal</format-predh>
+                <format-vintage>restricted</format-vintage>
+                <format-legacy>banned</format-legacy>
+                <format-oathbreaker>banned</format-oathbreaker>
+                <cmc>1</cmc>
+                <manacost>1</manacost>
+                <side>front</side>
+                <format-duel>banned</format-duel>
+                <maintype>Artifact</maintype>
+                <layout>normal</layout>
+                <type>Artifact</type>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Touhou).png">CLM</set>
+            <tablerow>1</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>
