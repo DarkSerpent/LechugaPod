@@ -63,6 +63,7 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 * Swamp = Muenzuka (Touhou Project)
 * Mountain = Youkai Mountain (Touhou Project)
 * Forest = Forest of Magic (Touhou Project)
+* Wastes = Outside World (Touhou Project)
 * Command Tower = Hakurei Shrine (Touhou Project)
 * Rogue's Passage = Gap (Touhou Project)
 * Exotic Orchard = The Netherworld (Touhou Project)
