@@ -1084,7 +1084,32 @@ Equip {1}</text>
                 <type>Land</type>
                 <format-commander>legal</format-commander>
             </prop>
-            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/City%20of%20rass%20(Touhou).png">CLM</set>
+            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/City%20of%20Brass%20(Touhou).png">CLM</set>
+            <tablerow>0</tablerow>
+        </card>
+
+        <card>
+            <name>Ancient Tomb</name>
+            <text>{T}: Add {C}{C}. This land deals 2 damage to you.</text>
+            <prop>
+                <format-historic>banned</format-historic>
+                <format-premodern>legal</format-premodern>
+                <format-timeless>legal</format-timeless>
+                <format-predh>legal</format-predh>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>banned</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <cmc>0</cmc>
+                <format-duel>banned</format-duel>
+                <side>front</side>
+                <maintype>Land</maintype>
+                <layout>normal</layout>
+                <type>Land</type>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Ancient%20Tomb%20(Touhou).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 

@@ -45,4 +45,5 @@ Included are also custom lands with flavor text:
 * Hall of Heliod’s Generosity = Moriya Shrine (Touhou Project)
 * Otawara, Soaring City = Shining Needle Castle (Touhou Project)
 * City of Brass = Old Capital (Touhou Project)
+* Ancient Tomb = Great Mausoleum (Touhou Project)
 
