@@ -83,4 +83,12 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 * Bojuka Bog = Fyxestroll Garden (Honkai: Star Rail)
 * Exotic Orchard = Grove of Epiphany (Honkai: Star Rail)
 * Command Beacon = Pillars of Creation (Honkai: Star Rail)
+### Shadowverse: Worlds Beyond
+* Plains = Aleister (Shadowverse: Worlds Beyond)
+* Island = Togh Keyoh (Shadowverse: Worlds Beyond)
+* Swamp = Naterra (Shadowverse: Worlds Beyond)
+* Mountain = Huatien (Shadowverse: Worlds Beyond)
+* Forest = Elven Forest (Shadowverse: Worlds Beyond)
+* Wastes = Vellsar (Shadowverse: Worlds Beyond)
+* Command Tower = (Shadowverse: Worlds Beyond)
 
