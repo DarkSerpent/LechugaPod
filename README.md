@@ -24,6 +24,7 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 * Hapatra, Vizier of Poisons = Suwako, Though the Wind Cries (Touhou Project)
 * Kaza, Roil Chaser = Marisa Kirisame, Western Magician (Touhou Project)
 * Ty Lee, Chi Blocker = Cirno, Fairy of the Ice (Touhou Project)
+* Mirko Vosk, Mind Drinker = Remilia Scarlet, Imperishable Night (Touhou Project)
 ### Shadowverse: Worlds Beyond
 * Smaug the Impenetrable = Galmieux, Ardor Manifest (Shadowverse: Worlds Beyond)
 ### Friend's OCs
