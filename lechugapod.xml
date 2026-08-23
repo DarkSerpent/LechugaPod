@@ -31,7 +31,7 @@
                 <format-oathbreaker>legal</format-oathbreaker>
                 <side>front</side>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000001" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Echidna%2C%20Witch%20of%20Greed.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000001" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Echidna%2C%20the%20Witch%20of%20Greed.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
