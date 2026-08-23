@@ -1700,6 +1700,36 @@ Whenever Mirko Vosk deals combat damage to a player, that player reveals cards f
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Kozilek, the Great Distortion</name>
+            <text>When you cast this spell, if you have fewer than seven cards in hand, draw cards equal to the difference.
+Menace
+Discard a card with mana value X: Counter target spell with mana value X.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <cmc>10</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <manacost>8CC</manacost>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Eldrazi</type>
+                <pt>12/12</pt>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000080" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Yukari%20Yakumo%2C%20Boundary%20Master.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>

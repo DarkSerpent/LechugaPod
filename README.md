@@ -25,6 +25,7 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 * Kaza, Roil Chaser = Marisa Kirisame, Western Magician (Touhou Project)
 * Ty Lee, Chi Blocker = Cirno, Fairy of the Ice (Touhou Project)
 * Mirko Vosk, Mind Drinker = Remilia Scarlet, Imperishable Night (Touhou Project)
+* Kozilek, the Great Distortion = Yukari Yakumo, Boundary Master (Touhou Project)
 ### Shadowverse: Worlds Beyond `1`
 * Smaug the Impenetrable = Galmieux, Ardor Manifest (Shadowverse: Worlds Beyond)
 ### Friend's OCs `2`
