@@ -33,6 +33,7 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 ### Honkai: Star Rail
 * Sol Ring = Dimension Reduction Dice (Honkai: Star Rail)
 * Commander's Sphere = A-Ruan Pouch (Honkai: Star Rail)
+* Sensei's Divining Top = Fortune Glue (Honkai: Star Rail)
 
 ## Lands
 ### Touhou Project
