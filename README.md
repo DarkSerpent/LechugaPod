@@ -81,4 +81,5 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 * Hall of Heliod’s Generosity = Artisanship Commission (Honkai: Star Rail)
 * Watery Grave = The Shackling Prison (Honkai: Star Rail)
 * Bojuka Bog = Fyxestroll Garden (Honkai: Star Rail)
+* Exotic Orchard = Grove of Epiphany (Honkai: Star Rail)
 
