@@ -38,6 +38,7 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 * Talisman of Dominance = Shatterbone Blade (Honkai: Star Rail)
 * Arcane Signet = Family Ties (Honkai: Star Rail)
 * Prismatic Lens = Mysterious Magnetism (Honkai: Star Rail)
+* Talisman of Hierarchy = Laurel Crown of Planar Shifts (Honkai: Star Rail)
 
 ## Lands
 ### Touhou Project
@@ -71,4 +72,5 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 * Forest = The Xianzhou Luofu(Honkai: Star Rail)
 * Wastes = Astral Express (Honkai: Star Rail)
 * Command Tower = Herta Space Station (Honkai: Star Rail)
+* Hall of Heliod’s Generosity = Artisanship Commission (Honkai: Star Rail)
 

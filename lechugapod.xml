@@ -917,6 +917,7 @@ Whenever an Angel you control enters, you gain 1 life.
                 <format-commander>legal</format-commander>
             </prop>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000039" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Hall%20of%20Heliod%E2%80%99s%20Generosity%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000057" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Hall%20of%20Heliod%E2%80%99s%20Generosity%20(Honkai%20Star%20Rail).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -1302,6 +1303,33 @@ Sacrifice this artifact: Draw a card.</text>
                 <format-commander>legal</format-commander>
             </prop>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000055" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Prismatic%20Lens%20(Honkai%20Star%20Rail).png">CLM</set>
+            <tablerow>1</tablerow>
+        </card>
+
+        <card>
+            <name>Talisman of Hierarchy</name>
+            <text>{T}: Add {C}.
+{T}: Add {W} or {B}. This artifact deals 1 damage to you.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>WB</coloridentity>
+                <cmc>2</cmc>
+                <manacost>2</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Artifact</maintype>
+                <layout>normal</layout>
+                <type>Artifact</type>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000056" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Talisman%20of%20Hierarchy%20(Honkai%20Star%20Rail).png">CLM</set>
             <tablerow>1</tablerow>
         </card>
 
