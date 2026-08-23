@@ -56,7 +56,7 @@ Doctor's companion (You can have two commanders if the other is the Doctor.)</te
                 <format-oathbreaker>legal</format-oathbreaker>
                 <side>front</side>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000002" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Subaru%2C%20Accreting%20Life.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000002" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Natsuki%20Subaru%2C%20Accreting%20Life.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -1727,6 +1727,30 @@ Discard a card with mana value X: Counter target spell with mana value X.</text>
                 <format-commander>legal</format-commander>
             </prop>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000080" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Yukari%20Yakumo%2C%20Boundary%20Master.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
+        <card>
+            <name>Sarah Jane Smith</name>
+            <text>Whenever you cast a historic spell, investigate. This ability triggers only once each turn. (Artifacts, legendaries, and Sagas are historic. To investigate, create a Clue token. It's an artifact with &quot;{2}, Sacrifice this token: Draw a card.&quot;)
+Doctor's companion (You can have two commanders if the other is the Doctor.)</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>W</coloridentity>
+                <cmc>2</cmc>
+                <manacost>1W</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Human Detective</type>
+                <pt>2/1</pt>
+                <format-commander>legal</format-commander>
+                <colors>W</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000081" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Natsuki%20Subaru%2C%20Starting%20From%20Zero.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 

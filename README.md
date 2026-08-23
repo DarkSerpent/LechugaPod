@@ -3,9 +3,10 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 > ⚠️ **WARNING:** THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
 
 ## Creature Cards
-### Re:Zero `2`
+### Re:Zero `3`
 * The Sixth Doctor = Echidna, the Witch of Greed (Re:Zero)
-* Romana II = Subaru, Accreting Life (Re:Zero)
+* Romana II = Natsuki Subaru, Accreting Life (Re:Zero)
+* Sarah Jane Smith = Natsuki Subaru, Starting From Zero (Re:Zero)
 ### Shakugan no Shana `1`
 * Gisela, Blade of Goldnight = Shana, Flame-Haired Hunter (Shakugan no Shana)
 ### Honkai: Star Rail `2`
