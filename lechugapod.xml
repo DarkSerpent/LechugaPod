@@ -836,6 +836,30 @@ When this land enters, you may put target creature card from your graveyard on t
             <tablerow>0</tablerow>
         </card>
 
+        <card>
+            <name>Seraph Sanctuary</name>
+            <text>When this land enters, you gain 1 life.
+Whenever an Angel you control enters, you gain 1 life.
+{T}: Add {C}.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-paupercommander>legal</format-paupercommander>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-pauper>legal</format-pauper>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <cmc>0</cmc>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Land</maintype>
+                <layout>normal</layout>
+                <type>Land</type>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Seraph%20Sanctuary%20(Touhou).png">CLM</set>
+            <tablerow>0</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>

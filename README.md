@@ -33,4 +33,5 @@ Included are also custom lands with flavor text:
 * Urborg, Tomb of Yawgmoth = Sanzu River (Touhou Project)
 * Vault of the Archangel = Hakugyokurou (Touhou Project)
 * Cabal Coffers = Myouren Temple Cemetery (Touhou Project)
+* Seraph Sanctuary = Heaven (Touhou Project)
 
