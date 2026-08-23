@@ -1,6 +1,6 @@
 This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the BAT file grabs the XML file from this repository and places it in your Local AppData folder. It also (should) close Cockatrice if it's running so the custom set can load.
 
-The following Creature Cards are given new custom artworks with this set:
+## The following Creature Cards are given new custom artworks with this set:
 ### Re:Zero
 * The Sixth Doctor = Echidna, the Witch of Greed (Re:Zero)
 * Romana II = Subaru, Accreting Life (Re:Zero)
@@ -22,7 +22,7 @@ The following Creature Cards are given new custom artworks with this set:
 * Sidar Jabari of Zhalfir = Solitude Maximus, King of Imperium (Friend's OC)
 * Mirko, Obsessive Theorist = Elliott, Administrator of the Ends (Friend's OC)
 
-Included are also custom artifacts with flavor text:
+## Included are also custom artifacts with flavor text:
 ### Touhou Project
 * Sol Ring = Yin-Yang Orbs (Touhou Project)
 * The One Ring = Miracle Mallet (Touhou Project)
@@ -31,7 +31,7 @@ Included are also custom artifacts with flavor text:
 * Skullclamp = Miraculous Ofuda (Touhou Project)
 * Fellwar Stone = Kourindou's Curios (Touhou Project)
 
-Included are also custom lands with flavor text:
+## Included are also custom lands with flavor text:
 ### Touhou Project
 * Plains = Garden of the Sun (Touhou Project)
 * Island = Misty Lake (Touhou Project)
