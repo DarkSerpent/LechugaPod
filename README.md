@@ -8,6 +8,7 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 * Gisela, Blade of Goldnight = Shana, Flame-Haired Hunter (Shakugan no Shana)
 ### Honkai: Star Rail
 * Aminatou, Veil Piercer = The Herta, Peerless Gem (Honkai: Star Rail)
+* Fire Lord Azula = Asta, Lead Astronomer (Honkai: Star Rail)
 ### Fate Grand Order
 * Kilo, Apogee Mind = Kashin Koji, Fuuma Sorcerer (Fate Grand Order)
 ### Touhou Project
@@ -21,6 +22,10 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 ### Friend's OCs
 * Sidar Jabari of Zhalfir = Solitude Maximus, King of Imperium (Friend's OC)
 * Mirko, Obsessive Theorist = Elliott, Administrator of the Ends (Friend's OC)
+
+## Planeswalkers
+### Honkai: Star Rail
+* Aminatou, the Fateshifter = Black Swan, Memetic Entity (Honkai: Star Rail)
 
 ## Artifact Cards
 ### Touhou Project
