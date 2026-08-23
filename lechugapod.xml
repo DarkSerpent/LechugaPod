@@ -860,6 +860,29 @@ Whenever an Angel you control enters, you gain 1 life.
             <tablerow>0</tablerow>
         </card>
 
+        <card>
+            <name>Hall of Heliod's Generosity</name>
+            <text>{T}: Add {C}.
+{1}{W}, {T}: Put target enchantment card from your graveyard on top of your library.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>W</coloridentity>
+                <cmc>0</cmc>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Land</maintype>
+                <layout>normal</layout>
+                <type>Legendary Land</type>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Hall%20of%20Heliod%E2%80%99s%20Generosity%20(Touhou).png">CLM</set>
+            <tablerow>0</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>
