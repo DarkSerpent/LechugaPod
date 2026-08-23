@@ -586,7 +586,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000025" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(Touhou).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000026" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(Honkai%20Star%20Rail).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000070" flavorName="Shadowverse" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(Shadowverse).png">CLM</set>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000084" flavorName="Shadowverse" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(ReZero).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000084" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(ReZero).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -1472,6 +1472,7 @@ Whenever you cast a spell while Fire Lord Azula is attacking, copy that spell. Y
                 <format-commander>legal</format-commander>
             </prop>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000063" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Beacon%20(Honkai%20Star%20Rail).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000084" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Beacon%20(ReZero).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 

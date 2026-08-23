@@ -113,3 +113,4 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 * Forest = Holy Kingdom of Gusteko (Re:Zero)
 * Wastes = Japan (Re:Zero)
 * Command Tower = Pleiades Watchtower (Re:Zero)
+* Command Beacon = Infinite Hell's Snipe (Re:Zero)
