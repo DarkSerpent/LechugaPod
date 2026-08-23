@@ -62,4 +62,5 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 * Mountain = Amphoreus (Honkai: Star Rail)
 * Forest = The Xianzhou Luofu(Honkai: Star Rail)
 * Wastes = Astral Express (Honkai: Star Rail)
+* Command Tower = Herta Space Station (Honkai: Star Rail)
 

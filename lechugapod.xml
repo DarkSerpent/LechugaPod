@@ -571,6 +571,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
                 <side>front</side>
             </prop>
             <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(Touhou).png">CLM</set>
+            <set rarity="rare" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(Honkai%20Star%20Rail).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
