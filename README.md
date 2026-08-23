@@ -19,6 +19,7 @@ Included are also custom artifacts with flavor text:
 * Sol Ring = Yin-Yang Orbs (Touhou Project)
 * The One Ring = Miracle Mallet (Touhou Project)
 * Arcane Signet = Mini-Hakkero (Touhou Project)
+* Lightning Greaves = Innate Dream (Touhou Project)
 
 Included are also custom lands with flavor text:
 * Plains = Garden of the Sun (Touhou Project)
