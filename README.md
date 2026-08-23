@@ -31,4 +31,5 @@ Included are also custom lands with flavor text:
 * The Shire = Human Village (Touhou Project)
 * Fabled Passage = Hakurei Shrine Gate (Touhou Project)
 * Urborg, Tomb of Yawgmoth = Sanzu River (Touhou Project)
+* Vault of the Archangel = Hakugyokurou (Touhou Project)
 
