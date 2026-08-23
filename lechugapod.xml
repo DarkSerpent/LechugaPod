@@ -1518,6 +1518,31 @@ Whenever you cast a spell while Fire Lord Azula is attacking, copy that spell. Y
             <tablerow>0</tablerow>
         </card>
 
+        <card>
+            <name>Maarika, Brutal Gladiator</name>
+            <text>Maarika, Brutal Gladiator must be blocked if able.
+As long as it's your turn, Maarika has indestructible.
+Whenever Maarika deals damage to a creature, if that creature was dealt excess damage this turn, that creature's controller sacrifices a noncreature, nonland permanent.</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>BRG</coloridentity>
+                <cmc>5</cmc>
+                <manacost>2BRG</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Human Warrior</type>
+                <pt>7/4</pt>
+                <format-commander>legal</format-commander>
+                <colors>BRG</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000074" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujiwara%20no%20Mokou%2C%20the%20Undying.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>
