@@ -37,6 +37,7 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 * Talisman of Progress = Space-Time Prism (Honkai: Star Rail)
 * Talisman of Dominance = Shatterbone Blade (Honkai: Star Rail)
 * Arcane Signet = Family Ties (Honkai: Star Rail)
+* Prismatic Lens = Mysterious Magnetism (Honkai: Star Rail)
 
 ## Lands
 ### Touhou Project

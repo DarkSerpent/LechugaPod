@@ -1280,6 +1280,31 @@ Sacrifice this artifact: Draw a card.</text>
             <tablerow>1</tablerow>
         </card>
 
+        <card>
+            <name>Prismatic Lens</name>
+            <text>{T}: Add {C}.
+{1}, {T}: Add one mana of any color.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-predh>legal</format-predh>
+                <format-paupercommander>legal</format-paupercommander>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-pauper>legal</format-pauper>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <cmc>2</cmc>
+                <manacost>2</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Artifact</maintype>
+                <layout>normal</layout>
+                <type>Artifact</type>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000055" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Prismatic%20Lens%20(Honkai%20Star%20Rail).png">CLM</set>
+            <tablerow>1</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>
