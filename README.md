@@ -32,4 +32,5 @@ Included are also custom lands with flavor text:
 * Fabled Passage = Hakurei Shrine Gate (Touhou Project)
 * Urborg, Tomb of Yawgmoth = Sanzu River (Touhou Project)
 * Vault of the Archangel = Hakugyokurou (Touhou Project)
+* Cabal Coffers = Myouren Temple Cemetery (Touhou Project)
 

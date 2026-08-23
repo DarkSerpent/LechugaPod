@@ -813,6 +813,29 @@ When this land enters, you may put target creature card from your graveyard on t
             <tablerow>0</tablerow>
         </card>
 
+        <card>
+            <name>Cabal Coffers</name>
+            <text>{2}, {T}: Add {B} for each Swamp you control.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-premodern>legal</format-premodern>
+                <format-predh>legal</format-predh>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>B</coloridentity>
+                <cmc>0</cmc>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Land</maintype>
+                <layout>normal</layout>
+                <type>Land</type>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Cabal%20Coffers%20(Touhou).png">CLM</set>
+            <tablerow>0</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>
