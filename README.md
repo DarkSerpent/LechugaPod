@@ -55,4 +55,7 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 * Otawara, Soaring City = Shining Needle Castle (Touhou Project)
 * City of Brass = Old Capital (Touhou Project)
 * Ancient Tomb = Great Mausoleum (Touhou Project)
+### Honkai: Star Rail
+* Island = Styxia (Honkai: Star Rail)
+* Wastes = Astral Express (Honkai: Star Rail)
 
