@@ -1200,6 +1200,30 @@ Sacrifice this artifact: Draw a card.</text>
             <tablerow>1</tablerow>
         </card>
 
+        <card>
+            <name>Sensei's Divining Top</name>
+            <text>{1}: Look at the top three cards of your library, then put them back in any order.
+{T}: Draw a card, then put this artifact on top of its owner's library.</text>
+            <prop>
+                <format-modern>banned</format-modern>
+                <format-predh>legal</format-predh>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>banned</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <cmc>1</cmc>
+                <manacost>1</manacost>
+                <format-duel>banned</format-duel>
+                <side>front</side>
+                <maintype>Artifact</maintype>
+                <layout>normal</layout>
+                <type>Artifact</type>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000051" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sensei%E2%80%99s%20Divining%20Top%20(Honkai%20Star%20Rail).png">CLM</set>
+
+            <tablerow>1</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>
