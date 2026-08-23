@@ -957,6 +957,7 @@ Whenever an Angel you control enters, you gain 1 life.
             </prop>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000040" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Touhou).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000049" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Honkai%20Star%20Rail).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000086" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(ReZero).png">CLM</set>
             <tablerow>1</tablerow>
         </card>
 
