@@ -1633,7 +1633,7 @@ Whenever you put one or more -1/-1 counters on a creature, create a 1/1 green Sn
                 <format-commander>legal</format-commander>
                 <colors>UR</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000077" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kirisame%20Marisa%2C%20Western%20Magician.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000077" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Marisa%20Kirisame%2C%20Western%20Magician.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
