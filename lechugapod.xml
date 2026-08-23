@@ -368,6 +368,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000014" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(Touhou).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000015" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(Honkai%20Star%20Rail).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000064" flavorName="Shadowverse" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(Shadowverse).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000082" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(ReZero).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -405,6 +406,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000016" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(Touhou).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000017" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(Honkai%20Star%20Rail).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000065" flavorName="Shadowverse" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(Shadowverse).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000082" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(ReZero).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -442,6 +444,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000018" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(Touhou).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000019" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(Honkai%20Star%20Rail).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000066" flavorName="Shadowverse" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(Shadowverse).png">CLM</set>       
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000082" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(ReZero).png">CLM</set>
      <tablerow>0</tablerow>
         </card>
 
@@ -479,6 +482,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000020" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Mountain%20(Touhou).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000021" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Mountain%20(Honkai%20Star%20Rail).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000067" flavorName="Shadowverse" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Mountain%20(Shadowverse).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000082" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Mountain%20(ReZero).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -516,6 +520,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000022" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Forest%20(Touhou).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000023" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Forest%20(Honkai%20Star%20Rail).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000068" flavorName="Shadowverse" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Forest%20(Shadowverse).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000082" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Forest%20(ReZero).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -548,6 +553,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
             </prop>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000024" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Wastes%20(Honkai%20Star%20Rail).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000069" flavorName="Shadowverse" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Wastes%20(Shadowverse).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000082" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Wastes%20(ReZero).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 

@@ -104,4 +104,10 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 * Treasure Vault = Ardent Torch (Shadowverse: Worlds Beyond)
 * Dragon-Cursed Halls = Fangs of Ardent Destruction (Shadowverse: Worlds Beyond)
 * Fabled Passage = The Journey Ahead (Shadowverse: Worlds Beyond)
-
+### Re:Zero `5`
+* Plains = Dragon Kingdom of Lugunica (Re:Zero)
+* Island = Kararagi City-States (Re:Zero)
+* Swamp = Fifth Great Nation (Re:Zero)
+* Mountain = Sacred Vollachia Empire  (Re:Zero)
+* Forest = Holy Kingdom of Gusteko (Re:Zero)
+* Wastes = Japan (Re:Zero)
