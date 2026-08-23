@@ -13,7 +13,7 @@ This repo contains Custom Cards for my MTG Pod, the "Lechuga Pod". Running the B
 * Fire Lord Azula = Asta, Lead Astronomer (Honkai: Star Rail)
 ### Fate Grand Order `1`
 * Kilo, Apogee Mind = Kashin Koji, Fuuma Sorcerer (Fate Grand Order)
-### Touhou Project `11`
+### Touhou Project `12`
 * Selenia, the Cursed Heart = Seiga Kaku, the Wicked Hermit (Touhou Project)
 * The Everforger = Kogasa Tatara, the Forgotten Umbrella (Touhou Project)
 * Avatar Roku, Firebender = Fujiwara no Mokou, the Immortal (Touhou Project)
