@@ -904,6 +904,59 @@ Whenever an Angel you control enters, you gain 1 life.
             <tablerow>1</tablerow>
         </card>
 
+        <card>
+            <name>Otawara, Soaring City</name>
+            <text>{T}: Add {U}.
+Channel — {3}{U}, Discard this card: Return target artifact, creature, enchantment, or planeswalker to its owner's hand. This ability costs {1} less to activate for each legendary creature you control.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>U</coloridentity>
+                <cmc>0</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Land</maintype>
+                <layout>normal</layout>
+                <type>Legendary Land</type>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Otawara%2C%20Soaring%20City%20(Touhou).png">CLM</set>
+            <tablerow>0</tablerow>
+        </card>
+
+        <card>
+            <name>The One Ring</name>
+            <text>Indestructible
+When The One Ring enters, if you cast it, you gain protection from everything until your next turn.
+At the beginning of your upkeep, you lose 1 life for each burden counter on The One Ring.
+{T}: Put a burden counter on The One Ring, then draw a card for each burden counter on The One Ring.</text>
+            <prop>
+                <format-modern>banned</format-modern>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <cmc>4</cmc>
+                <manacost>4</manacost>
+                <format-duel>banned</format-duel>
+                <side>front</side>
+                <maintype>Artifact</maintype>
+                <layout>normal</layout>
+                <type>Legendary Artifact</type>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/The%20One%20Ring%20(Touhou).png">CLM</set>
+            <tablerow>1</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>
