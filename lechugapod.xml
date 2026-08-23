@@ -1014,6 +1014,30 @@ Equip {0}</text>
             <tablerow>1</tablerow>
         </card>
 
+        <card>
+            <name>Skullclamp</name>
+            <text>Equipped creature gets +1/-1.
+Whenever equipped creature dies, draw two cards.
+Equip {1}</text>
+            <prop>
+                <format-modern>banned</format-modern>
+                <format-predh>legal</format-predh>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>banned</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <cmc>1</cmc>
+                <manacost>1</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Artifact</maintype>
+                <layout>normal</layout>
+                <type>Artifact — Equipment</type>
+                <format-commander>legal</format-commander>
+            </prop>
+             <set rarity="rare" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Skullclamp%20(Touhou).png">CLM</set>
+            <tablerow>1</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>
