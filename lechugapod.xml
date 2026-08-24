@@ -2072,6 +2072,27 @@ Equip {2}</text>
             <tablerow>1</tablerow>
         </card>
 
+        <card>
+            <name>Bountiful Promenade</name>
+            <text>This land enters tapped unless you have two or more opponents.
+{T}: Add {G} or {W}.</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>WG</coloridentity>
+                <cmc>0</cmc>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Land</maintype>
+                <layout>normal</layout>
+                <type>Land</type>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000105" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Bountiful%20Promenade%20(ReZero).png">CLM</set>
+            <tablerow>0</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>
