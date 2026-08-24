@@ -1832,7 +1832,7 @@ Doctor's companion (You can have two commanders if the other is the Doctor.)</te
                 <format-commander>legal</format-commander>
                 <colors>U</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000092" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Four%20Hundred%20Year%20Wait%20(ReZero).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000092" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Five%20Hundred%20Year%20Diary%20(ReZero).png">CLM</set>
             <tablerow>1</tablerow>
             <cipt>1</cipt>
         </card>
