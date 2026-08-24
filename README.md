@@ -67,6 +67,7 @@ Currently at over `90` cards. Sorted alphabetically by series, with the contents
 * Relic of Legends = Dragon Sword Reid (Re:Zero)
 * Nettlecyst = Divine Protection of Mabeast Control (Re:Zero)
 * Inspiring Statuary = House Mathers’s Workshop (Re:Zero)
+* Fellwar Stone = Wind Magic Stone ・ Breeze of Suspicion (Re:Zero)
 ### Touhou Project `6`
 * Sol Ring = Yin-Yang Orbs (Touhou Project)
 * The One Ring = Miracle Mallet (Touhou Project)

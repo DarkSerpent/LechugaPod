@@ -1119,6 +1119,7 @@ Equip {1}</text>
                 <format-commander>legal</format-commander>
             </prop>
              <set rarity="rare" uuid="00000000-0000-0000-0000-000000000046" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Fellwar%20Stone%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000097" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Fellwar%20Stone%20(ReZero).png">CLM</set>
             <tablerow>1</tablerow>
         </card>
 
