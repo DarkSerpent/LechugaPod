@@ -1836,6 +1836,29 @@ Doctor's companion (You can have two commanders if the other is the Doctor.)</te
             <cipt>1</cipt>
         </card>
 
+        <card>
+            <name>Sonic Screwdriver</name>
+            <text>{T}: Add one mana of any color.
+{1}, {T}: Untap another target artifact.
+{2}, {T}: Scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+{3}, {T}: Target creature can't be blocked this turn.</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <cmc>3</cmc>
+                <manacost>3</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Artifact</maintype>
+                <layout>normal</layout>
+                <type>Artifact</type>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000093" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sonic%20Screwdriver%20(ReZero).png">CLM</set>
+            <tablerow>1</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>

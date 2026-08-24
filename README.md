@@ -63,6 +63,7 @@ Currently at over `90` cards. Sorted alphabetically by series, with the contents
 * Sol Ring = Dream Arts (Re:Zero)
 * Thought Vessel = Corridor of Memories (Re:Zero)
 * Five Hundred Year Diary = Four Hundred Year Wait (Re:Zero)
+* Sonic Screwdriver = Glintstone (Re:Zero)
 ### Touhou Project `6`
 * Sol Ring = Yin-Yang Orbs (Touhou Project)
 * The One Ring = Miracle Mallet (Touhou Project)
