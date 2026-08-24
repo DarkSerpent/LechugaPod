@@ -369,6 +369,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000015" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(Honkai%20Star%20Rail).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000064" flavorName="Shadowverse" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(Shadowverse).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000082" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(ReZero).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000121" flavorName="BlueArchive" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(Blue%20Archive).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -2306,6 +2307,36 @@ When this land enters, exile up to three target cards from graveyards.
             </prop>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000115" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/planeswalkers/Halibel%2C%20the%20Admirer.png">CLM</set>
             <tablerow>1</tablerow>
+        </card>
+
+        <card>
+            <name>Darksteel Citadel</name>
+            <text>Indestructible
+{T}: Add {C}.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-predh>legal</format-predh>
+                <format-gladiator>legal</format-gladiator>
+                <format-paupercommander>legal</format-paupercommander>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-pauper>legal</format-pauper>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <cmc>0</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Land</maintype>
+                <layout>normal</layout>
+                <type>Artifact Land</type>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000120" flavorName="BlueArchive" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Darksteel%20Citadel%20(Blue%20Archive).png">CLM</set>
+            <tablerow>0</tablerow>
         </card>
 
   </cards>

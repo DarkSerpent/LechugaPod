@@ -117,3 +117,5 @@ artifacts/Sol Ring (Blue Archive).png | 1787549491575.2034
 lands/Command Beacon (Blue Archive).png | 1787549491841.6057
 lands/Command Tower (Blue Archive).png | 1787549492130.0505
 lands/Exotic Orchard (Blue Archive).png | 1787549492483.575
+lands/Darksteel Citadel (Blue Archive).png | 1787550071272.0667
+lands/Plains (Blue Archive).png | 1787550302928.015

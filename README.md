@@ -90,6 +90,8 @@ Currently at over `100` cards. Sorted alphabetically by series, with the content
 * Command Tower = SCHALE, Main Office (Blue Archive)
 * Command Beacon = The Sanctum Tower (Blue Archive)
 * Exotic Orchard = Ark of Atrahasis (Blue Archive)
+* Darksteel Citadel = Kivotos (Blue Archive)
+* Plains = Abydos High School (Blue Archive)
 ### Honkai: Star Rail `12`
 * Plains = Belobog (Honkai: Star Rail)
 * Island = Styxia (Honkai: Star Rail)
