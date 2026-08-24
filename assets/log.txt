@@ -102,3 +102,4 @@ artifacts/Azorius Signet (ReZero).png | 1787537639262.1958
 artifacts/Simic Signet (ReZero).png | 1787539800117.3972
 artifacts/Selesnya Signet (ReZero).png | 1787539799861.9668
 artifacts/Idol of Oblivion (ReZero).png | 1787540678610.2898
+artifacts/Liquimetal Torque (ReZero).png | 1787541344278.8472

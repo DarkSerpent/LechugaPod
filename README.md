@@ -59,7 +59,7 @@ Currently at over `100` cards. Sorted alphabetically by series, with the content
 * Prismatic Lens = Mysterious Magnetism (Honkai: Star Rail)
 * Talisman of Hierarchy = Laurel Crown of Planar Shifts (Honkai: Star Rail)
 * Lightning Greaves = Shattered Star Bait (Honkai: Star Rail)
-### Re:Zero `11`
+### Re:Zero `12`
 * Sol Ring = Dream Arts (Re:Zero)
 * Thought Vessel = Corridor of Memories (Re:Zero)
 * Five Hundred Year Diary = Four Hundred Year Wait (Re:Zero)
@@ -72,6 +72,7 @@ Currently at over `100` cards. Sorted alphabetically by series, with the content
 * Simic Signet = Wind Magic Stone ・ Elucidation (Re:Zero)
 * Selesnya Signet = Earth Magic Stone ・ Accumulation (Re:Zero)
 * Idol of Oblivion = Evil Sealing Stone Shrine (Re:Zero)
+* Liquimetal Torque = Cognitive Disruption (Re:Zero)
 ### Touhou Project `6`
 * Sol Ring = Yin-Yang Orbs (Touhou Project)
 * The One Ring = Miracle Mallet (Touhou Project)
