@@ -2029,6 +2029,27 @@ Equip {2}</text>
             <tablerow>1</tablerow>
         </card>
 
+        <card>
+            <name>Idol of Oblivion</name>
+            <text>{T}: Draw a card. Activate only if you created a token this turn.
+{8}, {T}, Sacrifice this artifact: Create a 10/10 colorless Eldrazi creature token.</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <cmc>2</cmc>
+                <manacost>2</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Artifact</maintype>
+                <layout>normal</layout>
+                <type>Artifact</type>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000104" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Idol%20of%20Oblivion%20(ReZero).png">CLM</set>
+            <tablerow>1</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>
