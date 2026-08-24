@@ -95,7 +95,7 @@ Currently at over `100` cards. Sorted alphabetically by series, with the content
 * Bojuka Bog = Fyxestroll Garden (Honkai: Star Rail)
 * Exotic Orchard = Grove of Epiphany (Honkai: Star Rail)
 * Command Beacon = Pillars of Creation (Honkai: Star Rail)
-### Re:Zero `10`
+### Re:Zero `15`
 * Plains = Dragon Kingdom of Lugunica (Re:Zero)
 * Island = Kararagi City-States (Re:Zero)
 * Swamp = Fifth Great Nation (Re:Zero)
@@ -108,6 +108,9 @@ Currently at over `100` cards. Sorted alphabetically by series, with the content
 * Bountiful Promenade = Roswaal Manor Gardens (Re:Zero)
 * Sea of Clouds = Watergate City of Priestella (Re:Zero)
 * Glacial Fortress = You're a Hero, Reinhardt (Re:Zero)
+* Exotic Orchard = Great Flugel Tree (Re:Zero)
+* Reflecting Pool = Witch's Tea Party (Re:Zero)
+* Rejuvenating Springs = The Green Room (Re:Zero)
 ### Shadowverse: Worlds Beyond `10`
 * Plains = Aleister (Shadowverse: Worlds Beyond)
 * Island = Togh Keyoh (Shadowverse: Worlds Beyond)

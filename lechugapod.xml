@@ -641,6 +641,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
             </prop>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000028" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Exotic%20Orchard%20(Touhou).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000062" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Exotic%20Orchard%20(Honkai%20Star%20Rail).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000109" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Exotic%20Orchard%20(ReZero).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -2141,6 +2142,53 @@ Equip {2}</text>
                 <format-commander>legal</format-commander>
             </prop>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000108" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Glacial%20Fortress%20(ReZero).png">CLM</set>
+            <tablerow>0</tablerow>
+        </card>
+
+        <card>
+            <name>Reflecting Pool</name>
+            <text>{T}: Add one mana of any type that a land you control could produce.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-premodern>legal</format-premodern>
+                <format-timeless>legal</format-timeless>
+                <format-predh>legal</format-predh>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <cmc>0</cmc>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Land</maintype>
+                <layout>normal</layout>
+                <type>Land</type>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000110" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Reflecting%20Pool%20(ReZero).png">CLM</set>
+            <tablerow>0</tablerow>
+        </card>
+
+        <card>
+            <name>Rejuvenating Springs</name>
+            <text>This land enters tapped unless you have two or more opponents.
+{T}: Add {G} or {U}.</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>UG</coloridentity>
+                <cmc>0</cmc>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Land</maintype>
+                <layout>normal</layout>
+                <type>Land</type>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000111" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Rejuvenating%20Springs%20(ReZero).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
