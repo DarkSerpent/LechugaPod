@@ -587,6 +587,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000026" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(Honkai%20Star%20Rail).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000070" flavorName="Shadowverse" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(Shadowverse).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000089" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(ReZero).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000116" flavorName="BlueArchive" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(Blue%20Archive).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -642,6 +643,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000028" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Exotic%20Orchard%20(Touhou).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000062" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Exotic%20Orchard%20(Honkai%20Star%20Rail).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000109" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Exotic%20Orchard%20(ReZero).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000118" flavorName="BlueArchive" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Exotic%20Orchard%20(Blue%20Archive).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -959,6 +961,7 @@ Whenever an Angel you control enters, you gain 1 life.
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000040" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Touhou).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000093" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Honkai%20Star%20Rail).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000101" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(ReZero).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000119" flavorName="BlueArchive" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Blue%20Archive).png">CLM</set>
             <tablerow>1</tablerow>
         </card>
 
@@ -1476,6 +1479,7 @@ Whenever you cast a spell while Fire Lord Azula is attacking, copy that spell. Y
             </prop>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000063" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Beacon%20(Honkai%20Star%20Rail).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000090" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Beacon%20(ReZero).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000117" flavorName="BlueArchive" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Beacon%20(Blue%20Archive).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 

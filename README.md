@@ -51,6 +51,8 @@ Currently at over `100` cards. Sorted alphabetically by series, with the content
 * Tezzeret the Seeker = Halibel, the Admirer (Re:Zero)
 
 ## Artifact Cards
+### Blue Archive `1`
+* Sol Ring = Shittim Chest (Blue Archive)
 ### Honkai: Star Rail `9`
 * Sol Ring = Dimension Reduction Dice (Honkai: Star Rail)
 * Commander's Sphere = A-Ruan Pouch (Honkai: Star Rail)
@@ -84,6 +86,10 @@ Currently at over `100` cards. Sorted alphabetically by series, with the content
 * Fellwar Stone = Kourindou's Curios (Touhou Project)
 
 ## Lands
+### Blue Archive `3`
+* Command Tower = SCHALE, Main Office (Blue Archive)
+* Command Beacon = The Sanctum Tower (Blue Archive)
+* Exotic Orchard = Ark of Atrahasis (Blue Archive)
 ### Honkai: Star Rail `12`
 * Plains = Belobog (Honkai: Star Rail)
 * Island = Styxia (Honkai: Star Rail)
