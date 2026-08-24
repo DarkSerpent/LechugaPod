@@ -2378,6 +2378,79 @@ At the beginning of your upkeep, exile the top X cards of target opponent's libr
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>King T'Challa</name>
+            <text>Flash
+Whenever a player draws their second card each turn, you draw a card.
+{4}{W}{U}: Transform King T'Challa. Activate only as a sorcery.</text>
+            <prop>
+                <format-standard>legal</format-standard>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-standardbrawl>legal</format-standardbrawl>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>WU</coloridentity>
+                <cmc>3</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <manacost>1WU</manacost>
+                <format-alchemy>legal</format-alchemy>
+                <side>front</side>
+                <format-duel>legal</format-duel>
+                <maintype>Creature</maintype>
+                <layout>modal_dfc</layout>
+                <type>Legendary Creature — Human Noble Hero</type>
+                <format-future>legal</format-future>
+                <pt>3/2</pt>
+                <format-commander>legal</format-commander>
+                <colors>WU</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000128" flavorName="BlueArchive" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Toki%2C%20Regular%20Maid.png">CLM</set>
+            <related attach="transform">Black Panther, Hope Enduring</related>
+            <tablerow>2</tablerow>
+        </card>
+
+        <card>
+            <name>Black Panther, Hope Enduring</name>
+            <text>Flash
+Double strike
+Prevent all damage that would be dealt to Black Panther.
+Whenever Black Panther deals combat damage to a player, draw a card.</text>
+            <prop>
+                <format-standard>legal</format-standard>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-standardbrawl>legal</format-standardbrawl>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>WU</coloridentity>
+                <cmc>6</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <manacost>4WU</manacost>
+                <format-alchemy>legal</format-alchemy>
+                <side>back</side>
+                <format-duel>legal</format-duel>
+                <maintype>Creature</maintype>
+                <layout>modal_dfc</layout>
+                <type>Legendary Creature — Human Warrior Hero</type>
+                <format-future>legal</format-future>
+                <pt>3/3</pt>
+                <format-commander>legal</format-commander>
+                <colors>WU</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000128" flavorName="BlueArchive" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Toki%2C%20Abi%2DEshuh%20Mode.png">CLM</set>
+            <related attach="transform">King T'Challa</related>
+            <tablerow>2</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>
