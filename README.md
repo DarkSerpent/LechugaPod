@@ -1,18 +1,25 @@
 <div align="center"><img src="https://github.com/DarkSerpent/LechugaPod/blob/main/assets/readme.png?raw=true" height="350"></div>
 
-This repo contains Custom Cards for my MTG Pod. Running the BAT file grabs the XML file from this repository and places it in your Local AppData folder. It also (should) close Cockatrice if it's running so the custom set can load. All alternate card arts are contained under the set "CLM (Certified Lechuga Moment)".
+This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the XML file from this repository and places it in your Local AppData folder. It also (should) close Cockatrice if it's running so the custom set can load. All alternate card arts are contained under the set "CLM (Certified Lechuga Moment)".
 
-Collection currently at `130` cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+1. Click [here](https://github.com/DarkSerpent/LechugaPod/releases/download/1.0/update_lechugapod.bat) to download the `.bat` file.
+2. Launch the `.bat` file and wait for it to tell you the custom set was updated successfully.
+3. If Cockatrice was not automatically closed, close it, then open it.
 
-> ⚠️ **WARNING:** THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
+Collection currently at <img src="https://img.shields.io/badge/132-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+
+> [!WARNING]
+> THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
 
 ## Creature Cards
 ### Blue Archive `3`
 * Laughing Jasper Flint = Satsuki, Intelligence Director (Blue Archive)
 * King T'Challa // Black Panther, Hope Enduring = Toki, Regular Maid // Toki, Abi-Eshuh Mode (Blue Archive)
 * Ms. Bumbleflower = Shun, Gentle Instructor (Blue Archive)
-### Fate Grand Order `1`
+### Fate Grand Order `3`
 * Kilo, Apogee Mind = Kashin Koji, Fuuma Sorcerer (Fate Grand Order)
+* Krark, the Thumbless = Fujimaru Ritsuka, Stargazer (Fate Grand Order)
+* Kydele, Chosen of Kruphix = Fujimaru Ritsuka, Humanity's Last (Fate Grand Order)
 ### Honkai: Star Rail `2`
 * Aminatou, Veil Piercer = The Herta, Peerless Gem (Honkai: Star Rail)
 * Fire Lord Azula = Asta, Lead Astronomer (Honkai: Star Rail)

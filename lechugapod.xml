@@ -31,7 +31,7 @@
                 <format-oathbreaker>legal</format-oathbreaker>
                 <side>front</side>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000001" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Echidna%2C%20the%20Witch%20of%20Greed.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000001" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Echidna%2C%20the%20Witch%20of%20Greed.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -56,7 +56,7 @@ Doctor's companion (You can have two commanders if the other is the Doctor.)</te
                 <format-oathbreaker>legal</format-oathbreaker>
                 <side>front</side>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000002" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Natsuki%20Subaru%2C%20Accreting%20Life.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000002" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Natsuki%20Subaru%2C%20Accreting%20Life.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -83,7 +83,7 @@ If a source would deal damage to you or a permanent you control, prevent half th
                 <side>front</side>
                 <format-penny>legal</format-penny>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000003" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Shana%2C%20Flame-Haired%20Hunter.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000003" flavorName="Shakugan" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Shana%2C%20Flame-Haired%20Hunter.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -132,7 +132,7 @@ Each enchantment card in your hand has miracle. Its miracle cost is equal to its
                 <format-oathbreaker>legal</format-oathbreaker>
                 <side>front</side>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000005" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/The%20Herta%2C%20Peerless%20Gem.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000005" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/The%20Herta%2C%20Peerless%20Gem.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -160,7 +160,7 @@ Whenever Kilo becomes tapped, proliferate. (Choose any number of permanents and/
                 <format-oathbreaker>legal</format-oathbreaker>
                 <side>front</side>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000006" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kashin%20Koji%2C%20Fuuma%20Sorcerer.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000006" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kashin%20Koji%2C%20Fuuma%20Sorcerer.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -205,7 +205,7 @@ When Selenia dies, create a legendary black Aura Curse enchantment token named S
                 <maintype>Creature</maintype>
                 <side>front</side>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000008" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Seiga%20Kaku%2C%20the%20Wicked%20Hermit.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000008" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Seiga%20Kaku%2C%20the%20Wicked%20Hermit.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -222,7 +222,7 @@ Whenever you cast an artifact creature or Equipment spell, you may copy that spe
                 <maintype>Creature</maintype>
                 <side>front</side>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000009" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kogasa%20Tatara%2C%20the%20Forgotten%20Umbrella.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000009" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kogasa%20Tatara%2C%20the%20Forgotten%20Umbrella.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -250,7 +250,7 @@ Whenever you cast an artifact creature or Equipment spell, you may copy that spe
                 <format-oathbreaker>legal</format-oathbreaker>
                 <side>front</side>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000010" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujiwara%20no%20Mokou%2C%20the%20Immortal.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000010" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujiwara%20no%20Mokou%2C%20the%20Immortal.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -285,7 +285,7 @@ Whenever a Food is put into a graveyard from the battlefield, put two +1/+1 coun
                 <format-oathbreaker>legal</format-oathbreaker>
                 <side>front</side>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000011" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Rumia%2C%20Youkai%20of%20the%20Dusk.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000011" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Rumia%2C%20Youkai%20of%20the%20Dusk.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -303,7 +303,7 @@ Whenever a Food is put into a graveyard from the battlefield, put two +1/+1 coun
                 <maintype>Creature</maintype>
                 <side>front</side>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000012" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Rin%20Kaenbyou%2C%20Shopping%20District.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000012" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Rin%20Kaenbyou%2C%20Shopping%20District.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -330,7 +330,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
                 <format-oathbreaker>legal</format-oathbreaker>
                 <side>front</side>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000013" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Galmieux%2C%20Ardor%20Manifest.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000013" flavorName="Shadowverse" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Galmieux%2C%20Ardor%20Manifest.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -1205,7 +1205,7 @@ Aminatou, the Fateshifter can be your commander.</text>
                 <format-commander>legal</format-commander>
                 <colors>WUB</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000049" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/planeswalkers/Black%20Swan%2C%20Memetic%20Entity.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000049" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/planeswalkers/Black%20Swan%2C%20Memetic%20Entity.png">CLM</set>
             <tablerow>1</tablerow>
         </card>
 
@@ -1561,7 +1561,7 @@ Whenever Maarika deals damage to a creature, if that creature was dealt excess d
                 <format-commander>legal</format-commander>
                 <colors>BRG</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000074" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujiwara%20no%20Mokou%2C%20the%20Undying.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000074" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujiwara%20no%20Mokou%2C%20the%20Undying.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -1593,7 +1593,7 @@ Whenever you cast a creature spell, you may search your library for a Forest or 
                 <format-commander>legal</format-commander>
                 <colors>WG</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000075" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Suwako%20Moriya%2C%20Mountain%20Goddess.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000075" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Suwako%20Moriya%2C%20Mountain%20Goddess.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -1624,7 +1624,7 @@ Whenever you put one or more -1/-1 counters on a creature, create a 1/1 green Sn
                 <format-commander>legal</format-commander>
                 <colors>BG</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000076" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Suwako%2C%20Though%20the%20Wind%20Cries.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000076" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Suwako%2C%20Though%20the%20Wind%20Cries.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -1655,7 +1655,7 @@ Whenever you put one or more -1/-1 counters on a creature, create a 1/1 green Sn
                 <format-commander>legal</format-commander>
                 <colors>UR</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000077" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Marisa%20Kirisame%2C%20Western%20Magician.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000077" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Marisa%20Kirisame%2C%20Western%20Magician.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -1691,7 +1691,7 @@ When Ty Lee enters, tap up to one target creature. It doesn't untap during its c
                 <format-commander>legal</format-commander>
                 <colors>U</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000078" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Cirno%2C%20Fairy%20of%20the%20Ice.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000078" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Cirno%2C%20Fairy%20of%20the%20Ice.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -1718,7 +1718,7 @@ Whenever Mirko Vosk deals combat damage to a player, that player reveals cards f
                 <format-commander>legal</format-commander>
                 <colors>UB</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000079" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Remilia%20Scarlet%2C%20Imperishable%20Night.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000079" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Remilia%20Scarlet%2C%20Imperishable%20Night.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -1748,7 +1748,7 @@ Discard a card with mana value X: Counter target spell with mana value X.</text>
                 <pt>12/12</pt>
                 <format-commander>legal</format-commander>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000080" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Yukari%20Yakumo%2C%20Boundary%20Master.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000080" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Yukari%20Yakumo%2C%20Boundary%20Master.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -1772,7 +1772,7 @@ Doctor's companion (You can have two commanders if the other is the Doctor.)</te
                 <format-commander>legal</format-commander>
                 <colors>W</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000081" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Natsuki%20Subaru%2C%20Starting%20From%20Zero.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000081" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Natsuki%20Subaru%2C%20Starting%20From%20Zero.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -2472,6 +2472,54 @@ Whenever you cast a spell, target opponent draws a card. Put a +1/+1 counter on 
                 <colors>WUG</colors>
             </prop>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000130" flavorName="BlueArchive" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Shun%2C%20Gentle%20Instructor.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
+        <card>
+            <name>Krark, the Thumbless</name>
+            <text>Whenever you cast an instant or sorcery spell, flip a coin. If you lose the flip, return that spell to its owner's hand. If you win the flip, copy that spell, and you may choose new targets for the copy.
+Partner (You can have two commanders if both have partner.)</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>R</coloridentity>
+                <cmc>2</cmc>
+                <manacost>1R</manacost>
+                <format-duel>restricted</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Goblin Wizard</type>
+                <pt>2/2</pt>
+                <format-commander>legal</format-commander>
+                <colors>R</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000131" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujimaru%20Ritsuka%2C%20Stargazer.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
+        <card>
+            <name>Kydele, Chosen of Kruphix</name>
+            <text>{T}: Add {C} for each card you've drawn this turn.
+Partner (You can have two commanders if both have partner.)</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>UG</coloridentity>
+                <cmc>4</cmc>
+                <manacost>2GU</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Human Wizard</type>
+                <pt>2/3</pt>
+                <format-commander>legal</format-commander>
+                <colors>UG</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000132" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujimaru%20Ritsuka%2C%20Humanity%27s%20Last.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 

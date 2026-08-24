@@ -128,3 +128,5 @@ cards/Satsuki, Intelligence Director.png | 1787553642990.5938
 cards/Toki, Abi-Eshuh Mode.png | 1787557949228.278
 cards/Toki, Regular Maid.png | 1787557567874.3184
 cards/Shun, Gentle Instructor.png | 1787559544211.898
+cards/Fujimaru Ritsuka, Humanity’s Last.png | 1787564517140.4194
+cards/Fujimaru Ritsuka, Stargazer.png | 1787564517459.1729
