@@ -106,6 +106,7 @@ Currently at over `100` cards. Sorted alphabetically by series, with the content
 * Command Beacon = Infinite Hell's Snipe (Re:Zero)
 * Academy Ruins = The Forbidden Library (Re:Zero)
 * Bountiful Promenade = Roswaal Manor Gardens (Re:Zero)
+* Sea of Clouds = Watergate City of Priestella (Re:Zero)
 ### Shadowverse: Worlds Beyond `10`
 * Plains = Aleister (Shadowverse: Worlds Beyond)
 * Island = Togh Keyoh (Shadowverse: Worlds Beyond)

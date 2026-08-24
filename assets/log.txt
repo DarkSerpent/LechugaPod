@@ -104,3 +104,4 @@ artifacts/Selesnya Signet (ReZero).png | 1787539799861.9668
 artifacts/Idol of Oblivion (ReZero).png | 1787540678610.2898
 artifacts/Liquimetal Torque (ReZero).png | 1787541344278.8472
 lands/Bountiful Promenade (ReZero).png | 1787542166534.9307
+lands/Sea of Clouds (ReZero).png | 1787542643261.6584
