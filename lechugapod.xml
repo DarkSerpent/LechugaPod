@@ -1488,6 +1488,7 @@ Whenever you cast a spell while Fire Lord Azula is attacking, copy that spell. Y
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000063" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Beacon%20(Honkai%20Star%20Rail).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000090" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Beacon%20(ReZero).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000117" flavorName="BlueArchive" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Beacon%20(Blue%20Archive).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000135" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Beacon%20(Fate).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
