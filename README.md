@@ -86,7 +86,7 @@ Currently at over `100` cards. Sorted alphabetically by series, with the content
 * Fellwar Stone = Kourindou's Curios (Touhou Project)
 
 ## Lands
-### Blue Archive `3`
+### Blue Archive `10`
 * Command Tower = SCHALE, Main Office (Blue Archive)
 * Command Beacon = The Sanctum Tower (Blue Archive)
 * Exotic Orchard = Ark of Atrahasis (Blue Archive)
