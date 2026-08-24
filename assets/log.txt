@@ -110,3 +110,5 @@ lands/Exotic Orchard (ReZero).png | 1787543806233.4019
 lands/Reflecting Pool (ReZero).png | 1787544146233.6648
 lands/Rejuvenating Springs (ReZero).png | 1787544347999.6968
 lands/Pit of Offerings (ReZero).png | 1787544953787.4824
+lands/Seaside Citadel (ReZero).png | 1787545679907.5828
+lands/High Market (ReZero).png | 1787545929448.1494

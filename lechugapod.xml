@@ -2224,6 +2224,58 @@ When this land enters, exile up to three target cards from graveyards.
             <cipt>1</cipt>
         </card>
 
+        <card>
+            <name>Seaside Citadel</name>
+            <text>This land enters tapped.
+{T}: Add {G}, {W}, or {U}.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-predh>legal</format-predh>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>WUG</coloridentity>
+                <cmc>0</cmc>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Land</maintype>
+                <layout>normal</layout>
+                <type>Land</type>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000113" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Seaside%20Citadel%20(ReZero).png">CLM</set>
+            <tablerow>0</tablerow>
+            <cipt>1</cipt>
+        </card>
+
+        <card>
+            <name>High Market</name>
+            <text>{T}: Add {C}.
+{T}, Sacrifice a creature: You gain 1 life.</text>
+            <prop>
+                <format-historic>legal</format-historic>
+                <format-premodern>legal</format-premodern>
+                <format-timeless>legal</format-timeless>
+                <format-predh>legal</format-predh>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <cmc>0</cmc>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Land</maintype>
+                <layout>normal</layout>
+                <type>Land</type>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000114" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/High%20Market%20(ReZero).png">CLM</set>
+            <tablerow>0</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>
