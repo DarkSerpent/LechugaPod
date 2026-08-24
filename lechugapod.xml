@@ -406,7 +406,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000016" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(Touhou).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000017" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(Honkai%20Star%20Rail).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000065" flavorName="Shadowverse" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(Shadowverse).png">CLM</set>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000082" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(ReZero).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000083" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(ReZero).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -444,7 +444,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000018" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(Touhou).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000019" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(Honkai%20Star%20Rail).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000066" flavorName="Shadowverse" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(Shadowverse).png">CLM</set>       
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000082" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(ReZero).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000084" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(ReZero).png">CLM</set>
      <tablerow>0</tablerow>
         </card>
 
@@ -482,7 +482,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000020" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Mountain%20(Touhou).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000021" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Mountain%20(Honkai%20Star%20Rail).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000067" flavorName="Shadowverse" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Mountain%20(Shadowverse).png">CLM</set>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000082" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Mountain%20(ReZero).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000085" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Mountain%20(ReZero).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -520,7 +520,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000022" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Forest%20(Touhou).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000023" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Forest%20(Honkai%20Star%20Rail).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000068" flavorName="Shadowverse" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Forest%20(Shadowverse).png">CLM</set>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000082" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Forest%20(ReZero).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000086" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Forest%20(ReZero).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -554,7 +554,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000083" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Wastes%20(Touhou).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000024" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Wastes%20(Honkai%20Star%20Rail).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000069" flavorName="Shadowverse" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Wastes%20(Shadowverse).png">CLM</set>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000082" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Wastes%20(ReZero).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000087" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Wastes%20(ReZero).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -586,7 +586,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000025" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(Touhou).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000026" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(Honkai%20Star%20Rail).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000070" flavorName="Shadowverse" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(Shadowverse).png">CLM</set>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000084" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(ReZero).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000088" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(ReZero).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -956,7 +956,7 @@ Whenever an Angel you control enters, you gain 1 life.
                 <format-commander>legal</format-commander>
             </prop>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000040" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Touhou).png">CLM</set>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000049" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Honkai%20Star%20Rail).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000092" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Honkai%20Star%20Rail).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000086" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(ReZero).png">CLM</set>
             <tablerow>1</tablerow>
         </card>
@@ -1473,7 +1473,7 @@ Whenever you cast a spell while Fire Lord Azula is attacking, copy that spell. Y
                 <format-commander>legal</format-commander>
             </prop>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000063" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Beacon%20(Honkai%20Star%20Rail).png">CLM</set>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000084" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Beacon%20(ReZero).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000089" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Beacon%20(ReZero).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -1807,7 +1807,7 @@ Doctor's companion (You can have two commanders if the other is the Doctor.)</te
                 <type>Artifact</type>
                 <format-commander>legal</format-commander>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000087" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Thought%20Vessel%20(ReZero).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000090" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Thought%20Vessel%20(ReZero).png">CLM</set>
             <tablerow>1</tablerow>
         </card>
 
@@ -1831,7 +1831,7 @@ Doctor's companion (You can have two commanders if the other is the Doctor.)</te
                 <format-commander>legal</format-commander>
                 <colors>U</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000088" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Four%20Hundred%20Year%20Wait%20(ReZero).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000091" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Four%20Hundred%20Year%20Wait%20(ReZero).png">CLM</set>
             <tablerow>1</tablerow>
             <cipt>1</cipt>
         </card>

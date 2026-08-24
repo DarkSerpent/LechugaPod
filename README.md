@@ -106,7 +106,7 @@ Currently at over `90` cards. Sorted alphabetically by series, with the contents
 * Treasure Vault = Ardent Torch (Shadowverse: Worlds Beyond)
 * Dragon-Cursed Halls = Fangs of Ardent Destruction (Shadowverse: Worlds Beyond)
 * Fabled Passage = The Journey Ahead (Shadowverse: Worlds Beyond)
-### Touhou Project `22`
+### Touhou Project `23`
 * Plains = Garden of the Sun (Touhou Project)
 * Island = Misty Lake (Touhou Project)
 * Swamp = Muenzuka (Touhou Project)
