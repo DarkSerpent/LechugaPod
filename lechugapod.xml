@@ -2192,6 +2192,38 @@ Equip {2}</text>
             <tablerow>0</tablerow>
         </card>
 
+        <card>
+            <name>Pit of Offerings</name>
+            <text>This land enters tapped.
+When this land enters, exile up to three target cards from graveyards.
+{T}: Add {C}.
+{T}: Add one mana of any of the exiled cards' colors.</text>
+            <prop>
+                <format-standard>legal</format-standard>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-standardbrawl>legal</format-standardbrawl>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <cmc>0</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Land</maintype>
+                <layout>normal</layout>
+                <type>Land — Cave</type>
+                <format-future>legal</format-future>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000112" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Pit%20of%20Offerings%20(ReZero).png">CLM</set>
+            <tablerow>0</tablerow>
+            <cipt>1</cipt>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>
