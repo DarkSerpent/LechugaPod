@@ -118,4 +118,7 @@ lands/Command Beacon (Blue Archive).png | 1787549491841.6057
 lands/Command Tower (Blue Archive).png | 1787549492130.0505
 lands/Exotic Orchard (Blue Archive).png | 1787549492483.575
 lands/Darksteel Citadel (Blue Archive).png | 1787550071272.0667
-lands/Plains (Blue Archive).png | 1787550302928.015
+lands/Plains (Blue Archive).png | 1787551078276.0354
+lands/Island (Blue Archive).png | 1787551077952.8167
+lands/Swamp (Blue Archive).png | 1787551078676.185
+lands/Wastes (Blue Archive).png | 1787551078999.5251

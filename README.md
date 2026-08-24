@@ -91,7 +91,12 @@ Currently at over `100` cards. Sorted alphabetically by series, with the content
 * Command Beacon = The Sanctum Tower (Blue Archive)
 * Exotic Orchard = Ark of Atrahasis (Blue Archive)
 * Darksteel Citadel = Kivotos (Blue Archive)
-* Plains = Abydos High School (Blue Archive)
+* Plains = Trinity General School (Blue Archive)
+* Island = Millennium Science School (Blue Archive)
+* Swamp = Arius Branch School (Blue Archive)
+* Mountain = Gehenna Academy (Blue Archive)
+* Forest = Shanhaijing Senior Secondary School (Blue Archive)
+* Wastes = Abydos High School (Blue Archive)
 ### Honkai: Star Rail `12`
 * Plains = Belobog (Honkai: Star Rail)
 * Island = Styxia (Honkai: Star Rail)
