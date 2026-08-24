@@ -7,10 +7,9 @@ Collection currently at `130` cards. Sorted alphabetically by series, with the c
 > ⚠️ **WARNING:** THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
 
 ## Creature Cards
-### Blue Archive `4`
+### Blue Archive `3`
 * Laughing Jasper Flint = Satsuki, Intelligence Director (Blue Archive)
-* King T'Challa (Front) = Toki, Regular Maid (Blue Archive)
-* Black Panther, Hope Enduring (Back) = Toki, Abi-Eshuh Mode (Blue Archive)
+* King T'Challa // Black Panther, Hope Enduring = Toki, Regular Maid // Toki, Abi-Eshuh Mode (Blue Archive)
 * Ms. Bumbleflower = Shun, Gentle Instructor (Blue Archive)
 ### Fate Grand Order `1`
 * Kilo, Apogee Mind = Kashin Koji, Fuuma Sorcerer (Fate Grand Order)
