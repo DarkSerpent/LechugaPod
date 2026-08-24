@@ -2,7 +2,7 @@
 
 This repo contains Custom Cards for my MTG Pod. Running the BAT file grabs the XML file from this repository and places it in your Local AppData folder. It also (should) close Cockatrice if it's running so the custom set can load. All alternate card arts are contained under the set "CLM (Certified Lechuga Moment)".
 
-Currently at over `90` cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Currently at over `100` cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > ⚠️ **WARNING:** THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
 
@@ -59,7 +59,7 @@ Currently at over `90` cards. Sorted alphabetically by series, with the contents
 * Prismatic Lens = Mysterious Magnetism (Honkai: Star Rail)
 * Talisman of Hierarchy = Laurel Crown of Planar Shifts (Honkai: Star Rail)
 * Lightning Greaves = Shattered Star Bait (Honkai: Star Rail)
-### Re:Zero `9`
+### Re:Zero `10`
 * Sol Ring = Dream Arts (Re:Zero)
 * Thought Vessel = Corridor of Memories (Re:Zero)
 * Five Hundred Year Diary = Four Hundred Year Wait (Re:Zero)
@@ -69,7 +69,8 @@ Currently at over `90` cards. Sorted alphabetically by series, with the contents
 * Inspiring Statuary = House Mathers’s Workshop (Re:Zero)
 * Fellwar Stone = Wind Magic Stone ・ Breeze of Suspicion (Re:Zero)
 * Azorius Signet = Water Magic Stone ・ Encouragement (Re:Zero)
-* Simic Signet = Earth Magic Stone ・ Elucidation (Re:Zero)
+* Simic Signet = Wind Magic Stone ・ Elucidation (Re:Zero)
+* Selesnya Signet = Earth Magic Stone ・ Accumulation (Re:Zero)
 ### Touhou Project `6`
 * Sol Ring = Yin-Yang Orbs (Touhou Project)
 * The One Ring = Miracle Mallet (Touhou Project)
