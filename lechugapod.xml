@@ -2276,6 +2276,34 @@ When this land enters, exile up to three target cards from graveyards.
             <tablerow>0</tablerow>
         </card>
 
+        <card>
+            <name>Tezzeret the Seeker</name>
+            <text>[+1]: Untap up to two target artifacts.
+[−X]: Search your library for an artifact card with mana value X or less, put it onto the battlefield, then shuffle.
+[−5]: Artifacts you control become artifact creatures with base power and toughness 5/5 until end of turn.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-predh>legal</format-predh>
+                <loyalty>4</loyalty>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>U</coloridentity>
+                <cmc>5</cmc>
+                <manacost>3UU</manacost>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Planeswalker</maintype>
+                <layout>normal</layout>
+                <type>Legendary Planeswalker — Tezzeret</type>
+                <format-commander>legal</format-commander>
+                <colors>U</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000115" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/planeswalkers/Halibel%2C%20the%20Admirer.png">CLM</set>
+            <tablerow>1</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>

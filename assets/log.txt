@@ -112,3 +112,4 @@ lands/Rejuvenating Springs (ReZero).png | 1787544347999.6968
 lands/Pit of Offerings (ReZero).png | 1787544953787.4824
 lands/Seaside Citadel (ReZero).png | 1787545679907.5828
 lands/High Market (ReZero).png | 1787545929448.1494
+planeswalkers/Halibel, the Admirer.png | 1787546955075.6118

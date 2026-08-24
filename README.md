@@ -47,6 +47,8 @@ Currently at over `100` cards. Sorted alphabetically by series, with the content
 ## Planeswalkers
 ### Honkai: Star Rail `1`
 * Aminatou, the Fateshifter = Black Swan, Memetic Entity (Honkai: Star Rail)
+### Re:Zero `1`
+* Tezzeret the Seeker = Halibel, the Admirer (Re:Zero)
 
 ## Artifact Cards
 ### Honkai: Star Rail `9`
