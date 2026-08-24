@@ -99,3 +99,4 @@ artifacts/Inspiring Statuary (ReZero).png | 1787536675275.7385
 artifacts/Nettlecyst (ReZero).png | 1787536675631.071
 artifacts/Fellwar Stone (ReZero).png | 1787537383312.6775
 artifacts/Azorius Signet (ReZero).png | 1787537639262.1958
+artifacts/Simic Signet (ReZero).png | 1787539419295.4731

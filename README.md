@@ -69,6 +69,7 @@ Currently at over `90` cards. Sorted alphabetically by series, with the contents
 * Inspiring Statuary = House Mathers’s Workshop (Re:Zero)
 * Fellwar Stone = Wind Magic Stone ・ Breeze of Suspicion (Re:Zero)
 * Azorius Signet = Water Magic Stone ・ Encouragement (Re:Zero)
+* Simic Signet = Earth Magic Stone ・ Elucidation (Re:Zero)
 ### Touhou Project `6`
 * Sol Ring = Yin-Yang Orbs (Touhou Project)
 * The One Ring = Miracle Mallet (Touhou Project)
