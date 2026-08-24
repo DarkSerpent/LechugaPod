@@ -59,13 +59,14 @@ Currently at over `90` cards. Sorted alphabetically by series, with the contents
 * Prismatic Lens = Mysterious Magnetism (Honkai: Star Rail)
 * Talisman of Hierarchy = Laurel Crown of Planar Shifts (Honkai: Star Rail)
 * Lightning Greaves = Shattered Star Bait (Honkai: Star Rail)
-### Re:Zero `6`
+### Re:Zero `7`
 * Sol Ring = Dream Arts (Re:Zero)
 * Thought Vessel = Corridor of Memories (Re:Zero)
 * Five Hundred Year Diary = Four Hundred Year Wait (Re:Zero)
 * Sonic Screwdriver = Glintstone (Re:Zero)
 * Relic of Legends = Dragon Sword Reid (Re:Zero)
-* Nettlecyst = Dragon Sword Reid (Re:Zero)
+* Nettlecyst = Divine Protection of Mabeast Control (Re:Zero)
+* Inspiring Statuary = House Mathers’s Workshop (Re:Zero)
 ### Touhou Project `6`
 * Sol Ring = Yin-Yang Orbs (Touhou Project)
 * The One Ring = Miracle Mallet (Touhou Project)

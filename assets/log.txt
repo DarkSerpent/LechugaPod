@@ -95,3 +95,5 @@ planeswalkers/Black Swan, Memetic Entity.png | 1787530286707.1135
 artifacts/Five Hundred Year Diary (ReZero).png | 1787531139205.5867
 artifacts/Relic of Legends (ReZero).png | 1787533033668.186
 artifacts/Sonic Screwdriver (ReZero).png | 1787533034009.3936
+artifacts/Inspiring Statuary (ReZero).png | 1787536675275.7385
+artifacts/Nettlecyst (ReZero).png | 1787536675631.071
