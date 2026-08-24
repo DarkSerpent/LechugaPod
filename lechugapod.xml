@@ -2446,7 +2446,7 @@ Whenever Black Panther deals combat damage to a player, draw a card.</text>
                 <format-commander>legal</format-commander>
                 <colors>WU</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000128" num="000-000-001" flavorName="BlueArchive" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Toki%2C%20Abi%2DEshuh%20Mode.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000129" num="000-000-001" flavorName="BlueArchive" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Toki%2C%20Abi%2DEshuh%20Mode.png">CLM</set>
             <related attach="transform">King T'Challa</related>
             <tablerow>2</tablerow>
         </card>
@@ -2471,7 +2471,7 @@ Whenever you cast a spell, target opponent draws a card. Put a +1/+1 counter on 
                 <format-commander>legal</format-commander>
                 <colors>WUG</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000128" flavorName="BlueArchive" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Shun%2C%20Gentle%20Instructor.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000130" flavorName="BlueArchive" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Shun%2C%20Gentle%20Instructor.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
