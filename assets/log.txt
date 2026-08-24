@@ -124,3 +124,4 @@ lands/Swamp (Blue Archive).png | 1787551078676.185
 lands/Wastes (Blue Archive).png | 1787551078999.5251
 lands/Forest (Blue Archive).png | 1787551928084.2383
 lands/Mountain (Blue Archive).png | 1787551928401.3616
+cards/Satsuki, Intelligence Director.png | 1787553642990.5938

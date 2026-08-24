@@ -7,6 +7,8 @@ Currently at over `100` cards. Sorted alphabetically by series, with the content
 > ⚠️ **WARNING:** THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
 
 ## Creature Cards
+### Blue Archive `1`
+* Laughing Jasper Flint = Satsuki, Intelligence Director (Blue Archive)
 ### Fate Grand Order `1`
 * Kilo, Apogee Mind = Kashin Koji, Fuuma Sorcerer (Fate Grand Order)
 ### Honkai: Star Rail `2`
