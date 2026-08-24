@@ -2409,7 +2409,7 @@ Whenever a player draws their second card each turn, you draw a card.
                 <format-commander>legal</format-commander>
                 <colors>WU</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000128" flavorName="BlueArchive" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Toki%2C%20Regular%20Maid.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000128" num="000-000-001" flavorName="BlueArchive" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Toki%2C%20Regular%20Maid.png">CLM</set>
             <related attach="transform">Black Panther, Hope Enduring</related>
             <tablerow>2</tablerow>
         </card>
@@ -2446,8 +2446,32 @@ Whenever Black Panther deals combat damage to a player, draw a card.</text>
                 <format-commander>legal</format-commander>
                 <colors>WU</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000128" flavorName="BlueArchive" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Toki%2C%20Abi%2DEshuh%20Mode.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000128" num="000-000-001" flavorName="BlueArchive" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Toki%2C%20Abi%2DEshuh%20Mode.png">CLM</set>
             <related attach="transform">King T'Challa</related>
+            <tablerow>2</tablerow>
+        </card>
+
+        <card>
+            <name>Ms. Bumbleflower</name>
+            <text>Vigilance
+Whenever you cast a spell, target opponent draws a card. Put a +1/+1 counter on target creature. It gains flying until end of turn. If this is the second time this ability has resolved this turn, you draw two cards.</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>WUG</coloridentity>
+                <cmc>4</cmc>
+                <manacost>1GWU</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Rabbit Citizen</type>
+                <pt>1/5</pt>
+                <format-commander>legal</format-commander>
+                <colors>WUG</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000128" flavorName="BlueArchive" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Shun%2C%20Gentle%20Instructor.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 

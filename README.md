@@ -11,6 +11,7 @@ Currently at over `100` cards. Sorted alphabetically by series, with the content
 * Laughing Jasper Flint = Satsuki, Intelligence Director (Blue Archive)
 * King T'Challa (Front) = Toki, Regular Maid (Blue Archive)
 * Black Panther, Hope Enduring (Back) = Toki, Abi-Eshuh Mode (Blue Archive)
+* Ms. Bumbleflower = Shun, Gentle Instructor (Blue Archive)
 ### Fate Grand Order `1`
 * Kilo, Apogee Mind = Kashin Koji, Fuuma Sorcerer (Fate Grand Order)
 ### Honkai: Star Rail `2`
