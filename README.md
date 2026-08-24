@@ -107,6 +107,7 @@ Currently at over `100` cards. Sorted alphabetically by series, with the content
 * Academy Ruins = The Forbidden Library (Re:Zero)
 * Bountiful Promenade = Roswaal Manor Gardens (Re:Zero)
 * Sea of Clouds = Watergate City of Priestella (Re:Zero)
+* Glacial Fortress = You're a Hero, Reinhardt (Re:Zero)
 ### Shadowverse: Worlds Beyond `10`
 * Plains = Aleister (Shadowverse: Worlds Beyond)
 * Island = Togh Keyoh (Shadowverse: Worlds Beyond)
