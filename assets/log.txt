@@ -122,3 +122,5 @@ lands/Plains (Blue Archive).png | 1787551078276.0354
 lands/Island (Blue Archive).png | 1787551077952.8167
 lands/Swamp (Blue Archive).png | 1787551078676.185
 lands/Wastes (Blue Archive).png | 1787551078999.5251
+lands/Forest (Blue Archive).png | 1787551928084.2383
+lands/Mountain (Blue Archive).png | 1787551928401.3616
