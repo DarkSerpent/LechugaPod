@@ -133,3 +133,5 @@ cards/Fujimaru Ritsuka, Stargazer.png | 1787564517459.1729
 lands/Command Tower (Fate).png | 1787601471106.4026
 lands/Exotic Orchard (Fate).png | 1787604108174.4302
 lands/Command Beacon (Fate).png | 1787604107826.0125
+artifacts/Sol Ring (Fate).png | 1787604440871.328
+artifacts/Arcane Signet (Fate).png | 1787604815283.4353
