@@ -6,7 +6,7 @@ const SCRIPT_DIR = __dirname;
 const MASK_PATH = path.join(SCRIPT_DIR, "borders.png");
 const LOG_PATH = path.join(SCRIPT_DIR, "log.txt");
 
-function findPngFiles(directory) {
+function findPngFiles(directory, includeFiles = false) {
     let results = [];
 
     const entries = fs.readdirSync(directory, { withFileTypes: true });
@@ -19,9 +19,9 @@ function findPngFiles(directory) {
                 continue;
             }
 
-            results = results.concat(findPngFiles(fullPath));
+            results = results.concat(findPngFiles(fullPath, true));
         } else if (
-            directory !== SCRIPT_DIR &&
+            includeFiles &&
             entry.isFile() &&
             path.extname(entry.name).toLowerCase() === ".png"
         ) {
@@ -33,40 +33,51 @@ function findPngFiles(directory) {
 }
 
 function loadLog() {
+    const processed = new Map();
+
     if (!fs.existsSync(LOG_PATH)) {
-        return new Set();
+        return processed;
     }
 
     const lines = fs.readFileSync(LOG_PATH, "utf8")
         .split(/\r?\n/)
         .filter(line => line.trim() !== "");
 
-    const processed = new Set();
-
     for (const line of lines) {
-        const separator = line.indexOf(" | ");
+        const separator = line.lastIndexOf(" | ");
 
-        if (separator !== -1) {
-            const filePath = line.substring(0, separator).trim();
-            processed.add(filePath);
+        if (separator === -1) {
+            continue;
+        }
+
+        const filePath = line.substring(0, separator).trim();
+        const timestamp = line.substring(separator + 3).trim();
+        const modifiedTime = Number(timestamp);
+
+        if (
+            filePath &&
+            Number.isFinite(modifiedTime)
+        ) {
+            processed.set(filePath, modifiedTime);
         }
     }
 
     return processed;
 }
 
-function getTimestamp() {
-    const now = new Date();
+function formatTimestamp(timestamp) {
+    const date = new Date(timestamp);
 
     const pad = n => String(n).padStart(2, "0");
 
     return (
-        `${now.getFullYear()}-` +
-        `${pad(now.getMonth() + 1)}-` +
-        `${pad(now.getDate())} ` +
-        `${pad(now.getHours())}:` +
-        `${pad(now.getMinutes())}:` +
-        `${pad(now.getSeconds())}`
+        `${date.getFullYear()}-` +
+        `${pad(date.getMonth() + 1)}-` +
+        `${pad(date.getDate())} ` +
+        `${pad(date.getHours())}:` +
+        `${pad(date.getMinutes())}:` +
+        `${pad(date.getSeconds())}.` +
+        `${String(date.getMilliseconds()).padStart(3, "0")}`
     );
 }
 
@@ -74,8 +85,6 @@ async function processImage(imagePath, maskData, maskWidth, maskHeight) {
     const relativePath = path
         .relative(SCRIPT_DIR, imagePath)
         .replace(/\\/g, "/");
-
-    console.log(`Processing: ${relativePath}`);
 
     const image = sharp(imagePath).ensureAlpha();
 
@@ -96,9 +105,8 @@ async function processImage(imagePath, maskData, maskWidth, maskHeight) {
         .toBuffer({ resolveWithObject: true });
 
     for (let i = 0; i < imageData.length; i += 4) {
-        const maskIndex = i + 3;
         const imageAlpha = imageData[i + 3];
-        const maskAlpha = maskData[maskIndex];
+        const maskAlpha = maskData[i + 3];
 
         imageData[i + 3] = Math.round(
             (imageAlpha * maskAlpha) / 255
@@ -133,7 +141,7 @@ async function main() {
 
     const processedFiles = loadLog();
 
-    console.log(`Previously processed: ${processedFiles.size}`);
+    console.log(`Logged files: ${processedFiles.size}`);
 
     const pngFiles = findPngFiles(SCRIPT_DIR).filter(
         file => path.resolve(file) !== path.resolve(MASK_PATH)
@@ -142,7 +150,6 @@ async function main() {
     console.log(`PNG files found: ${pngFiles.length}\n`);
 
     const maskImage = sharp(MASK_PATH).ensureAlpha();
-
     const maskMetadata = await maskImage.metadata();
 
     if (!maskMetadata.width || !maskMetadata.height) {
@@ -156,6 +163,8 @@ async function main() {
 
     let processedCount = 0;
     let skippedCount = 0;
+    let updatedCount = 0;
+    let newCount = 0;
     let errorCount = 0;
 
     for (const imagePath of pngFiles) {
@@ -163,10 +172,39 @@ async function main() {
             .relative(SCRIPT_DIR, imagePath)
             .replace(/\\/g, "/");
 
-        if (processedFiles.has(relativePath)) {
-            console.log(`Skipping: ${relativePath}`);
-            skippedCount++;
-            continue;
+        const imageStats = fs.statSync(imagePath);
+        const imageModifiedTime = imageStats.mtimeMs;
+        const loggedModifiedTime = processedFiles.get(relativePath);
+
+        console.log(`Checking: ${relativePath}`);
+
+        if (loggedModifiedTime !== undefined) {
+            if (imageModifiedTime <= loggedModifiedTime) {
+                console.log(
+                    `  Skipping - unchanged`
+                );
+                console.log(
+                    `  Image: ${imageModifiedTime}`
+                );
+                console.log(
+                    `  Log:   ${loggedModifiedTime}\n`
+                );
+
+                skippedCount++;
+                continue;
+            }
+
+            console.log(
+                `  Image was modified after it was last processed`
+            );
+
+            updatedCount++;
+        } else {
+            console.log(
+                `  New image - processing`
+            );
+
+            newCount++;
         }
 
         try {
@@ -177,17 +215,22 @@ async function main() {
                 maskMetadata.height
             );
 
-            const timestamp = getTimestamp();
+            const newImageStats = fs.statSync(imagePath);
+            const newModifiedTime = newImageStats.mtimeMs;
 
-            fs.appendFileSync(
-                LOG_PATH,
-                `${processedPath} | ${timestamp}\n`
+            processedFiles.set(
+                relativePath,
+                newModifiedTime
             );
 
-            processedFiles.add(relativePath);
             processedCount++;
 
-            console.log(`  Done: ${processedPath}\n`);
+            console.log(
+                `  Processed: ${processedPath}`
+            );
+            console.log(
+                `  New timestamp: ${newModifiedTime}\n`
+            );
         } catch (error) {
             errorCount++;
 
@@ -198,9 +241,26 @@ async function main() {
         }
     }
 
+    const logLines = [];
+
+    for (const [filePath, timestamp] of processedFiles) {
+        logLines.push(
+            `${filePath} | ${timestamp}`
+        );
+    }
+
+    fs.writeFileSync(
+        LOG_PATH,
+        logLines.length > 0
+            ? logLines.join("\n") + "\n"
+            : ""
+    );
+
     console.log("======================================");
     console.log(" Finished");
     console.log("======================================");
+    console.log(`New:       ${newCount}`);
+    console.log(`Updated:   ${updatedCount}`);
     console.log(`Processed: ${processedCount}`);
     console.log(`Skipped:   ${skippedCount}`);
     console.log(`Errors:    ${errorCount}`);
