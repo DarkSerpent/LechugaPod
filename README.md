@@ -59,7 +59,7 @@ Currently at over `90` cards. Sorted alphabetically by series, with the contents
 * Prismatic Lens = Mysterious Magnetism (Honkai: Star Rail)
 * Talisman of Hierarchy = Laurel Crown of Planar Shifts (Honkai: Star Rail)
 * Lightning Greaves = Shattered Star Bait (Honkai: Star Rail)
-### Re:Zero `7`
+### Re:Zero `9`
 * Sol Ring = Dream Arts (Re:Zero)
 * Thought Vessel = Corridor of Memories (Re:Zero)
 * Five Hundred Year Diary = Four Hundred Year Wait (Re:Zero)
@@ -68,6 +68,7 @@ Currently at over `90` cards. Sorted alphabetically by series, with the contents
 * Nettlecyst = Divine Protection of Mabeast Control (Re:Zero)
 * Inspiring Statuary = House Mathers’s Workshop (Re:Zero)
 * Fellwar Stone = Wind Magic Stone ・ Breeze of Suspicion (Re:Zero)
+* Azorius Signet = Water Magic Stone ・ Encouragement (Re:Zero)
 ### Touhou Project `6`
 * Sol Ring = Yin-Yang Orbs (Touhou Project)
 * The One Ring = Miracle Mallet (Touhou Project)
