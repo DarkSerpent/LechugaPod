@@ -131,3 +131,4 @@ cards/Shun, Gentle Instructor.png | 1787559544211.898
 cards/Fujimaru Ritsuka, Humanity’s Last.png | 1787564517140.4194
 cards/Fujimaru Ritsuka, Stargazer.png | 1787564517459.1729
 lands/Command Tower (Fate).png | 1787601471106.4026
+lands/Exotic Orchard (Fate).png | 1787603670148.7312

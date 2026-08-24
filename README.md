@@ -110,6 +110,7 @@ Collection currently at <img src="https://img.shields.io/badge/133-88E788?style=
 * Wastes = [Abydos High School](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Wastes%20(Blue%20Archive).png) (Blue Archive)
 ### Fate Grand Order `1`
 * Command Tower = [CHALDEAS, Celestial Body Simulator](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(Fate).png) (Fate Grand Order)
+* Exotic Orchard = [TRISMEGISTUS, Spiritron Calculation Engine](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Exotic%20Orchard%20(Fate).png) (Fate Grand Order)
 ### Honkai: Star Rail `12`
 * Plains = [Belobog](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
 * Island = [Styxia](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
