@@ -1,0 +1,423 @@
+const fs = require('fs');
+const path = require('path');
+const { createCanvas, loadImage, registerFont } = require('canvas');
+
+const fontsDir = path.join(__dirname, 'fonts');
+const belerenPath = path.join(fontsDir, 'BelerenSmallCaps.ttf');
+const conneqtPath = path.join(fontsDir, 'ConneqtRegular.ttf');
+
+if (!fs.existsSync(belerenPath) || !fs.existsSync(conneqtPath)) {
+  console.error('Required fonts not found in assets/fonts. Install BelerenSmallCaps.ttf and ConneqtRegular.ttf');
+  process.exit(1);
+}
+
+try {
+  registerFont(belerenPath, { family: 'BelerenSmallCaps' });
+  registerFont(conneqtPath, { family: 'ConneqtRegular' });
+} catch (err) {
+  console.error('Failed to register fonts. Is node-canvas properly installed?', err.message);
+  process.exit(1);
+}
+
+const ASSETS_DIR = __dirname;
+const XML_PATH = path.join(__dirname, '..', 'lechugapod.xml');
+const ARTISTS_FILE = path.join(__dirname, 'artists.md');
+
+const CANVAS_W = 2010;
+const CANVAS_H = 2814;
+
+const pendingTemps = new Set();
+
+function cleanupPendingTemps() {
+  if (!pendingTemps.size) return;
+
+  try {
+    console.log('\nCleanup: removing pending temp files...');
+  } catch (e) {}
+
+  for (const p of Array.from(pendingTemps)) {
+    try {
+      if (fs.existsSync(p)) {
+        fs.unlinkSync(p);
+      }
+    } catch (e) {
+      try {
+        console.warn('Failed to remove temp during cleanup:', p, e.message);
+      } catch (_) {}
+    }
+
+    try {
+      pendingTemps.delete(p);
+    } catch (_) {}
+  }
+}
+
+process.on('SIGINT', () => {
+  cleanupPendingTemps();
+  process.exit(130);
+});
+
+process.on('SIGTERM', () => {
+  cleanupPendingTemps();
+  process.exit(143);
+});
+
+process.on('uncaughtException', (err) => {
+  console.error('Uncaught exception:', err);
+  cleanupPendingTemps();
+  process.exit(1);
+});
+
+process.on('unhandledRejection', (reason) => {
+  console.error('Unhandled rejection:', reason);
+  cleanupPendingTemps();
+  process.exit(1);
+});
+
+process.on('exit', () => {
+  cleanupPendingTemps();
+});
+
+function findSubfoldersWithPngs() {
+  const children = fs.readdirSync(ASSETS_DIR, { withFileTypes: true });
+
+  const dirs = children
+    .filter((d) => d.isDirectory())
+    .map((d) => d.name)
+    .sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }));
+
+  const result = [];
+
+  for (const d of dirs) {
+    const dirPath = path.join(ASSETS_DIR, d);
+
+    const files = fs.readdirSync(dirPath).filter((f) => /\.png$/i.test(f));
+
+    if (files.length) {
+      result.push({ name: d, files: files.sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' })) });
+    }
+  }
+
+  return result;
+}
+
+function groupAndOrderFiles(files) {
+  const variantGroups = new Map();
+  const singles = [];
+
+  for (const f of files) {
+    const base = path.basename(f, '.png');
+    const m = base.match(/^(.*) \(([^)]+)\)$/);
+
+    if (m) {
+      const name = m[1].trim();
+      const variant = m[2].trim();
+
+      if (!variantGroups.has(variant)) {
+        variantGroups.set(variant, []);
+      }
+
+      variantGroups.get(variant).push({ file: f, name });
+    } else {
+      singles.push({ file: f, name: base });
+    }
+  }
+
+  for (const [k, arr] of variantGroups) {
+    arr.sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }));
+  }
+
+  const variantKeys = Array.from(variantGroups.keys()).sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }));
+
+  const result = [];
+
+  for (const vk of variantKeys) {
+    for (const entry of variantGroups.get(vk)) {
+      result.push(entry.file);
+    }
+  }
+
+  singles.sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }));
+
+  for (const s of singles) {
+    result.push(s.file);
+  }
+
+  return result;
+}
+
+function readArtistsLog() {
+  const map = new Map();
+
+  if (!fs.existsSync(ARTISTS_FILE)) {
+    return map;
+  }
+
+  const text = fs.readFileSync(ARTISTS_FILE, 'utf8');
+  const lines = text.split(/\r?\n/);
+
+  for (const line of lines) {
+    const m = line.match(/^\s*(?:[-*]\s*)?(\S.*)\s*\|\s*(.+)\s*$/);
+
+    if (m) {
+      const rel = m[1].trim();
+
+      let artistRaw = m[2].trim();
+
+      artistRaw = artistRaw.replace(/\[\^1\]\s*$/, '').trim();
+
+      const linkMatch = artistRaw.match(/^\[(.+)\]\((https?:\/\/[^)]+)\)$/);
+
+      if (linkMatch) {
+        map.set(rel, { name: linkMatch[1].trim(), url: linkMatch[2].trim() });
+      } else {
+        map.set(rel, { name: artistRaw, url: null });
+      }
+    }
+  }
+
+  return map;
+}
+
+function isHttpUrl(u) {
+  return !!(u && typeof u === 'string' && /^https?:\/\//i.test(u));
+}
+
+function findUuidForFilename(xmlText, filename) {
+  const encoded = encodeURIComponent(filename);
+  const idx = xmlText.indexOf(encoded);
+
+  if (idx === -1) {
+    return null;
+  }
+
+  const before = xmlText.lastIndexOf('<set', idx);
+
+  if (before === -1) {
+    return null;
+  }
+
+  const tagEnd = xmlText.indexOf('>', before);
+  const tag = xmlText.substring(before, tagEnd === -1 ? before + 300 : tagEnd);
+  const m = tag.match(/uuid="([^"]+)"/i);
+
+  return m ? m[1] : null;
+}
+
+function findExistingFile(dir, targetName) {
+  try {
+    const files = fs.readdirSync(dir);
+
+    const normTarget = normalizeForMatch(targetName);
+
+    for (const f of files) {
+      if (normalizeForMatch(f) === normTarget) {
+        return f;
+      }
+    }
+
+    for (const f of files) {
+      if (normalizeForMatch(decodeURIComponent(f)) === normTarget) {
+        return f;
+      }
+    }
+
+    return null;
+  } catch (e) {
+    return null;
+  }
+}
+
+function normalizeForMatch(s) {
+  if (!s) return s;
+
+  return s
+    .normalize('NFC')
+    .replace(/[\u2018\u2019\u201A\u201B\u2032\u2035]/g, "'")
+    .replace(/[\u201C\u201D\u201E\u201F]/g, '"')
+    .replace(/[\u2013\u2014]/g, '-')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .toLowerCase();
+}
+
+async function processCard(folderName, fileName, xmlText, artistsMap, currentIndex, totalCards) {
+  const relPath = path.join(folderName, fileName).replace(/\\/g, '/');
+
+  const uuid = findUuidForFilename(xmlText, fileName);
+
+  const code = uuid ? uuid.slice(-4) : '0000';
+
+  const canvas = createCanvas(CANVAS_W, CANVAS_H);
+  const ctx = canvas.getContext('2d');
+
+  const startX = 130;
+  let y = 2672;
+
+  ctx.fillStyle = '#FFFFFF';
+  ctx.font = '50px "ConneqtRegular"';
+  ctx.fillText(`LP ${code} Proxy`, startX, y);
+
+  const lineHeight = 60;
+  y += lineHeight;
+
+  ctx.fillText('CLM • EN', startX, y);
+
+  const spacesWidth = ctx.measureText('     ').width;
+
+  const afterX = startX + ctx.measureText('CLM • EN').width + spacesWidth + 13;
+
+  const baseName = path.basename(fileName, '.png');
+  const tempName = `${baseName} - Temp.png`;
+
+  const folderPath = path.join(ASSETS_DIR, folderName);
+  const tempPath = path.join(folderPath, tempName);
+
+  try {
+    if (fs.existsSync(tempPath)) {
+      fs.unlinkSync(tempPath);
+    }
+  } catch (e) {
+    console.warn('Could not remove existing temp file before creating new one:', tempPath, e.message);
+  }
+
+  fs.writeFileSync(tempPath, canvas.toBuffer('image/png'));
+  pendingTemps.add(tempPath);
+
+  const instrColor = '\x1b[38;2;136;231;184m';
+  const nameColor = '\x1b[38;2;136;231;136m';
+  const reset = '\x1b[0m';
+
+  console.log(`${instrColor}(${currentIndex}/${totalCards}) Processing: ${relPath}${reset}`);
+  console.log(`${nameColor}${baseName}${reset}`);
+
+  const existingMap = artistsMap;
+  const artistObj = existingMap.get(relPath) || { name: '', url: null };
+
+  const displayName = (artistObj.name || '')
+    .replace(/[\s\u00A0]+$/, '')
+    .replace(/[\.,;:\u3002\uff0e]+$/, '')
+    .trim();
+
+  const resolvedUrl = isHttpUrl(artistObj.url) ? artistObj.url : null;
+
+  const imgBuffer = fs.readFileSync(tempPath);
+  const overlay = await loadImage(imgBuffer);
+
+  const mergedCanvas = createCanvas(CANVAS_W, CANVAS_H);
+  const mctx = mergedCanvas.getContext('2d');
+
+  mctx.drawImage(overlay, 0, 0);
+
+  mctx.font = '50px "BelerenSmallCaps"';
+  mctx.fillStyle = '#FFFFFF';
+
+  mctx.fillText(displayName || '', afterX, y);
+
+  fs.writeFileSync(tempPath, mergedCanvas.toBuffer('image/png'));
+  pendingTemps.add(tempPath);
+
+  const basePath = path.join(folderPath, fileName);
+
+  let actualBasePath = basePath;
+
+  if (!fs.existsSync(actualBasePath)) {
+    const alt = findExistingFile(folderPath, fileName);
+    if (alt) {
+      actualBasePath = path.join(folderPath, alt);
+      console.log('Using alternate matched filename for merge:', alt);
+    }
+  }
+
+  if (fs.existsSync(actualBasePath)) {
+    const baseBuf = fs.readFileSync(actualBasePath);
+    const baseImg = await loadImage(baseBuf);
+
+    const outCanvas = createCanvas(CANVAS_W, CANVAS_H);
+    const outCtx = outCanvas.getContext('2d');
+
+    outCtx.drawImage(baseImg, 0, 0);
+
+    const removeOverlayPath = path.join(ASSETS_DIR, 'remove_attributions.png');
+
+    if (fs.existsSync(removeOverlayPath)) {
+      try {
+        const remBuf = fs.readFileSync(removeOverlayPath);
+        const remImg = await loadImage(remBuf);
+        outCtx.drawImage(remImg, 0, 0, CANVAS_W, CANVAS_H);
+      } catch (e) {
+        console.warn('Failed to apply remove_attributions overlay:', e.message);
+      }
+    }
+
+    const overlayBuf = fs.readFileSync(tempPath);
+    const overlayImg = await loadImage(overlayBuf);
+
+    outCtx.drawImage(overlayImg, 0, 0);
+
+    fs.writeFileSync(actualBasePath, outCanvas.toBuffer('image/png'));
+
+    try {
+      if (fs.existsSync(tempPath)) {
+        fs.unlinkSync(tempPath);
+      }
+
+      pendingTemps.delete(tempPath);
+    } catch (e) {
+      console.warn('Failed to delete temp file:', tempPath, e.message);
+    }
+  } else {
+    console.warn('Base image not found to merge:', basePath);
+
+    try {
+      if (fs.existsSync(tempPath)) {
+        fs.unlinkSync(tempPath);
+      }
+
+      pendingTemps.delete(tempPath);
+    } catch (e) {}
+  }
+
+  return artistsMap;
+}
+
+async function main() {
+  if (!fs.existsSync(XML_PATH)) {
+    console.error('lechugapod.xml not found at', XML_PATH);
+    process.exit(1);
+  }
+
+  const xmlText = fs.readFileSync(XML_PATH, 'utf8');
+
+  const folders = findSubfoldersWithPngs();
+
+  if (!folders.length) {
+    console.log('No subfolders with PNGs found inside assets.');
+    return;
+  }
+
+  const artistsMap = readArtistsLog();
+
+  const queue = [];
+
+  for (const grp of folders) {
+    const orderedFiles = groupAndOrderFiles(grp.files);
+
+    for (const file of orderedFiles) {
+      queue.push({ folderName: grp.name, fileName: file });
+    }
+  }
+
+  for (let i = 0; i < queue.length; i++) {
+    const item = queue[i];
+
+    await processCard(item.folderName, item.fileName, xmlText, artistsMap, i + 1, queue.length);
+  }
+
+  console.log('All done.');
+}
+
+main().catch((err) => {
+  console.error(err);
+  process.exit(1);
+});
