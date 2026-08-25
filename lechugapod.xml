@@ -2528,6 +2528,55 @@ Partner (You can have two commanders if both have partner.)</text>
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Trynn, Champion of Freedom</name>
+            <text>Partner with Silvar, Devourer of the Free (When this creature enters, target player may put Silvar into their hand from their library, then shuffle.)
+At the beginning of your end step, if you attacked this turn, create a 1/1 white Human Soldier creature token.</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>W</coloridentity>
+                <cmc>4</cmc>
+                <manacost>3W</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Human Soldier</type>
+                <pt>3/3</pt>
+                <format-commander>legal</format-commander>
+                <colors>W</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000138" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Barghest%2C%20Gawain%20the%20Loving.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
+        <card>
+            <name>Silvar, Devourer of the Free</name>
+            <text>Partner with Trynn, Champion of Freedom (When this creature enters, target player may put Trynn into their hand from their library, then shuffle.)
+Menace
+Sacrifice a Human: Put a +1/+1 counter on Silvar. It gains indestructible until end of turn.</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>BR</coloridentity>
+                <cmc>5</cmc>
+                <manacost>3BR</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Cat Nightmare</type>
+                <pt>4/2</pt>
+                <format-commander>legal</format-commander>
+                <colors>BR</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000139" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Barghest%2C%20Eater%20of%20Those%20She%20Loves.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>

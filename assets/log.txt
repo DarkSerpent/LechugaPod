@@ -1,137 +1,139 @@
-artifacts/Arcane Signet (Honkai Star Rail).png | 1787530254564.8403
-artifacts/Arcane Signet (Touhou).png | 1787530255005.4275
-artifacts/Commander’s Sphere (Honkai Star Rail).png | 1787530255241.31
-artifacts/Fellwar Stone (Touhou).png | 1787530255586.1113
-artifacts/Lightning Greaves (Honkai Star Rail).png | 1787530255809.6821
-artifacts/Lightning Greaves (Touhou).png | 1787530256146.8542
-artifacts/Prismatic Lens (Honkai Star Rail).png | 1787530256366.4082
-artifacts/Sensei’s Divining Top (Honkai Star Rail).png | 1787530256578.651
-artifacts/Skullclamp (Touhou).png | 1787530256968.8486
-artifacts/Sol Ring (Honkai Star Rail).png | 1787530257180.8098
-artifacts/Sol Ring (ReZero).png | 1787530257581.3037
-artifacts/Sol Ring (Touhou).png | 1787530257949.9148
-artifacts/Talisman of Dominance (Honkai Star Rail).png | 1787530258167.7295
-artifacts/Talisman of Hierarchy (Honkai Star Rail).png | 1787530258400.425
-artifacts/Talisman of Progress (Honkai Star Rail).png | 1787530258622.7888
-artifacts/The One Ring (Touhou).png | 1787530258975.5842
-artifacts/Thought Vessel (ReZero).png | 1787530259235.7046
-cards/Asta, Lead Astronomer.png | 1787530259634.6008
-cards/Cirno, Fairy of the Ice.png | 1787530259955.56
-cards/Echidna, the Witch of Greed.png | 1787530260382.2788
-cards/Elliott, Administrator of the Ends.png | 1787530260635.319
-cards/Fujiwara no Mokou, the Immortal.png | 1787530261127.334
-cards/Fujiwara no Mokou, the Undying.png | 1787530261626.339
-cards/Galmieux, Ardor Manifest.png | 1787530262035.0178
-cards/Kashin Koji, Fuuma Sorcerer.png | 1787530262415.8313
-cards/Kogasa Tatara, the Forgotten Umbrella.png | 1787530262898.018
-cards/Marisa Kirisame, Western Magician.png | 1787530263274.984
-cards/Natsuki Subaru, Accreting Life.png | 1787530263749.0269
-cards/Natsuki Subaru, Starting From Zero.png | 1787530264114.2463
-cards/Remilia Scarlet, Imperishable Night.png | 1787530264438.8328
-cards/Rin Kaenbyou, Shopping District.png | 1787530264829.613
-cards/Rumia, Youkai of the Dusk.png | 1787530265148.5684
-cards/Seiga Kaku, the Wicked Hermit.png | 1787530265491.9497
-cards/Shana, Flame-Haired Hunter.png | 1787530265780.7349
-cards/Solitude Maximus, King of Imperium.png | 1787530266207.727
-cards/Suwako Moriya, Mountain Goddess.png | 1787530266684.9172
-cards/Suwako, Though the Wind Cries.png | 1787530267077.205
-cards/The Herta, Peerless Gem.png | 1787530267408.9336
-cards/Yukari Yakumo, Boundary Master.png | 1787530267769.6062
-lands/Academy Ruins (ReZero).png | 1787530313584.9275
-lands/Ancient Tomb (Touhou).png | 1787530268492.5996
-lands/Bojuka Bog (Honkai Star Rail).png | 1787530268752.3208
-lands/Cabal Coffers (Touhou).png | 1787530269030.3743
-lands/City of Brass (Touhou).png | 1787530269352.8232
-lands/Command Beacon (Honkai Star Rail).png | 1787530269609.7683
-lands/Command Beacon (ReZero).png | 1787530269921.7473
-lands/Command Tower (Honkai Star Rail).png | 1787530270182.3308
-lands/Command Tower (ReZero).png | 1787530270521.3604
-lands/Command Tower (Shadowverse).png | 1787530270810.433
-lands/Command Tower (Touhou).png | 1787530271164.9856
-lands/Dragon-Cursed Halls (Shadowverse).png | 1787530271586.83
-lands/Exotic Orchard (Honkai Star Rail).png | 1787530271919.1487
-lands/Exotic Orchard (Touhou).png | 1787530272355.9282
-lands/Fabled Passage (Shadowverse).png | 1787530272747.36
-lands/Fabled Passage (Touhou).png | 1787530273118.972
-lands/Forest (Honkai Star Rail).png | 1787530273418.826
-lands/Forest (ReZero).png | 1787530273855.4949
-lands/Forest (Shadowverse).png | 1787530274256.363
-lands/Forest (Touhou).png | 1787530274672.3784
-lands/Hall of Heliod’s Generosity (Honkai Star Rail).png | 1787530275077.8965
-lands/Hall of Heliod’s Generosity (Touhou).png | 1787530275506.648
-lands/Island (Honkai Star Rail).png | 1787530275777.4124
-lands/Island (ReZero).png | 1787530276188.3228
-lands/Island (Shadowverse).png | 1787530276557.1868
-lands/Island (Touhou).png | 1787530276820.9512
-lands/Llanowar Wastes (Touhou).png | 1787530277130.412
-lands/Mortuary Mire (Touhou).png | 1787530277480.7107
-lands/Mountain (Honkai Star Rail).png | 1787530277846.8115
-lands/Mountain (ReZero).png | 1787530278282.2268
-lands/Mountain (Shadowverse).png | 1787530278525.8845
-lands/Mountain (Touhou).png | 1787530278906.7212
-lands/Otawara, Soaring City (Touhou).png | 1787530279237.3767
-lands/Plains (Honkai Star Rail).png | 1787530279638.1282
-lands/Plains (ReZero).png | 1787530280066.4634
-lands/Plains (Shadowverse).png | 1787530280344.6392
-lands/Plains (Touhou).png | 1787530280739.8958
-lands/Rogue’s Passage (Touhou).png | 1787530281199.0088
-lands/Seraph Sanctuary (Touhou).png | 1787530281529.145
-lands/Swamp (Honkai Star Rail).png | 1787530281799.0562
-lands/Swamp (ReZero).png | 1787530282196.7197
-lands/Swamp (Shadowverse).png | 1787530282460.887
-lands/Swamp (Touhou).png | 1787530282882.513
-lands/The Shire (Touhou).png | 1787530283226.3826
-lands/Treasure Vault (Shadowverse).png | 1787530283572.2495
-lands/Twisted Landscape (Touhou).png | 1787530283950.2876
-lands/Urborg, Tomb of Yawgmoth (Touhou).png | 1787530284225.9072
-lands/Vault of the Archangel (Touhou).png | 1787530284583.7266
-lands/Wastes (Honkai Star Rail).png | 1787530284873.72
-lands/Wastes (ReZero).png | 1787530285249.667
-lands/Wastes (Shadowverse).png | 1787530285463.095
-lands/Wastes (Touhou).png | 1787530285784.839
-lands/Watery Grave (Honkai Star Rail).png | 1787530286067.9602
-lands/Xander’s Lounge (Touhou).png | 1787530286354.975
-planeswalkers/Black Swan, Memetic Entity.png | 1787530286707.1135
-artifacts/Five Hundred Year Diary (ReZero).png | 1787531139205.5867
-artifacts/Relic of Legends (ReZero).png | 1787533033668.186
-artifacts/Sonic Screwdriver (ReZero).png | 1787533034009.3936
-artifacts/Inspiring Statuary (ReZero).png | 1787536675275.7385
-artifacts/Nettlecyst (ReZero).png | 1787536675631.071
-artifacts/Fellwar Stone (ReZero).png | 1787537383312.6775
-artifacts/Azorius Signet (ReZero).png | 1787537639262.1958
-artifacts/Simic Signet (ReZero).png | 1787539800117.3972
-artifacts/Selesnya Signet (ReZero).png | 1787539799861.9668
-artifacts/Idol of Oblivion (ReZero).png | 1787540678610.2898
-artifacts/Liquimetal Torque (ReZero).png | 1787541344278.8472
-lands/Bountiful Promenade (ReZero).png | 1787542166534.9307
-lands/Sea of Clouds (ReZero).png | 1787542643261.6584
-lands/Glacial Fortress (ReZero).png | 1787543433483.6982
-lands/Exotic Orchard (ReZero).png | 1787543806233.4019
-lands/Reflecting Pool (ReZero).png | 1787544146233.6648
-lands/Rejuvenating Springs (ReZero).png | 1787544347999.6968
-lands/Pit of Offerings (ReZero).png | 1787544953787.4824
-lands/Seaside Citadel (ReZero).png | 1787545679907.5828
-lands/High Market (ReZero).png | 1787545929448.1494
-planeswalkers/Halibel, the Admirer.png | 1787546955075.6118
-artifacts/Sol Ring (Blue Archive).png | 1787549491575.2034
-lands/Command Beacon (Blue Archive).png | 1787549491841.6057
-lands/Command Tower (Blue Archive).png | 1787549492130.0505
-lands/Exotic Orchard (Blue Archive).png | 1787549492483.575
-lands/Darksteel Citadel (Blue Archive).png | 1787550071272.0667
-lands/Plains (Blue Archive).png | 1787551078276.0354
-lands/Island (Blue Archive).png | 1787551077952.8167
-lands/Swamp (Blue Archive).png | 1787551078676.185
-lands/Wastes (Blue Archive).png | 1787551078999.5251
-lands/Forest (Blue Archive).png | 1787551928084.2383
-lands/Mountain (Blue Archive).png | 1787551928401.3616
-cards/Satsuki, Intelligence Director.png | 1787553642990.5938
-cards/Toki, Abi-Eshuh Mode.png | 1787557949228.278
-cards/Toki, Regular Maid.png | 1787557567874.3184
-cards/Shun, Gentle Instructor.png | 1787559544211.898
-cards/Fujimaru Ritsuka, Humanity’s Last.png | 1787564517140.4194
-cards/Fujimaru Ritsuka, Stargazer.png | 1787564517459.1729
-lands/Command Tower (Fate).png | 1787601471106.4026
-lands/Exotic Orchard (Fate).png | 1787604108174.4302
-lands/Command Beacon (Fate).png | 1787604107826.0125
-artifacts/Sol Ring (Fate).png | 1787604440871.328
-artifacts/Arcane Signet (Fate).png | 1787604815283.4353
+artifacts/Arcane Signet (Fate).png | 1787650308324.1458
+artifacts/Arcane Signet (Honkai Star Rail).png | 1787650308555.3865
+artifacts/Arcane Signet (Touhou).png | 1787650308999.8762
+artifacts/Azorius Signet (ReZero).png | 1787650309259.536
+artifacts/Commander’s Sphere (Honkai Star Rail).png | 1787650309502.3352
+artifacts/Fellwar Stone (ReZero).png | 1787650309818.2087
+artifacts/Fellwar Stone (Touhou).png | 1787650310145.3882
+artifacts/Five Hundred Year Diary (ReZero).png | 1787650310504.1968
+artifacts/Idol of Oblivion (ReZero).png | 1787650310896.4434
+artifacts/Inspiring Statuary (ReZero).png | 1787650842333.1062
+artifacts/Lightning Greaves (Honkai Star Rail).png | 1787650311502.1284
+artifacts/Lightning Greaves (Touhou).png | 1787650311856.4187
+artifacts/Liquimetal Torque (ReZero).png | 1787650312266.1904
+artifacts/Nettlecyst (ReZero).png | 1787650312629.9573
+artifacts/Prismatic Lens (Honkai Star Rail).png | 1787650312856.2603
+artifacts/Relic of Legends (ReZero).png | 1787650313172.4795
+artifacts/Selesnya Signet (ReZero).png | 1787650313429.8362
+artifacts/Sensei’s Divining Top (Honkai Star Rail).png | 1787650313644.464
+artifacts/Simic Signet (ReZero).png | 1787650313913.4497
+artifacts/Skullclamp (Touhou).png | 1787650314305.3267
+artifacts/Sol Ring (Blue Archive).png | 1787650314469.0735
+artifacts/Sol Ring (Fate).png | 1787650314696.2695
+artifacts/Sol Ring (Honkai Star Rail).png | 1787650314912.3845
+artifacts/Sol Ring (ReZero).png | 1787650842753.295
+artifacts/Sol Ring (Touhou).png | 1787650315691.2312
+artifacts/Sonic Screwdriver (ReZero).png | 1787650843119.9597
+artifacts/Talisman of Dominance (Honkai Star Rail).png | 1787650316259.5815
+artifacts/Talisman of Hierarchy (Honkai Star Rail).png | 1787650316505.0525
+artifacts/Talisman of Progress (Honkai Star Rail).png | 1787650316731.2979
+artifacts/The One Ring (Touhou).png | 1787650317092.0564
+artifacts/Thought Vessel (ReZero).png | 1787650317356.0203
+cards/Asta, Lead Astronomer.png | 1787650317772.57
+cards/Barghest, Gawain the Loving.png | 1787650843925.4536
+cards/Cirno, Fairy of the Ice.png | 1787650318933.4336
+cards/Echidna, the Witch of Greed.png | 1787650319365.3035
+cards/Elliott, Administrator of the Ends.png | 1787650319629.4885
+cards/Fujimaru Ritsuka, Humanity’s Last.png | 1787650319935.932
+cards/Fujimaru Ritsuka, Stargazer.png | 1787650320271.433
+cards/Fujiwara no Mokou, the Immortal.png | 1787650320765.1387
+cards/Fujiwara no Mokou, the Undying.png | 1787650321272.2397
+cards/Galmieux, Ardor Manifest.png | 1787650321695.3174
+cards/Kashin Koji, Fuuma Sorcerer.png | 1787650322077.8567
+cards/Kogasa Tatara, the Forgotten Umbrella.png | 1787650322568.2769
+cards/Marisa Kirisame, Western Magician.png | 1787650322933.8604
+cards/Natsuki Subaru, Accreting Life.png | 1787650323427.5835
+cards/Natsuki Subaru, Starting From Zero.png | 1787650323789.6526
+cards/Remilia Scarlet, Imperishable Night.png | 1787650324120.0754
+cards/Rin Kaenbyou, Shopping District.png | 1787650324518.188
+cards/Rumia, Youkai of the Dusk.png | 1787650324844.1829
+cards/Satsuki, Intelligence Director.png | 1787650325126.111
+cards/Seiga Kaku, the Wicked Hermit.png | 1787650325491.4211
+cards/Shana, Flame-Haired Hunter.png | 1787650325783.4092
+cards/Shun, Gentle Instructor.png | 1787650326069.875
+cards/Solitude Maximus, King of Imperium.png | 1787650326493.0847
+cards/Suwako Moriya, Mountain Goddess.png | 1787650326995.073
+cards/Suwako, Though the Wind Cries.png | 1787650327397.791
+cards/The Herta, Peerless Gem.png | 1787650327740.052
+cards/Toki, Abi-Eshuh Mode.png | 1787650328095.4517
+cards/Toki, Regular Maid.png | 1787650328358.3245
+cards/Yukari Yakumo, Boundary Master.png | 1787650328723.0896
+lands/Academy Ruins (ReZero).png | 1787650844287.384
+lands/Ancient Tomb (Touhou).png | 1787650329449.3306
+lands/Bojuka Bog (Honkai Star Rail).png | 1787650329716.1328
+lands/Bountiful Promenade (ReZero).png | 1787650330054.1074
+lands/Cabal Coffers (Touhou).png | 1787650330332.6487
+lands/City of Brass (Touhou).png | 1787650330633.011
+lands/Command Beacon (Blue Archive).png | 1787650330878.921
+lands/Command Beacon (Fate).png | 1787650331213.229
+lands/Command Beacon (Honkai Star Rail).png | 1787650331465.3208
+lands/Command Beacon (ReZero).png | 1787650331776.2998
+lands/Command Tower (Blue Archive).png | 1787650332059.4146
+lands/Command Tower (Fate).png | 1787650332406.288
+lands/Command Tower (Honkai Star Rail).png | 1787650332674.422
+lands/Command Tower (ReZero).png | 1787650333016.3125
+lands/Command Tower (Shadowverse).png | 1787650333313.244
+lands/Command Tower (Touhou).png | 1787650333669.2214
+lands/Darksteel Citadel (Blue Archive).png | 1787650333925.569
+lands/Dragon-Cursed Halls (Shadowverse).png | 1787650334372.958
+lands/Exotic Orchard (Blue Archive).png | 1787650334741.756
+lands/Exotic Orchard (Fate).png | 1787650335076.26
+lands/Exotic Orchard (Honkai Star Rail).png | 1787650335394.941
+lands/Exotic Orchard (ReZero).png | 1787650335685.158
+lands/Exotic Orchard (Touhou).png | 1787650336138.545
+lands/Fabled Passage (Shadowverse).png | 1787650336542.0867
+lands/Fabled Passage (Touhou).png | 1787650336898.266
+lands/Forest (Blue Archive).png | 1787650337294.5127
+lands/Forest (Honkai Star Rail).png | 1787650337586.246
+lands/Forest (ReZero).png | 1787650338002.217
+lands/Forest (Shadowverse).png | 1787650338421.466
+lands/Forest (Touhou).png | 1787650338855.9788
+lands/Glacial Fortress (ReZero).png | 1787650339149.616
+lands/Hall of Heliod’s Generosity (Honkai Star Rail).png | 1787650339556.259
+lands/Hall of Heliod’s Generosity (Touhou).png | 1787650339976.0417
+lands/High Market (ReZero).png | 1787650340330.8667
+lands/Island (Blue Archive).png | 1787650340609.5247
+lands/Island (Honkai Star Rail).png | 1787650340880.9624
+lands/Island (ReZero).png | 1787650341299.5066
+lands/Island (Shadowverse).png | 1787650341664.3115
+lands/Island (Touhou).png | 1787650341939.9487
+lands/Llanowar Wastes (Touhou).png | 1787650342247.5793
+lands/Mortuary Mire (Touhou).png | 1787650342598.2488
+lands/Mountain (Blue Archive).png | 1787650342911.4019
+lands/Mountain (Honkai Star Rail).png | 1787650343268.3826
+lands/Mountain (ReZero).png | 1787650844742.7976
+lands/Mountain (Shadowverse).png | 1787650343963.9348
+lands/Mountain (Touhou).png | 1787650344338.4333
+lands/Otawara, Soaring City (Touhou).png | 1787650344664.0684
+lands/Pit of Offerings (ReZero).png | 1787650344919.2388
+lands/Plains (Blue Archive).png | 1787650345240.1228
+lands/Plains (Honkai Star Rail).png | 1787650345636.5203
+lands/Plains (ReZero).png | 1787650346089.7866
+lands/Plains (Shadowverse).png | 1787650346543.306
+lands/Plains (Touhou).png | 1787650347015.9243
+lands/Reflecting Pool (ReZero).png | 1787650347388.4258
+lands/Rejuvenating Springs (ReZero).png | 1787650348073.057
+lands/Rogue’s Passage (Touhou).png | 1787650348549.3784
+lands/Sea of Clouds (ReZero).png | 1787650348879.6992
+lands/Seaside Citadel (ReZero).png | 1787650349244.2607
+lands/Seraph Sanctuary (Touhou).png | 1787650349586.2805
+lands/Swamp (Blue Archive).png | 1787650349996.184
+lands/Swamp (Honkai Star Rail).png | 1787650350266.061
+lands/Swamp (ReZero).png | 1787650350682.8845
+lands/Swamp (Shadowverse).png | 1787650350963.4983
+lands/Swamp (Touhou).png | 1787650351459.1826
+lands/The Shire (Touhou).png | 1787650351811.4058
+lands/Treasure Vault (Shadowverse).png | 1787650352163.068
+lands/Twisted Landscape (Touhou).png | 1787650352546.1672
+lands/Urborg, Tomb of Yawgmoth (Touhou).png | 1787650352822.9707
+lands/Vault of the Archangel (Touhou).png | 1787650353185.1704
+lands/Wastes (Blue Archive).png | 1787650353512.9963
+lands/Wastes (Honkai Star Rail).png | 1787650353812.172
+lands/Wastes (ReZero).png | 1787650354197.713
+lands/Wastes (Shadowverse).png | 1787650354412.8936
+lands/Wastes (Touhou).png | 1787650354746.036
+lands/Watery Grave (Honkai Star Rail).png | 1787650355033.9375
+lands/Xander’s Lounge (Touhou).png | 1787650355331.069
+planeswalkers/Black Swan, Memetic Entity.png | 1787650355696.145
+planeswalkers/Halibel, the Admirer.png | 1787650356019.732
+cards/Barghest, Eater of Those She Loves.png | 1787650843535.8882
