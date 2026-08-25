@@ -11,7 +11,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 2. Launch the `.bat` file and wait for it to tell you the custom set was updated successfully.
 3. If Cockatrice was not automatically closed, close it, then open it.
 
-Collection currently at <img src="https://img.shields.io/badge/137-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/139-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -25,6 +25,8 @@ Collection currently at <img src="https://img.shields.io/badge/137-88E788?style=
 * Kilo, Apogee Mind = [Kashin Koji, Fuuma Sorcerer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kashin%20Koji%2C%20Fuuma%20Sorcerer.png) (Fate Grand Order)
 * Krark, the Thumbless = [Fujimaru Ritsuka, Stargazer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujimaru%20Ritsuka%2C%20Stargazer.png) (Fate Grand Order)
 * Kydele, Chosen of Kruphix = [Fujimaru Ritsuka, Humanity's Last](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujimaru%20Ritsuka%2C%20Humanity%27s%20Last.png) (Fate Grand Order)
+* Trynn, Champion of Freedom = [Bargest, Gawain the Loving](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Barghest%2C%20Gawain%20the%20Loving.png) (Fate Grand Order)
+* Silvar, Devourer of the Free = [Barghest, Eater of Those She Loves](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Barghest%2C%20Eater%20of%20Those%20She%20Loves.png) (Fate Grand Order)
 ### Honkai: Star Rail `2`
 * Aminatou, Veil Piercer = [The Herta, Peerless Gem](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/The%20Herta%2C%20Peerless%20Gem.png) (Honkai: Star Rail)
 * Fire Lord Azula = [Asta, Lead Astronomer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Asta%2C%20Lead%20Astronomer.png) (Honkai: Star Rail)

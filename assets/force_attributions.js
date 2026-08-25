@@ -166,12 +166,15 @@ function readArtistsLog() {
 
       artistRaw = artistRaw.replace(/\[\^1\]\s*$/, '').trim();
 
-      const linkMatch = artistRaw.match(/^\[(.+)\]\((https?:\/\/[^)]+)\)$/);
+      const linkMatch = artistRaw.match(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/);
 
       if (linkMatch) {
-        map.set(rel, { name: linkMatch[1].trim(), url: linkMatch[2].trim() });
+        const nameOnly = linkMatch[1].trim();
+        const urlOnly = linkMatch[2].trim();
+        map.set(rel, { name: nameOnly, url: urlOnly });
       } else {
-        map.set(rel, { name: artistRaw, url: null });
+        const cleaned = artistRaw.replace(/\[([^\]]+)\]\((?:https?:\/\/[^)]+)\)/g, '$1').trim();
+        map.set(rel, { name: cleaned, url: null });
       }
     }
   }
@@ -294,7 +297,7 @@ async function processCard(folderName, fileName, xmlText, artistsMap, currentInd
   const existingMap = artistsMap;
   const artistObj = existingMap.get(relPath) || { name: '', url: null };
 
-  const displayName = (artistObj.name || '')
+  const displayName = ((artistObj.name || '').replace(/\[([^\]]+)\]\((?:https?:\/\/[^)]+)\)/g, '$1'))
     .replace(/[\s\u00A0]+$/, '')
     .replace(/[\.,;:\u3002\uff0e]+$/, '')
     .trim();
