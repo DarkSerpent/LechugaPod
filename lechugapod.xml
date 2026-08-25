@@ -2524,7 +2524,7 @@ Partner (You can have two commanders if both have partner.)</text>
                 <format-commander>legal</format-commander>
                 <colors>UG</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000132" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujimaru%20Ritsuka%2C%20Humanity%27s%20Last.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000132" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujimaru%20Ritsuka%2C%20Humanity%E2%80%99s%20Last.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
