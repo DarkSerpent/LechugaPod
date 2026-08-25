@@ -24,7 +24,7 @@ Collection currently at <img src="https://img.shields.io/badge/139-88E788?style=
 ### Fate Grand Order `5`
 * Kilo, Apogee Mind = [Kashin Koji, Fuuma Sorcerer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kashin%20Koji%2C%20Fuuma%20Sorcerer.png) (Fate Grand Order)
 * Krark, the Thumbless = [Fujimaru Ritsuka, Stargazer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujimaru%20Ritsuka%2C%20Stargazer.png) (Fate Grand Order)
-* Kydele, Chosen of Kruphix = [Fujimaru Ritsuka, Humanity's Last](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujimaru%20Ritsuka%2C%20Humanity%27s%20Last.png) (Fate Grand Order)
+* Kydele, Chosen of Kruphix = [Fujimaru Ritsuka, Humanity's Last](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujimaru%20Ritsuka%2C%20Humanity%E2%80%99s%20Last.png) (Fate Grand Order)
 * Trynn, Champion of Freedom = [Bargest, Gawain the Loving](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Barghest%2C%20Gawain%20the%20Loving.png) (Fate Grand Order)
 * Silvar, Devourer of the Free = [Barghest, Eater of Those She Loves](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Barghest%2C%20Eater%20of%20Those%20She%20Loves.png) (Fate Grand Order)
 ### Honkai: Star Rail `2`
@@ -73,7 +73,7 @@ Collection currently at <img src="https://img.shields.io/badge/139-88E788?style=
 * Sol Ring = [Shittim Chest](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Blue%20Archive).png) (Blue Archive)
 ### Fate Grand Order `2`
 * Sol Ring = [Holy Grail](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Fate).png) (Fate Grand Order)
-* Sol Ring = [LAPLACE, Phenomenon Recorder](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Fate).png) (Fate Grand Order)
+* Arcane Signet = [LAPLACE, Phenomenon Recorder](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Arcane%20Signet%20(Fate).png) (Fate Grand Order)
 ### Honkai: Star Rail `9`
 * Sol Ring = [Dimension Reduction Dice](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
 * Commander's Sphere = [A-Ruan Pouch](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Commander%E2%80%99s%20Sphere%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
@@ -84,8 +84,8 @@ Collection currently at <img src="https://img.shields.io/badge/139-88E788?style=
 * Prismatic Lens = [Mysterious Magnetism](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Prismatic%20Lens%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
 * Talisman of Hierarchy = [Laurel Crown of Planar Shifts](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Talisman%20of%20Hierarchy%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
 * Lightning Greaves = [Shattered Star Bait](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Lightning%20Greaves%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
-### Re:Zero `12`
-* Sol Ring = [Cursed Mouth Ring](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(BeZero).png) (Re:Zero)
+### Re:Zero `13`
+* Sol Ring = [Cursed Mouth Ring](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(ReZero).png) (Re:Zero)
 * Thought Vessel = [Corridor of Memories](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Thought%20Vessel%20(ReZero).png) (Re:Zero)
 * Five Hundred Year Diary = [Four Hundred Year Wait](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Five%20Hundred%20Year%20Diary%20(ReZero).png) (Re:Zero)
 * Sonic Screwdriver = [Glintstone](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sonic%20Screwdriver%20(ReZero).png) (Re:Zero)
@@ -135,7 +135,7 @@ Collection currently at <img src="https://img.shields.io/badge/139-88E788?style=
 * Bojuka Bog = [Fyxestroll Garden](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Bojuka%20Bog%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
 * Exotic Orchard = [Grove of Epiphany](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Exotic%20Orchard%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
 * Command Beacon = [Pillars of Creation](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Beacon%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
-### Re:Zero `18`
+### Re:Zero `19`
 * Plains = [Dragon Kingdom of Lugunica](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(ReZero).png) (Re:Zero)
 * Island = [Kararagi City-States](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(ReZero).png) (Re:Zero)
 * Swamp = [Fifth Great Nation](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(ReZero).png) (Re:Zero)
@@ -148,7 +148,7 @@ Collection currently at <img src="https://img.shields.io/badge/139-88E788?style=
 * Bountiful Promenade = [Roswaal Manor Gardens](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Bountiful%20Promenade%20(ReZero).png) (Re:Zero)
 * Sea of Clouds = [Watergate City of Priestella](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Sea%20of%20Clouds%20(ReZero).png) (Re:Zero)
 * Glacial Fortress = [You're a Hero, Reinhardt](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Glacial%20Fortress%20(ReZero).png) (Re:Zero)
-* Exotic Orchard = [Great Flugel Tree](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Exotic%20Orchard%20(Blue%20Archive).png) (Re:Zero)
+* Exotic Orchard = [Great Flugel Tree](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Exotic%20Orchard%20(ReZero).png) (Re:Zero)
 * Reflecting Pool = [Witch's Tea Party](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Reflecting%20Pool%20(ReZero).png) (Re:Zero)
 * Rejuvenating Springs = [The Green Room](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Rejuvenating%20Springs%20(ReZero).png) (Re:Zero)
 * Pit of Offerings = [Arc 3 Cave](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Pit%20of%20Offerings%20(ReZero).png) (Re:Zero)
@@ -165,10 +165,10 @@ Collection currently at <img src="https://img.shields.io/badge/139-88E788?style=
 * Treasure Vault = [Ardent Torch](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Treasure%20Vault%20(Shadowverse).png) (Shadowverse: Worlds Beyond)
 * Dragon-Cursed Halls = [Fangs of Ardent Destruction](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Dragon-Cursed%20Halls%20(Shadowverse).png) (Shadowverse: Worlds Beyond)
 * Fabled Passage = [The Journey Ahead](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Fabled%20Passage%20(Shadowverse).png) (Shadowverse: Worlds Beyond)
-### Touhou Project `23`
+### Touhou Project `25`
 * Plains = [Garden of the Sun](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(Touhou).png) (Touhou Project)
 * Island = [Misty Lake](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(Touhou).png) (Touhou Project)
-* Swamp = [Muenzuka](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(Blue%20Archive).png) (Touhou Project)
+* Swamp = [Muenzuka](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(Touhou).png) (Touhou Project)
 * Mountain = [Youkai Mountain](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Mountain%20(Touhou).png) (Touhou Project)
 * Forest = [Forest of Magic](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Forest%20(Touhou).png) (Touhou Project)
 * Wastes = [Outside World](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Wastes%20(Touhou).png) (Touhou Project)
@@ -185,7 +185,7 @@ Collection currently at <img src="https://img.shields.io/badge/139-88E788?style=
 * Vault of the Archangel = [Hakugyokurou](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Vault%20of%20the%20Archangel%20(Touhou).png) (Touhou Project)
 * Cabal Coffers = [Myouren Temple Cemetery](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Cabal%20Coffers%20(Touhou).png) (Touhou Project)
 * Seraph Sanctuary = [Heaven](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Seraph%20Sanctuary%20(Touhou).png) (Touhou Project)
-* Hall of Heliod’s Generosity = [Moriya Shrine](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Hall%20of%20Heliod%E2%80%99s%20Generosity%20(Touhou).png) (Touhou Project)
+* Hall of Heliod's Generosity = [Moriya Shrine](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Hall%20of%20Heliod%E2%80%99s%20Generosity%20(Touhou).png) (Touhou Project)
 * Otawara, Soaring City = [Shining Needle Castle](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Otawara%2C%20Soaring%20City%20(Touhou).png) (Touhou Project)
 * City of Brass = [Old Capital](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/City%20of%20Brass%20(Touhou).png) (Touhou Project)
 * Ancient Tomb = [Great Mausoleum](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Ancient%20Tomb%20(Touhou).png) (Touhou Project)
