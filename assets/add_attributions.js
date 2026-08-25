@@ -29,7 +29,7 @@ const ASSETS_DIR = __dirname;
 const XML_PATH = path.join(__dirname, '..', 'lechugapod.xml');
 const ARTISTS_FILE = path.join(__dirname, 'artists.md');
 
-const CANVAS_W = 2014;
+const CANVAS_W = 2010;
 const CANVAS_H = 2814;
 
 const recentArtists = [];
