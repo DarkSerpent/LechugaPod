@@ -57,8 +57,8 @@ Collection currently at <img src="https://img.shields.io/badge/139-88E788?style=
 
   <h3>Friend's OCs <code>2</code></h3>
   <ul>
-    <li>Sidar Jabari of Zhalfir = [Solitude Maximus, King of Imperium](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Solitude%20Maximus%2C%20King%20of%20Imperium.png) (Friend's OC)</li>
-    <li>Mirko, Obsessive Theorist = [Elliott, Administrator of the Ends](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Elliott%2C%20Administrator%20of%20the%20Ends.png) (Friend's OC)</li>
+    <li>Sidar Jabari of Zhalfir = Solitude Maximus, King of Imperium (Friend's OC)</li>
+    <li>Mirko, Obsessive Theorist = Elliott, Administrator of the Ends (Friend's OC)</li>
   </ul>
 </details>
 
