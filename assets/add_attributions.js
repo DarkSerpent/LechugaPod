@@ -222,7 +222,7 @@ function readArtistsLog() {
         .trim();
 
       const linkMatch = artistRaw.match(
-        /^\[(.+)\]\((https?:\/\/[^)]+)\)$/
+        /^\[(.+)\]\((https?:\/\/.+)\)$/
       );
 
       if (linkMatch) {
