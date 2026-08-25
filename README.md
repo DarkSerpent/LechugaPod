@@ -17,7 +17,7 @@ Collection currently at <img src="https://img.shields.io/badge/139-88E788?style=
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
 
 ## Creature Cards
-### Blue Archive `3`
+### Blue Archive `4`
 * Laughing Jasper Flint = [Satsuki, Intelligence Director](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Satsuki%2C%20Intelligence%20Director.png) (Blue Archive)
 * King T'Challa // Black Panther, Hope Enduring = [Toki, Regular Maid](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Toki%2C%20Regular%20Maid.png) // [Toki, Abi-Eshuh Mode](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Toki%2C%20Abi%2DEshuh%20Mode.png) (Blue Archive)
 * Ms. Bumbleflower = [Shun, Gentle Instructor](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Shun%2C%20Gentle%20Instructor.png) (Blue Archive)
@@ -130,12 +130,12 @@ Collection currently at <img src="https://img.shields.io/badge/139-88E788?style=
 * Forest = [The Xianzhou Luofu](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Forest%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
 * Wastes = [Astral Express](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Wastes%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
 * Command Tower = [Herta Space Station](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
-* Hall of Heliod’s Generosity = [Artisanship Commission](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Hall%20of%20Heliod%E2%80%99s%20Generosity%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
+* Hall of Heliod's Generosity = [Artisanship Commission](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Hall%20of%20Heliod%E2%80%99s%20Generosity%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
 * Watery Grave = [The Shackling Prison](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Watery%20Grave%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
 * Bojuka Bog = [Fyxestroll Garden](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Bojuka%20Bog%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
 * Exotic Orchard = [Grove of Epiphany](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Exotic%20Orchard%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
 * Command Beacon = [Pillars of Creation](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Beacon%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
-### Re:Zero `19`
+### Re:Zero `18`
 * Plains = [Dragon Kingdom of Lugunica](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(ReZero).png) (Re:Zero)
 * Island = [Kararagi City-States](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(ReZero).png) (Re:Zero)
 * Swamp = [Fifth Great Nation](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(ReZero).png) (Re:Zero)
@@ -165,7 +165,7 @@ Collection currently at <img src="https://img.shields.io/badge/139-88E788?style=
 * Treasure Vault = [Ardent Torch](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Treasure%20Vault%20(Shadowverse).png) (Shadowverse: Worlds Beyond)
 * Dragon-Cursed Halls = [Fangs of Ardent Destruction](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Dragon-Cursed%20Halls%20(Shadowverse).png) (Shadowverse: Worlds Beyond)
 * Fabled Passage = [The Journey Ahead](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Fabled%20Passage%20(Shadowverse).png) (Shadowverse: Worlds Beyond)
-### Touhou Project `25`
+### Touhou Project `23`
 * Plains = [Garden of the Sun](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(Touhou).png) (Touhou Project)
 * Island = [Misty Lake](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(Touhou).png) (Touhou Project)
 * Swamp = [Muenzuka](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(Touhou).png) (Touhou Project)

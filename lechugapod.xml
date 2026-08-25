@@ -108,7 +108,7 @@ Whenever Sidar Jabari deals combat damage to a player, return target Knight crea
                 <format-oathbreaker>legal</format-oathbreaker>
                 <side>front</side>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000004" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Solitude%20Maximus%2C%20King%20of%20Imperium.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000004" flavorName="OC" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Solitude%20Maximus%2C%20King%20of%20Imperium.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -185,7 +185,7 @@ At the beginning of your end step, you may return target creature card with powe
                 <format-oathbreaker>legal</format-oathbreaker>
                 <side>front</side>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000007" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Elliott%2C%20Administrator%20of%20the%20Ends.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000007" flavorName="OC" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Elliott%2C%20Administrator%20of%20the%20Ends.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -1463,7 +1463,7 @@ Whenever you cast a spell while Fire Lord Azula is attacking, copy that spell. Y
                 <format-commander>legal</format-commander>
                 <colors>UBR</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000060" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Asta%2C%20Lead%20Astronomer.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000060" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Asta%2C%20Lead%20Astronomer.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -2315,7 +2315,7 @@ When this land enters, exile up to three target cards from graveyards.
                 <format-commander>legal</format-commander>
                 <colors>U</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000115" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/planeswalkers/Halibel%2C%20the%20Admirer.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000115" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/planeswalkers/Halibel%2C%20the%20Admirer.png">CLM</set>
             <tablerow>1</tablerow>
         </card>
 
