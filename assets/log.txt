@@ -18,7 +18,7 @@ artifacts/Selesnya Signet (ReZero).png | 1787650313429.8362
 artifacts/Sensei’s Divining Top (Honkai Star Rail).png | 1787650313644.464
 artifacts/Simic Signet (ReZero).png | 1787650313913.4497
 artifacts/Skullclamp (Touhou).png | 1787650314305.3267
-artifacts/Sol Ring (Blue Archive).png | 1787650314469.0735
+artifacts/Sol Ring (Blue Archive).png | 1787653991348.2751
 artifacts/Sol Ring (Fate).png | 1787650314696.2695
 artifacts/Sol Ring (Honkai Star Rail).png | 1787650314912.3845
 artifacts/Sol Ring (ReZero).png | 1787650842753.295
