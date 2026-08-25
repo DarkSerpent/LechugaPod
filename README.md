@@ -1,5 +1,10 @@
 <div align="center"><img src="https://github.com/DarkSerpent/LechugaPod/blob/main/assets/readme.png?raw=true" height="350"></div>
 
+<p align="center">
+  <a href="https://github.com/DarkSerpent/LechugaPod"><img src="https://img.shields.io/badge/HOME-88E7B8?style=for-the-badge&logoColor=white" alt="Home"></a>&nbsp;&nbsp;
+  <a href="https://github.com/DarkSerpent/LechugaPod/blob/main/assets/artists.md"><img src="https://img.shields.io/badge/ARTIST_CREDITS-88E7B8?style=for-the-badge&logoColor=white" alt="Artist Credits"></a>
+</p>
+
 This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the XML file from this repository and places it in your Local AppData folder. It also (should) close Cockatrice if it's running so the custom set can load. All alternate card arts are contained under the set "CLM (Certified Lechuga Moment)".
 
 1. Click [here](https://github.com/DarkSerpent/LechugaPod/releases/download/1.0/update_lechugapod.bat) to download the `.bat` file.
