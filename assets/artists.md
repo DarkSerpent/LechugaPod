@@ -1,5 +1,6 @@
 ## Creature Cards
 * cards/Asta, Lead Astronomer.png | [Andoff](https://www.pixiv.net/en/users/50559593)
+* cards/Barghest, Gawain the Loving.png | [Nakaga Eri](https://www.pixiv.net/en/users/15830750)
 * cards/Cirno, Fairy of the Ice.png | [S1zl](https://www.pixiv.net/en/users/76625350)
 * cards/Echidna, the Witch of Greed.png | [Gabiran](https://www.pixiv.net/en/users/2003931)
 * cards/Elliott, Administrator of the Ends.png | [shark_waka](https://www.pixiv.net/en/users/2003931)
@@ -54,14 +55,14 @@
 * artifacts/Fellwar Stone (ReZero).png | [Tianjin Tianxiang Interactive Technology](https://www.zerochan.net/Tianjin+Tianxiang+Interactive+Technology)
 * artifacts/Five Hundred Year Diary (ReZero).png | [Shinichirou Otsuka](https://twitter.com/otsuka_shin)
 * artifacts/Idol of Oblivion (ReZero).png | [Shinichirou Otsuka](https://twitter.com/otsuka_shin)
-* artifacts/Inspiring Statuary (ReZero).png | [MAGES](https://en.wikipedia.org/wiki/Mages_(company))
+* artifacts/Inspiring Statuary (ReZero).png | [MAGES](https://en.wikipedia.org/wiki/Mages_(company))[^1]
 * artifacts/Liquimetal Torque (ReZero).png | [SEGA](https://en.wikipedia.org/wiki/Sega)
 * artifacts/Nettlecyst (ReZero).png | [SEGA](https://en.wikipedia.org/wiki/Sega)
 * artifacts/Relic of Legends (ReZero).png | [Tianjin Tianxiang Interactive Technology](https://www.zerochan.net/Tianjin+Tianxiang+Interactive+Technology)
 * artifacts/Selesnya Signet (ReZero).png | [Tianjin Tianxiang Interactive Technology](https://www.zerochan.net/Tianjin+Tianxiang+Interactive+Technology)
 * artifacts/Simic Signet (ReZero).png | [Tianjin Tianxiang Interactive Technology](https://www.zerochan.net/Tianjin+Tianxiang+Interactive+Technology)
-* artifacts/Sol Ring (ReZero).png | [MAGES](https://en.wikipedia.org/wiki/Mages_(company))
-* artifacts/Sonic Screwdriver (ReZero).png | [MAGES](https://en.wikipedia.org/wiki/Mages_(company))
+* artifacts/Sol Ring (ReZero).png | [MAGES](https://en.wikipedia.org/wiki/Mages_(company))[^1]
+* artifacts/Sonic Screwdriver (ReZero).png | [MAGES](https://en.wikipedia.org/wiki/Mages_(company))[^1]
 * artifacts/Thought Vessel (ReZero).png | [Shinichirou Otsuka](https://twitter.com/otsuka_shin)
 ### Touhou
 * artifacts/Arcane Signet (Touhou).png | [Team Shanghai Alice](https://www.zerochan.net/Team+Shanghai+Alice)
@@ -101,7 +102,7 @@
 * lands/Wastes (Honkai Star Rail).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
 * lands/Watery Grave (Honkai Star Rail).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
 ### ReZero
-* lands/Academy Ruins (ReZero).png | [MAGES](https://en.wikipedia.org/wiki/Mages_(company))
+* lands/Academy Ruins (ReZero).png | [MAGES](https://en.wikipedia.org/wiki/Mages_(company))[^1]
 * lands/Bountiful Promenade (ReZero).png | [Tianjin Tianxiang Interactive Technology](https://www.zerochan.net/Tianjin+Tianxiang+Interactive+Technology)
 * lands/Command Beacon (ReZero).png | [Shinichirou Otsuka](https://twitter.com/otsuka_shin)
 * lands/Command Tower (ReZero).png | [Miskal](https://www.pixiv.net/en/users/39366375)
@@ -110,7 +111,7 @@
 * lands/Glacial Fortress (ReZero).png | [Tianjin Tianxiang Interactive Technology](https://www.zerochan.net/Tianjin+Tianxiang+Interactive+Technology)
 * lands/High Market (ReZero).png | [Tianjin Tianxiang Interactive Technology](https://www.zerochan.net/Tianjin+Tianxiang+Interactive+Technology)
 * lands/Island (ReZero).png | [Yuzusoft](https://x.com/yuzusoft)
-* lands/Mountain (ReZero).png | [MAGES](https://en.wikipedia.org/wiki/Mages_(company))
+* lands/Mountain (ReZero).png | [MAGES](https://en.wikipedia.org/wiki/Mages_(company))[^1]
 * lands/Pit of Offerings (ReZero).png | [Tianjin Tianxiang Interactive Technology](https://www.zerochan.net/Tianjin+Tianxiang+Interactive+Technology)
 * lands/Plains (ReZero).png | [Tianjin Tianxiang Interactive Technology](https://www.zerochan.net/Tianjin+Tianxiang+Interactive+Technology)
 * lands/Reflecting Pool (ReZero).png | [Tianjin Tianxiang Interactive Technology](https://www.zerochan.net/Tianjin+Tianxiang+Interactive+Technology)
