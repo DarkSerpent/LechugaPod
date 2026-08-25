@@ -155,4 +155,4 @@
 * lands/Wastes (Touhou).png | [Yuzusoft](https://x.com/yuzusoft)
 * lands/Xander’s Lounge (Touhou).png | [Team Shanghai Alice](https://www.zerochan.net/Team+Shanghai+Alice)
 
-[^1]: No publicly available or accessible documentation of this artist was found. [![Attribution Script](https://img.shields.io/badge/Attribution%20Script-add__attributions.js-88E7B8?style=for-the-badge&logo=javascript&logoColor=white)](https://github.com/DarkSerpent/LechugaPod/blob/main/assets/add_attributions.js) allows manual entry of artist URLs. It is possible the artist has a page that isn't publicly accessible, it exists in another language, or one simply hasn't been made yet.
+[^1]: No publicly available or accessible documentation of this artist was found.
