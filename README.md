@@ -23,7 +23,7 @@ Collection currently at <img src="https://img.shields.io/badge/157-88E788?style=
 * King T'Challa // Black Panther, Hope Enduring[^1] = [Toki, Regular Maid](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Toki%2C%20Regular%20Maid.png) // [Toki, Abi-Eshuh Mode](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Toki%2C%20Abi%2DEshuh%20Mode.png) (Blue Archive)
 * Ms. Bumbleflower[^1] = [Shun, Gentle Instructor](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Shun%2C%20Gentle%20Instructor.png) (Blue Archive)
 ### Fate Grand Order `8`
-* Kilo, Apogee Mind = [Kashin Koji, Fuuma Sorcerer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kashin%20Koji%2C%20Fuuma%20Sorcerer.png) (Fate Grand Order)
+* Kilo, Apogee Mind[^1] = [Kashin Koji, Fuuma Sorcerer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kashin%20Koji%2C%20Fuuma%20Sorcerer.png) (Fate Grand Order)
 * Krark, the Thumbless[^1] = [Fujimaru Ritsuka, Stargazer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujimaru%20Ritsuka%2C%20Stargazer.png) (Fate Grand Order)
 * Kydele, Chosen of Kruphix[^1] = [Fujimaru Ritsuka, Humanity's Last](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujimaru%20Ritsuka%2C%20Humanity%E2%80%99s%20Last.png) (Fate Grand Order)
 * Trynn, Champion of Freedom[^1] = [Bargest, Gawain the Loving](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Barghest%2C%20Gawain%20the%20Loving.png) (Fate Grand Order)
@@ -44,7 +44,7 @@ Collection currently at <img src="https://img.shields.io/badge/157-88E788?style=
 * Smaug the Impenetrable[^1] = [Galmieux, Ardor Manifest](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Galmieux%2C%20Ardor%20Manifest.png) (Shadowverse: Worlds Beyond)
 ### Touhou Project `13`
 * Selenia, the Cursed Heart[^1] = [Seiga Kaku, the Wicked Hermit](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Seiga%20Kaku%2C%20the%20Wicked%20Hermit.png) (Touhou Project)
-* The Everforger = [Kogasa Tatara, the Forgotten Umbrella](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kogasa%20Tatara%2C%20the%20Forgotten%20Umbrella.png) (Touhou Project)
+* The Everforger[^1] = [Kogasa Tatara, the Forgotten Umbrella](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kogasa%20Tatara%2C%20the%20Forgotten%20Umbrella.png) (Touhou Project)
 * Avatar Roku, Firebender[^1] = [Fujiwara no Mokou, the Immortal](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujiwara%20no%20Mokou%2C%20the%20Immortal.png) (Touhou Project)
 * Ygra, Eater of All[^1] = [Rumia, Youkai of the Dusk](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Rumia%2C%20Youkai%20of%20the%20Dusk.png) (Touhou Project)
 * Itazura, Lingering Wick[^1] = [Rin Kaenbyou, Shopping District](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Rin%20Kaenbyou%2C%20Shopping%20District.png) (Touhou Project)

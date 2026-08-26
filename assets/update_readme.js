@@ -104,6 +104,7 @@ function isCommander(cardXml) {
     const type = tagContents(cardXml, 'type') || '';
     const text = tagContents(cardXml, 'text') || '';
     if (type.includes('Legendary Creature')) return true;
+    if (type.includes('Legendary Artifact Creature')) return true;
     if (type.includes('Legendary Artifact — Spacecraft')) return true;
     if (text.includes('can be your commander')) return true;
     return false;
