@@ -120,7 +120,7 @@ lands/Seraph Sanctuary (Touhou).png | 1787650349586.2805
 lands/Swamp (Blue Archive).png | 1787650349996.184
 lands/Swamp (Honkai Star Rail).png | 1787650350266.061
 lands/Swamp (ReZero).png | 1787650350682.8845
-lands/Swamp (Shadowverse).png | 1787650350963.4983
+lands/Swamp (Shadowverse).png | 1787724450822.9492
 lands/Swamp (Touhou).png | 1787650351459.1826
 lands/The Shire (Touhou).png | 1787650351811.4058
 lands/Treasure Vault (Shadowverse).png | 1787650352163.068
