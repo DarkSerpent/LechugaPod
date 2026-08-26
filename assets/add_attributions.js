@@ -277,6 +277,7 @@ function saveSortingEntry(baseName, series) {
 }
 
 function saveArtistsLog(map) {
+  const sorting = readSortingLog();
   const folders =
     findSubfoldersWithPngs();
 
@@ -477,7 +478,7 @@ function saveArtistsLog(map) {
             ? { name: e.artist, url: null, series: null }
             : (e.artist || { name: '', url: null, series: null }));
         
-        const series = artistObj.series || null;
+        const series = artistObj.series || sorting.get(normalizeForMatch(path.basename(e.file, '.png'))) || null;
         
         let groupKey = series;
         if (series !== null) {
@@ -525,11 +526,10 @@ function saveArtistsLog(map) {
               .trim();
           }
 
-          const seriesSuffix = artistObj.series ? ` | ${artistObj.series}` : '';
           if (artistObj && isHttpUrl(artistObj.url)) {
-            out.push(`* ${e.rel} | [${artistObj.name}](${artistObj.url})${seriesSuffix}`);
+            out.push(`* ${e.rel} | [${artistObj.name}](${artistObj.url})`);
           } else {
-            out.push(`* ${e.rel} | ${artistObj.name}[^1]${seriesSuffix}`);
+            out.push(`* ${e.rel} | ${artistObj.name}[^1]`);
           }
         }
       }
@@ -1347,6 +1347,8 @@ async function main() {
         queue.length
       );
   }
+
+  saveArtistsLog(artistsMap);
 
   console.log(
     'All done.'

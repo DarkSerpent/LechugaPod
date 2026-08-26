@@ -3065,6 +3065,92 @@ Whenever Obeka deals combat damage to a player, you get that many additional upk
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>The Ur-Dragon</name>
+            <text>Eminence — As long as The Ur-Dragon is in the command zone or on the battlefield, other Dragon spells you cast cost {1} less to cast.
+Flying
+Whenever one or more Dragons you control attack, draw that many cards, then you may put a permanent card from your hand onto the battlefield.</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>WUBRG</coloridentity>
+                <cmc>9</cmc>
+                <manacost>4WUBRG</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Dragon Avatar</type>
+                <pt>10/10</pt>
+                <format-commander>legal</format-commander>
+                <colors>WUBRG</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000162" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Melusine%2C%20Hand%20of%20Albion.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
+        <card>
+            <name>Sliver Overlord</name>
+            <text>{3}: Search your library for a Sliver card, reveal that card, put it into your hand, then shuffle.
+{3}: Gain control of target Sliver. (This effect lasts indefinitely.)</text>
+            <prop>
+                <format-historic>legal</format-historic>
+                <format-premodern>legal</format-premodern>
+                <format-timeless>legal</format-timeless>
+                <format-predh>legal</format-predh>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>WUBRG</coloridentity>
+                <cmc>5</cmc>
+                <manacost>WUBRG</manacost>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Sliver Mutant</type>
+                <pt>7/7</pt>
+                <format-commander>legal</format-commander>
+                <colors>WUBRG</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000163" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Tiamat%2C%20Mother%20of%20Genesis.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
+        <card>
+            <name>The First Sliver</name>
+            <text>Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)
+Sliver spells you cast have cascade.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>WUBRG</coloridentity>
+                <cmc>5</cmc>
+                <manacost>WUBRG</manacost>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Sliver</type>
+                <pt>7/7</pt>
+                <format-commander>legal</format-commander>
+                <colors>WUBRG</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000164" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Tiamat%2C%20Daughter%20of%20Genesis.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

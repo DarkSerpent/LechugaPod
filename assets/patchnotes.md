@@ -1,4 +1,7 @@
 ## 8/26/2026
+* 5:08:23.109 PM CDT - The First Sliver / Tiamat, Daughter of Genesis / Tiamat, Daughter of Genesis
+* 5:01:56.495 PM CDT - Sliver Overlord / Tiamat, Mother of Genesis / Tiamat, Mother of Genesis
+* 4:49:49.429 PM CDT - The Ur-Dragon / Melusine, Hand of Albion / Melusine, Hand of Albion
 * 4:42:08.809 AM CDT - Obeka, Splitter of Seconds / Okina Matara, Secret God / Okina Matara, Secret God
 * 4:32:08.987 AM CDT - The Scarab God / Eiki Shiki, Supreme Judge / Eiki Shiki, Supreme Judge
 * 3:43:06.879 AM CDT - Estrid, the Masked / Lady Avalon, Dreamweaver / Lady Avalon, Dreamweaver
