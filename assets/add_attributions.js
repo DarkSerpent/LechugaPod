@@ -28,6 +28,7 @@ try {
 const ASSETS_DIR = __dirname;
 const XML_PATH = path.join(__dirname, '..', 'lechugapod.xml');
 const ARTISTS_FILE = path.join(__dirname, 'artists.md');
+const SORTING_FILE = path.join(__dirname, 'artists_sorting.txt');
 
 const CANVAS_W = 2010;
 const CANVAS_H = 2814;
@@ -248,6 +249,31 @@ function readArtistsLog() {
 
 function isHttpUrl(u) {
   return !!(u && typeof u === 'string' && /^https?:\/\//i.test(u));
+}
+
+function readSortingLog() {
+  const map = new Map();
+
+  if (!fs.existsSync(SORTING_FILE)) {
+    return map;
+  }
+
+  const lines = fs.readFileSync(SORTING_FILE, 'utf8').split(/\r?\n/);
+  for (const line of lines) {
+    const match = line.match(/^(.+?)\s*=\s*(.+)$/);
+    if (!match) continue;
+    map.set(normalizeForMatch(match[1]), match[2].trim());
+  }
+
+  return map;
+}
+
+function saveSortingEntry(baseName, series) {
+  const sorting = readSortingLog();
+  const key = normalizeForMatch(baseName);
+  if (sorting.has(key)) return;
+
+  fs.appendFileSync(SORTING_FILE, `${baseName} = ${series}\n`, 'utf8');
 }
 
 function saveArtistsLog(map) {
@@ -663,6 +689,13 @@ async function promptForSeries(baseName, folderName) {
   if (seriesCache.has(cacheKey)) {
     return seriesCache.get(cacheKey);
   }
+
+  const sorting = readSortingLog();
+  const savedSeries = sorting.get(normalizeForMatch(baseName));
+  if (savedSeries) {
+    seriesCache.set(cacheKey, savedSeries);
+    return savedSeries;
+  }
   
   const artistsMap = readArtistsLog();
   const prefix = folderName + '/';
@@ -699,6 +732,7 @@ async function promptForSeries(baseName, folderName) {
   const series = answer.trim();
   if (series) {
     seriesCache.set(cacheKey, series);
+    saveSortingEntry(baseName, series);
     console.log(`\n${instrColor}File will be placed in "### ${series}" section.${reset}\n`);
   }
   

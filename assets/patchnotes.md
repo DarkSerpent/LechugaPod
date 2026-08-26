@@ -1,4 +1,6 @@
 ## 8/26/2026
+* 4:42:08.809 AM CDT - Okina Matara, Secret God / Okina Matara, Secret God
+* 4:32:08.987 AM CDT - Eiki Shiki, Supreme Judge / Eiki Shiki, Supreme Judge
 * 3:43:06.879 AM CDT - Lady Avalon, Dreamweaver / Lady Avalon, Dreamweaver
 * 3:22:01.615 AM CDT - Reines Archisorte, Princess / Reines Archisorte, Princess
 * 2:52:40.866 AM CDT - Hieda no Akyuu, Perfect Memory / Hieda no Akyuu, Perfect Memory

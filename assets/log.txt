@@ -157,3 +157,5 @@ cards/Okita, Blade of Mibu.png | 1787723949289.919
 cards/Hieda no Akyuu, Perfect Memory.png | 1787731357348.9788
 cards/Reines Archisorte, Princess.png | 1787732521615.0566
 planeswalkers/Lady Avalon, Dreamweaver.png | 1787733996488.2874
+cards/Eiki Shiki, Supreme Judge.png | 1787736728987.9614
+cards/Okina Matara, Secret God.png | 1787737328809.4692
