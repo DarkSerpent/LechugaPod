@@ -2738,6 +2738,34 @@ Once each turn, you may play a card from exile with a collection counter on it i
             <tablerow>2</tablerow>
         </card>
 
-  </cards>
+        <card>
+            <name>Chromatic Lantern</name>
+            <text>Lands you control have &quot;{T}: Add one mana of any color.&quot;
+{T}: Add one mana of any color.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <cmc>3</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <manacost>3</manacost>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Artifact</maintype>
+                <layout>normal</layout>
+                <type>Artifact</type>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000151" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Chromatic%20Lantern%20(Fate).png">CLM</set>
+            <tablerow>1</tablerow>
+        </card>
+
+</cards>
 
 </cockatrice_carddatabase>

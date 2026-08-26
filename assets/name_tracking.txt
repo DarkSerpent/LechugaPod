@@ -148,3 +148,4 @@ Wastes_0147 = Bleached Earth
 Ash Barrens_0148 = SE.RA.PH, Umbral Star
 Zhalfirin Void_0149 = Wandering Sea
 Evelyn, the Covetous_0150 = Baobhan Sith, Blood Rose
+Chromatic Lantern_0151 = Greater Holy Grail

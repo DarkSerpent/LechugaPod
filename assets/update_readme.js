@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const readline = require('readline');
 
 const ROOT_DIR = path.resolve(__dirname, '..');
 const XML_PATH = path.join(ROOT_DIR, 'lechugapod.xml');
@@ -108,7 +109,15 @@ function isCommander(cardXml) {
     return false;
 }
 
-function parseCards(xml, tracking) {
+function askCustomName(rl, defaultName) {
+    return new Promise(resolve => {
+        rl.question(`Define a custom name for "${defaultName}" (press ENTER to use the default): `, answer => {
+            resolve(answer.trim() || defaultName);
+        });
+    });
+}
+
+async function parseCards(xml, tracking, rl) {
     const cards = [];
     const cardMatches = xml.match(/<card\b[\s\S]*?<\/card>/gi) || [];
     const newTrackingEntries = [];
@@ -137,7 +146,8 @@ function parseCards(xml, tracking) {
             const trackingKey = `${name}_${suffix}`;
             let trackedName = tracking.get(trackingKey);
             if (!trackedName) {
-                trackedName = proxyName(picurl);
+                const defaultName = proxyName(picurl);
+                trackedName = await askCustomName(rl, defaultName);
                 tracking.set(trackingKey, trackedName);
                 newTrackingEntries.push({ key: trackingKey, value: trackedName });
                 console.log(`Added missing tracking entry: ${trackingKey} = ${trackedName}`);
@@ -434,7 +444,7 @@ function fixFootnotes(lines, cards) {
     return changes;
 }
 
-function main() {
+async function main() {
     console.log('====================================');
     console.log(' LechugaPod README Updater');
     console.log('====================================');
@@ -448,7 +458,19 @@ function main() {
     const originalReadme = fs.readFileSync(README_PATH, 'utf8');
     const tracking = parseTrackingFile(fs.readFileSync(TRACKING_PATH, 'utf8'));
 
-    const rawCards = parseCards(xml, tracking);
+    const rl = readline.createInterface({
+        input: process.stdin,
+        output: process.stdout,
+        terminal: process.stdin.isTTY,
+        historySize: 50
+    });
+
+    let rawCards;
+    try {
+        rawCards = await parseCards(xml, tracking, rl);
+    } finally {
+        rl.close();
+    }
     const totalCards = rawCards.length;
 
     const regularCards = rawCards.filter(c => !c.isOC);
@@ -526,7 +548,10 @@ function main() {
 }
 
 try {
-    main();
+    main().catch(error => {
+        console.error(`ERROR: ${error.message}`);
+        process.exit(1);
+    });
 } catch (error) {
     console.error(`ERROR: ${error.message}`);
     process.exit(1);

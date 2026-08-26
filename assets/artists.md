@@ -42,6 +42,7 @@
 * artifacts/Sol Ring (Blue Archive).png | [Nexon Games](https://en.wikipedia.org/wiki/Nexon)
 ### Fate
 * artifacts/Arcane Signet (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
+* artifacts/Chromatic Lantern (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * artifacts/Sol Ring (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 ### Honkai Star Rail
 * artifacts/Arcane Signet (Honkai Star Rail).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)

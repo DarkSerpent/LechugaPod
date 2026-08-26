@@ -1,2 +1,4 @@
 # Ignore all cardconjurer files
 *.cardconjurer
+# Ignore all xml files
+*.xml

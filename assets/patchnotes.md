@@ -1,4 +1,5 @@
 ## 8/25/2026
+* 11:53:41.899 PM CDT - Chromatic Lantern (Fate) / Chromatic Lantern (Fate)
 * 10:31:22.400 PM CDT - Baobhan Sith, Blood Rose / Baobhan Sith, Blood Rose
 * 10:12:43.752 PM CDT - Zhalfirin Void (Fate) / Wandering Sea
 * 10:06:38.563 PM CDT - Wastes (Fate) / Bleached Earth
