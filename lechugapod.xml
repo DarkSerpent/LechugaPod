@@ -3086,7 +3086,7 @@ Whenever one or more Dragons you control attack, draw that many cards, then you 
                 <format-commander>legal</format-commander>
                 <colors>WUBRG</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000162" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Melusine%2C%20Hand%20of%20Albion.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000162" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Hollow%20Heart%20Albion.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -3148,6 +3148,33 @@ Sliver spells you cast have cascade.</text>
                 <colors>WUBRG</colors>
             </prop>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000164" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Tiamat%2C%20Daughter%20of%20Genesis.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
+        <card>
+            <name>Scion of the Ur-Dragon</name>
+            <text>Flying
+{2}: Search your library for a Dragon permanent card and put it into your graveyard. If you do, Scion of the Ur-Dragon becomes a copy of that card until end of turn. Then shuffle.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-predh>legal</format-predh>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>WUBRG</coloridentity>
+                <cmc>5</cmc>
+                <manacost>WUBRG</manacost>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Dragon Avatar</type>
+                <pt>4/4</pt>
+                <format-commander>legal</format-commander>
+                <colors>WUBRG</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000165" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Melusine%2C%20Hand%20of%20Albion.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 

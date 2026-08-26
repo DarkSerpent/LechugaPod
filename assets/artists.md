@@ -14,6 +14,7 @@
 * cards/Galmieux, Ardor Manifest.png | [ell](https://www.pixiv.net/en/users/16408605)
 * cards/Gilgamesh, King of Heroes.png | [Pixiv 227478](https://www.pixiv.net/en/users/227478/artworks)
 * cards/Hieda no Akyuu, Perfect Memory.png | [thkani](https://www.pixiv.net/en/users/13134696)
+* cards/Hollow Heart Albion.png | [CHOCO](https://x.com/choco_mugi)
 * cards/Kashin Koji, Fuuma Sorcerer.png | [Yoneyama Mai](https://www.pixiv.net/en/users/1554775)
 * cards/Kogasa Tatara, the Forgotten Umbrella.png | [Elina Noodles](https://www.pixiv.net/en/users/82051602)
 * cards/Marisa Kirisame, Western Magician.png | [JILL](https://www.pixiv.net/en/users/54259522)

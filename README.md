@@ -12,7 +12,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 2. Launch the `.bat` file and wait for it to tell you the custom set was updated successfully.
 3. If Cockatrice was not automatically closed, close it, then open it.
 
-Collection currently at <img src="https://img.shields.io/badge/164-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/165-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -22,7 +22,7 @@ Collection currently at <img src="https://img.shields.io/badge/164-88E788?style=
 * Laughing Jasper Flint[^1] = [Satsuki, Intelligence Director](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Satsuki%2C%20Intelligence%20Director.png) (Blue Archive)
 * King T'Challa // Black Panther, Hope Enduring[^1] = [Toki, Regular Maid](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Toki%2C%20Regular%20Maid.png) // [Toki, Abi-Eshuh Mode](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Toki%2C%20Abi%2DEshuh%20Mode.png) (Blue Archive)
 * Ms. Bumbleflower[^1] = [Shun, Gentle Instructor](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Shun%2C%20Gentle%20Instructor.png) (Blue Archive)
-### Fate Grand Order `12`
+### Fate Grand Order `13`
 * Kilo, Apogee Mind[^1] = [Kashin Koji, Fuuma Sorcerer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kashin%20Koji%2C%20Fuuma%20Sorcerer.png) (Fate Grand Order)
 * Krark, the Thumbless[^1] = [Fujimaru Ritsuka, Stargazer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujimaru%20Ritsuka%2C%20Stargazer.png) (Fate Grand Order)
 * Kydele, Chosen of Kruphix[^1] = [Fujimaru Ritsuka, Humanity's Last](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujimaru%20Ritsuka%2C%20Humanity%E2%80%99s%20Last.png) (Fate Grand Order)
@@ -32,9 +32,10 @@ Collection currently at <img src="https://img.shields.io/badge/164-88E788?style=
 * Evelyn, the Covetous[^1] = [Baobhan Sith, Blood Rose](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Baobhan%20Sith%2C%20Blood%20Rose.png) (Fate Grand Order)
 * Jin Sakai, Ghost of Tsushima[^1] = [Okita, Blade of Mibu](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Okita%2C%20Blade%20of%20Mibu.png) (Fate Grand Order)
 * Kambal, Profiteering Mayor[^1] = [Reines Archisorte, Princess](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Reines%20Archisorte%2C%20Princess.png) (Fate Grand Order)
-* The Ur-Dragon[^1] = [Melusine, Hand of Albion](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Melusine%2C%20Hand%20of%20Albion.png) (Fate Grand Order)
+* The Ur-Dragon[^1] = [Hollow Heart Albion](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Hollow%20Heart%20Albion.png) (Fate Grand Order)
 * Sliver Overlord[^1] = [Tiamat, Mother of Genesis](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Tiamat%2C%20Mother%20of%20Genesis.png) (Fate Grand Order)
 * The First Sliver[^1] = [Tiamat, Daughter of Genesis](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Tiamat%2C%20Daughter%20of%20Genesis.png) (Fate Grand Order)
+* Scion of the Ur-Dragon[^1] = [Melusine, Hand of Albion](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Melusine%2C%20Hand%20of%20Albion.png) (Fate Grand Order)
 ### Honkai: Star Rail `2`
 * Aminatou, Veil Piercer[^1] = [The Herta, Peerless Gem](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/The%20Herta%2C%20Peerless%20Gem.png) (Honkai: Star Rail)
 * Fire Lord Azula[^1] = [Asta, Lead Astronomer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Asta%2C%20Lead%20Astronomer.png) (Honkai: Star Rail)
