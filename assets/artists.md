@@ -36,8 +36,11 @@
 * cards/Yukari Yakumo, Boundary Master.png | [Kyusoukyu](https://www.pixiv.net/en/users/66038798)
 
 ## Planeswalkers
-### Unsorted
+### Fate
+* planeswalkers/Lady Avalon, Dreamweaver.png | [Es3](https://www.pixiv.net/en/users/18229340)
+### Honkai Star Rail
 * planeswalkers/Black Swan, Memetic Entity.png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
+### ReZero
 * planeswalkers/Halibel, the Admirer.png | [Shinichirou Otsuka](https://twitter.com/otsuka_shin)
 
 ## Artifacts

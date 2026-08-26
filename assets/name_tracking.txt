@@ -156,3 +156,4 @@ Swiftfoot Boots_0155 = Command Spell
 Jin Sakai, Ghost of Tsushima_0156 = Okita, Blade of Mibu
 Volo, Guide to Monsters_0157 = Hieda no Akyuu, Perfect Memory
 Kambal, Profiteering Mayor_0158 = Reines Archisorte, Princess
+Estrid, the Masked_0159 = Lady Avalon, Dreamweaver

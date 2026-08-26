@@ -206,17 +206,18 @@ function readArtistsLog() {
     'utf8'
   );
 
-  const lines = text.split(/\r?\n/);
+    const lines = text.split(/\r?\n/);
 
   for (const line of lines) {
-    const m = line.match(
-      /^\s*(?:[-*]\s*)?(\S.*)\s*\|\s*(.+)\s*$/
-    );
+      const m = line.match(
+        /^\s*(?:[-*]\s*)?(\S.*?)\s*\|\s*(.+?)(?:\s*\|\s*(.+))?\s*$/
+      );
 
     if (m) {
       const rel = m[1].trim();
 
       let artistRaw = m[2].trim();
+      const series = m[3] ? m[3].trim() : null;
 
       artistRaw = artistRaw
         .replace(/\[\^1\]\s*$/, '')
@@ -229,12 +230,14 @@ function readArtistsLog() {
       if (linkMatch) {
         map.set(rel, {
           name: linkMatch[1].trim(),
-          url: linkMatch[2].trim()
+            url: linkMatch[2].trim(),
+            series
         });
       } else {
         map.set(rel, {
           name: artistRaw,
-          url: null
+            url: null,
+            series
         });
       }
     }
@@ -496,10 +499,11 @@ function saveArtistsLog(map) {
               .trim();
           }
 
+          const seriesSuffix = artistObj.series ? ` | ${artistObj.series}` : '';
           if (artistObj && isHttpUrl(artistObj.url)) {
-            out.push(`* ${e.rel} | [${artistObj.name}](${artistObj.url})`);
+            out.push(`* ${e.rel} | [${artistObj.name}](${artistObj.url})${seriesSuffix}`);
           } else {
-            out.push(`* ${e.rel} | ${artistObj.name}[^1]`);
+            out.push(`* ${e.rel} | ${artistObj.name}[^1]${seriesSuffix}`);
           }
         }
       }

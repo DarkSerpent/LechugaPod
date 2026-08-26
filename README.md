@@ -12,7 +12,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 2. Launch the `.bat` file and wait for it to tell you the custom set was updated successfully.
 3. If Cockatrice was not automatically closed, close it, then open it.
 
-Collection currently at <img src="https://img.shields.io/badge/158-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/159-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -69,6 +69,8 @@ Collection currently at <img src="https://img.shields.io/badge/158-88E788?style=
 </details>
 
 ## Planeswalkers
+### Fate Grand Order `1`
+* Estrid, the Masked[^1] = [Lady Avalon, Dreamweaver](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/planeswalkers/Lady%20Avalon%2C%20Dreamweaver.png) (Fate Grand Order)
 ### Honkai: Star Rail `1`
 * Aminatou, the Fateshifter[^1] = [Black Swan, Memetic Entity](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/planeswalkers/Black%20Swan%2C%20Memetic%20Entity.png) (Honkai: Star Rail)
 ### Re:Zero `1`

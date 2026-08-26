@@ -134,8 +134,8 @@ lands/Wastes (Shadowverse).png | 1787650354412.8936
 lands/Wastes (Touhou).png | 1787650354746.036
 lands/Watery Grave (Honkai Star Rail).png | 1787650355033.9375
 lands/Xander’s Lounge (Touhou).png | 1787650355331.069
-planeswalkers/Black Swan, Memetic Entity.png | 1787650355696.145
-planeswalkers/Halibel, the Admirer.png | 1787650356019.732
+planeswalkers/Black Swan, Memetic Entity.png | 1787734965867.8633
+planeswalkers/Halibel, the Admirer.png | 1787734966195.0647
 cards/Barghest, Eater of Those She Loves.png | 1787650843535.8882
 artifacts/Altera, Teardrop Photon Ray.png | 1787706638499.204
 cards/Gilgamesh, King of Heroes.png | 1787710503433.422
@@ -156,3 +156,4 @@ artifacts/Swiftfoot Boots (Fate).png | 1787721799284.3357
 cards/Okita, Blade of Mibu.png | 1787723949289.919
 cards/Hieda no Akyuu, Perfect Memory.png | 1787731357348.9788
 cards/Reines Archisorte, Princess.png | 1787732521615.0566
+planeswalkers/Lady Avalon, Dreamweaver.png | 1787733996488.2874

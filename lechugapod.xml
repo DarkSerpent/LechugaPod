@@ -2973,6 +2973,32 @@ Whenever one or more tokens you control enter, each opponent loses 1 life and yo
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Estrid, the Masked</name>
+            <text>[+2]: Untap each enchanted permanent you control.
+[−1]: Create a white Aura enchantment token named Mask attached to another target permanent. The token has enchant permanent and umbra armor.
+[−7]: Mill seven cards. Return all non-Aura enchantment cards from your graveyard to the battlefield, then do the same for Aura cards.
+Estrid, the Masked can be your commander.</text>
+            <prop>
+                <loyalty>3</loyalty>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>WUG</coloridentity>
+                <cmc>4</cmc>
+                <manacost>1GWU</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Planeswalker</maintype>
+                <layout>normal</layout>
+                <type>Legendary Planeswalker — Estrid</type>
+                <format-commander>legal</format-commander>
+                <colors>WUG</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000159" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/planeswalkers/Lady%20Avalon%2C%20Dreamweaver.png">CLM</set>
+            <tablerow>1</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>
