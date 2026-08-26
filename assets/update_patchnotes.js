@@ -172,11 +172,16 @@ function parseExistingPatchnotes(contents) {
         if (line.trim()) {
             sections.get(currentDate).push(line);
             const bullet = line.match(/^\* \d{1,2}:\d{2}:\d{2}\.\d{3} (?:AM|PM) (?:CDT|CST) - (.+)$/i);
-            if (bullet) recordedNames.add(normalize(bullet[1]));
+            if (bullet) recordedNames.add(normalize(recordedIdentity(bullet[1])));
         }
     }
 
     return { preamble, sections, recordedNames };
+}
+
+function recordedIdentity(value) {
+    const parts = value.split(' / ');
+    return parts.length >= 2 ? parts.slice(-2).join(' / ') : value;
 }
 
 function timestampFromBullet(line) {
@@ -192,7 +197,24 @@ function dateSortValue(date) {
 function makeBullet(card, timestamp, trackingNames) {
     const imageName = path.basename(card.imagePath, path.extname(card.imagePath));
     const properName = trackingNames.get(normalize(card.trackedName)) || card.trackedName || imageName;
-    return `* ${formatTime(timestamp)} - ${imageName} / ${properName}`;
+    return `* ${formatTime(timestamp)} - ${card.cardName} / ${imageName} / ${properName}`;
+}
+
+function upgradeBullet(line, cards, trackingNames) {
+    const match = line.match(/^(\* \d{1,2}:\d{2}:\d{2}\.\d{3} (?:AM|PM) (?:CDT|CST)) - (.+)$/i);
+    if (!match) return line;
+
+    const identity = normalize(recordedIdentity(match[2]));
+    const card = cards.find(candidate => {
+        const imageName = path.basename(candidate.imagePath, path.extname(candidate.imagePath));
+        const properName = trackingNames.get(normalize(candidate.trackedName)) || candidate.trackedName || imageName;
+        return normalize(`${imageName} / ${properName}`) === identity;
+    });
+    if (!card) return line;
+
+    const imageName = path.basename(card.imagePath, path.extname(card.imagePath));
+    const properName = trackingNames.get(normalize(card.trackedName)) || card.trackedName || imageName;
+    return `${match[1]} - ${card.cardName} / ${imageName} / ${properName}`;
 }
 
 function updatePatchnotes() {
@@ -211,16 +233,22 @@ function updatePatchnotes() {
     const patchnotes = parseExistingPatchnotes(contents);
     const additions = [];
 
+    for (const lines of patchnotes.sections.values()) {
+        for (let i = 0; i < lines.length; i++) {
+            lines[i] = upgradeBullet(lines[i], cards, trackingNames);
+        }
+    }
+
     for (const card of cards) {
         const imageName = path.basename(card.imagePath, path.extname(card.imagePath));
         const properName = trackingNames.get(normalize(card.trackedName)) || card.trackedName || imageName;
         const recordedName = `${imageName} / ${properName}`;
-        if (patchnotes.recordedNames.has(normalize(recordedName))) continue;
+        if (patchnotes.recordedNames.has(normalize(recordedIdentity(recordedName)))) continue;
         const timestamp = fs.statSync(card.imagePath).mtimeMs;
         const date = formatDate(timestamp);
         if (!patchnotes.sections.has(date)) patchnotes.sections.set(date, []);
         patchnotes.sections.get(date).push(makeBullet(card, timestamp, trackingNames));
-        patchnotes.recordedNames.add(normalize(recordedName));
+        patchnotes.recordedNames.add(normalize(recordedIdentity(recordedName)));
         additions.push({ recordedName, timestamp });
     }
 
