@@ -11,7 +11,6 @@
 * 12:03:25.441 AM CDT - Herald's Horn / Herald’s Horn (Fate) / FATE, Heroic Spirit Summoning System
 
 ## 8/25/2026
-* 11:53:41.899 PM CDT - Chromatic Lantern (Fate) / Chromatic Lantern (Fate)
 * 11:53:41.899 PM CDT - Chromatic Lantern / Chromatic Lantern (Fate) / Greater Holy Grail
 * 10:31:22.400 PM CDT - Evelyn, the Covetous / Baobhan Sith, Blood Rose / Baobhan Sith, Blood Rose
 * 10:12:43.752 PM CDT - Zhalfirin Void / Zhalfirin Void (Fate) / Wandering Sea
