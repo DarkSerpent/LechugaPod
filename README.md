@@ -2,7 +2,8 @@
 
 <p align="center">
   <a href="https://github.com/DarkSerpent/LechugaPod"><img src="https://img.shields.io/badge/HOME-88E7B8?style=for-the-badge&logoColor=white" alt="Home"></a>&nbsp;&nbsp;
-  <a href="https://github.com/DarkSerpent/LechugaPod/blob/main/assets/artists.md"><img src="https://img.shields.io/badge/ARTIST_CREDITS-88E7B8?style=for-the-badge&logoColor=white" alt="Artist Credits"></a>
+  <a href="https://github.com/DarkSerpent/LechugaPod/blob/main/assets/artists.md"><img src="https://img.shields.io/badge/ARTIST_CREDITS-88E7B8?style=for-the-badge&logoColor=white" alt="Artist Credits"></a>&nbsp;&nbsp;
+  <a href="assets/patchnotes.md"><img src="https://img.shields.io/badge/PATCH_NOTES-88E7B8?style=for-the-badge&logoColor=white" alt="Patch Notes"></a>
 </p>
 
 This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the XML file from this repository and places it in your Local AppData folder. It also (should) close Cockatrice if it's running so the custom set can load. All alternate card arts are contained under the set "CLM (Certified Lechuga Moment)".
@@ -188,7 +189,7 @@ Collection currently at <img src="https://img.shields.io/badge/150-88E788?style=
 * Exotic Orchard = [The Netherworld](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Exotic%20Orchard%20(Touhou).png) (Touhou Project)
 * Xander's Lounge = [Scarlet Devil Mansion](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Xander%E2%80%99s%20Lounge%20(Touhou).png) (Touhou Project)
 * Llanowar Wastes = [The Great Youkai Forest](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Llanowar%20Wastes%20(Touhou).png) (Touhou Project)
-* Twisted Landscape = [Bamboo Forest of the Lost](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Bamboo20Forest20of20the20Lost%20(Touhou).png) (Touhou Project)
+* Twisted Landscape = [Bamboo Forest of the Lost](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Twisted%20Landscape%20(Touhou).png) (Touhou Project)
 * Mortuary Mire = [Road of Reconsideration](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Mortuary%20Mire%20(Touhou).png) (Touhou Project)
 * The Shire = [Human Village](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/The%20Shire%20(Touhou).png) (Touhou Project)
 * Fabled Passage = [Hakurei Shrine Gate](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Fabled%20Passage%20(Touhou).png) (Touhou Project)

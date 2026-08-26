@@ -745,7 +745,7 @@ Cycling {B}{R}{G} ({B}{R}{G}, Discard this card: Draw a card.)</text>
                 <type>Land</type>
                 <format-commander>legal</format-commander>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000031" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Bamboo20Forest20of20the20Lost%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000031" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Twisted%20Landscape%20(Touhou).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
