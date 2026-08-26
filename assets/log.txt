@@ -155,3 +155,4 @@ artifacts/Helm of the Host (Fate).png | 1787721537337.3665
 artifacts/Swiftfoot Boots (Fate).png | 1787721799284.3357
 cards/Okita, Blade of Mibu.png | 1787723949289.919
 cards/Hieda no Akyuu, Perfect Memory.png | 1787731357348.9788
+cards/Reines Archisorte, Princess.png | 1787732521615.0566

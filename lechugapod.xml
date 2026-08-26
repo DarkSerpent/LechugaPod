@@ -2939,6 +2939,40 @@ Whenever a creature you control attacks a player, if no other creatures are atta
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Kambal, Profiteering Mayor</name>
+            <text>Whenever one or more tokens your opponents control enter, for each of them, create a tapped token that's a copy of it. This ability triggers only once each turn.
+Whenever one or more tokens you control enter, each opponent loses 1 life and you gain 1 life.</text>
+            <prop>
+                <format-standard>legal</format-standard>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-standardbrawl>legal</format-standardbrawl>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>WB</coloridentity>
+                <cmc>3</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <manacost>1WB</manacost>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Human Advisor</type>
+                <format-future>legal</format-future>
+                <pt>2/4</pt>
+                <format-commander>legal</format-commander>
+                <colors>WB</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000158" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Reines%20Archisorte%2C%20Princess.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

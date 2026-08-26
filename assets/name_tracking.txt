@@ -155,3 +155,4 @@ Helm of the Host_0154 = Logos React Replica
 Swiftfoot Boots_0155 = Command Spell
 Jin Sakai, Ghost of Tsushima_0156 = Okita, Blade of Mibu
 Volo, Guide to Monsters_0157 = Hieda no Akyuu, Perfect Memory
+Kambal, Profiteering Mayor_0158 = Reines Archisorte, Princess
