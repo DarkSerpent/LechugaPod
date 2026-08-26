@@ -12,7 +12,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 2. Launch the `.bat` file and wait for it to tell you the custom set was updated successfully.
 3. If Cockatrice was not automatically closed, close it, then open it.
 
-Collection currently at <img src="https://img.shields.io/badge/156-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/157-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -42,7 +42,7 @@ Collection currently at <img src="https://img.shields.io/badge/156-88E788?style=
 * Gisela, Blade of Goldnight[^1] = [Shana, Flame-Haired Hunter](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Shana%2C%20Flame-Haired%20Hunter.png) (Shakugan no Shana)
 ### Shadowverse: Worlds Beyond `1`
 * Smaug the Impenetrable[^1] = [Galmieux, Ardor Manifest](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Galmieux%2C%20Ardor%20Manifest.png) (Shadowverse: Worlds Beyond)
-### Touhou Project `12`
+### Touhou Project `13`
 * Selenia, the Cursed Heart[^1] = [Seiga Kaku, the Wicked Hermit](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Seiga%20Kaku%2C%20the%20Wicked%20Hermit.png) (Touhou Project)
 * The Everforger = [Kogasa Tatara, the Forgotten Umbrella](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kogasa%20Tatara%2C%20the%20Forgotten%20Umbrella.png) (Touhou Project)
 * Avatar Roku, Firebender[^1] = [Fujiwara no Mokou, the Immortal](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujiwara%20no%20Mokou%2C%20the%20Immortal.png) (Touhou Project)
@@ -55,6 +55,7 @@ Collection currently at <img src="https://img.shields.io/badge/156-88E788?style=
 * Ty Lee, Chi Blocker[^1] = [Cirno, Fairy of the Ice](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Cirno%2C%20Fairy%20of%20the%20Ice.png) (Touhou Project)
 * Mirko Vosk, Mind Drinker[^1] = [Remilia Scarlet, Imperishable Night](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Remilia%20Scarlet%2C%20Imperishable%20Night.png) (Touhou Project)
 * Kozilek, the Great Distortion[^1] = [Yukari Yakumo, Boundary Master](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Yukari%20Yakumo%2C%20Boundary%20Master.png) (Touhou Project)
+* Volo, Guide to Monsters[^1] = [Hieda no Akyuu, Perfect Memory](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Hieda%20no%20Akyuu%2C%20Perfect%20Memory.png) (Touhou Project)
 
 <details>
   <summary><strong>▶ Click to View OCs</strong></summary>

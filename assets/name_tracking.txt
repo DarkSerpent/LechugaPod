@@ -154,3 +154,4 @@ Patchwork Banner_0153 = Master Team A
 Helm of the Host_0154 = Logos React Replica
 Swiftfoot Boots_0155 = Command Spell
 Jin Sakai, Ghost of Tsushima_0156 = Okita, Blade of Mibu
+Volo, Guide to Monsters_0157 = Hieda no Akyuu, Perfect Memory
