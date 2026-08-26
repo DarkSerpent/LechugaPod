@@ -149,3 +149,4 @@ lands/Ash Barrens (Fate).png | 1787713598236.786
 lands/Zhalfirin Void (Fate).png | 1787713963752.5552
 cards/Baobhan Sith, Blood Rose.png | 1787715082400.0176
 artifacts/Chromatic Lantern (Fate).png | 1787720021899.1663
+artifacts/Herald’s Horn (Fate).png | 1787720605441.8362

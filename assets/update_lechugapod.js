@@ -181,6 +181,19 @@ function imageUrl(folder, imageName) {
     return `https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/${folder}/${encodedName}`;
 }
 
+function findImagePath(folder, imageName) {
+    const names = new Set([
+        imageName,
+        imageName.replace(/'/g, '’'),
+        imageName.replace(/’/g, "'")
+    ]);
+    for (const name of names) {
+        const imagePath = path.join(__dirname, folder, `${name}.png`);
+        if (fs.existsSync(imagePath)) return imagePath;
+    }
+    return null;
+}
+
 function insertCard(xml, block) {
     const closingCards = xml.lastIndexOf('</cards>');
     if (closingCards === -1) throw new Error('Could not find </cards> in lechugapod.xml.');
@@ -216,10 +229,11 @@ async function main() {
         const imageInput = await ask(rl, 'What is the name of the card image? ');
         if (!imageInput) throw new Error('A card image name is required.');
         const imageName = imageInput.replace(/\.png$/i, '');
-        const imagePath = path.join(__dirname, type.folder, `${imageName}.png`);
-        if (!fs.existsSync(imagePath)) throw new Error(`Could not find ${imagePath}.`);
+        const imagePath = findImagePath(type.folder, imageName);
+        if (!imagePath) throw new Error(`Could not find ${path.join(__dirname, type.folder, `${imageName}.png`)}.`);
+        const actualImageName = path.basename(imagePath, path.extname(imagePath));
 
-        const detectedSeries = seriesFromImageName(imageName);
+        const detectedSeries = seriesFromImageName(actualImageName);
         const series = detectedSeries || await chooseByNumber(rl, 'Which flavor set is your card from? ', SERIES_NAMES);
         const existingBlock = existingMatch || findExistingCard(xml, savedName);
         const sourceBlock = existingBlock || normalizeCardIndentation(clearSetTags(savedMatch.block));
@@ -233,7 +247,7 @@ async function main() {
         const uuid = nextUuid(xml);
         const flavorAttribute = series.key ? ` flavorName="${series.key}"` : '';
         const numAttribute = num ? ` num="${encodeXml(num)}"` : '';
-        const setTag = `            <set rarity="rare" uuid="00000000-0000-0000-0000-${uuid}"${numAttribute}${flavorAttribute} picurl="${encodeXml(imageUrl(type.folder, imageName))}">CLM</set>`;
+        const setTag = `            <set rarity="rare" uuid="00000000-0000-0000-0000-${uuid}"${numAttribute}${flavorAttribute} picurl="${encodeXml(imageUrl(type.folder, actualImageName))}">CLM</set>`;
         const updatedBlock = addSetTag(sourceBlock, setTag);
         const updatedXml = existingBlock
             ? xml.replace(existingBlock, updatedBlock)

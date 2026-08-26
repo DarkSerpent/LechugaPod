@@ -2766,6 +2766,32 @@ Once each turn, you may play a card from exile with a collection counter on it i
             <tablerow>1</tablerow>
         </card>
 
+        <card>
+            <name>Herald's Horn</name>
+            <text>As this artifact enters, choose a creature type.
+Creature spells you cast of the chosen type cost {1} less to cast.
+At the beginning of your upkeep, look at the top card of your library. If it's a creature card of the chosen type, you may reveal it and put it into your hand.</text>
+            <prop>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <cmc>3</cmc>
+                <manacost>3</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Artifact</maintype>
+                <layout>normal</layout>
+                <type>Artifact</type>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000152" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Herald%E2%80%99s%20Horn%20(Fate).png">CLM</set>
+            <tablerow>1</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>
