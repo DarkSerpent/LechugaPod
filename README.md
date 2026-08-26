@@ -74,7 +74,7 @@ Collection currently at <img src="https://img.shields.io/badge/140-88E788?style=
 ### Fate Grand Order `3`
 * Sol Ring = [Holy Grail](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Fate).png) (Fate Grand Order)
 * Arcane Signet = [LAPLACE, Phenomenon Recorder](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Arcane%20Signet%20(Fate).png) (Fate Grand Order)
-* Dawnsire, Sunstar Dreadnought[^1] = [Altera, Teardrop Photon Ray](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Altera%2C%20Teardrop%20Photon%20Ray.png) (Fate Grand Order)
+* Dawnsire, Sunstar Dreadnought[^1] = [Altera, Teardrop Photon Ray](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Altera%2C%20Teardrop%20Photon%20Ray.png) (Fate Grand Order)
 ### Honkai: Star Rail `9`
 * Sol Ring = [Dimension Reduction Dice](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
 * Commander's Sphere = [A-Ruan Pouch](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Commander%E2%80%99s%20Sphere%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)

@@ -2606,7 +2606,7 @@ Sacrifice a Human: Put a +1/+1 counter on Silvar. It gains indestructible until 
                 <pt>20/20</pt>
                 <format-commander>legal</format-commander>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000140" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Altera%2C%20Teardrop%20Photon%20Ray.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000140" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Altera%2C%20Teardrop%20Photon%20Ray.png">CLM</set>
             <tablerow>1</tablerow>
         </card>
 
