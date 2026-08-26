@@ -99,6 +99,7 @@
 * lands/Plains (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * lands/Swamp (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * lands/Wastes (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
+* lands/Zhalfirin Void (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 ### Honkai Star Rail
 * lands/Bojuka Bog (Honkai Star Rail).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
 * lands/Command Beacon (Honkai Star Rail).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)

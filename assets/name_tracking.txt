@@ -146,4 +146,5 @@ Mountain_0145 = Lostbelt 4, Asha's Mountain
 Forest_0146 = Lostbelt 6, Nameless Forest
 Wastes_0147 = Bleached Earth
 Ash Barrens_0148 = SE.RA.PH, Umbral Star
+Zhalfirin Void_0149 = Wandering Sea
 
