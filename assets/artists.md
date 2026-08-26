@@ -1,5 +1,6 @@
 ## Creature Cards
 * cards/Asta, Lead Astronomer.png | [Andoff](https://www.pixiv.net/en/users/50559593)
+* cards/Baobhan Sith, Blood Rose.png | [Genyaky](https://www.pixiv.net/en/users/1867047)
 * cards/Barghest, Eater of Those She Loves.png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * cards/Barghest, Gawain the Loving.png | [Nakaga Eri](https://www.pixiv.net/users/15830750)
 * cards/Cirno, Fairy of the Ice.png | [S1zl](https://www.pixiv.net/en/users/76625350)

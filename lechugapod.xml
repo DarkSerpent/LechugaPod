@@ -2706,6 +2706,38 @@ Basic landcycling {1} ({1}, Discard this card: Search your library for a basic l
             <tablerow>0</tablerow>
         </card>
 
+        <card>
+            <name>Evelyn, the Covetous</name>
+            <text>Flash
+Whenever Evelyn or another Vampire you control enters, exile the top card of each player's library with a collection counter on it.
+Once each turn, you may play a card from exile with a collection counter on it if it was exiled by an ability you controlled, and you may spend mana as though it were mana of any color to cast it.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>UBR</coloridentity>
+                <cmc>5</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <manacost>2{U/B}B{B/R}</manacost>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Vampire Rogue</type>
+                <pt>2/5</pt>
+                <format-commander>legal</format-commander>
+                <colors>UBR</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000150" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Baobhan%20Sith%2C%20Blood%20Rose(Fate).png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
   </cards>
 
 </cockatrice_carddatabase>
