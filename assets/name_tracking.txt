@@ -137,3 +137,4 @@ Sol Ring_0136 = Holy Grail
 Arcane Signet_0137 = LAPLACE, Phenomenon Recorder
 Trynn, Champion of Freedom_0138 = Bargest, Gawain the Loving
 Silvar, Devourer of the Free_0139 = Barghest, Eater of Those She Loves
+Dawnsire, Sunstar Dreadnought_0140 = Altera, Teardrop Photon Ray

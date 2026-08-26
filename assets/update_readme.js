@@ -11,11 +11,11 @@ const TRACKING_PATH = path.join(__dirname, 'name_tracking.txt');
 const SERIES_NAMES = {
     BlueArchive: 'Blue Archive',
     Fate: 'Fate Grand Order',
-    Honkai: 'Honkai: Star Rail',
     ReZero: 'Re:Zero',
     Shakugan: 'Shakugan no Shana',
     Shadowverse: 'Shadowverse: Worlds Beyond',
-    Touhou: 'Touhou Project'
+    Touhou: 'Touhou Project',
+    Honkai: 'Honkai: Star Rail'
 };
 
 const CATEGORY_NAMES = {
@@ -99,9 +99,20 @@ function parseTrackingFile(contents) {
     return tracking;
 }
 
+function isCommander(cardXml) {
+    const type = tagContents(cardXml, 'type') || '';
+    const text = tagContents(cardXml, 'text') || '';
+    if (type.includes('Legendary Creature')) return true;
+    if (type.includes('Legendary Artifact — Spacecraft')) return true;
+    if (text.includes('can be your commander')) return true;
+    return false;
+}
+
 function parseCards(xml, tracking) {
     const cards = [];
     const cardMatches = xml.match(/<card\b[\s\S]*?<\/card>/gi) || [];
+    const newTrackingEntries = [];
+    
     for (const cardXml of cardMatches) {
         const name = tagContents(cardXml, 'name');
         const prop = tagContents(cardXml, 'prop');
@@ -110,6 +121,7 @@ function parseCards(xml, tracking) {
         const category = categoryFor(maintype);
         if (!category) continue;
         const layout = tagContents(prop, 'layout') || 'normal';
+        const isCommanderCard = isCommander(cardXml);
         const sets = cardXml.match(/<set\b[^>]*>[\s\S]*?<\/set>/gi) || [];
         for (const setXml of sets) {
             const flavorName = attribute(setXml, 'flavorName');
@@ -123,10 +135,12 @@ function parseCards(xml, tracking) {
                 continue;
             }
             const trackingKey = `${name}_${suffix}`;
-            const trackedName = tracking.get(trackingKey);
+            let trackedName = tracking.get(trackingKey);
             if (!trackedName) {
-                console.warn(`Skipping "${name}" UUID ${suffix}: no entry in name_tracking.txt.`);
-                continue;
+                trackedName = proxyName(picurl);
+                tracking.set(trackingKey, trackedName);
+                newTrackingEntries.push({ key: trackingKey, value: trackedName });
+                console.log(`Added missing tracking entry: ${trackingKey} = ${trackedName}`);
             }
             let seriesName = null;
             let isOC = false;
@@ -154,10 +168,22 @@ function parseCards(xml, tracking) {
                 trackedName,
                 layout,
                 num: num || null,
-                isOC
+                isOC,
+                isCommander: isCommanderCard,
+                cardXml
             });
         }
     }
+    
+    if (newTrackingEntries.length > 0) {
+        const lines = [];
+        for (const [key, value] of tracking) {
+            lines.push(`${key} = ${value}`);
+        }
+        fs.writeFileSync(TRACKING_PATH, lines.join('\n') + '\n', 'utf8');
+        console.log(`Added ${newTrackingEntries.length} new entries to name_tracking.txt`);
+    }
+    
     return cards;
 }
 
@@ -179,10 +205,12 @@ function groupDfcCards(cards) {
         const combinedCard = {
             isDfc: true,
             isOC: front.isOC,
+            isCommander: group.some(c => c.isCommander),
             parts: group.map(c => ({
                 name: c.name,
                 trackedName: c.trackedName,
-                picurl: c.picurl
+                picurl: c.picurl,
+                isCommander: c.isCommander
             })),
             name: group.map(c => c.name).join(' // '),
             trackedName: group.map(c => c.trackedName).join(' // '),
@@ -193,6 +221,7 @@ function groupDfcCards(cards) {
             release: Math.min(...group.map(c => c.release)),
             uuid: front.uuid,
             uuidSuffix: front.uuidSuffix,
+            cardXml: front.cardXml
         };
         combined.push(combinedCard);
     }
@@ -203,13 +232,18 @@ function groupDfcCards(cards) {
 }
 
 function makeBullet(card) {
+    let bullet;
     if (card.isDfc) {
         const names = card.parts.map(p => p.name).join(' // ');
         const links = card.parts.map(p => `[${p.trackedName}](${p.picurl})`).join(' // ');
-        return `* ${names} = ${links} (${card.seriesName})`;
+        bullet = `* ${names} = ${links} (${card.seriesName})`;
     } else {
-        return `* ${card.name} = [${card.trackedName}](${card.picurl}) (${card.seriesName})`;
+        bullet = `* ${card.name} = [${card.trackedName}](${card.picurl}) (${card.seriesName})`;
     }
+    if (card.isCommander) {
+        bullet = bullet.replace(')', ')[^1]');
+    }
+    return bullet;
 }
 
 function findSeriesHeading(lines, category, series) {
@@ -254,6 +288,19 @@ function buildBulletReleaseMap(cards) {
     return map;
 }
 
+function cardExistsInReadme(lines, card) {
+    const bullet = makeBullet(card);
+    const bulletWithoutFootnote = bullet.replace('[^1]', '');
+    for (const line of lines) {
+        if (line === bullet || line === bulletWithoutFootnote) return true;
+        if (line.startsWith('* ') && line.includes(card.name) && line.includes(card.seriesName)) {
+            const lineClean = line.replace('[^1]', '');
+            if (lineClean === bulletWithoutFootnote) return true;
+        }
+    }
+    return false;
+}
+
 function insertNewSeries(lines, category, series, bullet) {
     let categoryIndex = -1;
     for (let i = 0; i < lines.length; i++) {
@@ -278,16 +325,17 @@ function insertNewSeries(lines, category, series, bullet) {
 function insertIntoSeries(lines, headingIndex, card, bulletReleaseMap) {
     const end = findSeriesEnd(lines, headingIndex);
     let lastBulletIndex = headingIndex;
+    const bullet = makeBullet(card);
     for (let i = headingIndex + 1; i < end; i++) {
         if (!lines[i].startsWith('* ')) continue;
         const existingRelease = bulletReleaseMap.get(lines[i]);
         if (existingRelease !== undefined && existingRelease > card.release) {
-            lines.splice(i, 0, makeBullet(card));
+            lines.splice(i, 0, bullet);
             return;
         }
         lastBulletIndex = i;
     }
-    lines.splice(lastBulletIndex + 1, 0, makeBullet(card));
+    lines.splice(lastBulletIndex + 1, 0, bullet);
 }
 
 function getCurrentTotal(lines) {
@@ -357,6 +405,30 @@ function updateSeriesCounts(lines, expectedCounts) {
     return changes;
 }
 
+function fixFootnotes(lines, cards) {
+    const changes = [];
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
+        if (!line.startsWith('* ')) continue;
+        for (const card of cards) {
+            const expectedBullet = makeBullet(card);
+            const expectedWithoutFootnote = expectedBullet.replace('[^1]', '');
+            const lineWithoutFootnote = line.replace('[^1]', '');
+            if (lineWithoutFootnote === expectedWithoutFootnote) {
+                if (card.isCommander && !line.includes('[^1]')) {
+                    lines[i] = expectedBullet;
+                    changes.push({ card: card.name, action: 'added footnote' });
+                } else if (!card.isCommander && line.includes('[^1]')) {
+                    lines[i] = expectedBullet;
+                    changes.push({ card: card.name, action: 'removed footnote' });
+                }
+                break;
+            }
+        }
+    }
+    return changes;
+}
+
 function main() {
     console.log('====================================');
     console.log(' LechugaPod README Updater');
@@ -383,20 +455,18 @@ function main() {
 
     const added = [];
     for (const card of groupedRegular) {
-        const bullet = makeBullet(card);
-        if (lines.includes(bullet)) continue;
+        if (cardExistsInReadme(lines, card)) continue;
         const headingIndex = findSeriesHeading(lines, card.category, card.seriesName);
         if (headingIndex === -1) {
-            insertNewSeries(lines, card.category, card.seriesName, bullet);
+            insertNewSeries(lines, card.category, card.seriesName, makeBullet(card));
         } else {
             insertIntoSeries(lines, headingIndex, card, bulletReleaseMap);
         }
         added.push(card);
-        bulletReleaseMap.set(bullet, card.release);
+        bulletReleaseMap.set(makeBullet(card), card.release);
     }
 
     if (added.length > 0) {
-        fs.writeFileSync(README_PATH, lines.join('\n'), 'utf8');
         console.log(`Added ${added.length} new entr${added.length === 1 ? 'y' : 'ies'}:`);
         for (const card of added) {
             if (card.isDfc) {
@@ -412,6 +482,15 @@ function main() {
         console.log('No new series cards found.');
     }
 
+    const footnoteChanges = fixFootnotes(lines, groupedRegular);
+    if (footnoteChanges.length > 0) {
+        console.log('Footnote corrections:');
+        for (const ch of footnoteChanges) {
+            console.log(`  ${ch.card}: ${ch.action}`);
+        }
+        console.log('');
+    }
+
     const oldTotal = getCurrentTotal(lines) || 0;
     const expectedCounts = computeExpectedCounts(rawCards);
     const seriesChanges = updateSeriesCounts(lines, expectedCounts);
@@ -422,7 +501,7 @@ function main() {
         updateTotalCount(lines, totalCards);
     }
 
-    if (seriesChanges.length > 0 || totalChanged || added.length > 0) {
+    if (seriesChanges.length > 0 || totalChanged || added.length > 0 || footnoteChanges.length > 0) {
         fs.writeFileSync(README_PATH, lines.join('\n'), 'utf8');
         if (seriesChanges.length > 0) {
             console.log('Series counts updated:');
@@ -435,7 +514,7 @@ function main() {
         }
         console.log('README.md updated with corrections.');
     } else {
-        console.log('No count corrections needed.');
+        console.log('No corrections needed.');
     }
 
     console.log('Done.');

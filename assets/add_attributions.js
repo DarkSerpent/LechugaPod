@@ -33,6 +33,7 @@ const CANVAS_W = 2010;
 const CANVAS_H = 2814;
 
 const recentArtists = [];
+const seriesCache = new Map();
 
 const pendingTemps = new Set();
 
@@ -417,197 +418,88 @@ function saveArtistsLog(map) {
         }
       }
     } else {
-      const groups =
-        new Map();
+      const variantGroups = new Map();
+      const unsortedEntries = [];
 
-      const unsorted = [];
-
-      for (
-        const e of entries
-      ) {
-        const base =
-          path.basename(
-            e.file,
-            '.png'
-          );
-
-        const m =
-          base.match(
-            /^(.*) \(([^)]+)\)$/
-          );
+      for (const e of entries) {
+        const base = path.basename(e.file, '.png');
+        const m = base.match(/^(.*) \(([^)]+)\)$/);
 
         if (m) {
-          const variant =
-            m[2].trim();
-
-          if (
-            !groups.has(
-              variant
-            )
-          ) {
-            groups.set(
-              variant,
-              []
-            );
+          const variant = m[2].trim();
+          if (!variantGroups.has(variant)) {
+            variantGroups.set(variant, []);
           }
-
-          groups
-            .get(variant)
-            .push(e);
+          variantGroups.get(variant).push(e);
         } else {
-          unsorted.push(e);
+          unsortedEntries.push(e);
         }
       }
 
-      const variantKeys =
-        Array.from(
-          groups.keys()
-        ).sort((a, b) =>
-          a.localeCompare(
-            b,
-            undefined,
-            {
-              sensitivity: 'base'
-            }
-          )
-        );
-
-      for (
-        const vk of variantKeys
-      ) {
-        out.push(
-          `### ${vk}`
-        );
-
-        const arr =
-          groups
-            .get(vk)
-            .sort((a, b) =>
-              a.file.localeCompare(
-                b.file,
-                undefined,
-                {
-                  sensitivity: 'base'
-                }
-              )
-            );
-
-        for (
-          const e of arr
-        ) {
-          let artistObj =
-            map.get(e.rel) ||
-            (
-              typeof e.artist === 'string'
-                ? {
-                    name: e.artist,
-                    url: null
-                  }
-                : (
-                    e.artist || {
-                      name: '',
-                      url: null
-                    }
-                  )
-            );
-
-          if (
-            artistObj &&
-            artistObj.name
-          ) {
-            artistObj.name =
-              String(
-                artistObj.name
-              )
-                .replace(
-                  /\[\^1\]\s*$/,
-                  ''
-                )
-                .trim();
-          }
-
-          if (
-            artistObj &&
-            isHttpUrl(
-              artistObj.url
-            )
-          ) {
-            out.push(
-              `* ${e.rel} | [${artistObj.name}](${artistObj.url})`
-            );
-          } else {
-            out.push(
-              `* ${e.rel} | ${artistObj.name}[^1]`
-            );
-          }
-        }
+      const allGroups = new Map();
+      
+      for (const [variant, entries] of variantGroups) {
+        allGroups.set(variant, entries);
       }
-
-      if (
-        unsorted.length
-      ) {
-        out.push(
-          '### Unsorted'
+      
+      for (const e of unsortedEntries) {
+        const artistObj = map.get(e.rel) || 
+          (typeof e.artist === 'string'
+            ? { name: e.artist, url: null, series: null }
+            : (e.artist || { name: '', url: null, series: null }));
+        
+        const series = artistObj.series || null;
+        
+        let groupKey = series;
+        if (series !== null) {
+          if (allGroups.has(series)) {
+            groupKey = series;
+          } else {
+            groupKey = series;
+          }
+        } else {
+          groupKey = 'Unsorted';
+        }
+        
+        if (!allGroups.has(groupKey)) {
+          allGroups.set(groupKey, []);
+        }
+        allGroups.get(groupKey).push(e);
+      }
+      
+      const groupKeys = Array.from(allGroups.keys()).sort((a, b) => {
+        if (a === 'Unsorted') return 1;
+        if (b === 'Unsorted') return -1;
+        return a.localeCompare(b, undefined, { sensitivity: 'base' });
+      });
+      
+      for (const groupKey of groupKeys) {
+        if (groupKey === 'Unsorted') {
+          out.push('### Unsorted');
+        } else {
+          out.push(`### ${groupKey}`);
+        }
+        
+        const arr = allGroups.get(groupKey).sort((a, b) =>
+          a.file.localeCompare(b.file, undefined, { sensitivity: 'base' })
         );
+        
+        for (const e of arr) {
+          let artistObj = map.get(e.rel) ||
+            (typeof e.artist === 'string'
+              ? { name: e.artist, url: null }
+              : (e.artist || { name: '', url: null }));
 
-        unsorted.sort(
-          (a, b) =>
-            a.file.localeCompare(
-              b.file,
-              undefined,
-              {
-                sensitivity: 'base'
-              }
-            )
-        );
-
-        for (
-          const e of unsorted
-        ) {
-          let artistObj =
-            map.get(e.rel) ||
-            (
-              typeof e.artist === 'string'
-                ? {
-                    name: e.artist,
-                    url: null
-                  }
-                : (
-                    e.artist || {
-                      name: '',
-                      url: null
-                    }
-                  )
-            );
-
-          if (
-            artistObj &&
-            artistObj.name
-          ) {
-            artistObj.name =
-              String(
-                artistObj.name
-              )
-                .replace(
-                  /\[\^1\]\s*$/,
-                  ''
-                )
-                .trim();
+          if (artistObj && artistObj.name) {
+            artistObj.name = String(artistObj.name)
+              .replace(/\[\^1\]\s*$/, '')
+              .trim();
           }
 
-          if (
-            artistObj &&
-            isHttpUrl(
-              artistObj.url
-            )
-          ) {
-            out.push(
-              `* ${e.rel} | [${artistObj.name}](${artistObj.url})`
-            );
+          if (artistObj && isHttpUrl(artistObj.url)) {
+            out.push(`* ${e.rel} | [${artistObj.name}](${artistObj.url})`);
           } else {
-            out.push(
-              `* ${e.rel} | ${artistObj.name}[^1]`
-            );
+            out.push(`* ${e.rel} | ${artistObj.name}[^1]`);
           }
         }
       }
@@ -759,6 +651,54 @@ function normalizeForMatch(s) {
     )
     .trim()
     .toLowerCase();
+}
+
+async function promptForSeries(baseName, folderName) {
+  const cacheKey = `${folderName}/${baseName}`;
+  
+  if (seriesCache.has(cacheKey)) {
+    return seriesCache.get(cacheKey);
+  }
+  
+  const artistsMap = readArtistsLog();
+  const prefix = folderName + '/';
+  
+  for (const [relPath] of artistsMap) {
+    if (relPath.startsWith(prefix)) {
+      const filePart = relPath.slice(prefix.length);
+      const base = path.basename(filePart, '.png');
+      const m = base.match(/^(.*) \(([^)]+)\)$/);
+      if (!m && base === baseName) {
+        break;
+      }
+    }
+  }
+  
+  const instrColor = '\x1b[38;2;136;231;184m';
+  const reset = '\x1b[0m';
+  
+  console.log(
+    `\n${instrColor}No series category was found for "${baseName}". Enter the series name or press ENTER to skip.${reset}`
+  );
+  
+  const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+  });
+  
+  const answer = await new Promise((resolve) => {
+    rl.question('Series name: ', resolve);
+  });
+  
+  rl.close();
+  
+  const series = answer.trim();
+  if (series) {
+    seriesCache.set(cacheKey, series);
+    console.log(`\n${instrColor}File will be placed in "### ${series}" section.${reset}\n`);
+  }
+  
+  return series || null;
 }
 
 async function processCard(
@@ -1032,6 +972,14 @@ async function processCard(
     }
   }
 
+  const isNonCard = folderName !== 'cards';
+  const hasVariant = baseName.match(/^(.*) \(([^)]+)\)$/);
+  
+  let seriesName = null;
+  if (isNonCard && !hasVariant) {
+    seriesName = await promptForSeries(baseName, folderName);
+  }
+
   artistsMap.set(
     relPath,
     {
@@ -1039,7 +987,8 @@ async function processCard(
         displayName ||
         artist,
       url:
-        resolvedUrl
+        resolvedUrl,
+      series: seriesName
     }
   );
 

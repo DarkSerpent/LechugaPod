@@ -137,3 +137,4 @@ lands/Xander’s Lounge (Touhou).png | 1787650355331.069
 planeswalkers/Black Swan, Memetic Entity.png | 1787650355696.145
 planeswalkers/Halibel, the Admirer.png | 1787650356019.732
 cards/Barghest, Eater of Those She Loves.png | 1787650843535.8882
+artifacts/Altera, Teardrop Photon Ray.png | 1787706638499.204

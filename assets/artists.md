@@ -31,14 +31,16 @@
 * cards/Yukari Yakumo, Boundary Master.png | [Kyusoukyu](https://www.pixiv.net/en/users/66038798)
 
 ## Planeswalkers
-### Unsorted
+### Honkai
 * planeswalkers/Black Swan, Memetic Entity.png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
+### ReZero
 * planeswalkers/Halibel, the Admirer.png | [Shinichirou Otsuka](https://twitter.com/otsuka_shin)
 
 ## Artifacts
 ### Blue Archive
 * artifacts/Sol Ring (Blue Archive).png | [Nexon Games](https://en.wikipedia.org/wiki/Nexon)
 ### Fate
+* artifacts/Altera, Teardrop Photon Ray.png | [Yonemuro](https://www.pixiv.net/en/users/10199606)
 * artifacts/Arcane Signet (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * artifacts/Sol Ring (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 ### Honkai Star Rail
