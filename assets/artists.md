@@ -43,6 +43,7 @@
 ### Fate
 * artifacts/Arcane Signet (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * artifacts/Chromatic Lantern (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
+* artifacts/Helm of the Host (Fate).png | [Teruru](https://www.pixiv.net/en/users/40632349)
 * artifacts/Herald’s Horn (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * artifacts/Patchwork Banner (Fate).png | [arrow](https://www.pixiv.net/en/users/23682897)
 * artifacts/Sol Ring (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)

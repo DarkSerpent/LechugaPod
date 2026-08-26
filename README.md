@@ -12,7 +12,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 2. Launch the `.bat` file and wait for it to tell you the custom set was updated successfully.
 3. If Cockatrice was not automatically closed, close it, then open it.
 
-Collection currently at <img src="https://img.shields.io/badge/153-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/154-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -74,13 +74,14 @@ Collection currently at <img src="https://img.shields.io/badge/153-88E788?style=
 ## Artifact Cards
 ### Blue Archive `1`
 * Sol Ring = [Shittim Chest](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Blue%20Archive).png) (Blue Archive)
-### Fate Grand Order `6`
+### Fate Grand Order `7`
 * Sol Ring = [Holy Grail](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Fate).png) (Fate Grand Order)
 * Arcane Signet = [LAPLACE, Phenomenon Recorder](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Arcane%20Signet%20(Fate).png) (Fate Grand Order)
 * Dawnsire, Sunstar Dreadnought[^1] = [Altera, Teardrop Photon Ray](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Altera%2C%20Teardrop%20Photon%20Ray.png) (Fate Grand Order)
 * Chromatic Lantern = [Greater Holy Grail](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Chromatic%20Lantern%20(Fate).png) (Fate Grand Order)
 * Herald's Horn = [FATE, Heroic Spirit Summoning System](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Herald%E2%80%99s%20Horn%20(Fate).png) (Fate Grand Order)
 * Patchwork Banner = [Master Team A](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Patchwork%20Banner%20(Fate).png) (Fate Grand Order)
+* Helm of the Host = [Logos React Replica](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Helm%20of%20the%20Host%20(Fate).png) (Fate Grand Order)
 ### Honkai: Star Rail `9`
 * Sol Ring = [Dimension Reduction Dice](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
 * Commander's Sphere = [A-Ruan Pouch](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Commander%E2%80%99s%20Sphere%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)

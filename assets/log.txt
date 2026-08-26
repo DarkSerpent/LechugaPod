@@ -151,3 +151,4 @@ cards/Baobhan Sith, Blood Rose.png | 1787715082400.0176
 artifacts/Chromatic Lantern (Fate).png | 1787720880936.165
 artifacts/Herald’s Horn (Fate).png | 1787720921630.5469
 artifacts/Patchwork Banner (Fate).png | 1787721154429.4294
+artifacts/Helm of the Host (Fate).png | 1787721537337.3665
