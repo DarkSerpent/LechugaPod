@@ -144,4 +144,5 @@ lands/Island (Fate).png | 1787712426998.0034
 lands/Mountain (Fate).png | 1787712427359.0022
 lands/Plains (Fate).png | 1787712427708.1255
 lands/Swamp (Fate).png | 1787712428085.8313
-lands/Wastes (Fate).png | 1787712428503.3486
+lands/Wastes (Fate).png | 1787713598563.8286
+lands/Ash Barrens (Fate).png | 1787713598236.786
