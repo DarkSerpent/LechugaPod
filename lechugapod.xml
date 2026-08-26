@@ -2883,6 +2883,32 @@ Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
             <tablerow>1</tablerow>
         </card>
 
+        <card>
+            <name>Jin Sakai, Ghost of Tsushima</name>
+            <text>Whenever Jin Sakai deals combat damage to a player, draw a card.
+Whenever a creature you control attacks a player, if no other creatures are attacking that player, choose one —
+• Standoff — It gains double strike until end of turn.
+• Ghost — It can't be blocked this turn.</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>WUB</coloridentity>
+                <cmc>4</cmc>
+                <manacost>1WUB</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Human Samurai</type>
+                <pt>2/4</pt>
+                <format-commander>legal</format-commander>
+                <colors>WUB</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000156" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Okita%2C%20Blade%20of%20Mibu.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

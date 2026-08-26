@@ -17,6 +17,7 @@
 * cards/Marisa Kirisame, Western Magician.png | [JILL](https://www.pixiv.net/en/users/54259522)
 * cards/Natsuki Subaru, Accreting Life.png | [iwa_to_mushi](https://www.pixiv.net/en/users/15144367)
 * cards/Natsuki Subaru, Starting From Zero.png | [naru](https://www.pixiv.net/en/users/21015081)
+* cards/Okita, Blade of Mibu.png | [nokcy](http://pixiv.net/en/users/2716677)
 * cards/Remilia Scarlet, Imperishable Night.png | [okitakung](https://www.pixiv.net/en/users/1267809)
 * cards/Rin Kaenbyou, Shopping District.png | [Topia](https://www.pixiv.net/en/users/2827964)
 * cards/Rumia, Youkai of the Dusk.png | [Spark621](https://www.pixiv.net/en/users/2488754/illustrations)
