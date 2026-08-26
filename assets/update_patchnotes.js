@@ -225,12 +225,12 @@ function updatePatchnotes() {
     }
 
     for (const lines of patchnotes.sections.values()) {
-        lines.sort((a, b) => timestampFromBullet(a) - timestampFromBullet(b));
+        lines.sort((a, b) => timestampFromBullet(b) - timestampFromBullet(a));
     }
 
     const output = [];
     if (patchnotes.preamble.length > 0) output.push(...patchnotes.preamble, '');
-    const dates = [...patchnotes.sections.keys()].sort((a, b) => dateSortValue(a) - dateSortValue(b));
+    const dates = [...patchnotes.sections.keys()].sort((a, b) => dateSortValue(b) - dateSortValue(a));
     for (const date of dates) {
         output.push(`## ${date}`, ...patchnotes.sections.get(date), '');
     }
