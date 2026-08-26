@@ -370,6 +370,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000064" flavorName="Shadowverse" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(Shadowverse).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000082" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(ReZero).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000121" flavorName="BlueArchive" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(Blue%20Archive).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000142" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(Fate).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -409,6 +410,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000065" flavorName="Shadowverse" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(Shadowverse).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000084" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(ReZero).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000122" flavorName="BlueArchive" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(Blue%20Archive).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000143" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(Fate).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -448,6 +450,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000066" flavorName="Shadowverse" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(Shadowverse).png">CLM</set>       
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000085" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(ReZero).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000123" flavorName="BlueArchive" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(Blue%20Archive).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000144" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(Fate).png">CLM</set>
      <tablerow>0</tablerow>
         </card>
 
@@ -487,6 +490,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000067" flavorName="Shadowverse" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Mountain%20(Shadowverse).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000086" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Mountain%20(ReZero).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000124" flavorName="BlueArchive" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Mountain%20(Blue%20Archive).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000145" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Mountain%20(Fate).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -526,6 +530,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000068" flavorName="Shadowverse" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Forest%20(Shadowverse).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000087" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Forest%20(ReZero).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000125" flavorName="BlueArchive" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Forest%20(Blue%20Archive).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000146" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Forest%20(Fate).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -561,6 +566,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000069" flavorName="Shadowverse" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Wastes%20(Shadowverse).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000088" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Wastes%20(ReZero).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000126" flavorName="BlueArchive" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Wastes%20(Blue%20Archive).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000147" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Wastes%20(Fate).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -2608,6 +2614,44 @@ Sacrifice a Human: Put a +1/+1 counter on Silvar. It gains indestructible until 
             </prop>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000140" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Altera%2C%20Teardrop%20Photon%20Ray.png">CLM</set>
             <tablerow>1</tablerow>
+        </card>
+
+        <card>
+            <name>Kellan, the Fae-Blooded // Birthright Boon</name>
+            <text>Double strike
+Other creatures you control get +1/+0 for each Aura and Equipment attached to Kellan.
+
+---
+
+Search your library for an Aura or Equipment card, reveal it, put it into your hand, then shuffle.</text>
+            <prop>
+                <format-standard>legal</format-standard>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-standardbrawl>legal</format-standardbrawl>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>WR</coloridentity>
+                <cmc>3</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <manacost>2R // 1W</manacost>
+                <side>front</side>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <maintype>Creature</maintype>
+                <layout>adventure</layout>
+                <type>Legendary Creature — Human Faerie // Sorcery — Adventure</type>
+                <format-future>legal</format-future>
+                <pt>2/2</pt>
+                <format-commander>legal</format-commander>
+                <colors>WR</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000141" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Gilgamesh%2C%20King%20of%20Heroes.png">CLM</set>
+            <tablerow>2</tablerow>
         </card>
 
   </cards>

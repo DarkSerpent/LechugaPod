@@ -138,3 +138,11 @@ Arcane Signet_0137 = LAPLACE, Phenomenon Recorder
 Trynn, Champion of Freedom_0138 = Bargest, Gawain the Loving
 Silvar, Devourer of the Free_0139 = Barghest, Eater of Those She Loves
 Dawnsire, Sunstar Dreadnought_0140 = Altera, Teardrop Photon Ray
+Kellan, the Fae-Blooded // Birthright Boon_0141 = Gilgamesh, King of Heroes
+Plains_0142 = Lostbelt 3, Village Fields
+Island_0143 = Lostbelt 5, Atlantis Beach
+Swamp_0144 = Lostbelt 7, Quasar Remains
+Mountain_0145 = Lostbelt 4, Asha's Mountain
+Forest_0146 = Lostbelt 6, Nameless Forest
+Wastes_0147 = Wandering Sea
+

@@ -10,6 +10,7 @@
 * cards/Fujiwara no Mokou, the Immortal.png | [mutugi](https://www.pixiv.net/en/users/3839458)
 * cards/Fujiwara no Mokou, the Undying.png | [ichiTATa](https://www.pixiv.net/en/users/7497648)
 * cards/Galmieux, Ardor Manifest.png | [ell](https://www.pixiv.net/en/users/16408605)
+* cards/Gilgamesh, King of Heroes.png | [Pixiv 227478](https://www.pixiv.net/en/users/227478/artworks)
 * cards/Kashin Koji, Fuuma Sorcerer.png | [Yoneyama Mai](https://www.pixiv.net/en/users/1554775)
 * cards/Kogasa Tatara, the Forgotten Umbrella.png | [Elina Noodles](https://www.pixiv.net/en/users/82051602)
 * cards/Marisa Kirisame, Western Magician.png | [JILL](https://www.pixiv.net/en/users/54259522)
@@ -31,16 +32,14 @@
 * cards/Yukari Yakumo, Boundary Master.png | [Kyusoukyu](https://www.pixiv.net/en/users/66038798)
 
 ## Planeswalkers
-### Honkai
+### Unsorted
 * planeswalkers/Black Swan, Memetic Entity.png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
-### ReZero
 * planeswalkers/Halibel, the Admirer.png | [Shinichirou Otsuka](https://twitter.com/otsuka_shin)
 
 ## Artifacts
 ### Blue Archive
 * artifacts/Sol Ring (Blue Archive).png | [Nexon Games](https://en.wikipedia.org/wiki/Nexon)
 ### Fate
-* artifacts/Altera, Teardrop Photon Ray.png | [Yonemuro](https://www.pixiv.net/en/users/10199606)
 * artifacts/Arcane Signet (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * artifacts/Sol Ring (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 ### Honkai Star Rail
@@ -74,6 +73,8 @@
 * artifacts/Skullclamp (Touhou).png | [Team Shanghai Alice](https://www.zerochan.net/Team+Shanghai+Alice)
 * artifacts/Sol Ring (Touhou).png | [Sakai Yoshikuni](https://www.pixiv.net/users/533800)
 * artifacts/The One Ring (Touhou).png | [Team Shanghai Alice](https://www.zerochan.net/Team+Shanghai+Alice)
+### Unsorted
+* artifacts/Altera, Teardrop Photon Ray.png | [Yonemuro](https://www.pixiv.net/en/users/10199606)
 
 ## Lands
 ### Blue Archive
@@ -91,6 +92,12 @@
 * lands/Command Beacon (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * lands/Command Tower (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * lands/Exotic Orchard (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
+* lands/Forest (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
+* lands/Island (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
+* lands/Mountain (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
+* lands/Plains (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
+* lands/Swamp (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
+* lands/Wastes (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 ### Honkai Star Rail
 * lands/Bojuka Bog (Honkai Star Rail).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
 * lands/Command Beacon (Honkai Star Rail).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
