@@ -152,3 +152,4 @@ Chromatic Lantern_0151 = Greater Holy Grail
 Herald's Horn_0152 = FATE, Heroic Spirit Summoning System
 Patchwork Banner_0153 = Master Team A
 Helm of the Host_0154 = Logos React Replica
+Swiftfoot Boots_0155 = Command Spell
