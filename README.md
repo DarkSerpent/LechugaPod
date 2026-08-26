@@ -28,7 +28,7 @@ Collection currently at <img src="https://img.shields.io/badge/150-88E788?style=
 * Trynn, Champion of Freedom[^1] = [Bargest, Gawain the Loving](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Barghest%2C%20Gawain%20the%20Loving.png) (Fate Grand Order)
 * Silvar, Devourer of the Free[^1] = [Barghest, Eater of Those She Loves](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Barghest%2C%20Eater%20of%20Those%20She%20Loves.png) (Fate Grand Order)
 * Kellan, the Fae-Blooded // Birthright Boon[^1] = [Gilgamesh, King of Heroes](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Gilgamesh%2C%20King%20of%20Heroes.png) (Fate Grand Order)
-* Evelyn, the Covetous[^1] = [Baobhan Sith, Blood Rose](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Baobhan%20Sith%2C%20Blood%20Rose(Fate).png) (Fate Grand Order)
+* Evelyn, the Covetous[^1] = [Baobhan Sith, Blood Rose](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Baobhan%20Sith%2C%20Blood%20Rose.png) (Fate Grand Order)
 ### Honkai: Star Rail `2`
 * Aminatou, Veil Piercer[^1] = [The Herta, Peerless Gem](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/The%20Herta%2C%20Peerless%20Gem.png) (Honkai: Star Rail)
 * Fire Lord Azula[^1] = [Asta, Lead Astronomer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Asta%2C%20Lead%20Astronomer.png) (Honkai: Star Rail)

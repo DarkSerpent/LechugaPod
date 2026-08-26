@@ -2734,7 +2734,7 @@ Once each turn, you may play a card from exile with a collection counter on it i
                 <format-commander>legal</format-commander>
                 <colors>UBR</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000150" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Baobhan%20Sith%2C%20Blood%20Rose(Fate).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000150" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Baobhan%20Sith%2C%20Blood%20Rose.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
