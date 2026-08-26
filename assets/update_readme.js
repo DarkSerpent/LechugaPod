@@ -236,12 +236,17 @@ function makeBullet(card) {
     if (card.isDfc) {
         const names = card.parts.map(p => p.name).join(' // ');
         const links = card.parts.map(p => `[${p.trackedName}](${p.picurl})`).join(' // ');
-        bullet = `* ${names} = ${links} (${card.seriesName})`;
+        if (card.isCommander) {
+            bullet = `* ${names}[^1] = ${links} (${card.seriesName})`;
+        } else {
+            bullet = `* ${names} = ${links} (${card.seriesName})`;
+        }
     } else {
-        bullet = `* ${card.name} = [${card.trackedName}](${card.picurl}) (${card.seriesName})`;
-    }
-    if (card.isCommander) {
-        bullet = bullet.replace(')', ')[^1]');
+        if (card.isCommander) {
+            bullet = `* ${card.name}[^1] = [${card.trackedName}](${card.picurl}) (${card.seriesName})`;
+        } else {
+            bullet = `* ${card.name} = [${card.trackedName}](${card.picurl}) (${card.seriesName})`;
+        }
     }
     return bullet;
 }

@@ -18,39 +18,39 @@ Collection currently at <img src="https://img.shields.io/badge/140-88E788?style=
 
 ## Creature Cards
 ### Blue Archive `4`
-* Laughing Jasper Flint = [Satsuki, Intelligence Director](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Satsuki%2C%20Intelligence%20Director.png)[^1] (Blue Archive)
-* King T'Challa // Black Panther, Hope Enduring = [Toki, Regular Maid](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Toki%2C%20Regular%20Maid.png)[^1] // [Toki, Abi-Eshuh Mode](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Toki%2C%20Abi%2DEshuh%20Mode.png) (Blue Archive)
-* Ms. Bumbleflower = [Shun, Gentle Instructor](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Shun%2C%20Gentle%20Instructor.png)[^1] (Blue Archive)
+* Laughing Jasper Flint[^1] = [Satsuki, Intelligence Director](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Satsuki%2C%20Intelligence%20Director.png) (Blue Archive)
+* King T'Challa // Black Panther, Hope Enduring[^1] = [Toki, Regular Maid](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Toki%2C%20Regular%20Maid.png) // [Toki, Abi-Eshuh Mode](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Toki%2C%20Abi%2DEshuh%20Mode.png) (Blue Archive)
+* Ms. Bumbleflower[^1] = [Shun, Gentle Instructor](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Shun%2C%20Gentle%20Instructor.png) (Blue Archive)
 ### Fate Grand Order `5`
 * Kilo, Apogee Mind = [Kashin Koji, Fuuma Sorcerer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kashin%20Koji%2C%20Fuuma%20Sorcerer.png) (Fate Grand Order)
-* Krark, the Thumbless = [Fujimaru Ritsuka, Stargazer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujimaru%20Ritsuka%2C%20Stargazer.png)[^1] (Fate Grand Order)
-* Kydele, Chosen of Kruphix = [Fujimaru Ritsuka, Humanity's Last](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujimaru%20Ritsuka%2C%20Humanity%E2%80%99s%20Last.png)[^1] (Fate Grand Order)
-* Trynn, Champion of Freedom = [Bargest, Gawain the Loving](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Barghest%2C%20Gawain%20the%20Loving.png)[^1] (Fate Grand Order)
-* Silvar, Devourer of the Free = [Barghest, Eater of Those She Loves](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Barghest%2C%20Eater%20of%20Those%20She%20Loves.png)[^1] (Fate Grand Order)
+* Krark, the Thumbless[^1] = [Fujimaru Ritsuka, Stargazer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujimaru%20Ritsuka%2C%20Stargazer.png) (Fate Grand Order)
+* Kydele, Chosen of Kruphix[^1] = [Fujimaru Ritsuka, Humanity's Last](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujimaru%20Ritsuka%2C%20Humanity%E2%80%99s%20Last.png) (Fate Grand Order)
+* Trynn, Champion of Freedom[^1] = [Bargest, Gawain the Loving](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Barghest%2C%20Gawain%20the%20Loving.png) (Fate Grand Order)
+* Silvar, Devourer of the Free[^1] = [Barghest, Eater of Those She Loves](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Barghest%2C%20Eater%20of%20Those%20She%20Loves.png) (Fate Grand Order)
 ### Honkai: Star Rail `2`
-* Aminatou, Veil Piercer = [The Herta, Peerless Gem](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/The%20Herta%2C%20Peerless%20Gem.png)[^1] (Honkai: Star Rail)
-* Fire Lord Azula = [Asta, Lead Astronomer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Asta%2C%20Lead%20Astronomer.png)[^1] (Honkai: Star Rail)
+* Aminatou, Veil Piercer[^1] = [The Herta, Peerless Gem](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/The%20Herta%2C%20Peerless%20Gem.png) (Honkai: Star Rail)
+* Fire Lord Azula[^1] = [Asta, Lead Astronomer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Asta%2C%20Lead%20Astronomer.png) (Honkai: Star Rail)
 ### Re:Zero `3`
-* The Sixth Doctor = [Echidna, the Witch of Greed](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Echidna%2C%20the%20Witch%20of%20Greed.png)[^1] (Re:Zero)
-* Romana II = [Natsuki Subaru, Accreting Life](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Natsuki%20Subaru%2C%20Accreting%20Life.png)[^1] (Re:Zero)
-* Sarah Jane Smith = [Natsuki Subaru, Starting From Zero](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Natsuki%20Subaru%2C%20Starting%20From%20Zero.png)[^1] (Re:Zero)
+* The Sixth Doctor[^1] = [Echidna, the Witch of Greed](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Echidna%2C%20the%20Witch%20of%20Greed.png) (Re:Zero)
+* Romana II[^1] = [Natsuki Subaru, Accreting Life](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Natsuki%20Subaru%2C%20Accreting%20Life.png) (Re:Zero)
+* Sarah Jane Smith[^1] = [Natsuki Subaru, Starting From Zero](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Natsuki%20Subaru%2C%20Starting%20From%20Zero.png) (Re:Zero)
 ### Shakugan no Shana `1`
-* Gisela, Blade of Goldnight = [Shana, Flame-Haired Hunter](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Shana%2C%20Flame-Haired%20Hunter.png)[^1] (Shakugan no Shana)
+* Gisela, Blade of Goldnight[^1] = [Shana, Flame-Haired Hunter](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Shana%2C%20Flame-Haired%20Hunter.png) (Shakugan no Shana)
 ### Shadowverse: Worlds Beyond `1`
-* Smaug the Impenetrable = [Galmieux, Ardor Manifest](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Galmieux%2C%20Ardor%20Manifest.png)[^1] (Shadowverse: Worlds Beyond)
+* Smaug the Impenetrable[^1] = [Galmieux, Ardor Manifest](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Galmieux%2C%20Ardor%20Manifest.png) (Shadowverse: Worlds Beyond)
 ### Touhou Project `12`
-* Selenia, the Cursed Heart = [Seiga Kaku, the Wicked Hermit](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Seiga%20Kaku%2C%20the%20Wicked%20Hermit.png)[^1] (Touhou Project)
+* Selenia, the Cursed Heart[^1] = [Seiga Kaku, the Wicked Hermit](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Seiga%20Kaku%2C%20the%20Wicked%20Hermit.png) (Touhou Project)
 * The Everforger = [Kogasa Tatara, the Forgotten Umbrella](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kogasa%20Tatara%2C%20the%20Forgotten%20Umbrella.png) (Touhou Project)
-* Avatar Roku, Firebender = [Fujiwara no Mokou, the Immortal](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujiwara%20no%20Mokou%2C%20the%20Immortal.png)[^1] (Touhou Project)
-* Ygra, Eater of All = [Rumia, Youkai of the Dusk](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Rumia%2C%20Youkai%20of%20the%20Dusk.png)[^1] (Touhou Project)
-* Itazura, Lingering Wick = [Rin Kaenbyou, Shopping District](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Rin%20Kaenbyou%2C%20Shopping%20District.png)[^1] (Touhou Project)
-* Maarika, Brutal Gladiator = [Fujiwara no Mokou, the Undying](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujiwara%20no%20Mokou%2C%20the%20Undying.png)[^1] (Touhou Project)
+* Avatar Roku, Firebender[^1] = [Fujiwara no Mokou, the Immortal](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujiwara%20no%20Mokou%2C%20the%20Immortal.png) (Touhou Project)
+* Ygra, Eater of All[^1] = [Rumia, Youkai of the Dusk](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Rumia%2C%20Youkai%20of%20the%20Dusk.png) (Touhou Project)
+* Itazura, Lingering Wick[^1] = [Rin Kaenbyou, Shopping District](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Rin%20Kaenbyou%2C%20Shopping%20District.png) (Touhou Project)
+* Maarika, Brutal Gladiator[^1] = [Fujiwara no Mokou, the Undying](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujiwara%20no%20Mokou%2C%20the%20Undying.png) (Touhou Project)
 * Karametra, God of Harvests = [Suwako Moriya, Mountain Goddess](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Suwako%20Moriya%2C%20Mountain%20Goddess.png) (Touhou Project)
-* Hapatra, Vizier of Poisons = [Suwako, Though the Wind Cries](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Suwako%2C%20Though%20the%20Wind%20Cries.png)[^1] (Touhou Project)
-* Kaza, Roil Chaser = [Marisa Kirisame, Western Magician](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Marisa%20Kirisame%2C%20Western%20Magician.png)[^1] (Touhou Project)
-* Ty Lee, Chi Blocker = [Cirno, Fairy of the Ice](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Cirno%2C%20Fairy%20of%20the%20Ice.png)[^1] (Touhou Project)
-* Mirko Vosk, Mind Drinker = [Remilia Scarlet, Imperishable Night](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Remilia%20Scarlet%2C%20Imperishable%20Night.png)[^1] (Touhou Project)
-* Kozilek, the Great Distortion = [Yukari Yakumo, Boundary Master](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Yukari%20Yakumo%2C%20Boundary%20Master.png)[^1] (Touhou Project)
+* Hapatra, Vizier of Poisons[^1] = [Suwako, Though the Wind Cries](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Suwako%2C%20Though%20the%20Wind%20Cries.png) (Touhou Project)
+* Kaza, Roil Chaser[^1] = [Marisa Kirisame, Western Magician](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Marisa%20Kirisame%2C%20Western%20Magician.png) (Touhou Project)
+* Ty Lee, Chi Blocker[^1] = [Cirno, Fairy of the Ice](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Cirno%2C%20Fairy%20of%20the%20Ice.png) (Touhou Project)
+* Mirko Vosk, Mind Drinker[^1] = [Remilia Scarlet, Imperishable Night](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Remilia%20Scarlet%2C%20Imperishable%20Night.png) (Touhou Project)
+* Kozilek, the Great Distortion[^1] = [Yukari Yakumo, Boundary Master](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Yukari%20Yakumo%2C%20Boundary%20Master.png) (Touhou Project)
 
 <details>
   <summary><strong>▶ Click to View OCs</strong></summary>
@@ -64,7 +64,7 @@ Collection currently at <img src="https://img.shields.io/badge/140-88E788?style=
 
 ## Planeswalkers
 ### Honkai: Star Rail `1`
-* Aminatou, the Fateshifter = [Black Swan, Memetic Entity](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/planeswalkers/Black%20Swan%2C%20Memetic%20Entity.png)[^1] (Honkai: Star Rail)
+* Aminatou, the Fateshifter[^1] = [Black Swan, Memetic Entity](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/planeswalkers/Black%20Swan%2C%20Memetic%20Entity.png) (Honkai: Star Rail)
 ### Re:Zero `1`
 * Tezzeret the Seeker = [Halibel, the Admirer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/planeswalkers/Halibel%2C%20the%20Admirer.png) (Re:Zero)
 
@@ -74,7 +74,7 @@ Collection currently at <img src="https://img.shields.io/badge/140-88E788?style=
 ### Fate Grand Order `3`
 * Sol Ring = [Holy Grail](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Fate).png) (Fate Grand Order)
 * Arcane Signet = [LAPLACE, Phenomenon Recorder](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Arcane%20Signet%20(Fate).png) (Fate Grand Order)
-* Dawnsire, Sunstar Dreadnought = [Altera, Teardrop Photon Ray](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Altera%2C%20Teardrop%20Photon%20Ray.png)[^1] (Fate Grand Order)
+* Dawnsire, Sunstar Dreadnought[^1] = [Altera, Teardrop Photon Ray](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Altera%2C%20Teardrop%20Photon%20Ray.png) (Fate Grand Order)
 ### Honkai: Star Rail `9`
 * Sol Ring = [Dimension Reduction Dice](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
 * Commander's Sphere = [A-Ruan Pouch](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Commander%E2%80%99s%20Sphere%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
