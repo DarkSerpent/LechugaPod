@@ -177,3 +177,4 @@ artifacts/Mash Kyrielight, Lord Camelot.png | 1787798217183.1252
 artifacts/Storm Border, the Last Ark.png | 1787799997857.2063
 cards/Detective Sherlock Holmes.png | 1787867922441.782
 cards/Professor James Moriarty.png | 1787867922772.883
+cards/Goredolf Musik, Indomitable.png | 1787868921817.212

@@ -1,4 +1,5 @@
 ## 8/27/2026
+* 5:15:21.817 PM CDT - Susan Foreman / Goredolf Musik, Indomitable / Goredolf Musik, Indomitable
 * 4:58:42.772 PM CDT - The Fugitive Doctor / Professor James Moriarty / Professor James Moriarty
 * 4:58:42.441 PM CDT - The Third Doctor / Detective Sherlock Holmes / Detective Sherlock Holmes
 

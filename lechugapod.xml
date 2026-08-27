@@ -3499,6 +3499,31 @@ Whenever The Fugitive Doctor attacks, you may sacrifice a Clue. When you do, tar
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Susan Foreman</name>
+            <text>If you would planeswalk, instead look at the top two cards of your planar deck, put one on the bottom of your planar deck and the other on top, then planeswalk.
+{T}: Add {G}.
+Doctor's companion (You can have two commanders if the other is the Doctor.)</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>G</coloridentity>
+                <cmc>2</cmc>
+                <manacost>1G</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Time Lord</type>
+                <pt>1/1</pt>
+                <format-commander>legal</format-commander>
+                <colors>G</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000180" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Goredolf%20Musik%2C%20Indomitable.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>
