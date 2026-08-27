@@ -117,6 +117,7 @@
 * lands/Island (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * lands/Mountain (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * lands/Plains (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
+* lands/Sliver Hive (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * lands/Swamp (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * lands/Wastes (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * lands/Zhalfirin Void (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)

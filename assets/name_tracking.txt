@@ -165,3 +165,4 @@ The First Sliver_0164 = Tiamat, Daughter of Genesis
 Scion of the Ur-Dragon_0165 = Melusine, Hand of Albion
 City of Brass_0166 = Clock Tower
 Godless Shrine_0167 = Temple of Time
+Sliver Hive_0168 = Chaos Tide
