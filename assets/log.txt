@@ -166,3 +166,4 @@ cards/Hollow Heart Albion.png | 1787787921487.2324
 lands/City of Brass (Fate).png | 1787789387776.2583
 lands/Godless Shrine (Fate).png | 1787789824975.3364
 lands/Sliver Hive (Fate).png | 1787790362343.1018
+lands/Reflecting Pool (Fate).png | 1787790771947.8174

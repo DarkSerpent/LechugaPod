@@ -2189,7 +2189,8 @@ Equip {2}</text>
                 <type>Land</type>
                 <format-commander>legal</format-commander>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000110" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Reflecting%20Pool%20(ReZero).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000110" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Reflecting%20Pool%20(ReZero).png">CLM</set>            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000169" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Reflecting%20Pool%20(Fate).png">CLM</set>
+
             <tablerow>0</tablerow>
         </card>
 
