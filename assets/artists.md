@@ -21,6 +21,7 @@
 * cards/Hollow Heart Albion.png | [CHOCO](https://x.com/choco_mugi)
 * cards/Kashin Koji, Fuuma Sorcerer.png | [Yoneyama Mai](https://www.pixiv.net/en/users/1554775)
 * cards/Kogasa Tatara, the Forgotten Umbrella.png | [Elina Noodles](https://www.pixiv.net/en/users/82051602)
+* cards/Leonardo da Vinci, Gran Cavallo.png | [Yamyom](https://www.pixiv.net/en/users/46328)
 * cards/Marisa Kirisame, Western Magician.png | [JILL](https://www.pixiv.net/en/users/54259522)
 * cards/Mash Kyrielight, Ritsuka’s Servant.png | [Takashi Takeuchi](https://www.zerochan.net/Takeuchi+Takashi)
 * cards/Melusine, Hand of Albion.png | [lack](https://www.pixiv.net/en/users/83739)

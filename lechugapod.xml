@@ -3524,6 +3524,30 @@ Doctor's companion (You can have two commanders if the other is the Doctor.)</te
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Tegan Jovanka</name>
+            <text>Brave Heart — Whenever you attack, target attacking historic creature gets +1/+1 and gains indestructible until end of turn. (Artifacts, legendaries, and Sagas are historic.)
+Doctor's companion (You can have two commanders if the other is the Doctor.)</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>W</coloridentity>
+                <cmc>3</cmc>
+                <manacost>2W</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Human</type>
+                <pt>2/2</pt>
+                <format-commander>legal</format-commander>
+                <colors>W</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000181" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Leonardo%20da%20Vinci%2C%20Gran%20Cavallo.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

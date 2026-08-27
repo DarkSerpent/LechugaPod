@@ -178,3 +178,4 @@ Infinite Guideline Station_0177 = Storm Border, the Last Ark
 The Third Doctor_0178 = Detective Sherlock Holmes
 The Fugitive Doctor_0179 = Professor James Moriarty
 Susan Foreman_0180 = Goredolf Musik, Indomitable
+Tegan Jovanka_0181 = Leonardo da Vinci, Gran Cavallo
