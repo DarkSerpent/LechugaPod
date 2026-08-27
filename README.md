@@ -12,7 +12,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 2. Launch the `.bat` file and wait for it to tell you the custom set was updated successfully.
 3. If Cockatrice was not automatically closed, close it, then open it.
 
-Collection currently at <img src="https://img.shields.io/badge/165-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/166-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -138,7 +138,7 @@ Collection currently at <img src="https://img.shields.io/badge/165-88E788?style=
 * Mountain = [Gehenna Academy](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Mountain%20(Blue%20Archive).png) (Blue Archive)
 * Forest = [Shanhaijing Senior Secondary School](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Forest%20(Blue%20Archive).png) (Blue Archive)
 * Wastes = [Abydos High School](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Wastes%20(Blue%20Archive).png) (Blue Archive)
-### Fate Grand Order `11`
+### Fate Grand Order `12`
 * Command Tower = [CHALDEAS, Celestial Body Simulator](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(Fate).png) (Fate Grand Order)
 * Exotic Orchard = [SHEBA, Near-Future Observation Lens](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Exotic%20Orchard%20(Fate).png) (Fate Grand Order)
 * Command Beacon = [TRISMEGISTUS, Spiritron Calculation Engine](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Beacon%20(Fate).png) (Fate Grand Order)
@@ -150,6 +150,7 @@ Collection currently at <img src="https://img.shields.io/badge/165-88E788?style=
 * Wastes = [Bleached Earth](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Wastes%20(Fate).png) (Fate Grand Order)
 * Ash Barrens = [SE.RA.PH, Umbral Star](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Ash%20Barrens%20(Fate).png) (Fate Grand Order)
 * Zhalfirin Void = [Wandering Sea](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Zhalfirin%20Void%20(Fate).png) (Fate Grand Order)
+* City of Brass = [Clock Tower](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/City%20of%20Brass%20(Fate).png) (Fate Grand Order)
 ### Honkai: Star Rail `12`
 * Plains = [Belobog](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
 * Island = [Styxia](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)

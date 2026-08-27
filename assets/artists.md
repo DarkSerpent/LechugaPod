@@ -108,6 +108,7 @@
 * lands/Wastes (Blue Archive).png | [Nexon Games](https://en.wikipedia.org/wiki/Nexon)
 ### Fate
 * lands/Ash Barrens (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
+* lands/City of Brass (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * lands/Command Beacon (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * lands/Command Tower (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * lands/Exotic Orchard (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
