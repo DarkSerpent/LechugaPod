@@ -1,4 +1,5 @@
 ## 8/26/2026
+* 7:17:04.975 PM CDT - Godless Shrine / Godless Shrine (Fate) / Temple of Time
 * 7:09:47.776 PM CDT - City of Brass / City of Brass (Fate) / Clock Tower
 * 6:45:21.858 PM CDT - Scion of the Ur-Dragon / Melusine, Hand of Albion / Melusine, Hand of Albion
 * 5:08:23.109 PM CDT - The First Sliver / Tiamat, Daughter of Genesis / Tiamat, Daughter of Genesis

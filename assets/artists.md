@@ -113,6 +113,7 @@
 * lands/Command Tower (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * lands/Exotic Orchard (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * lands/Forest (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
+* lands/Godless Shrine (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * lands/Island (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * lands/Mountain (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * lands/Plains (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
