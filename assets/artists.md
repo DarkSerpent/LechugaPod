@@ -20,6 +20,7 @@
 * cards/Kashin Koji, Fuuma Sorcerer.png | [Yoneyama Mai](https://www.pixiv.net/en/users/1554775)
 * cards/Kogasa Tatara, the Forgotten Umbrella.png | [Elina Noodles](https://www.pixiv.net/en/users/82051602)
 * cards/Marisa Kirisame, Western Magician.png | [JILL](https://www.pixiv.net/en/users/54259522)
+* cards/Mash Kyrielight, Ritsuka’s Servant.png | [Takashi Takeuchi](https://www.zerochan.net/Takeuchi+Takashi)
 * cards/Melusine, Hand of Albion.png | [lack](https://www.pixiv.net/en/users/83739)
 * cards/Natsuki Subaru, Accreting Life.png | [iwa_to_mushi](https://www.pixiv.net/en/users/15144367)
 * cards/Natsuki Subaru, Starting From Zero.png | [naru](https://www.pixiv.net/en/users/21015081)

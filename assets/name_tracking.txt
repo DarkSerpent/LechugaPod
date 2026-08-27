@@ -172,3 +172,4 @@ Thrumming Hivepool_0171 = Unleashed State
 Ashling, the Limitless_0172 = Solomon, King of Magecraft
 Phage the Untouchable_0173 = Hassan of Serenity
 Azlask, the Swelling Scourge_0174 = Goetia, King of the Demon Gods
+Anara, Wolvid Familiar_0175 = Mash Kyrielight, Ritsuka’s Servant

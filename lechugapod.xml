@@ -3359,6 +3359,30 @@ Whenever Phage deals combat damage to a player, that player loses the game.</tex
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Anara, Wolvid Familiar</name>
+            <text>During your turn, commanders you control have indestructible. (Effects that say &quot;destroy&quot; don't destroy them. A creature with indestructible can't be destroyed by damage.)
+Partner (You can have two commanders if both have partner.)</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>G</coloridentity>
+                <cmc>4</cmc>
+                <manacost>3G</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Wolf Beast</type>
+                <pt>4/4</pt>
+                <format-commander>legal</format-commander>
+                <colors>G</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000175" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Mash%20Kyrielight%2C%20Ritsuka%E2%80%99s%20Servant.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>
