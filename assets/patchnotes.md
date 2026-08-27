@@ -1,4 +1,5 @@
 ## 8/26/2026
+* 7:45:40.353 PM CDT - Thrumming Hivepool / Thrumming Hivepool (Fate) / Unleashed State
 * 7:39:07.178 PM CDT - Fellwar Stone / Fellwar Stone (Fate) / Jeweled Sword Zelretch
 * 7:32:51.947 PM CDT - Reflecting Pool / Reflecting Pool (Fate) / Reverse Side of the World
 * 7:26:02.343 PM CDT - Sliver Hive / Sliver Hive (Fate) / Chaos Tide

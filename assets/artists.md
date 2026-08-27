@@ -61,6 +61,7 @@
 * artifacts/Patchwork Banner (Fate).png | [arrow](https://www.pixiv.net/en/users/23682897)
 * artifacts/Sol Ring (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * artifacts/Swiftfoot Boots (Fate).png | [Takashi Takeuchi](https://www.zerochan.net/Takeuchi+Takashi)
+* artifacts/Thrumming Hivepool (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 ### Honkai Star Rail
 * artifacts/Arcane Signet (Honkai Star Rail).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
 * artifacts/Commander’s Sphere (Honkai Star Rail).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)

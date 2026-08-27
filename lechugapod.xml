@@ -3241,6 +3241,39 @@ As this land enters, you may pay 2 life. If you don't, it enters tapped.</text>
             <tablerow>0</tablerow>
         </card>
 
+        <card>
+            <name>Thrumming Hivepool</name>
+            <text>Affinity for Slivers (This spell costs {1} less to cast for each Sliver you control.)
+Slivers you control have double strike and haste.
+At the beginning of your upkeep, create two 1/1 colorless Sliver creature tokens.</text>
+            <prop>
+                <format-standard>legal</format-standard>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-standardbrawl>legal</format-standardbrawl>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <cmc>6</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <manacost>6</manacost>
+                <format-alchemy>legal</format-alchemy>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Artifact</maintype>
+                <layout>normal</layout>
+                <type>Artifact</type>
+                <format-future>legal</format-future>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000171" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Thrumming%20Hivepool%20(Fate).png">CLM</set>
+            <tablerow>1</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>
