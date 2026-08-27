@@ -7,6 +7,7 @@ const readline = require('readline');
 const ROOT_DIR = path.resolve(__dirname, '..');
 const XML_PATH = path.join(ROOT_DIR, 'lechugapod.xml');
 const SAVED_CARDS_PATH = path.join(ROOT_DIR, 'saved', 'cards.xml');
+const SAVED_TOKENS_PATH = path.join(ROOT_DIR, 'saved', 'tokens.xml');
 const UUID_SUFFIX_LENGTH = 12;
 const MAX_UUID_SUFFIX = (10 ** UUID_SUFFIX_LENGTH) - 1;
 
@@ -106,7 +107,7 @@ function ask(rl, question) {
     return new Promise(resolve => rl.question(question, answer => resolve(answer.trim())));
 }
 
-async function chooseMatch(rl, query, matches) {
+async function chooseMatch(rl, query, matches, isToken = false) {
     const bestScore = matches[0]?.score || 0;
     const bestMatches = matches.filter(match => match.score === bestScore);
     if (bestMatches.length === 1 && bestScore >= 6000) return bestMatches[0];
@@ -114,7 +115,12 @@ async function chooseMatch(rl, query, matches) {
     const options = matches.slice(0, 20);
     if (options.length === 0) throw new Error(`No saved card matched "${query}".`);
     console.log('Your search returned multiple results:');
-    options.forEach((match, index) => console.log(`[${index + 1}] ${match.name}`));
+    options.forEach((match, index) => {
+        const label = isToken
+            ? `${match.name} - ${tagValue(match.block, 'pt') || '0'} - ${tagValue(match.block, 'manacost') || '0'}`
+            : match.name;
+        console.log(`[${index + 1}] ${label}`);
+    });
     while (true) {
         const answer = Number(await ask(rl, 'Choose the card number: '));
         if (Number.isInteger(answer) && answer >= 1 && answer <= options.length) return options[answer - 1];
@@ -159,6 +165,15 @@ function nextUuid(xml) {
     return String(next).padStart(UUID_SUFFIX_LENGTH, '0');
 }
 
+function nextTokenUuid(xml) {
+    const tokenUuids = [...xml.matchAll(/uuid="00000000-0000-0000-(\d{4})-X{12}"/gi)]
+        .map(match => Number(match[1]))
+        .filter(Number.isFinite);
+    const next = Math.max(0, ...tokenUuids) + 1;
+    if (next > 9999) throw new Error('No token UUIDs remain.');
+    return String(next).padStart(4, '0');
+}
+
 function addSetTag(block, setTag) {
     const tablerow = block.search(/^\s*<tablerow\b/m);
     if (tablerow !== -1) return `${block.slice(0, tablerow)}${setTag}\n${block.slice(tablerow)}`;
@@ -167,6 +182,30 @@ function addSetTag(block, setTag) {
 
 function clearSetTags(block) {
     return block.replace(/^[ \t]*<set\b[^>]*>[\s\S]*?<\/set>[ \t]*(?:\r?\n|$)/gim, '');
+}
+
+function clearReverseRelatedTags(block) {
+    return block.replace(/^[ \t]*<reverse-related\b[^>]*>[\s\S]*?<\/reverse-related>[ \t]*(?:\r?\n|$)/gim, '');
+}
+
+function addReverseRelatedTag(block, cardName) {
+    const tablerow = block.search(/^\s*<tablerow\b/m);
+    const tag = `            <reverse-related>${encodeXml(cardName)}</reverse-related>`;
+    if (tablerow !== -1) return `${block.slice(0, tablerow)}${tag}\n${block.slice(tablerow)}`;
+    return block.replace(/\n\s*<\/card>\s*$/, `\n${tag}\n        </card>`);
+}
+
+function addNumToMatchingSetIfMissing(block, flavorName, numValue) {
+    let matchedSet = false;
+    const updatedBlock = block.replace(/<set\b([^>]*)>/gi, (setTag, attributes) => {
+        const flavorMatch = attributes.match(/\bflavorName="([^"]*)"/i);
+        if (!flavorMatch || flavorMatch[1] !== flavorName) return setTag;
+        matchedSet = true;
+        if (/\bnum="[^"]*"/i.test(attributes)) return setTag;
+        return `<set${attributes} num="${numValue}">`;
+    });
+    if (!matchedSet) throw new Error(`Could not find a <set> tag with flavorName "${flavorName}" on the related card.`);
+    return updatedBlock;
 }
 
 function normalizeCardIndentation(block) {
@@ -204,7 +243,6 @@ function insertCard(xml, block) {
 
 async function main() {
     if (!fs.existsSync(XML_PATH)) throw new Error(`Could not find ${XML_PATH}.`);
-    if (!fs.existsSync(SAVED_CARDS_PATH)) throw new Error(`Could not find ${SAVED_CARDS_PATH}.`);
 
     const rl = readline.createInterface({
         input: process.stdin,
@@ -214,19 +252,28 @@ async function main() {
     });
     try {
         const xml = fs.readFileSync(XML_PATH, 'utf8');
-        const savedXml = fs.readFileSync(SAVED_CARDS_PATH, 'utf8');
+        const itemType = await chooseByNumber(rl, 'Which item do you want to import? ', [
+            { value: 'card', label: 'Card' },
+            { value: 'token', label: 'Token' }
+        ]);
+        const isToken = itemType.value === 'token';
+        const savedPath = isToken ? SAVED_TOKENS_PATH : SAVED_CARDS_PATH;
+        if (!fs.existsSync(savedPath)) throw new Error(`Could not find ${savedPath}.`);
+        const savedXml = fs.readFileSync(savedPath, 'utf8');
         const savedBlocks = cardBlocks(savedXml);
-        const query = await ask(rl, 'What is the name of the card you want to proxy? ');
-        if (!query) throw new Error('A card name is required.');
+        const query = await ask(rl, `What is the name of the ${isToken ? 'token' : 'card'} you want to proxy? `);
+        if (!query) throw new Error(`A ${isToken ? 'token' : 'card'} name is required.`);
 
         const existingMatch = findExistingCard(xml, query);
         const savedMatch = existingMatch
             ? { block: existingMatch, name: tagValue(existingMatch, 'name') }
-            : await chooseMatch(rl, query, findMatches(query, savedBlocks));
+            : await chooseMatch(rl, query, findMatches(query, savedBlocks), isToken);
         const savedName = savedMatch.name;
-        const detectedType = cardTypeFromBlock(savedMatch.block);
-        const type = detectedType || await chooseByNumber(rl, 'What type is your card? ', CARD_TYPES);
-        const imageInput = await ask(rl, 'What is the name of the card image? ');
+        const detectedType = isToken ? null : cardTypeFromBlock(savedMatch.block);
+        const type = isToken
+            ? { folder: 'tokens' }
+            : detectedType || await chooseByNumber(rl, 'What type is your card? ', CARD_TYPES);
+        const imageInput = await ask(rl, `What is the name of the ${isToken ? 'token' : 'card'} image? `);
         if (!imageInput) throw new Error('A card image name is required.');
         const imageName = imageInput.replace(/\.png$/i, '');
         const imagePath = findImagePath(type.folder, imageName);
@@ -236,7 +283,21 @@ async function main() {
         const detectedSeries = seriesFromImageName(actualImageName);
         const series = detectedSeries || await chooseByNumber(rl, 'Which flavor set is your card from? ', SERIES_NAMES);
         const existingBlock = existingMatch || findExistingCard(xml, savedName);
-        const sourceBlock = existingBlock || normalizeCardIndentation(clearSetTags(savedMatch.block));
+        let sourceBlock = existingBlock || normalizeCardIndentation(clearSetTags(savedMatch.block));
+        let reverseRelatedCard = null;
+        let relatedCardBlock = null;
+        let tokenNum = null;
+        if (isToken) {
+            sourceBlock = clearReverseRelatedTags(sourceBlock);
+            reverseRelatedCard = await ask(rl, 'Enter a card to reverse relate to the token: ');
+            if (!reverseRelatedCard) throw new Error('A card name is required for reverse relation.');
+            relatedCardBlock = findExistingCard(xml, reverseRelatedCard);
+            if (!relatedCardBlock) throw new Error(`Could not find card "${reverseRelatedCard}" in lechugapod.xml.`);
+            reverseRelatedCard = tagValue(relatedCardBlock, 'name');
+            tokenNum = await ask(rl, 'Enter a num ID for the token: ');
+            if (!/^\d{1,3}$/.test(tokenNum)) throw new Error('The token num ID must be a number from 0 to 999.');
+            sourceBlock = addReverseRelatedTag(sourceBlock, reverseRelatedCard);
+        }
         const layout = tagValue(sourceBlock, 'layout');
         let num = null;
         if (layout === 'modal_dfc') {
@@ -244,14 +305,25 @@ async function main() {
             if (!num) throw new Error('A num is required for modal DFC cards.');
         }
 
-        const uuid = nextUuid(xml);
+        const uuid = isToken ? nextTokenUuid(xml) : nextUuid(xml);
         const flavorAttribute = series.key ? ` flavorName="${series.key}"` : '';
-        const numAttribute = num ? ` num="${encodeXml(num)}"` : '';
-        const setTag = `            <set rarity="rare" uuid="00000000-0000-0000-0000-${uuid}"${numAttribute}${flavorAttribute} picurl="${encodeXml(imageUrl(type.folder, actualImageName))}">CLM</set>`;
+        const numAttribute = isToken
+            ? ` num="000-${String(tokenNum).padStart(3, '0')}-XXX"`
+            : num ? ` num="${encodeXml(num)}"` : '';
+        const uuidValue = isToken
+            ? `00000000-0000-0000-${uuid}-XXXXXXXXXXXX`
+            : `00000000-0000-0000-0000-${uuid}`;
+        const setTag = `            <set rarity="rare" uuid="${uuidValue}"${numAttribute}${flavorAttribute} picurl="${encodeXml(imageUrl(type.folder, actualImageName))}">CLM</set>`;
         const updatedBlock = addSetTag(sourceBlock, setTag);
-        const updatedXml = existingBlock
+        let updatedXml = existingBlock
             ? xml.replace(existingBlock, updatedBlock)
             : insertCard(xml, updatedBlock);
+        if (isToken) {
+            const relatedNum = `000-${String(tokenNum).padStart(3, '0')}-XXX`;
+            if (!series.key) throw new Error('The token image must identify a flavor set to update the related card.');
+            const updatedRelatedCard = addNumToMatchingSetIfMissing(relatedCardBlock, series.key, relatedNum);
+            updatedXml = updatedXml.replace(relatedCardBlock, updatedRelatedCard);
+        }
 
         fs.writeFileSync(XML_PATH, updatedXml, 'utf8');
         console.log(`${existingBlock ? 'Added artwork to' : 'Added'} ${savedName} with UUID ${uuid}.`);

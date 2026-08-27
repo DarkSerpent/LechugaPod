@@ -8,6 +8,7 @@
 * cards/Echidna, the Witch of Greed.png | [Gabiran](https://www.pixiv.net/en/users/2003931)
 * cards/Eiki Shiki, Supreme Judge.png | [redlunaazrael](https://www.pixiv.net/en/users/14338530)
 * cards/Elliott, Administrator of the Ends.png | [shark_waka](https://www.pixiv.net/en/users/2003931)
+* cards/Fran, the Evil Boss’s Daughter.png | [Okazaki Takeshi](https://www.pixiv.net/en/users/821471)
 * cards/Fujimaru Ritsuka, Humanity’s Last.png | [na222222](https://www.pixiv.net/en/users/3368740)
 * cards/Fujimaru Ritsuka, Stargazer.png | [na222222](https://www.pixiv.net/en/users/3368740)
 * cards/Fujiwara no Mokou, the Immortal.png | [mutugi](https://www.pixiv.net/en/users/3839458)
@@ -200,5 +201,9 @@
 * lands/Vault of the Archangel (Touhou).png | [Team Shanghai Alice](https://www.zerochan.net/Team+Shanghai+Alice)
 * lands/Wastes (Touhou).png | [Yuzusoft](https://x.com/yuzusoft)
 * lands/Xander’s Lounge (Touhou).png | [Team Shanghai Alice](https://www.zerochan.net/Team+Shanghai+Alice)
+
+## Tokens
+### Fate
+* tokens/Robot (Fate).png | [hotosoka](https://www.pixiv.net/en/users/31082248)
 
 [^1]: No publicly available or accessible documentation of this artist was found.

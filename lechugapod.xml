@@ -3446,7 +3446,7 @@ Whenever Infinite Guideline Station attacks, draw a card for each multicolored p
                 <format-commander>legal</format-commander>
                 <colors>WUBRG</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000177" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Storm%20Border%2C%20the%20Last%20Ark.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000177" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Storm%20Border%2C%20the%20Last%20Ark.png" num="000-001-XXX">CLM</set>
             <tablerow>1</tablerow>
         </card>
 
@@ -3545,6 +3545,45 @@ Doctor's companion (You can have two commanders if the other is the Doctor.)</te
                 <colors>W</colors>
             </prop>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000181" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Leonardo%20da%20Vinci%2C%20Gran%20Cavallo.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
+        <card>
+            <name>Robot Token  </name>
+            <prop>
+                <type>Token Artifact Creature — Robot</type>
+                <maintype>Creature</maintype>
+                <cmc>0</cmc>
+                <pt>2/2</pt>
+            </prop>
+            <token>1</token>
+            <reverse-related>Infinite Guideline Station</reverse-related>
+            <set rarity="rare" uuid="00000000-0000-0000-0001-XXXXXXXXXXXX" num="000-001-XXX" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Robot%20(Fate).png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
+        <card>
+            <name>Martha Jones</name>
+            <text>Woman Who Walked the Earth — When Martha Jones enters, investigate. (Create a Clue token. It's an artifact with &quot;{2}, Sacrifice this token: Draw a card.&quot;)
+Whenever you sacrifice a Clue, Martha Jones and up to one other target creature can't be blocked this turn.
+Doctor's companion (You can have two commanders if the other is the Doctor.)</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>U</coloridentity>
+                <cmc>3</cmc>
+                <manacost>2U</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Human Cleric</type>
+                <pt>3/2</pt>
+                <format-commander>legal</format-commander>
+                <colors>U</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000182" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fran%2C%20the%20Evil%20Boss%E2%80%99s%20Daughter.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 

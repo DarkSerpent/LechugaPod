@@ -179,3 +179,5 @@ cards/Detective Sherlock Holmes.png | 1787867922441.782
 cards/Professor James Moriarty.png | 1787867922772.883
 cards/Goredolf Musik, Indomitable.png | 1787868921817.212
 cards/Leonardo da Vinci, Gran Cavallo.png | 1787869504637.2986
+tokens/Robot (Fate).png | 1787871770576.5193
+cards/Fran, the Evil Boss’s Daughter.png | 1787874061216.2761

@@ -286,34 +286,19 @@ function saveArtistsLog(map) {
       (f) => f.name
     );
 
-  const ordered = [];
-
-  if (
-    folderNames.includes(
-      'cards'
-    )
-  ) {
-    ordered.push(
-      'cards'
-    );
-  }
-
-  if (
-    folderNames.includes(
-      'planeswalkers'
-    )
-  ) {
-    ordered.push(
-      'planeswalkers'
-    );
-  }
+  const ordered = [
+    'cards',
+    'planeswalkers',
+    'artifacts',
+    'lands',
+    'tokens'
+  ].filter((folder) => folderNames.includes(folder));
 
   const others =
     folderNames
       .filter(
         (n) =>
-          n !== 'cards' &&
-          n !== 'planeswalkers'
+          !ordered.includes(n)
       )
       .sort((a, b) =>
         a.localeCompare(
@@ -803,7 +788,9 @@ async function processCard(
     '50px "ConneqtRegular"';
 
   ctx.fillText(
-    `LP ${code} Proxy`,
+    folderName === 'tokens'
+      ? 'LP Token Proxy'
+      : `LP ${code} Proxy`,
     startX,
     y
   );

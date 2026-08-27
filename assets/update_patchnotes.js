@@ -9,7 +9,7 @@ const README_PATH = path.join(ROOT_DIR, 'README.md');
 const TRACKING_PATH = path.join(ASSETS_DIR, 'name_tracking.txt');
 const PATCHNOTES_PATH = path.join(ASSETS_DIR, 'patchnotes.md');
 const TIME_ZONE = 'America/Chicago';
-const IMAGE_DIRECTORIES = new Set(['cards', 'artifacts', 'lands', 'planeswalkers']);
+const IMAGE_DIRECTORIES = new Set(['cards', 'artifacts', 'lands', 'planeswalkers', 'tokens']);
 
 function normalize(value) {
     return value

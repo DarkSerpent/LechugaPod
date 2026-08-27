@@ -26,7 +26,8 @@ const CATEGORY_NAMES = {
     Battle: 'Battle Cards',
     Enchantment: 'Enchantment Cards',
     Instant: 'Instant Cards',
-    Land: 'Lands'
+    Land: 'Lands',
+    Token: 'Tokens'
 };
 
 function decodeEntities(value) {
@@ -82,6 +83,11 @@ function categoryFor(maintype) {
     return CATEGORY_NAMES[maintype] ?? null;
 }
 
+function isTokenCard(cardXml) {
+    const type = tagContents(cardXml, 'type') || '';
+    return /^Token\b/i.test(type);
+}
+
 function parseTrackingFile(contents) {
     const tracking = new Map();
     for (const rawLine of contents.split(/\r?\n/)) {
@@ -128,7 +134,8 @@ async function parseCards(xml, tracking, rl) {
         const prop = tagContents(cardXml, 'prop');
         if (!name || !prop) continue;
         const maintype = tagContents(prop, 'maintype');
-        const category = categoryFor(maintype);
+        const isToken = isTokenCard(cardXml);
+        const category = isToken ? CATEGORY_NAMES.Token : categoryFor(maintype);
         if (!category) continue;
         const layout = tagContents(prop, 'layout') || 'normal';
         const isCommanderCard = isCommander(cardXml);
@@ -140,11 +147,11 @@ async function parseCards(xml, tracking, rl) {
             const num = attribute(setXml, 'num');
             if (!picurl || !uuid) continue;
             const suffix = uuidSuffix(uuid);
-            if (!suffix) {
+            if (!suffix && !isToken) {
                 console.warn(`Skipping "${name}": invalid UUID "${uuid}".`);
                 continue;
             }
-            const trackingKey = `${name}_${suffix}`;
+            const trackingKey = `${name}_${suffix || '0000'}`;
             let trackedName = tracking.get(trackingKey);
             if (!trackedName) {
                 const defaultName = proxyName(picurl);
@@ -181,6 +188,7 @@ async function parseCards(xml, tracking, rl) {
                 num: num || null,
                 isOC,
                 isCommander: isCommanderCard,
+                isToken,
                 cardXml
             });
         }
@@ -393,8 +401,20 @@ function updateSeriesCounts(lines, expectedCounts) {
     for (let i = 0; i < lines.length; i++) {
         const line = lines[i];
         if (line.startsWith('## ')) {
-            currentCategory = line.replace(/^## /, '').trim();
+            const categoryMatch = line.match(/^## (.+?)(?: `(\d+)`)?$/);
+            currentCategory = categoryMatch ? categoryMatch[1].trim() : line.replace(/^## /, '').trim();
             inDetails = false;
+            if (categoryMatch && categoryMatch[2] !== undefined) {
+                const prefix = `${currentCategory}||`;
+                const expected = [...expectedCounts.entries()]
+                    .filter(([key]) => key.startsWith(prefix))
+                    .reduce((total, [, count]) => total + count, 0);
+                const currentCount = parseInt(categoryMatch[2], 10);
+                if (currentCount !== expected) {
+                    lines[i] = line.replace(/`\d+`$/, `\`${expected}\``);
+                    changes.push({ category: currentCategory, old: currentCount, new: expected });
+                }
+            }
             continue;
         }
         if (line.startsWith('<details>')) {
@@ -472,7 +492,7 @@ async function main() {
     } finally {
         rl.close();
     }
-    const totalCards = rawCards.length;
+    const totalCards = rawCards.filter(card => !card.isToken).length;
 
     const regularCards = rawCards.filter(c => !c.isOC);
     const groupedRegular = groupDfcCards(regularCards);
