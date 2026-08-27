@@ -171,4 +171,4 @@ artifacts/Fellwar Stone (Fate).png | 1787791147178.303
 artifacts/Thrumming Hivepool (Fate).png | 1787791540353.2075
 cards/Solomon, King of Magecraft.png | 1787792342643.5464
 cards/Hassan of Serenity.png | 1787793937976.1616
-cards/Goetia, King of the Demon Gods.png | 1787795431216.4932
+cards/Goetia, King of the Demon Gods.png | 1787795607375.4146
