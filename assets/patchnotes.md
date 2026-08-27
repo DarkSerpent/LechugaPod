@@ -1,3 +1,7 @@
+## 8/27/2026
+* 4:58:42.772 PM CDT - The Fugitive Doctor / Professor James Moriarty / Professor James Moriarty
+* 4:58:42.441 PM CDT - The Third Doctor / Detective Sherlock Holmes / Detective Sherlock Holmes
+
 ## 8/26/2026
 * 10:06:37.857 PM CDT - Infinite Guideline Station / Storm Border, the Last Ark / Storm Border, the Last Ark
 * 9:32:18.639 PM CDT - Inspirit, Flagship Vessel / Mash Kyrielight, Lord Camelot / Mash Kyrielight, Lord Camelot

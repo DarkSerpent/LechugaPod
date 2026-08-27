@@ -3450,6 +3450,55 @@ Whenever Infinite Guideline Station attacks, draw a card for each multicolored p
             <tablerow>1</tablerow>
         </card>
 
+        <card>
+            <name>The Third Doctor</name>
+            <text>Trample
+The Third Doctor gets +1/+1 for each noncreature token you control.
+When The Third Doctor enters, create your choice of a Clue token, a Food token, or a Treasure token.</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>UG</coloridentity>
+                <cmc>4</cmc>
+                <manacost>2GU</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Time Lord Doctor</type>
+                <pt>2/2</pt>
+                <format-commander>legal</format-commander>
+                <colors>UG</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000178" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Detective%20Sherlock%20Holmes.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
+        <card>
+            <name>The Fugitive Doctor</name>
+            <text>When The Fugitive Doctor enters, investigate.
+Whenever The Fugitive Doctor attacks, you may sacrifice a Clue. When you do, target instant or sorcery card in your graveyard gains flashback {2}{R}{G} until end of turn. (You may cast that card from your graveyard for its flashback cost. Then exile it.)</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>RG</coloridentity>
+                <cmc>5</cmc>
+                <manacost>3RG</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Time Lord Doctor</type>
+                <pt>4/4</pt>
+                <format-commander>legal</format-commander>
+                <colors>RG</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000179" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Professor%20James%20Moriarty.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

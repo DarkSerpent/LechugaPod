@@ -175,3 +175,5 @@ cards/Goetia, King of the Demon Gods.png | 1787795607375.4146
 cards/Mash Kyrielight, Ritsuka’s Servant.png | 1787797114203.6218
 artifacts/Mash Kyrielight, Lord Camelot.png | 1787798217183.1252
 artifacts/Storm Border, the Last Ark.png | 1787799997857.2063
+cards/Detective Sherlock Holmes.png | 1787867922441.782
+cards/Professor James Moriarty.png | 1787867922772.883

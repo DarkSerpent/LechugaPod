@@ -2,3 +2,5 @@
 *.cardconjurer
 # Ignore all xml files
 *.xml
+# Ignore all txt files
+*.txt
