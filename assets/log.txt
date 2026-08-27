@@ -167,3 +167,4 @@ lands/City of Brass (Fate).png | 1787789387776.2583
 lands/Godless Shrine (Fate).png | 1787789824975.3364
 lands/Sliver Hive (Fate).png | 1787790362343.1018
 lands/Reflecting Pool (Fate).png | 1787790771947.8174
+artifacts/Fellwar Stone (Fate).png | 1787791147178.303
