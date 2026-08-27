@@ -1,4 +1,6 @@
 ## 8/26/2026
+* 8:25:37.976 PM CDT - Phage the Untouchable / Hassan of Serenity / Hassan of Serenity
+* 7:58:33.221 PM CDT - Ashling, the Limitless / Solomon, King of Magecraft / Solomon, King of Magecraft
 * 7:45:40.353 PM CDT - Thrumming Hivepool / Thrumming Hivepool (Fate) / Unleashed State
 * 7:39:07.178 PM CDT - Fellwar Stone / Fellwar Stone (Fate) / Jeweled Sword Zelretch
 * 7:32:51.947 PM CDT - Reflecting Pool / Reflecting Pool (Fate) / Reverse Side of the World

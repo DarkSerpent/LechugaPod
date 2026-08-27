@@ -3274,6 +3274,63 @@ At the beginning of your upkeep, create two 1/1 colorless Sliver creature tokens
             <tablerow>1</tablerow>
         </card>
 
+        <card>
+            <name>Ashling, the Limitless</name>
+            <text>Elemental permanent spells you cast from your hand gain evoke {4} as you cast them. (If you cast a spell for its evoke cost, it's sacrificed when it enters.)
+Whenever you sacrifice a nontoken Elemental, create a token that's a copy of it. The token gains haste until end of turn. At the beginning of your next end step, sacrifice it unless you pay {W}{U}{B}{R}{G}.</text>
+            <prop>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>WUBRG</coloridentity>
+                <cmc>3</cmc>
+                <manacost>2R</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Elemental Sorcerer</type>
+                <pt>2/3</pt>
+                <format-commander>legal</format-commander>
+                <colors>R</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000172" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Solomon%2C%20King%20of%20Magecraft.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
+        <card>
+            <name>Phage the Untouchable</name>
+            <text>When Phage enters, if you didn't cast it from your hand, you lose the game.
+Whenever Phage deals combat damage to a creature, destroy that creature. It can't be regenerated.
+Whenever Phage deals combat damage to a player, that player loses the game.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-premodern>legal</format-premodern>
+                <format-predh>legal</format-predh>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>B</coloridentity>
+                <cmc>7</cmc>
+                <manacost>3BBBB</manacost>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Avatar Minion</type>
+                <pt>4/4</pt>
+                <format-commander>legal</format-commander>
+                <colors>B</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000173" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Hassan%20of%20Serenity.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

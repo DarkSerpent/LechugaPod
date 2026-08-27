@@ -169,3 +169,5 @@ Sliver Hive_0168 = Chaos Tide
 Reflecting Pool_0169 = Reverse Side of the World
 Fellwar Stone_0170 = Jeweled Sword Zelretch
 Thrumming Hivepool_0171 = Unleashed State
+Ashling, the Limitless_0172 = Solomon, King of Magecraft
+Phage the Untouchable_0173 = Hassan of Serenity
