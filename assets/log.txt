@@ -173,3 +173,5 @@ cards/Solomon, King of Magecraft.png | 1787792342643.5464
 cards/Hassan of Serenity.png | 1787793937976.1616
 cards/Goetia, King of the Demon Gods.png | 1787795607375.4146
 cards/Mash Kyrielight, Ritsuka’s Servant.png | 1787797114203.6218
+artifacts/Mash Kyrielight, Lord Camelot.png | 1787798217183.1252
+artifacts/Storm Border, the Last Ark.png | 1787799997857.2063

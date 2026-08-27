@@ -57,13 +57,16 @@
 ### Blue Archive
 * artifacts/Sol Ring (Blue Archive).png | [Nexon Games](https://en.wikipedia.org/wiki/Nexon)
 ### Fate
+* artifacts/Altera, Teardrop Photon Ray.png | [Yonemuro](https://www.pixiv.net/en/users/10199606)
 * artifacts/Arcane Signet (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * artifacts/Chromatic Lantern (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * artifacts/Fellwar Stone (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * artifacts/Helm of the Host (Fate).png | [Teruru](https://www.pixiv.net/en/users/40632349)
 * artifacts/Herald’s Horn (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
+* artifacts/Mash Kyrielight, Lord Camelot.png | [Takashi Takeuchi](https://www.zerochan.net/Takeuchi+Takashi)
 * artifacts/Patchwork Banner (Fate).png | [arrow](https://www.pixiv.net/en/users/23682897)
 * artifacts/Sol Ring (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
+* artifacts/Storm Border, the Last Ark.png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * artifacts/Swiftfoot Boots (Fate).png | [Takashi Takeuchi](https://www.zerochan.net/Takeuchi+Takashi)
 * artifacts/Thrumming Hivepool (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 ### Honkai Star Rail
@@ -97,8 +100,6 @@
 * artifacts/Skullclamp (Touhou).png | [Team Shanghai Alice](https://www.zerochan.net/Team+Shanghai+Alice)
 * artifacts/Sol Ring (Touhou).png | [Sakai Yoshikuni](https://www.pixiv.net/users/533800)
 * artifacts/The One Ring (Touhou).png | [Team Shanghai Alice](https://www.zerochan.net/Team+Shanghai+Alice)
-### Unsorted
-* artifacts/Altera, Teardrop Photon Ray.png | [Yonemuro](https://www.pixiv.net/en/users/10199606)
 
 ## Lands
 ### Blue Archive

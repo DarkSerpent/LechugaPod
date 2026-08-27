@@ -173,3 +173,5 @@ Ashling, the Limitless_0172 = Solomon, King of Magecraft
 Phage the Untouchable_0173 = Hassan of Serenity
 Azlask, the Swelling Scourge_0174 = Goetia, King of the Demon Gods
 Anara, Wolvid Familiar_0175 = Mash Kyrielight, Ritsuka’s Servant
+Inspirit, Flagship Vessel_0176 = Mash Kyrielight, Lord Camelot
+Infinite Guideline Station_0177 = Storm Border, the Last Ark

@@ -3383,6 +3383,73 @@ Partner (You can have two commanders if both have partner.)</text>
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Inspirit, Flagship Vessel</name>
+            <text>Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 8+.)
+1+ | At the beginning of combat on your turn, put your choice of a +1/+1 counter or two charge counters on up to one other target artifact.
+8+ | Flying
+Other artifacts you control have hexproof and indestructible.</text>
+            <prop>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>WUR</coloridentity>
+                <cmc>3</cmc>
+                <manacost>URW</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Artifact</maintype>
+                <layout>normal</layout>
+                <type>Legendary Artifact — Spacecraft</type>
+                <pt>5/5</pt>
+                <format-commander>legal</format-commander>
+                <colors>WUR</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000176" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Mash%20Kyrielight%2C%20Lord%20Camelot.png">CLM</set>
+            <tablerow>1</tablerow>
+        </card>
+
+        <card>
+            <name>Infinite Guideline Station</name>
+            <text>When Infinite Guideline Station enters, create a tapped 2/2 colorless Robot artifact creature token for each multicolored permanent you control.
+Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery. It's an artifact creature at 12+.)
+12+ | Flying
+Whenever Infinite Guideline Station attacks, draw a card for each multicolored permanent you control.</text>
+            <prop>
+                <format-standard>legal</format-standard>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-standardbrawl>legal</format-standardbrawl>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>WUBRG</coloridentity>
+                <cmc>5</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <manacost>WUBRG</manacost>
+                <format-alchemy>legal</format-alchemy>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Artifact</maintype>
+                <layout>normal</layout>
+                <type>Legendary Artifact — Spacecraft</type>
+                <format-future>legal</format-future>
+                <pt>7/15</pt>
+                <format-commander>legal</format-commander>
+                <colors>WUBRG</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000177" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Storm%20Border%2C%20the%20Last%20Ark.png">CLM</set>
+            <tablerow>1</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

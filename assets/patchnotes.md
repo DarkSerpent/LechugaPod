@@ -1,4 +1,6 @@
 ## 8/26/2026
+* 10:06:37.857 PM CDT - Infinite Guideline Station / Storm Border, the Last Ark / Storm Border, the Last Ark
+* 9:32:18.639 PM CDT - Inspirit, Flagship Vessel / Mash Kyrielight, Lord Camelot / Mash Kyrielight, Lord Camelot
 * 9:18:34.203 PM CDT - Anara, Wolvid Familiar / Mash Kyrielight, Ritsuka’s Servant / Mash Kyrielight, Ritsuka’s Servant
 * 8:50:31.216 PM CDT - Azlask, the Swelling Scourge / Goetia, King of the Demon Gods / Goetia, King of the Demon Gods
 * 8:25:37.976 PM CDT - Phage the Untouchable / Hassan of Serenity / Hassan of Serenity
