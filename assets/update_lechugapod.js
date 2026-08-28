@@ -31,6 +31,16 @@ const CARD_TYPES = [
     { value: 'Land', label: 'land', folder: 'lands' }
 ];
 
+const TOKEN_FLAVOR_SUFFIXES = {
+    BlueArchive: 'BA',
+    Fate: 'FGO',
+    ReZero: 'RZ',
+    Shakugan: 'SnS',
+    Shadowverse: 'SWB',
+    Touhou: 'TP',
+    Honkai: 'HSR'
+};
+
 function decodeEntities(value) {
     return value
         .replace(/&amp;/g, '&')
@@ -184,24 +194,25 @@ function clearSetTags(block) {
     return block.replace(/^[ \t]*<set\b[^>]*>[\s\S]*?<\/set>[ \t]*(?:\r?\n|$)/gim, '');
 }
 
+function clearReverseRelatedTags(block) {
+    return block.replace(/^[ \t]*<reverse-related\b[^>]*>[\s\S]*?<\/reverse-related>[ \t]*(?:\r?\n|$)/gim, '');
+}
+
+function renameCard(block, name) {
+    return block.replace(/(<name>)[\s\S]*?(<\/name>)/i, `$1${encodeXml(name)}$2`);
+}
+
+function tokenNameWithSuffix(name, flavorName) {
+    const suffix = TOKEN_FLAVOR_SUFFIXES[flavorName];
+    if (!suffix) throw new Error(`Could not determine the flavor suffix for token "${name}".`);
+    return `${name} (${suffix})`;
+}
+
 function addReverseRelatedTag(block, cardName) {
     const tablerow = block.search(/^\s*<tablerow\b/m);
     const tag = `            <reverse-related>${encodeXml(cardName)}</reverse-related>`;
     if (tablerow !== -1) return `${block.slice(0, tablerow)}${tag}\n${block.slice(tablerow)}`;
     return block.replace(/\n\s*<\/card>\s*$/, `\n${tag}\n        </card>`);
-}
-
-function addNumToMatchingSetIfMissing(block, flavorName, numValue) {
-    let matchedSet = false;
-    const updatedBlock = block.replace(/<set\b([^>]*)>/gi, (setTag, attributes) => {
-        const flavorMatch = attributes.match(/\bflavorName="([^"]*)"/i);
-        if (!flavorMatch || flavorMatch[1] !== flavorName) return setTag;
-        matchedSet = true;
-        if (/\bnum="[^"]*"/i.test(attributes)) return setTag;
-        return `<set${attributes} num="${numValue}">`;
-    });
-    if (!matchedSet) throw new Error(`Could not find a <set> tag with flavorName "${flavorName}" on the related card.`);
-    return updatedBlock;
 }
 
 function normalizeCardIndentation(block) {
@@ -260,7 +271,7 @@ async function main() {
         const query = await ask(rl, `What is the name of the ${isToken ? 'token' : 'card'} you want to proxy? `);
         if (!query) throw new Error(`A ${isToken ? 'token' : 'card'} name is required.`);
 
-        const existingMatch = findExistingCard(xml, query);
+        const existingMatch = isToken ? null : findExistingCard(xml, query);
         const savedMatch = existingMatch
             ? { block: existingMatch, name: tagValue(existingMatch, 'name') }
             : await chooseMatch(rl, query, findMatches(query, savedBlocks), isToken);
@@ -278,10 +289,39 @@ async function main() {
 
         const detectedSeries = seriesFromImageName(actualImageName);
         const series = detectedSeries || await chooseByNumber(rl, 'Which flavor set is your card from? ', SERIES_NAMES);
-        const existingBlock = existingMatch || findExistingCard(xml, savedName);
+        let workingXml = xml;
+        let existingBlock = existingMatch || findExistingCard(xml, savedName);
         let sourceBlock = existingBlock || normalizeCardIndentation(clearSetTags(savedMatch.block));
+        if (isToken) {
+            const existingTokenBlock = findExistingCard(xml, savedName);
+            const hasSuffixedToken = cardBlocks(xml).some(block =>
+                /^.+ \([^)]+\)$/.test(tagValue(block, 'name')) &&
+                tagValue(block, 'name').startsWith(`${savedName} (`)
+            );
+            const newTokenName = hasSuffixedToken
+                ? tokenNameWithSuffix(savedName, series.key)
+                : savedName;
+            if (existingTokenBlock) {
+                const existingSet = (existingTokenBlock.match(/<set\b[^>]*>/i) || [])[0];
+                const existingFlavor = existingSet && attribute(existingSet, 'flavorName');
+                const oldTokenName = tokenNameWithSuffix(savedName, existingFlavor);
+                const renameTarget = findExistingCard(xml, oldTokenName)
+                    ? tokenNameWithSuffix(savedName, series.key)
+                    : oldTokenName;
+                if (findExistingCard(xml, renameTarget)) {
+                    throw new Error(`Could not create a unique name for existing token "${savedName}".`);
+                }
+                const renamedBlock = renameCard(existingTokenBlock, renameTarget);
+                workingXml = workingXml.replace(existingTokenBlock, renamedBlock);
+            }
+            if (findExistingCard(workingXml, newTokenName)) {
+                throw new Error(`A token named "${newTokenName}" already exists.`);
+            }
+            existingBlock = null;
+            sourceBlock = normalizeCardIndentation(clearReverseRelatedTags(clearSetTags(savedMatch.block)));
+            sourceBlock = renameCard(sourceBlock, newTokenName);
+        }
         const relatedCards = [];
-        let tokenNum = null;
         if (isToken) {
             const associationType = await chooseByNumber(rl, 'Do you want to associate one card or multiple cards? ', [
                 { value: 'one', label: 'one card' },
@@ -304,8 +344,6 @@ async function main() {
                 }
                 if (relatedCards.length === 0) throw new Error('At least one card name is required for reverse relation.');
             }
-            tokenNum = await ask(rl, 'Enter a num ID for the token: ');
-            if (!/^\d{1,3}$/.test(tokenNum)) throw new Error('The token num ID must be a number from 0 to 999.');
             for (const relatedCard of relatedCards) {
                 sourceBlock = addReverseRelatedTag(sourceBlock, relatedCard.name);
             }
@@ -319,25 +357,15 @@ async function main() {
 
         const uuid = isToken ? nextTokenUuid(xml) : nextUuid(xml);
         const flavorAttribute = series.key ? ` flavorName="${series.key}"` : '';
-        const numAttribute = isToken
-            ? ` num="000-${String(tokenNum).padStart(3, '0')}-XXX"`
-            : num ? ` num="${encodeXml(num)}"` : '';
+        const numAttribute = num ? ` num="${encodeXml(num)}"` : '';
         const uuidValue = isToken
             ? `00000000-0000-0000-${uuid}-XXXXXXXXXXXX`
             : `00000000-0000-0000-0000-${uuid}`;
         const setTag = `            <set rarity="rare" uuid="${uuidValue}"${numAttribute}${flavorAttribute} picurl="${encodeXml(imageUrl(type.folder, actualImageName))}">CLM</set>`;
         const updatedBlock = addSetTag(sourceBlock, setTag);
         let updatedXml = existingBlock
-            ? xml.replace(existingBlock, updatedBlock)
-            : insertCard(xml, updatedBlock);
-        if (isToken) {
-            const relatedNum = `000-${String(tokenNum).padStart(3, '0')}-XXX`;
-            if (!series.key) throw new Error('The token image must identify a flavor set to update the related card.');
-            for (const relatedCard of relatedCards) {
-                const updatedRelatedCard = addNumToMatchingSetIfMissing(relatedCard.block, series.key, relatedNum);
-                updatedXml = updatedXml.replace(relatedCard.block, updatedRelatedCard);
-            }
-        }
+            ? workingXml.replace(existingBlock, updatedBlock)
+            : insertCard(workingXml, updatedBlock);
 
         fs.writeFileSync(XML_PATH, updatedXml, 'utf8');
         console.log(`${existingBlock ? 'Added artwork to' : 'Added'} ${savedName} with UUID ${uuid}.`);

@@ -1785,7 +1785,7 @@ Doctor's companion (You can have two commanders if the other is the Doctor.)</te
                 <format-commander>legal</format-commander>
                 <colors>W</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000081" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Natsuki%20Subaru%2C%20Starting%20From%20Zero.png" num="000-004-XXX">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000081" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Natsuki%20Subaru%2C%20Starting%20From%20Zero.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -1856,7 +1856,7 @@ Doctor's companion (You can have two commanders if the other is the Doctor.)</te
                 <format-commander>legal</format-commander>
                 <colors>U</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000092" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Five%20Hundred%20Year%20Diary%20(ReZero).png" num="000-004-XXX">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000092" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Five%20Hundred%20Year%20Diary%20(ReZero).png">CLM</set>
             <tablerow>1</tablerow>
             <cipt>1</cipt>
         </card>
@@ -2999,7 +2999,7 @@ Estrid, the Masked can be your commander.</text>
                 <format-commander>legal</format-commander>
                 <colors>WUG</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000159" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/planeswalkers/Lady%20Avalon%2C%20Dreamweaver.png" num="000-002-XXX">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000159" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/planeswalkers/Lady%20Avalon%2C%20Dreamweaver.png">CLM</set>
             <tablerow>1</tablerow>
         </card>
 
@@ -3449,7 +3449,7 @@ Whenever Infinite Guideline Station attacks, draw a card for each multicolored p
                 <format-commander>legal</format-commander>
                 <colors>WUBRG</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000177" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Storm%20Border%2C%20the%20Last%20Ark.png" num="000-001-XXX">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000177" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Storm%20Border%2C%20the%20Last%20Ark.png">CLM</set>
             <tablerow>1</tablerow>
         </card>
 
@@ -3474,7 +3474,7 @@ When The Third Doctor enters, create your choice of a Clue token, a Food token, 
                 <format-commander>legal</format-commander>
                 <colors>UG</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000178" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Detective%20Sherlock%20Holmes.png" num="000-003-XXX">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000178" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Detective%20Sherlock%20Holmes.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -3498,7 +3498,7 @@ Whenever The Fugitive Doctor attacks, you may sacrifice a Clue. When you do, tar
                 <format-commander>legal</format-commander>
                 <colors>RG</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000179" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Professor%20James%20Moriarty.png" num="000-003-XXX">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000179" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Professor%20James%20Moriarty.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -3561,7 +3561,7 @@ Doctor's companion (You can have two commanders if the other is the Doctor.)</te
             </prop>
             <token>1</token>
             <reverse-related>Infinite Guideline Station</reverse-related>
-            <set rarity="rare" uuid="00000000-0000-0000-0001-XXXXXXXXXXXX" num="000-001-XXX" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Robot%20(Fate).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0001-XXXXXXXXXXXX" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Robot%20(Fate).png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -3586,7 +3586,7 @@ Doctor's companion (You can have two commanders if the other is the Doctor.)</te
                 <format-commander>legal</format-commander>
                 <colors>U</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000182" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fran%2C%20the%20Evil%20Boss%E2%80%99s%20Daughter.png" num="000-003-XXX">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000182" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fran%2C%20the%20Evil%20Boss%E2%80%99s%20Daughter.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -3602,12 +3602,12 @@ Umbra armor</text>
             </prop>
             <token>1</token>
             <reverse-related>Estrid, the Masked</reverse-related>
-            <set rarity="rare" uuid="00000000-0000-0000-0002-XXXXXXXXXXXX" num="000-002-XXX" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Mask%20(Fate).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0002-XXXXXXXXXXXX" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Mask%20(Fate).png">CLM</set>
             <tablerow>1</tablerow>
         </card>
 
         <card>
-            <name>Clue Token </name>
+            <name>Clue Token (FGO)</name>
             <text>{2}, Sacrifice this token: Draw a card.</text>
             <prop>
                 <type>Token Artifact — Clue</type>
@@ -3618,12 +3618,12 @@ Umbra armor</text>
             <reverse-related>The Fugitive Doctor</reverse-related>
             <reverse-related>The Third Doctor</reverse-related>
             <reverse-related>Martha Jones</reverse-related>
-            <set rarity="rare" uuid="00000000-0000-0000-0003-XXXXXXXXXXXX" num="000-003-XXX" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Clue%20(Fate).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0003-XXXXXXXXXXXX" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Clue%20(Fate).png">CLM</set>
             <tablerow>1</tablerow>
         </card>
 
         <card>
-            <name>Clue Token  </name>
+            <name>Clue Token (RZ)</name>
             <text>{2}, Sacrifice this token: Draw a card.</text>
             <prop>
                 <type>Token Artifact — Clue</type>
@@ -3633,7 +3633,7 @@ Umbra armor</text>
             <token>1</token>
             <reverse-related>Five Hundred Year Diary</reverse-related>
             <reverse-related>Sarah Jane Smith</reverse-related>
-            <set rarity="rare" uuid="00000000-0000-0000-0004-XXXXXXXXXXXX" num="000-004-XXX" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Clue%20(ReZero).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0004-XXXXXXXXXXXX" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Clue%20(ReZero).png">CLM</set>
             <tablerow>1</tablerow>
         </card>
 
