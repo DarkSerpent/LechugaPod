@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CLM Deck Converter</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="site-assets/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="site-assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="site-assets/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="site-assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="site-assets/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="site-assets/android-chrome-512x512.png">
+</head>
+<body>
+  <main class="shell">
+    <header class="masthead">
+      <div class="brand-mark" aria-hidden="true"><img src="site-assets/clm_deck_converter.png" width=50px></div>
+      <div>
+        <p class="eyebrow">Convert .cod files to only use selected cards from a given series</p>
+        <h1>.COD Converter</h1>
+      </div>
+    </header>
+    <div class="setup-notice" role="note">Before using this converter, place <strong>lechugapod.xml</strong> in your Cockatrice <strong>customsets</strong> folder, or use the <strong>update_lechugapod.bat</strong> batch script.</div>
+
+    <section class="workspace" aria-label="Deck conversion workspace">
+      <div class="drop-zone" id="dropZone" tabindex="0">
+        <div class="drop-icon" aria-hidden="true">+</div>
+        <div>
+          <h2 id="fileTitle">Drop a Saved Deck Here</h2>
+          <p id="fileHint">or choose a file from your computer</p>
+        </div>
+        <button class="upload-button" id="uploadButton" type="button">Upload deck</button>
+        <input id="fileInput" type="file" accept=".cod,application/xml,text/xml" hidden>
+      </div>
+
+      <div class="controls">
+        <label for="seriesSelect">Convert card art to</label>
+        <select id="seriesSelect">
+          <option value="BlueArchive">Blue Archive</option>
+          <option value="Fate">Fate Grand Order</option>
+          <option value="Honkai">Honkai: Star Rail</option>
+          <option value="ReZero">Re:Zero</option>
+          <option value="Shakugan">Shakugan no Shana</option>
+          <option value="Shadowverse">Shadowverse: Worlds Beyond</option>
+          <option value="Touhou">Touhou Project</option>
+        </select>
+        <button class="convert-button" id="convertButton" type="button" disabled>Convert & Download</button>
+      </div>
+
+      <div class="status" id="status" role="status" aria-live="polite">
+        <span class="status-dot"></span>
+        <span id="statusText">Upload a deck to begin.</span>
+      </div>
+    </section>
+
+    <section class="summary" id="summary" hidden>
+      <div>
+        <p class="eyebrow">Conversion Report</p>
+        <h2 id="summaryTitle">Ready to Convert!</h2>
+      </div>
+      <div class="stats">
+        <div><strong id="proxyCount">0</strong><span>proxies updated</span></div>
+        <div><strong id="fallbackCount">0</strong><span>fallback printings</span></div>
+        <div><strong id="untouchedCount">0</strong><span>cards untouched</span></div>
+      </div>
+      <ul class="details" id="details"></ul>
+    </section>
+
+    <footer>
+      <span>github.com/darkSerpent</span>
+      <span>XML sources loaded from this repository</span>
+    </footer>
+    <footer>
+      <span><a href="https://github.com/DarkSerpent/LechugaPod" style="position: relative; top: -16px;">Return to repository</a></span>
+    </footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
