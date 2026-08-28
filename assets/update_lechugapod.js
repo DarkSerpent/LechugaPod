@@ -284,19 +284,36 @@ async function main() {
         const series = detectedSeries || await chooseByNumber(rl, 'Which flavor set is your card from? ', SERIES_NAMES);
         const existingBlock = existingMatch || findExistingCard(xml, savedName);
         let sourceBlock = existingBlock || normalizeCardIndentation(clearSetTags(savedMatch.block));
-        let reverseRelatedCard = null;
-        let relatedCardBlock = null;
+        const relatedCards = [];
         let tokenNum = null;
         if (isToken) {
             sourceBlock = clearReverseRelatedTags(sourceBlock);
-            reverseRelatedCard = await ask(rl, 'Enter a card to reverse relate to the token: ');
-            if (!reverseRelatedCard) throw new Error('A card name is required for reverse relation.');
-            relatedCardBlock = findExistingCard(xml, reverseRelatedCard);
-            if (!relatedCardBlock) throw new Error(`Could not find card "${reverseRelatedCard}" in lechugapod.xml.`);
-            reverseRelatedCard = tagValue(relatedCardBlock, 'name');
+            const associationType = await chooseByNumber(rl, 'Do you want to associate one card or multiple cards? ', [
+                { value: 'one', label: 'one card' },
+                { value: 'multiple', label: 'multiple' }
+            ]);
+            if (associationType.value === 'one') {
+                const relatedName = await ask(rl, 'Enter a card to reverse relate to the token: ');
+                if (!relatedName) throw new Error('A card name is required for reverse relation.');
+                const relatedBlock = findExistingCard(xml, relatedName);
+                if (!relatedBlock) throw new Error(`Could not find card "${relatedName}" in lechugapod.xml.`);
+                relatedCards.push({ block: relatedBlock, name: tagValue(relatedBlock, 'name') });
+            } else {
+                console.log('Enter card names to reverse relate them to the token. When you are done, leave your response blank and hit ENTER:');
+                while (true) {
+                    const relatedName = await ask(rl, '');
+                    if (!relatedName) break;
+                    const relatedBlock = findExistingCard(xml, relatedName);
+                    if (!relatedBlock) throw new Error(`Could not find card "${relatedName}" in lechugapod.xml.`);
+                    relatedCards.push({ block: relatedBlock, name: tagValue(relatedBlock, 'name') });
+                }
+                if (relatedCards.length === 0) throw new Error('At least one card name is required for reverse relation.');
+            }
             tokenNum = await ask(rl, 'Enter a num ID for the token: ');
             if (!/^\d{1,3}$/.test(tokenNum)) throw new Error('The token num ID must be a number from 0 to 999.');
-            sourceBlock = addReverseRelatedTag(sourceBlock, reverseRelatedCard);
+            for (const relatedCard of relatedCards) {
+                sourceBlock = addReverseRelatedTag(sourceBlock, relatedCard.name);
+            }
         }
         const layout = tagValue(sourceBlock, 'layout');
         let num = null;
@@ -321,8 +338,10 @@ async function main() {
         if (isToken) {
             const relatedNum = `000-${String(tokenNum).padStart(3, '0')}-XXX`;
             if (!series.key) throw new Error('The token image must identify a flavor set to update the related card.');
-            const updatedRelatedCard = addNumToMatchingSetIfMissing(relatedCardBlock, series.key, relatedNum);
-            updatedXml = updatedXml.replace(relatedCardBlock, updatedRelatedCard);
+            for (const relatedCard of relatedCards) {
+                const updatedRelatedCard = addNumToMatchingSetIfMissing(relatedCard.block, series.key, relatedNum);
+                updatedXml = updatedXml.replace(relatedCard.block, updatedRelatedCard);
+            }
         }
 
         fs.writeFileSync(XML_PATH, updatedXml, 'utf8');

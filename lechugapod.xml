@@ -3471,7 +3471,7 @@ When The Third Doctor enters, create your choice of a Clue token, a Food token, 
                 <format-commander>legal</format-commander>
                 <colors>UG</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000178" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Detective%20Sherlock%20Holmes.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000178" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Detective%20Sherlock%20Holmes.png" num="000-003-XXX">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -3495,7 +3495,7 @@ Whenever The Fugitive Doctor attacks, you may sacrifice a Clue. When you do, tar
                 <format-commander>legal</format-commander>
                 <colors>RG</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000179" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Professor%20James%20Moriarty.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000179" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Professor%20James%20Moriarty.png" num="000-003-XXX">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -3583,7 +3583,7 @@ Doctor's companion (You can have two commanders if the other is the Doctor.)</te
                 <format-commander>legal</format-commander>
                 <colors>U</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000182" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fran%2C%20the%20Evil%20Boss%E2%80%99s%20Daughter.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000182" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fran%2C%20the%20Evil%20Boss%E2%80%99s%20Daughter.png" num="000-003-XXX">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -3600,6 +3600,22 @@ Umbra armor</text>
             <token>1</token>
             <reverse-related>Estrid, the Masked</reverse-related>
             <set rarity="rare" uuid="00000000-0000-0000-0002-XXXXXXXXXXXX" num="000-002-XXX" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Mask%20(Fate).png">CLM</set>
+            <tablerow>1</tablerow>
+        </card>
+
+        <card>
+            <name>Clue Token</name>
+            <text>{2}, Sacrifice this token: Draw a card.</text>
+            <prop>
+                <type>Token Artifact — Clue</type>
+                <maintype>Artifact</maintype>
+                <cmc>0</cmc>
+            </prop>
+            <token>1</token>
+            <reverse-related>The Fugitive Doctor</reverse-related>
+            <reverse-related>The Third Doctor</reverse-related>
+            <reverse-related>Martha Jones</reverse-related>
+            <set rarity="rare" uuid="00000000-0000-0000-0003-XXXXXXXXXXXX" num="000-003-XXX" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Clue%20(Fate).png">CLM</set>
             <tablerow>1</tablerow>
         </card>
 

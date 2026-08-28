@@ -44,9 +44,26 @@ function decodeEntities(value) {
         .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)));
 }
 
+    function normalize(value) {
+        return (value || '')
+        .normalize('NFC')
+        .replace(/[\u2018\u2019\u201A\u201B\u2032\u2035]/g, "'")
+        .replace(/[\u201C\u201D\u201E\u201F]/g, '"')
+        .replace(/[\u2013\u2014]/g, '-')
+        .replace(/\s+/g, ' ')
+        .trim()
+        .toLowerCase();
+    }
+
 function tagContents(xml, tag) {
     const match = xml.match(new RegExp(`<${tag}\\b[^>]*>([\\s\\S]*?)<\\/${tag}>`, 'i'));
     return match ? decodeEntities(match[1].trim()) : null;
+}
+
+function allTagContents(xml, tag) {
+    return [...xml.matchAll(new RegExp(`<${tag}\\b[^>]*>([\\s\\S]*?)<\\/${tag}>`, 'gi'))]
+        .map(match => decodeEntities(match[1].trim()))
+        .filter(Boolean);
 }
 
 function attribute(xml, name) {
@@ -189,7 +206,18 @@ async function parseCards(xml, tracking, rl) {
                 isOC,
                 isCommander: isCommanderCard,
                 isToken,
-                reverseRelated: isToken ? tagContents(cardXml, 'reverse-related') : null,
+                reverseRelated: isToken
+                    ? allTagContents(cardXml, 'reverse-related')
+                        .filter(relatedName => cardMatches.some(relatedBlock => {
+                            if (normalize(tagContents(relatedBlock, 'name')) !== normalize(relatedName)) return false;
+                            const relatedSets = relatedBlock.match(/<set\b[^>]*>[\s\S]*?<\/set>/gi) || [];
+                            return relatedSets.some(relatedSet =>
+                                attribute(relatedSet, 'flavorName') === flavorName &&
+                                attribute(relatedSet, 'num') === num
+                            );
+                        }))
+                        .sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }))
+                    : null,
                 cardXml
             });
         }
@@ -273,8 +301,8 @@ function makeBullet(card) {
 
 function makeBulletLines(card) {
     const bullet = makeBullet(card);
-    if (!card.isToken || !card.reverseRelated) return [bullet];
-    return [bullet, `   * Linked to: *${card.reverseRelated}*`];
+    if (!card.isToken || !card.reverseRelated?.length) return [bullet];
+    return [bullet, `   * Linked to: *${card.reverseRelated.join(', ')}*`];
 }
 
 function findSeriesHeading(lines, category, series) {
@@ -370,9 +398,9 @@ function insertIntoSeries(lines, headingIndex, card, bulletReleaseMap) {
 }
 
 function updateTokenLinks(lines, cards) {
-    for (const card of cards.filter(candidate => candidate.isToken && candidate.reverseRelated)) {
+    for (const card of cards.filter(candidate => candidate.isToken && candidate.reverseRelated?.length)) {
         const bullet = makeBullet(card);
-        const linkLine = `   * Linked to: *${card.reverseRelated}*`;
+        const linkLine = `   * Linked to: *${card.reverseRelated.join(', ')}*`;
         const bulletIndex = lines.indexOf(bullet);
         if (bulletIndex === -1) continue;
         if (lines[bulletIndex + 1]?.startsWith('   * Linked to:')) {

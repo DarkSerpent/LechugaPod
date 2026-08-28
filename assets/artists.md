@@ -204,6 +204,7 @@
 
 ## Tokens
 ### Fate
+* tokens/Clue (Fate).png | [Nakai Jun](https://x.com/jacomamire)
 * tokens/Mask (Fate).png | [Zap](https://www.pixiv.net/en/users/231653)
 * tokens/Robot (Fate).png | [hotosoka](https://www.pixiv.net/en/users/31082248)
 
