@@ -10,7 +10,9 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 
 1. Click [here](https://github.com/DarkSerpent/LechugaPod/releases/download/1.0/update_lechugapod.bat) to download the `.bat` file.
 2. Launch the `.bat` file and wait for it to tell you the custom set was updated successfully.
-3. If Cockatrice was not automatically closed, close it, then open it.
+3. If Cockatrice was not automatically closed, close it.
+4. Open Cockatrice and confirm the custom set is working by navigating to "Browse Card Database" and typing in `set:CLM`.
+5. You're all set! If you want to automatically convert your decks to use all alternate card artworks from a given series, try out the [CLM Deck Converter](https://darkserpent.github.io/LechugaPod/site/) site!
 
 Collection currently at <img src="https://img.shields.io/badge/182-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
