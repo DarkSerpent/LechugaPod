@@ -236,7 +236,9 @@ Collection currently at <img src="https://img.shields.io/badge/182-88E788?style=
 * Ancient Tomb = [Great Mausoleum](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Ancient%20Tomb%20(Touhou).png) (Touhou Project)
 
 ## Tokens
+> Cards listed here do not count towards the card total.
 ### Fate Grand Order `1`
 * Robot Token = [Nemo Series](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Robot%20(Fate).png) (Fate Grand Order)
+   * Linked to: *Infinite Guideline Station*
 
 [^1]: This card can be used as your Commander.

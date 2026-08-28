@@ -189,6 +189,7 @@ async function parseCards(xml, tracking, rl) {
                 isOC,
                 isCommander: isCommanderCard,
                 isToken,
+                reverseRelated: isToken ? tagContents(cardXml, 'reverse-related') : null,
                 cardXml
             });
         }
@@ -270,6 +271,12 @@ function makeBullet(card) {
     return bullet;
 }
 
+function makeBulletLines(card) {
+    const bullet = makeBullet(card);
+    if (!card.isToken || !card.reverseRelated) return [bullet];
+    return [bullet, `   * Linked to: *${card.reverseRelated}*`];
+}
+
 function findSeriesHeading(lines, category, series) {
     const categoryHeading = `## ${category}`;
     let inCategory = false;
@@ -339,11 +346,11 @@ function insertNewSeries(lines, category, series, bullet) {
         const match = lines[i].match(/^### (.+?) `\d+`$/);
         if (!match) continue;
         if (match[1].localeCompare(series, undefined, { sensitivity: 'base' }) > 0) {
-            lines.splice(i, 0, `### ${series} \`1\``, bullet);
+            lines.splice(i, 0, `### ${series} \`1\``, ...bullet.split('\n'));
             return;
         }
     }
-    lines.splice(categoryEnd, 0, `### ${series} \`1\``, bullet);
+    lines.splice(categoryEnd, 0, `### ${series} \`1\``, ...bullet.split('\n'));
 }
 
 function insertIntoSeries(lines, headingIndex, card, bulletReleaseMap) {
@@ -359,7 +366,21 @@ function insertIntoSeries(lines, headingIndex, card, bulletReleaseMap) {
         }
         lastBulletIndex = i;
     }
-    lines.splice(lastBulletIndex + 1, 0, bullet);
+    lines.splice(lastBulletIndex + 1, 0, ...bullet.split('\n'));
+}
+
+function updateTokenLinks(lines, cards) {
+    for (const card of cards.filter(candidate => candidate.isToken && candidate.reverseRelated)) {
+        const bullet = makeBullet(card);
+        const linkLine = `   * Linked to: *${card.reverseRelated}*`;
+        const bulletIndex = lines.indexOf(bullet);
+        if (bulletIndex === -1) continue;
+        if (lines[bulletIndex + 1]?.startsWith('   * Linked to:')) {
+            lines[bulletIndex + 1] = linkLine;
+        } else if (lines[bulletIndex + 1] !== linkLine) {
+            lines.splice(bulletIndex + 1, 0, linkLine);
+        }
+    }
 }
 
 function getCurrentTotal(lines) {
@@ -506,13 +527,15 @@ async function main() {
         if (cardExistsInReadme(lines, card)) continue;
         const headingIndex = findSeriesHeading(lines, card.category, card.seriesName);
         if (headingIndex === -1) {
-            insertNewSeries(lines, card.category, card.seriesName, makeBullet(card));
+            insertNewSeries(lines, card.category, card.seriesName, makeBulletLines(card).join('\n'));
         } else {
-            insertIntoSeries(lines, headingIndex, card, bulletReleaseMap);
+            insertIntoSeries(lines, headingIndex, card, makeBulletLines(card).join('\n'));
         }
         added.push(card);
         bulletReleaseMap.set(makeBullet(card), card.release);
     }
+
+    updateTokenLinks(lines, groupedRegular);
 
     if (added.length > 0) {
         console.log(`Added ${added.length} new entr${added.length === 1 ? 'y' : 'ies'}:`);
