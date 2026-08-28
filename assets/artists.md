@@ -118,6 +118,9 @@
 * lands/Island (Blue Archive).png | [Nexon Games](https://en.wikipedia.org/wiki/Nexon)
 * lands/Mountain (Blue Archive).png | [Nexon Games](https://en.wikipedia.org/wiki/Nexon)
 * lands/Plains (Blue Archive).png | [Nexon Games](https://en.wikipedia.org/wiki/Nexon)
+* lands/Snow-Covered Forest (Blue Archive).png | [Nexon Games](https://en.wikipedia.org/wiki/Nexon)
+* lands/Snow-Covered Island (Blue Archive).png | [Nexon Games](https://en.wikipedia.org/wiki/Nexon)
+* lands/Snow-Covered Plains (Blue Archive).png | [Nexon Games](https://en.wikipedia.org/wiki/Nexon)
 * lands/Swamp (Blue Archive).png | [Nexon Games](https://en.wikipedia.org/wiki/Nexon)
 * lands/Wastes (Blue Archive).png | [Nexon Games](https://en.wikipedia.org/wiki/Nexon)
 ### Fate

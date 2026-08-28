@@ -14,7 +14,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 4. Open Cockatrice and confirm the custom set is working by navigating to "Browse Card Database" and typing in `set:CLM`.
 5. You're all set! If you want to automatically convert your decks to use all alternate card artworks from a given series, try out the [CLM Deck Converter](https://darkserpent.github.io/LechugaPod/site/) site!
 
-Collection currently at <img src="https://img.shields.io/badge/184-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/187-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -144,7 +144,7 @@ Collection currently at <img src="https://img.shields.io/badge/184-88E788?style=
 * Fellwar Stone = [Kourindou's Curios](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Fellwar%20Stone%20(Touhou).png) (Touhou Project)
 
 ## Lands
-### Blue Archive `10`
+### Blue Archive `13`
 * Command Tower = [SCHALE, Main Office](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(Blue%20Archive).png) (Blue Archive)
 * Command Beacon = [The Sanctum Tower](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Beacon%20(Blue%20Archive).png) (Blue Archive)
 * Exotic Orchard = [Ark of Atrahasis](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Exotic%20Orchard%20(Blue%20Archive).png) (Blue Archive)
@@ -155,6 +155,9 @@ Collection currently at <img src="https://img.shields.io/badge/184-88E788?style=
 * Mountain = [Gehenna Academy](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Mountain%20(Blue%20Archive).png) (Blue Archive)
 * Forest = [Shanhaijing Senior Secondary School](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Forest%20(Blue%20Archive).png) (Blue Archive)
 * Wastes = [Abydos High School](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Wastes%20(Blue%20Archive).png) (Blue Archive)
+* Snow-Covered Plains = [Red Winter Federal Academy](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Snow-Covered%20Plains%20(Blue%20Archive).png) (Blue Archive)
+* Snow-Covered Island = [Red Winter Academy Presidential Office](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Snow-Covered%20Island%20(Blue%20Archive).png) (Blue Archive)
+* Snow-Covered Forest = [Red Winter Academy Main School Lunch Club](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Snow-Covered%20Forest%20(Blue%20Archive).png) (Blue Archive)
 ### Fate Grand Order `15`
 * Command Tower = [CHALDEAS, Celestial Body Simulator](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(Fate).png) (Fate Grand Order)
 * Exotic Orchard = [SHEBA, Near-Future Observation Lens](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Exotic%20Orchard%20(Fate).png) (Fate Grand Order)

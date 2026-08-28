@@ -187,3 +187,6 @@ tokens/Clue (ReZero).png | 1787879933932.835
 cards/Malkuth, the Tenth Prophet.png | 1787891657545.0474
 tokens/The Capitoline Triad Emblem (Blue Archive).png | 1787892360951.245
 cards/Hina, Prefect Team Chairman.png | 1787893482022.4883
+lands/Snow-Covered Plains (Blue Archive).png | 1787893808480.4243
+lands/Snow-Covered Island (Blue Archive).png | 1787894196443.7444
+lands/Snow-Covered Forest (Blue Archive).png | 1787894379403.4443

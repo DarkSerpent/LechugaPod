@@ -189,3 +189,6 @@ Clue Token (RZ)_4X = The Witch of Greed
 The Capitoline Triad_0183 = Malkuth, the Tenth Prophet
 The Capitoline Triad Emblem_5X = The Final Coming
 Shay Cormac_0184 = Hina, Prefect Team Chairman
+Snow-Covered Plains_0185 = Red Winter Federal Academy
+Snow-Covered Island_0186 = Red Winter Academy Presidential Office
+Snow-Covered Forest_0187 = Red Winter Academy Main School Lunch Club
