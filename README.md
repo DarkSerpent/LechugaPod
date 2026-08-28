@@ -238,7 +238,7 @@ Collection currently at <img src="https://img.shields.io/badge/182-88E788?style=
 ## Tokens
 > [!NOTE]
 > Cards listed here do not count towards the card total. <br/> <br/>
-> In addition, because of how Tokens work in the current version of Cockatrice (3.1.0-beta.9), if two Token proxies share the same set ID, the newest is <ins>always</ins> used, no matter what we set as the flavorName or UUID. Because of this, certain tokens, like the "Clue Token", had to be adjusted so they are considered different tokens from the generic "Clue Token" (depicted in the client as "Clue Token (FGO)" and "Clue Token (R:Z)". <br/>
+> In addition, because of how Tokens work in the current version of Cockatrice ([3.1.0-beta.9](https://github.com/Cockatrice/Cockatrice/releases/tag/2026-08-25-Development-3.1.0-beta.9)), if two Token proxies share the same set ID, the newest is <ins>always</ins> used, no matter what we set as the flavorName or UUID. Because of this, certain tokens, like the "Clue Token", had to be adjusted so they are considered different tokens from the generic "Clue Token" (depicted in the client as "Clue Token (FGO)" and "Clue Token (RZ)". <br/>
 > <div align="left"><img src="https://github.com/DarkSerpent/LechugaPod/blob/main/assets/readme_tokens.png?raw=true" height="350"></div>
 ### Fate Grand Order `3`
 * Robot Token = [Nemo Series](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Robot%20(Fate).png) (Fate Grand Order)
