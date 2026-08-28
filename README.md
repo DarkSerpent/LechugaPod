@@ -244,5 +244,8 @@ Collection currently at <img src="https://img.shields.io/badge/182-88E788?style=
    * Linked to: *Estrid, the Masked*
 * Clue Token = [Whodunnit?](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Clue%20(Fate).png) (Fate Grand Order)
    * Linked to: *Martha Jones, The Fugitive Doctor, The Third Doctor*
+### Re:Zero `1`
+* Clue Token = [The Witch of Greed](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Clue%20(ReZero).png) (Re:Zero)
+   * Linked to: *Five Hundred Year Diary, Sarah Jane Smith*
 
 [^1]: This card can be used as your Commander.

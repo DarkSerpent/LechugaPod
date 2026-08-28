@@ -5,11 +5,13 @@ const path = require('path');
 
 const ASSETS_DIR = __dirname;
 const ROOT_DIR = path.resolve(ASSETS_DIR, '..');
+const XML_PATH = path.join(ROOT_DIR, 'lechugapod.xml');
 const README_PATH = path.join(ROOT_DIR, 'README.md');
 const TRACKING_PATH = path.join(ASSETS_DIR, 'name_tracking.txt');
 const PATCHNOTES_PATH = path.join(ASSETS_DIR, 'patchnotes.md');
 const TIME_ZONE = 'America/Chicago';
 const IMAGE_DIRECTORIES = new Set(['cards', 'artifacts', 'lands', 'planeswalkers', 'tokens']);
+let tokenTrackingKeys = null;
 
 function normalize(value) {
     return value
@@ -51,15 +53,60 @@ function imageNameFromUrl(url) {
     const lastPart = url.split('/').pop();
     return decodeUrl(lastPart).replace(/\.png$/i, '');
 }
+function tagContents(xml, tag) {
+    const match = xml.match(new RegExp(`<${tag}\\b[^>]*>([\\s\\S]*?)<\\/${tag}>`, 'i'));
+    return match ? match[1].trim() : '';
+}
+function attribute(xml, name) {
+    const match = xml.match(new RegExp(`${name}\\s*=\\s*"([^"]*)"`, 'i'));
+    return match ? decodeUrl(match[1]) : null;
+}
+
+function tokenTrackingKey(imageName, tokenName) {
+    if (tokenTrackingKeys === null) {
+        tokenTrackingKeys = new Map();
+        if (!fs.existsSync(XML_PATH)) return null;
+        const xml = fs.readFileSync(XML_PATH, 'utf8');
+        const cardMatches = xml.match(/<card\b[\s\S]*?<\/card>/gi) || [];
+        for (const cardXml of cardMatches) {
+            if (!normalize(tagContents(cardXml, 'type') || '').startsWith('token')) continue;
+            const tokenName = tagContents(cardXml, 'name');
+            const sets = cardXml.match(/<set\b[^>]*>/gi) || [];
+            for (const setTag of sets) {
+                const picurl = attribute(setTag, 'picurl');
+                const uuid = attribute(setTag, 'uuid');
+                const match = uuid?.match(/^00000000-0000-0000-(\d{4})-X{12}$/i);
+                if (picurl && match) {
+                    const imageName = imageNameFromUrl(picurl);
+                    tokenTrackingKeys.set(`${normalize(tokenName)}|${normalize(imageName)}`, `${tokenName}_${Number(match[1])}X`);
+                }
+            }
+        }
+    }
+    return tokenTrackingKeys.get(`${normalize(tokenName)}|${normalize(imageName)}`) || null;
+}
 
 function readTrackingNames() {
     const names = new Map();
     if (!fs.existsSync(TRACKING_PATH)) return names;
     for (const line of fs.readFileSync(TRACKING_PATH, 'utf8').split(/\r?\n/)) {
-        const match = line.match(/^.+?_\d{4}\s*=\s*(.+)$/);
-        if (match) names.set(normalize(match[1]), match[1].trim());
+        const match = line.match(/^(.+?)_(\d{4}|\d+X)\s*=\s*(.+)$/i);
+        if (!match) continue;
+        const trackedName = match[3].trim();
+        names.set(normalize(`${match[1]}_${match[2]}`), trackedName);
+        names.set(normalize(match[1]), trackedName);
     }
     return names;
+}
+
+function trackedNameFor(card, trackingNames) {
+    const tokenKey = card.imagePath && card.cardName
+        ? tokenTrackingKey(card.imageName, card.cardName)
+        : null;
+    return (tokenKey && trackingNames.get(normalize(tokenKey))) ||
+        trackingNames.get(normalize(card.trackedName)) ||
+        card.trackedName ||
+        path.basename(card.imagePath, path.extname(card.imagePath));
 }
 
 function parseMarkdownCards(readme) {
@@ -196,7 +243,7 @@ function dateSortValue(date) {
 
 function makeBullet(card, timestamp, trackingNames) {
     const imageName = path.basename(card.imagePath, path.extname(card.imagePath));
-    const properName = trackingNames.get(normalize(card.trackedName)) || card.trackedName || imageName;
+    const properName = trackedNameFor(card, trackingNames);
     return `* ${formatTime(timestamp)} - ${card.cardName} / ${imageName} / ${properName}`;
 }
 
@@ -207,13 +254,13 @@ function upgradeBullet(line, cards, trackingNames) {
     const identity = normalize(recordedIdentity(match[2]));
     const card = cards.find(candidate => {
         const imageName = path.basename(candidate.imagePath, path.extname(candidate.imagePath));
-        const properName = trackingNames.get(normalize(candidate.trackedName)) || candidate.trackedName || imageName;
+        const properName = trackedNameFor(candidate, trackingNames);
         return normalize(`${imageName} / ${properName}`) === identity;
     });
     if (!card) return line;
 
     const imageName = path.basename(card.imagePath, path.extname(card.imagePath));
-    const properName = trackingNames.get(normalize(card.trackedName)) || card.trackedName || imageName;
+    const properName = trackedNameFor(card, trackingNames);
     return `${match[1]} - ${card.cardName} / ${imageName} / ${properName}`;
 }
 
@@ -241,7 +288,7 @@ function updatePatchnotes() {
 
     for (const card of cards) {
         const imageName = path.basename(card.imagePath, path.extname(card.imagePath));
-        const properName = trackingNames.get(normalize(card.trackedName)) || card.trackedName || imageName;
+        const properName = trackedNameFor(card, trackingNames);
         const recordedName = `${imageName} / ${properName}`;
         if (patchnotes.recordedNames.has(normalize(recordedIdentity(recordedName)))) continue;
         const timestamp = fs.statSync(card.imagePath).mtimeMs;

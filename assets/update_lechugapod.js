@@ -184,10 +184,6 @@ function clearSetTags(block) {
     return block.replace(/^[ \t]*<set\b[^>]*>[\s\S]*?<\/set>[ \t]*(?:\r?\n|$)/gim, '');
 }
 
-function clearReverseRelatedTags(block) {
-    return block.replace(/^[ \t]*<reverse-related\b[^>]*>[\s\S]*?<\/reverse-related>[ \t]*(?:\r?\n|$)/gim, '');
-}
-
 function addReverseRelatedTag(block, cardName) {
     const tablerow = block.search(/^\s*<tablerow\b/m);
     const tag = `            <reverse-related>${encodeXml(cardName)}</reverse-related>`;
@@ -287,7 +283,6 @@ async function main() {
         const relatedCards = [];
         let tokenNum = null;
         if (isToken) {
-            sourceBlock = clearReverseRelatedTags(sourceBlock);
             const associationType = await chooseByNumber(rl, 'Do you want to associate one card or multiple cards? ', [
                 { value: 'one', label: 'one card' },
                 { value: 'multiple', label: 'multiple' }

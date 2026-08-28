@@ -76,7 +76,12 @@ function uuidNumber(uuid) {
     return match ? Number(match[1]) : Infinity;
 }
 
-function uuidSuffix(uuid) {
+function uuidSuffix(uuid, isToken = false) {
+    if (isToken) {
+        const tokenMatch = uuid?.match(/^00000000-0000-0000-(\d{4})-X{12}$/i);
+        if (!tokenMatch) return null;
+        return `${Number(tokenMatch[1])}X`;
+    }
     const number = uuidNumber(uuid);
     if (!Number.isFinite(number)) return null;
     return String(number).padStart(4, '0').slice(-4);
@@ -110,7 +115,7 @@ function parseTrackingFile(contents) {
     for (const rawLine of contents.split(/\r?\n/)) {
         const line = rawLine.trim();
         if (!line) continue;
-        const match = line.match(/^(.+?)_(\d{4})\s*=\s*(.+)$/);
+        const match = line.match(/^(.+?)_(\d{4}|\d+X)\s*=\s*(.+)$/i);
         if (!match) {
             console.warn(`Ignoring malformed name_tracking.txt line: ${rawLine}`);
             continue;
@@ -163,7 +168,7 @@ async function parseCards(xml, tracking, rl) {
             const uuid = attribute(setXml, 'uuid');
             const num = attribute(setXml, 'num');
             if (!picurl || !uuid) continue;
-            const suffix = uuidSuffix(uuid);
+            const suffix = uuidSuffix(uuid, isToken);
             if (!suffix && !isToken) {
                 console.warn(`Skipping "${name}": invalid UUID "${uuid}".`);
                 continue;

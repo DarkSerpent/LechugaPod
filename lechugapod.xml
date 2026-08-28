@@ -1139,7 +1139,8 @@ Equip {1}</text>
                 <format-commander>legal</format-commander>
             </prop>
              <set rarity="rare" uuid="00000000-0000-0000-0000-000000000046" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Fellwar%20Stone%20(Touhou).png">CLM</set>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000098" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Fellwar%20Stone%20(ReZero).png">CLM</set>            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000170" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Fellwar%20Stone%20(Fate).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000098" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Fellwar%20Stone%20(ReZero).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000170" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Fellwar%20Stone%20(Fate).png">CLM</set>
             <tablerow>1</tablerow>
         </card>
 
@@ -1164,7 +1165,8 @@ Equip {1}</text>
                 <type>Land</type>
                 <format-commander>legal</format-commander>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000047" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/City%20of%20Brass%20(Touhou).png">CLM</set>            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000166" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/City%20of%20Brass%20(Fate).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000047" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/City%20of%20Brass%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000166" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/City%20of%20Brass%20(Fate).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -1783,7 +1785,7 @@ Doctor's companion (You can have two commanders if the other is the Doctor.)</te
                 <format-commander>legal</format-commander>
                 <colors>W</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000081" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Natsuki%20Subaru%2C%20Starting%20From%20Zero.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000081" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Natsuki%20Subaru%2C%20Starting%20From%20Zero.png" num="000-004-XXX">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
@@ -1854,7 +1856,7 @@ Doctor's companion (You can have two commanders if the other is the Doctor.)</te
                 <format-commander>legal</format-commander>
                 <colors>U</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000092" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Five%20Hundred%20Year%20Diary%20(ReZero).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000092" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Five%20Hundred%20Year%20Diary%20(ReZero).png" num="000-004-XXX">CLM</set>
             <tablerow>1</tablerow>
             <cipt>1</cipt>
         </card>
@@ -2188,7 +2190,8 @@ Equip {2}</text>
                 <type>Land</type>
                 <format-commander>legal</format-commander>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000110" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Reflecting%20Pool%20(ReZero).png">CLM</set>            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000169" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Reflecting%20Pool%20(Fate).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000110" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Reflecting%20Pool%20(ReZero).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000169" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Reflecting%20Pool%20(Fate).png">CLM</set>
 
             <tablerow>0</tablerow>
         </card>
@@ -3604,7 +3607,7 @@ Umbra armor</text>
         </card>
 
         <card>
-            <name>Clue Token</name>
+            <name>Clue Token </name>
             <text>{2}, Sacrifice this token: Draw a card.</text>
             <prop>
                 <type>Token Artifact — Clue</type>
@@ -3616,6 +3619,21 @@ Umbra armor</text>
             <reverse-related>The Third Doctor</reverse-related>
             <reverse-related>Martha Jones</reverse-related>
             <set rarity="rare" uuid="00000000-0000-0000-0003-XXXXXXXXXXXX" num="000-003-XXX" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Clue%20(Fate).png">CLM</set>
+            <tablerow>1</tablerow>
+        </card>
+
+        <card>
+            <name>Clue Token  </name>
+            <text>{2}, Sacrifice this token: Draw a card.</text>
+            <prop>
+                <type>Token Artifact — Clue</type>
+                <maintype>Artifact</maintype>
+                <cmc>0</cmc>
+            </prop>
+            <token>1</token>
+            <reverse-related>Five Hundred Year Diary</reverse-related>
+            <reverse-related>Sarah Jane Smith</reverse-related>
+            <set rarity="rare" uuid="00000000-0000-0000-0004-XXXXXXXXXXXX" num="000-004-XXX" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Clue%20(ReZero).png">CLM</set>
             <tablerow>1</tablerow>
         </card>
 

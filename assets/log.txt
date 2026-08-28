@@ -183,3 +183,4 @@ tokens/Robot (Fate).png | 1787871770576.5193
 cards/Fran, the Evil Boss’s Daughter.png | 1787874061216.2761
 tokens/Mask (Fate).png | 1787877508767.3672
 tokens/Clue (Fate).png | 1787878378102.6824
+tokens/Clue (ReZero).png | 1787879933932.835

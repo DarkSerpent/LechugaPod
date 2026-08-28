@@ -207,5 +207,7 @@
 * tokens/Clue (Fate).png | [Nakai Jun](https://x.com/jacomamire)
 * tokens/Mask (Fate).png | [Zap](https://www.pixiv.net/en/users/231653)
 * tokens/Robot (Fate).png | [hotosoka](https://www.pixiv.net/en/users/31082248)
+### ReZero
+* tokens/Clue (ReZero).png | [SEGA](https://en.wikipedia.org/wiki/Sega)
 
 [^1]: No publicly available or accessible documentation of this artist was found.
