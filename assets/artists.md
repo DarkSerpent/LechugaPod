@@ -19,6 +19,7 @@
 * cards/Goredolf Musik, Indomitable.png | [BLACK](https://typemoon.fandom.com/wiki/BLACK)
 * cards/Hassan of Serenity.png | [Hi Na 0729](https://www.pixiv.net/en/users/5402792)
 * cards/Hieda no Akyuu, Perfect Memory.png | [thkani](https://www.pixiv.net/en/users/13134696)
+* cards/Hina, Prefect Team Chairman.png | [penguin say](https://www.pixiv.net/en/users/16710545)
 * cards/Hollow Heart Albion.png | [CHOCO](https://x.com/choco_mugi)
 * cards/Kashin Koji, Fuuma Sorcerer.png | [Yoneyama Mai](https://www.pixiv.net/en/users/1554775)
 * cards/Kogasa Tatara, the Forgotten Umbrella.png | [Elina Noodles](https://www.pixiv.net/en/users/82051602)

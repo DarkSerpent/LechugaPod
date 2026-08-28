@@ -1,4 +1,8 @@
+## 8/28/2026
+* 12:04:42.022 AM CDT - Shay Cormac / Hina, Prefect Team Chairman / Hina, Prefect Team Chairman
+
 ## 8/27/2026
+* 11:46:00.951 PM CDT - The Capitoline Triad Emblem / The Capitoline Triad Emblem (Blue Archive) / The Final Coming
 * 11:34:17.545 PM CDT - The Capitoline Triad / Malkuth, the Tenth Prophet / Malkuth, the Tenth Prophet
 * 8:18:53.932 PM CDT - Clue Token (RZ) / Clue (ReZero) / The Witch of Greed
 * 7:52:58.102 PM CDT - Clue Token (FGO) / Clue (Fate) / Whodunnit?

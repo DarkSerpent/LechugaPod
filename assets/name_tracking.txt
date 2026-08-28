@@ -188,3 +188,4 @@ Clue Token (FGO)_3X = Whodunnit?
 Clue Token (RZ)_4X = The Witch of Greed
 The Capitoline Triad_0183 = Malkuth, the Tenth Prophet
 The Capitoline Triad Emblem_5X = The Final Coming
+Shay Cormac_0184 = Hina, Prefect Team Chairman

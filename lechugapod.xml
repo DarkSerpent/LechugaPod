@@ -3674,6 +3674,32 @@ Exile any number of historic cards from your graveyard with total mana value 30 
             <tablerow>1</tablerow>
         </card>
 
+        <card>
+            <name>Shay Cormac</name>
+            <text>{1}: Permanents your opponents control lose hexproof, indestructible, protection, shroud, and ward until end of turn.
+Whenever a creature an opponent controls becomes the target of a spell or ability you control, put a bounty counter on that creature.
+Whenever a creature with a bounty counter on it dies, put two +1/+1 counters on Shay Cormac.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>WB</coloridentity>
+                <cmc>2</cmc>
+                <manacost>WB</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Human Knight Rogue</type>
+                <pt>1/1</pt>
+                <format-commander>legal</format-commander>
+                <colors>WB</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000184" flavorName="BlueArchive" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Hina%2C%20Prefect%20Team%20Chairman.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>
