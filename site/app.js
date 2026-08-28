@@ -150,7 +150,7 @@ async function acceptFile(file) {
     state.text = await file.text();
     parseXml(state.text);
     if (!state.proxyXml) state.proxyXml = await loadReference('../lechugapod.xml');
-    if (!state.savedXml) state.savedXml = await loadReference('../saved/cards.xml');
+    if (!state.savedXml) state.savedXml = await loadReference('https://raw.githubusercontent.com/Cockatrice/Cockatrice/refs/heads/master/tests/carddatabase/data/cards.xml');
     fileTitle.textContent = file.name;
     fileHint.textContent = 'Ready to Convert!';
     convertButton.disabled = false;
