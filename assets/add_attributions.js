@@ -28,6 +28,7 @@ try {
 const ASSETS_DIR = __dirname;
 const XML_PATH = path.join(__dirname, '..', 'lechugapod.xml');
 const ARTISTS_FILE = path.join(__dirname, 'artists.md');
+const ARTISTS_TRACKING_FILE = path.join(__dirname, 'artists_tracking.txt');
 const SORTING_FILE = path.join(__dirname, 'artists_sorting.txt');
 
 const CANVAS_W = 2010;
@@ -249,6 +250,34 @@ function readArtistsLog() {
 
 function isHttpUrl(u) {
   return !!(u && typeof u === 'string' && /^https?:\/\//i.test(u));
+}
+
+function readArtistTracking() {
+  const map = new Map();
+  if (!fs.existsSync(ARTISTS_TRACKING_FILE)) return map;
+
+  for (const line of fs.readFileSync(ARTISTS_TRACKING_FILE, 'utf8').split(/\r?\n/)) {
+    const match = line.match(/^(.+?)\s*=\s*(https?:\/\/\S+)\s*$/i);
+    if (!match) continue;
+    const name = match[1].trim();
+    const url = match[2].trim();
+    if (name && isHttpUrl(url)) map.set(normalizeForMatch(name), { name, url });
+  }
+
+  return map;
+}
+
+function saveArtistTracking(name, url) {
+  if (!name || !isHttpUrl(url)) return;
+
+  const artists = readArtistTracking();
+  const key = normalizeForMatch(name);
+  if (!artists.has(key)) artists.set(key, { name: name.trim(), url: url.trim() });
+
+  const lines = [...artists.values()]
+    .sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base' }))
+    .map(artist => `${artist.name} = ${artist.url}`);
+  fs.writeFileSync(ARTISTS_TRACKING_FILE, `${lines.join('\n')}\n`, 'utf8');
 }
 
 function readSortingLog() {
@@ -961,16 +990,9 @@ async function processCard(
 
   let resolvedUrl = null;
   
-  const existingMap = readArtistsLog();
   const artistName = displayName || artist;
-  let existingUrl = null;
-  
-  for (const [, value] of existingMap) {
-    if (value && value.name && normalizeForMatch(value.name) === normalizeForMatch(artistName) && isHttpUrl(value.url)) {
-      existingUrl = value.url;
-      break;
-    }
-  }
+  const existingArtist = readArtistTracking().get(normalizeForMatch(artistName));
+  const existingUrl = existingArtist?.url || null;
   
   if (existingUrl) {
     resolvedUrl = existingUrl;
@@ -993,6 +1015,7 @@ async function processCard(
   
     if (answer.trim() && isHttpUrl(answer.trim())) {
       resolvedUrl = answer.trim();
+      saveArtistTracking(artistName, resolvedUrl);
       console.log(`Using manually entered URL: ${resolvedUrl}\n`);
     }
   }
