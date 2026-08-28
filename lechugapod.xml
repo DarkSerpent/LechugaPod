@@ -3637,6 +3637,43 @@ Umbra armor</text>
             <tablerow>1</tablerow>
         </card>
 
+        <card>
+            <name>The Capitoline Triad</name>
+            <text>Those Who Came Before — This spell costs {1} less to cast for each historic card in your graveyard. (Artifacts, legendaries, and Sagas are historic.)
+Exile any number of historic cards from your graveyard with total mana value 30 or greater: You get an emblem with &quot;Creatures you control have base power and toughness 9/9.&quot;</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <cmc>10</cmc>
+                <manacost>10</manacost>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — God Artificer</type>
+                <pt>7/7</pt>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000183" flavorName="BlueArchive" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Malkuth%2C%20the%20Tenth%20Prophet.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
+        <card>
+            <name>The Capitoline Triad Emblem</name>
+            <text>Creatures you control have base power and toughness 9/9.</text>
+            <prop>
+                <type>Emblem</type>
+                <maintype>Emblem</maintype>
+            </prop>
+            <token>1</token>
+            <reverse-related>The Capitoline Triad</reverse-related>
+            <set rarity="rare" uuid="00000000-0000-0000-0005-XXXXXXXXXXXX" flavorName="BlueArchive" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/The%20Capitoline%20Triad%20Emblem%20(Blue%20Archive).png">CLM</set>
+            <tablerow>1</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

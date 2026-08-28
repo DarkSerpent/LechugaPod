@@ -107,7 +107,7 @@ function categoryFor(maintype) {
 
 function isTokenCard(cardXml) {
     const type = tagContents(cardXml, 'type') || '';
-    return /^Token\b/i.test(type);
+    return /^Token\b/i.test(type) || tagContents(cardXml, 'token') === '1';
 }
 
 function parseTrackingFile(contents) {

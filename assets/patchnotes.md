@@ -1,6 +1,7 @@
 ## 8/27/2026
-* 8:18:53.932 PM CDT - Clue Token / Clue (ReZero) / The Witch of Greed
-* 7:52:58.102 PM CDT - Clue Token / Clue (Fate) / Whodunnit?
+* 11:34:17.545 PM CDT - The Capitoline Triad / Malkuth, the Tenth Prophet / Malkuth, the Tenth Prophet
+* 8:18:53.932 PM CDT - Clue Token (RZ) / Clue (ReZero) / The Witch of Greed
+* 7:52:58.102 PM CDT - Clue Token (FGO) / Clue (Fate) / Whodunnit?
 * 7:20:53.944 PM CDT - Mask / Mask (Fate) / Hero Creation
 * 6:41:01.216 PM CDT - Martha Jones / Fran, the Evil Boss’s Daughter / Fran, the Evil Boss’s Daughter
 * 6:02:50.576 PM CDT - Robot Token / Robot (Fate) / Nemo Series

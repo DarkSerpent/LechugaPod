@@ -184,3 +184,5 @@ cards/Fran, the Evil Boss’s Daughter.png | 1787874061216.2761
 tokens/Mask (Fate).png | 1787877508767.3672
 tokens/Clue (Fate).png | 1787878378102.6824
 tokens/Clue (ReZero).png | 1787879933932.835
+cards/Malkuth, the Tenth Prophet.png | 1787891657545.0474
+tokens/The Capitoline Triad Emblem (Blue Archive).png | 1787892360951.245

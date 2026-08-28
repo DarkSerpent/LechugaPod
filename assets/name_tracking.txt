@@ -184,3 +184,7 @@ Martha Jones_0182 = Fran, the Evil Boss’s Daughter
 Mask_2X = Hero Creation
 Clue Token_3X = Whodunnit?
 Clue Token_4X = The Witch of Greed
+Clue Token (FGO)_3X = Whodunnit?
+Clue Token (RZ)_4X = The Witch of Greed
+The Capitoline Triad_0183 = Malkuth, the Tenth Prophet
+The Capitoline Triad Emblem_5X = The Final Coming

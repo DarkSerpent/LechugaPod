@@ -14,16 +14,17 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 4. Open Cockatrice and confirm the custom set is working by navigating to "Browse Card Database" and typing in `set:CLM`.
 5. You're all set! If you want to automatically convert your decks to use all alternate card artworks from a given series, try out the [CLM Deck Converter](https://darkserpent.github.io/LechugaPod/site/) site!
 
-Collection currently at <img src="https://img.shields.io/badge/182-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/183-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
 
 ## Creature Cards
-### Blue Archive `4`
+### Blue Archive `5`
 * Laughing Jasper Flint[^1] = [Satsuki, Intelligence Director](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Satsuki%2C%20Intelligence%20Director.png) (Blue Archive)
 * King T'Challa // Black Panther, Hope Enduring[^1] = [Toki, Regular Maid](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Toki%2C%20Regular%20Maid.png) // [Toki, Abi-Eshuh Mode](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Toki%2C%20Abi%2DEshuh%20Mode.png) (Blue Archive)
 * Ms. Bumbleflower[^1] = [Shun, Gentle Instructor](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Shun%2C%20Gentle%20Instructor.png) (Blue Archive)
+* The Capitoline Triad[^1] = [Malkuth, the Tenth Prophet](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Malkuth%2C%20the%20Tenth%20Prophet.png) (Blue Archive)
 ### Fate Grand Order `22`
 * Kilo, Apogee Mind[^1] = [Kashin Koji, Fuuma Sorcerer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kashin%20Koji%2C%20Fuuma%20Sorcerer.png) (Fate Grand Order)
 * Krark, the Thumbless[^1] = [Fujimaru Ritsuka, Stargazer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujimaru%20Ritsuka%2C%20Stargazer.png) (Fate Grand Order)
@@ -242,15 +243,18 @@ Collection currently at <img src="https://img.shields.io/badge/182-88E788?style=
 > Cards listed here do not count towards the card total. <br/> <br/>
 > In addition, because of how Tokens work in the current version of Cockatrice ([3.1.0-beta.9](https://github.com/Cockatrice/Cockatrice/releases/tag/2026-08-25-Development-3.1.0-beta.9)), if two Token proxies share the same set ID, the newest is <ins>always</ins> used, no matter what we set as the flavorName or UUID. Because of this, certain tokens, like the "Clue Token", had to be adjusted so they are considered different tokens from the generic "Clue Token" (depicted in the client as "Clue Token (FGO)" and "Clue Token (RZ)". <br/>
 > <div align="left"><img src="https://github.com/DarkSerpent/LechugaPod/blob/main/assets/readme_tokens.png?raw=true" height="350"></div>
+### Blue Archive `1`
+* The Capitoline Triad Emblem = [The Final Coming](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/The%20Capitoline%20Triad%20Emblem%20(Blue%20Archive).png) (Blue Archive)
+   * Linked to: *The Capitoline Triad*
 ### Fate Grand Order `3`
 * Robot Token = [Nemo Series](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Robot%20(Fate).png) (Fate Grand Order)
    * Linked to: *Infinite Guideline Station*
 * Mask = [Hero Creation](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Mask%20(Fate).png) (Fate Grand Order)
    * Linked to: *Estrid, the Masked*
-* Clue Token = [Whodunnit?](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Clue%20(Fate).png) (Fate Grand Order)
+* Clue Token (FGO) = [Whodunnit?](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Clue%20(Fate).png) (Fate Grand Order)
    * Linked to: *Martha Jones, The Fugitive Doctor, The Third Doctor*
 ### Re:Zero `1`
-* Clue Token = [The Witch of Greed](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Clue%20(ReZero).png) (Re:Zero)
+* Clue Token (RZ) = [The Witch of Greed](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Clue%20(ReZero).png) (Re:Zero)
    * Linked to: *Five Hundred Year Diary, Sarah Jane Smith*
 
 [^1]: This card can be used as your Commander.

@@ -23,6 +23,7 @@
 * cards/Kashin Koji, Fuuma Sorcerer.png | [Yoneyama Mai](https://www.pixiv.net/en/users/1554775)
 * cards/Kogasa Tatara, the Forgotten Umbrella.png | [Elina Noodles](https://www.pixiv.net/en/users/82051602)
 * cards/Leonardo da Vinci, Gran Cavallo.png | [Yamyom](https://www.pixiv.net/en/users/46328)
+* cards/Malkuth, the Tenth Prophet.png | [paGzWcszSw73714](https://www.pixiv.net/en/users/113909352)
 * cards/Marisa Kirisame, Western Magician.png | [JILL](https://www.pixiv.net/en/users/54259522)
 * cards/Mash Kyrielight, Ritsuka’s Servant.png | [Takashi Takeuchi](https://www.zerochan.net/Takeuchi+Takashi)
 * cards/Melusine, Hand of Albion.png | [lack](https://www.pixiv.net/en/users/83739)
@@ -203,6 +204,8 @@
 * lands/Xander’s Lounge (Touhou).png | [Team Shanghai Alice](https://www.zerochan.net/Team+Shanghai+Alice)
 
 ## Tokens
+### Blue Archive
+* tokens/The Capitoline Triad Emblem (Blue Archive).png | [knt](https://www.pixiv.net/en/users/91997527)
 ### Fate
 * tokens/Clue (Fate).png | [Nakai Jun](https://x.com/jacomamire)
 * tokens/Mask (Fate).png | [Zap](https://www.pixiv.net/en/users/231653)
