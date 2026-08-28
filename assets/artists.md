@@ -204,6 +204,7 @@
 
 ## Tokens
 ### Fate
+* tokens/Mask (Fate).png | [Zap](https://www.pixiv.net/en/users/231653)
 * tokens/Robot (Fate).png | [hotosoka](https://www.pixiv.net/en/users/31082248)
 
 [^1]: No publicly available or accessible documentation of this artist was found.

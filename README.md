@@ -237,8 +237,10 @@ Collection currently at <img src="https://img.shields.io/badge/182-88E788?style=
 
 ## Tokens
 > Cards listed here do not count towards the card total.
-### Fate Grand Order `1`
+### Fate Grand Order `2`
 * Robot Token = [Nemo Series](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Robot%20(Fate).png) (Fate Grand Order)
    * Linked to: *Infinite Guideline Station*
+* Mask = [Hero Creation](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Mask%20(Fate).png) (Fate Grand Order)
+   * Linked to: *Estrid, the Masked*
 
 [^1]: This card can be used as your Commander.

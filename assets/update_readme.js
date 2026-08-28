@@ -361,7 +361,7 @@ function insertIntoSeries(lines, headingIndex, card, bulletReleaseMap) {
         if (!lines[i].startsWith('* ')) continue;
         const existingRelease = bulletReleaseMap.get(lines[i]);
         if (existingRelease !== undefined && existingRelease > card.release) {
-            lines.splice(i, 0, bullet);
+            lines.splice(i, 0, ...makeBulletLines(card));
             return;
         }
         lastBulletIndex = i;
@@ -529,7 +529,7 @@ async function main() {
         if (headingIndex === -1) {
             insertNewSeries(lines, card.category, card.seriesName, makeBulletLines(card).join('\n'));
         } else {
-            insertIntoSeries(lines, headingIndex, card, makeBulletLines(card).join('\n'));
+            insertIntoSeries(lines, headingIndex, card, bulletReleaseMap);
         }
         added.push(card);
         bulletReleaseMap.set(makeBullet(card), card.release);

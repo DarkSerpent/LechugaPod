@@ -181,3 +181,4 @@ Susan Foreman_0180 = Goredolf Musik, Indomitable
 Tegan Jovanka_0181 = Leonardo da Vinci, Gran Cavallo
 Robot Token_0000 = Nemo Series
 Martha Jones_0182 = Fran, the Evil Boss’s Daughter
+Mask_0000 = Hero Creation

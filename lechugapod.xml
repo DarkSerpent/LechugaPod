@@ -2996,7 +2996,7 @@ Estrid, the Masked can be your commander.</text>
                 <format-commander>legal</format-commander>
                 <colors>WUG</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000159" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/planeswalkers/Lady%20Avalon%2C%20Dreamweaver.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000159" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/planeswalkers/Lady%20Avalon%2C%20Dreamweaver.png" num="000-002-XXX">CLM</set>
             <tablerow>1</tablerow>
         </card>
 
@@ -3585,6 +3585,22 @@ Doctor's companion (You can have two commanders if the other is the Doctor.)</te
             </prop>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000182" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fran%2C%20the%20Evil%20Boss%E2%80%99s%20Daughter.png">CLM</set>
             <tablerow>2</tablerow>
+        </card>
+
+        <card>
+            <name>Mask</name>
+            <text>Enchant permanent
+Umbra armor</text>
+            <prop>
+                <colors>W</colors>
+                <type>Token Enchantment — Aura</type>
+                <maintype>Enchantment</maintype>
+                <cmc>0</cmc>
+            </prop>
+            <token>1</token>
+            <reverse-related>Estrid, the Masked</reverse-related>
+            <set rarity="rare" uuid="00000000-0000-0000-0002-XXXXXXXXXXXX" num="000-002-XXX" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Mask%20(Fate).png">CLM</set>
+            <tablerow>1</tablerow>
         </card>
 
 </cards>
