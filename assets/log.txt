@@ -199,3 +199,5 @@ lands/Plains (Arknights).png | 1788146292396.707
 lands/Swamp (Arknights).png | 1788146292711.2122
 lands/Wastes (Arknights).png | 1788146292921.7559
 lands/Command Tower (Arknights).png | 1788147501927.2036
+lands/Command Beacon (Arknights).png | 1788148269953.1497
+lands/Exotic Orchard (Arknights).png | 1788148567894.6492

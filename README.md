@@ -14,7 +14,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 4. Open Cockatrice and confirm the custom set is working by navigating to "Browse Card Database" and typing in `set:CLM`.
 5. You're all set! If you want to automatically convert your decks to use all alternate card artworks from a given series, try out the [CLM Deck Converter](https://darkserpent.github.io/LechugaPod/site/) site!
 
-Collection currently at <img src="https://img.shields.io/badge/196-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/198-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -148,7 +148,7 @@ Collection currently at <img src="https://img.shields.io/badge/196-88E788?style=
 * Fellwar Stone = [Kourindou's Curios](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Fellwar%20Stone%20(Touhou).png) (Touhou Project)
 
 ## Lands
-### Arknights `7`
+### Arknights `9`
 * Plains = [Rhodes Island](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(Arknights).png) (Arknights)
 * Island = [Lungmen](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(Arknights).png) (Arknights)
 * Swamp = [Kazdel](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(Arknights).png) (Arknights)
@@ -156,6 +156,8 @@ Collection currently at <img src="https://img.shields.io/badge/196-88E788?style=
 * Forest = [Sami](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Forest%20(Arknights).png) (Arknights)
 * Wastes = [Catastrophe Zone](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Wastes%20(Arknights).png) (Arknights)
 * Command Tower = [Rhodes Island Operations Room](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(Arknights).png) (Arknights)
+* Command Beacon = [Rhodes Island Terminal Service](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Beacon%20(Arknights).png) (Arknights)
+* Exotic Orchard = [Convalescent Garden](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Exotic%20Orchard%20(Arknights).png) (Arknights)
 ### Blue Archive `13`
 * Command Tower = [SCHALE, Main Office](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(Blue%20Archive).png) (Blue Archive)
 * Command Beacon = [The Sanctum Tower](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Beacon%20(Blue%20Archive).png) (Blue Archive)
