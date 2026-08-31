@@ -86,7 +86,7 @@ lands/Fabled Passage (Touhou).png | 1787650336898.266
 lands/Forest (Blue Archive).png | 1787650337294.5127
 lands/Forest (Honkai Star Rail).png | 1787650337586.246
 lands/Forest (ReZero).png | 1787650338002.217
-lands/Forest (Shadowverse).png | 1787650338421.466
+lands/Forest (Shadowverse).png | 1788134889289.3408
 lands/Forest (Touhou).png | 1787650338855.9788
 lands/Glacial Fortress (ReZero).png | 1787650339149.616
 lands/Hall of Heliod’s Generosity (Honkai Star Rail).png | 1787650339556.259
@@ -95,21 +95,21 @@ lands/High Market (ReZero).png | 1787650340330.8667
 lands/Island (Blue Archive).png | 1787650340609.5247
 lands/Island (Honkai Star Rail).png | 1787650340880.9624
 lands/Island (ReZero).png | 1787650341299.5066
-lands/Island (Shadowverse).png | 1787650341664.3115
+lands/Island (Shadowverse).png | 1788134889758.2686
 lands/Island (Touhou).png | 1787650341939.9487
 lands/Llanowar Wastes (Touhou).png | 1787650342247.5793
 lands/Mortuary Mire (Touhou).png | 1787650342598.2488
 lands/Mountain (Blue Archive).png | 1787650342911.4019
 lands/Mountain (Honkai Star Rail).png | 1787650343268.3826
 lands/Mountain (ReZero).png | 1787650844742.7976
-lands/Mountain (Shadowverse).png | 1787650343963.9348
+lands/Mountain (Shadowverse).png | 1788134890149.2578
 lands/Mountain (Touhou).png | 1787650344338.4333
 lands/Otawara, Soaring City (Touhou).png | 1787650344664.0684
 lands/Pit of Offerings (ReZero).png | 1787650344919.2388
 lands/Plains (Blue Archive).png | 1787650345240.1228
 lands/Plains (Honkai Star Rail).png | 1787650345636.5203
 lands/Plains (ReZero).png | 1787650346089.7866
-lands/Plains (Shadowverse).png | 1787650346543.306
+lands/Plains (Shadowverse).png | 1788134890545.5923
 lands/Plains (Touhou).png | 1787650347015.9243
 lands/Reflecting Pool (ReZero).png | 1787650347388.4258
 lands/Rejuvenating Springs (ReZero).png | 1787650348073.057
@@ -120,7 +120,7 @@ lands/Seraph Sanctuary (Touhou).png | 1787650349586.2805
 lands/Swamp (Blue Archive).png | 1787650349996.184
 lands/Swamp (Honkai Star Rail).png | 1787650350266.061
 lands/Swamp (ReZero).png | 1787650350682.8845
-lands/Swamp (Shadowverse).png | 1787724450822.9492
+lands/Swamp (Shadowverse).png | 1788134890941.6162
 lands/Swamp (Touhou).png | 1787650351459.1826
 lands/The Shire (Touhou).png | 1787650351811.4058
 lands/Treasure Vault (Shadowverse).png | 1787650352163.068
@@ -130,7 +130,7 @@ lands/Vault of the Archangel (Touhou).png | 1787650353185.1704
 lands/Wastes (Blue Archive).png | 1787650353512.9963
 lands/Wastes (Honkai Star Rail).png | 1787650353812.172
 lands/Wastes (ReZero).png | 1787650354197.713
-lands/Wastes (Shadowverse).png | 1787650354412.8936
+lands/Wastes (Shadowverse).png | 1788134891295.5085
 lands/Wastes (Touhou).png | 1787650354746.036
 lands/Watery Grave (Honkai Star Rail).png | 1787650355033.9375
 lands/Xander’s Lounge (Touhou).png | 1787650355331.069
