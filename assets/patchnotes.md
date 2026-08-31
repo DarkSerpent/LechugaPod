@@ -1,4 +1,5 @@
 ## 8/30/2026
+* 11:13:53.788 PM CDT - Arcane Signet / Arcane Signet (Arknights) / Rhodes Island Identification Badge
 * 11:04:50.264 PM CDT - Sol Ring / Sol Ring (Arknights) / Infection Monitor
 * 10:56:07.894 PM CDT - Exotic Orchard / Exotic Orchard (Arknights) / Convalescent Garden
 * 10:51:09.953 PM CDT - Command Beacon / Command Beacon (Arknights) / Rhodes Island Terminal Service
