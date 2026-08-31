@@ -100,6 +100,8 @@
 * artifacts/Sol Ring (ReZero).png | [MAGES](https://en.wikipedia.org/wiki/Mages_(company))
 * artifacts/Sonic Screwdriver (ReZero).png | [MAGES](https://en.wikipedia.org/wiki/Mages_(company))
 * artifacts/Thought Vessel (ReZero).png | [Shinichirou Otsuka](https://twitter.com/otsuka_shin)
+### Shadowverse
+* artifacts/Sol Ring (Shadowverse).png | [Cygames](https://en.wikipedia.org/wiki/Cygames)
 ### Touhou
 * artifacts/Arcane Signet (Touhou).png | [Team Shanghai Alice](https://www.zerochan.net/Team+Shanghai+Alice)
 * artifacts/Fellwar Stone (Touhou).png | [Team Shanghai Alice](https://www.zerochan.net/Team+Shanghai+Alice)

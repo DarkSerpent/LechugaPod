@@ -190,3 +190,4 @@ cards/Hina, Prefect Team Chairman.png | 1787893482022.4883
 lands/Snow-Covered Plains (Blue Archive).png | 1787893808480.4243
 lands/Snow-Covered Island (Blue Archive).png | 1787894196443.7444
 lands/Snow-Covered Forest (Blue Archive).png | 1787894379403.4443
+artifacts/Sol Ring (Shadowverse).png | 1788135771617.8955

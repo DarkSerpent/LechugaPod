@@ -192,3 +192,4 @@ Shay Cormac_0184 = Hina, Prefect Team Chairman
 Snow-Covered Plains_0185 = Red Winter Federal Academy
 Snow-Covered Island_0186 = Red Winter Academy Presidential Office
 Snow-Covered Forest_0187 = Red Winter Academy Main School Lunch Club
+Sol Ring_0188 = Dragonsign
