@@ -62,6 +62,8 @@
 * planeswalkers/Halibel, the Admirer.png | [Shinichirou Otsuka](https://twitter.com/otsuka_shin)
 
 ## Artifacts
+### Arknights
+* artifacts/Sol Ring (Arknights).png | [Hypergryph](https://zh.wikipedia.org/zh-cn/%E9%B9%B0%E8%A7%92%E7%BD%91%E7%BB%9C)
 ### Blue Archive
 * artifacts/Sol Ring (Blue Archive).png | [Nexon Games](https://en.wikipedia.org/wiki/Nexon)
 ### Fate

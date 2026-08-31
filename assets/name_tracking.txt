@@ -203,3 +203,4 @@ Wastes_0195 = Catastrophe Zone
 Command Tower_0196 = Rhodes Island Operations Room
 Command Beacon_0197 = Rhodes Island Terminal Service
 Exotic Orchard_0198 = Convalescent Garden
+Sol Ring_0199 = Infection Monitor
