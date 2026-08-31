@@ -1,4 +1,5 @@
 ## 8/30/2026
+* 10:38:21.927 PM CDT - Command Tower / Command Tower (Arknights) / Rhodes Island Operations Room
 * 10:18:12.921 PM CDT - Wastes / Wastes (Arknights) / Catastrophe Zone
 * 10:18:12.711 PM CDT - Swamp / Swamp (Arknights) / Kazdel
 * 10:18:12.396 PM CDT - Plains / Plains (Arknights) / Rhodes Island

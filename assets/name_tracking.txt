@@ -200,3 +200,4 @@ Swamp_0192 = Kazdel
 Mountain_0193 = Trimounts
 Forest_0194 = Sami
 Wastes_0195 = Catastrophe Zone
+Command Tower_0196 = Rhodes Island Operations Room
