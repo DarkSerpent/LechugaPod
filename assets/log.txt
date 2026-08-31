@@ -191,3 +191,10 @@ lands/Snow-Covered Plains (Blue Archive).png | 1787893808480.4243
 lands/Snow-Covered Island (Blue Archive).png | 1787894196443.7444
 lands/Snow-Covered Forest (Blue Archive).png | 1787894379403.4443
 artifacts/Sol Ring (Shadowverse).png | 1788135771617.8955
+cards/Chen Qianyu, Prodigy of Tanjian.png | 1788141829712.8457
+lands/Forest (Arknights).png | 1788146291551.6233
+lands/Island (Arknights).png | 1788146291834.9783
+lands/Mountain (Arknights).png | 1788146292125.916
+lands/Plains (Arknights).png | 1788146292396.707
+lands/Swamp (Arknights).png | 1788146292711.2122
+lands/Wastes (Arknights).png | 1788146292921.7559

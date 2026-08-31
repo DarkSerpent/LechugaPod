@@ -1,4 +1,11 @@
 ## 8/30/2026
+* 10:18:12.921 PM CDT - Wastes / Wastes (Arknights) / Catastrophe Zone
+* 10:18:12.711 PM CDT - Swamp / Swamp (Arknights) / Kazdel
+* 10:18:12.396 PM CDT - Plains / Plains (Arknights) / Rhodes Island
+* 10:18:12.125 PM CDT - Mountain / Mountain (Arknights) / Trimounts
+* 10:18:11.834 PM CDT - Island / Island (Arknights) / Lungmen
+* 10:18:11.551 PM CDT - Forest / Forest (Arknights) / Sami
+* 9:03:49.712 PM CDT - Isshin, Two Heavens as One / Chen Qianyu, Prodigy of Tanjian / Chen Qianyu, Prodigy of Tanjian
 * 7:22:51.617 PM CDT - Sol Ring / Sol Ring (Shadowverse) / Dragonsign
 
 ## 8/28/2026

@@ -10,6 +10,7 @@ const README_PATH = path.join(ROOT_DIR, 'README.md');
 const TRACKING_PATH = path.join(__dirname, 'name_tracking.txt');
 
 const SERIES_NAMES = {
+    Arknights: 'Arknights',
     BlueArchive: 'Blue Archive',
     Fate: 'Fate Grand Order',
     ReZero: 'Re:Zero',

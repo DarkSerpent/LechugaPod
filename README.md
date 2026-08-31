@@ -14,12 +14,14 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 4. Open Cockatrice and confirm the custom set is working by navigating to "Browse Card Database" and typing in `set:CLM`.
 5. You're all set! If you want to automatically convert your decks to use all alternate card artworks from a given series, try out the [CLM Deck Converter](https://darkserpent.github.io/LechugaPod/site/) site!
 
-Collection currently at <img src="https://img.shields.io/badge/188-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/195-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
 
 ## Creature Cards
+### Arknights `1`
+* Isshin, Two Heavens as One[^1] = [Chen Qianyu, Prodigy of Tanjian](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Chen%20Qianyu%2C%20Prodigy%20of%20Tanjian.png) (Arknights)
 ### Blue Archive `6`
 * Laughing Jasper Flint[^1] = [Satsuki, Intelligence Director](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Satsuki%2C%20Intelligence%20Director.png) (Blue Archive)
 * King T'Challa // Black Panther, Hope Enduring[^1] = [Toki, Regular Maid](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Toki%2C%20Regular%20Maid.png) // [Toki, Abi-Eshuh Mode](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Toki%2C%20Abi%2DEshuh%20Mode.png) (Blue Archive)
@@ -146,6 +148,13 @@ Collection currently at <img src="https://img.shields.io/badge/188-88E788?style=
 * Fellwar Stone = [Kourindou's Curios](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Fellwar%20Stone%20(Touhou).png) (Touhou Project)
 
 ## Lands
+### Arknights `6`
+* Plains = [Rhodes Island](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(Arknights).png) (Arknights)
+* Island = [Lungmen](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(Arknights).png) (Arknights)
+* Swamp = [Kazdel](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(Arknights).png) (Arknights)
+* Mountain = [Trimounts](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Mountain%20(Arknights).png) (Arknights)
+* Forest = [Sami](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Forest%20(Arknights).png) (Arknights)
+* Wastes = [Catastrophe Zone](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Wastes%20(Arknights).png) (Arknights)
 ### Blue Archive `13`
 * Command Tower = [SCHALE, Main Office](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(Blue%20Archive).png) (Blue Archive)
 * Command Beacon = [The Sanctum Tower](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Beacon%20(Blue%20Archive).png) (Blue Archive)

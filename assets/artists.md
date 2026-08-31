@@ -3,6 +3,7 @@
 * cards/Baobhan Sith, Blood Rose.png | [Genyaky](https://www.pixiv.net/en/users/1867047)
 * cards/Barghest, Eater of Those She Loves.png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * cards/Barghest, Gawain the Loving.png | [Nakaga Eri](https://www.pixiv.net/users/15830750)
+* cards/Chen Qianyu, Prodigy of Tanjian.png | [xiaoraini](https://www.pixiv.net/en/users/53117627)
 * cards/Cirno, Fairy of the Ice.png | [S1zl](https://www.pixiv.net/en/users/76625350)
 * cards/Detective Sherlock Holmes.png | [mqq11](https://www.pixiv.net/en/users/32304575)
 * cards/Echidna, the Witch of Greed.png | [Gabiran](https://www.pixiv.net/en/users/2003931)
@@ -111,6 +112,13 @@
 * artifacts/The One Ring (Touhou).png | [Team Shanghai Alice](https://www.zerochan.net/Team+Shanghai+Alice)
 
 ## Lands
+### Arknights
+* lands/Forest (Arknights).png | [Hypergryph](https://zh.wikipedia.org/zh-cn/%E9%B9%B0%E8%A7%92%E7%BD%91%E7%BB%9C)
+* lands/Island (Arknights).png | [Hypergryph](https://zh.wikipedia.org/zh-cn/%E9%B9%B0%E8%A7%92%E7%BD%91%E7%BB%9C)
+* lands/Mountain (Arknights).png | [Hypergryph](https://zh.wikipedia.org/zh-cn/%E9%B9%B0%E8%A7%92%E7%BD%91%E7%BB%9C)
+* lands/Plains (Arknights).png | [Hypergryph](https://zh.wikipedia.org/zh-cn/%E9%B9%B0%E8%A7%92%E7%BD%91%E7%BB%9C)
+* lands/Swamp (Arknights).png | [Hypergryph](https://zh.wikipedia.org/zh-cn/%E9%B9%B0%E8%A7%92%E7%BD%91%E7%BB%9C)
+* lands/Wastes (Arknights).png | [Hypergryph](https://zh.wikipedia.org/zh-cn/%E9%B9%B0%E8%A7%92%E7%BD%91%E7%BB%9C)
 ### Blue Archive
 * lands/Command Beacon (Blue Archive).png | [Nexon Games](https://en.wikipedia.org/wiki/Nexon)
 * lands/Command Tower (Blue Archive).png | [Nexon Games](https://en.wikipedia.org/wiki/Nexon)
