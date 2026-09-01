@@ -630,7 +630,7 @@ Whenever Smaug is dealt noncombat damage, create that many Treasure tokens.</tex
                 <format-future>legal</format-future>
                 <format-commander>legal</format-commander>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000027" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Rogue%E2%80%99s%20Passage%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000027" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Rogue%E2%80%99s%20Passage%20(Touhou).png">CLM</set>            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000205" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Rogue%E2%80%99s%20Passage%20(ReZero).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -3878,6 +3878,42 @@ Whenever a creature with a bounty counter on it dies, put two +1/+1 counters on 
             </prop>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000203" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Snow-Covered%20Swamp%20(Touhou).png">CLM</set>
             <tablerow>0</tablerow>
+        </card>
+
+        <card>
+            <name>Hylda of the Icy Crown</name>
+            <text>Whenever you tap an untapped creature an opponent controls, you may pay {1}. When you do, choose one —
+• Create a 4/4 white and blue Elemental creature token.
+• Put a +1/+1 counter on each creature you control.
+• Scry 2, then draw a card.</text>
+            <prop>
+                <format-standard>legal</format-standard>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-standardbrawl>legal</format-standardbrawl>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>WU</coloridentity>
+                <cmc>4</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <manacost>2WU</manacost>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Human Warlock</type>
+                <format-future>legal</format-future>
+                <pt>3/4</pt>
+                <format-commander>legal</format-commander>
+                <colors>WU</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000204" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Emilia%2C%20Spirit%20Arts%20Practitioner.png">CLM</set>
+            <tablerow>2</tablerow>
         </card>
 
 </cards>

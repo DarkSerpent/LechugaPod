@@ -206,3 +206,5 @@ artifacts/Arcane Signet (Arknights).png | 1788149633788.6155
 cards/Thomas Edison, King of Inventors.png | 1788227392244.0576
 lands/Snow-Covered Island (Touhou).png | 1788228910463.5774
 lands/Snow-Covered Swamp (Touhou).png | 1788228910739.1724
+cards/Emilia, Spirit Arts Practitioner.png | 1788238169085.877
+lands/Rogue’s Passage (ReZero).png | 1788238670162.802

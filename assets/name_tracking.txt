@@ -208,3 +208,5 @@ Arcane Signet_0200 = Rhodes Island Identification Badge
 Memnarch_0201 = Thomas Edison, King of Inventors
 Snow-Covered Island_0202 = Icy Cool Home
 Snow-Covered Swamp_0203 = Sea of Tranquility (Near Side)
+Hylda of the Icy Crown_0204 = Emilia, Spirit Arts Practitioner
+Rogue's Passage_0205 = Arc 1 Alley

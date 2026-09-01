@@ -14,7 +14,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 4. Open Cockatrice and confirm the custom set is working by navigating to "Browse Card Database" and typing in `set:CLM`.
 5. You're all set! If you want to automatically convert your decks to use all alternate card artworks from a given series, try out the [CLM Deck Converter](https://darkserpent.github.io/LechugaPod/site/) site!
 
-Collection currently at <img src="https://img.shields.io/badge/203-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/205-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -55,10 +55,11 @@ Collection currently at <img src="https://img.shields.io/badge/203-88E788?style=
 ### Honkai: Star Rail `2`
 * Aminatou, Veil Piercer[^1] = [The Herta, Peerless Gem](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/The%20Herta%2C%20Peerless%20Gem.png) (Honkai: Star Rail)
 * Fire Lord Azula[^1] = [Asta, Lead Astronomer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Asta%2C%20Lead%20Astronomer.png) (Honkai: Star Rail)
-### Re:Zero `3`
+### Re:Zero `4`
 * The Sixth Doctor[^1] = [Echidna, the Witch of Greed](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Echidna%2C%20the%20Witch%20of%20Greed.png) (Re:Zero)
 * Romana II[^1] = [Natsuki Subaru, Accreting Life](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Natsuki%20Subaru%2C%20Accreting%20Life.png) (Re:Zero)
 * Sarah Jane Smith[^1] = [Natsuki Subaru, Starting From Zero](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Natsuki%20Subaru%2C%20Starting%20From%20Zero.png) (Re:Zero)
+* Hylda of the Icy Crown[^1] = [Emilia, Spirit Arts Practitioner](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Emilia%2C%20Spirit%20Arts%20Practitioner.png) (Re:Zero)
 ### Shakugan no Shana `1`
 * Gisela, Blade of Goldnight[^1] = [Shana, Flame-Haired Hunter](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Shana%2C%20Flame-Haired%20Hunter.png) (Shakugan no Shana)
 ### Shadowverse: Worlds Beyond `1`
@@ -205,7 +206,7 @@ Collection currently at <img src="https://img.shields.io/badge/203-88E788?style=
 * Bojuka Bog = [Fyxestroll Garden](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Bojuka%20Bog%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
 * Exotic Orchard = [Grove of Epiphany](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Exotic%20Orchard%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
 * Command Beacon = [Pillars of Creation](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Beacon%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
-### Re:Zero `18`
+### Re:Zero `19`
 * Plains = [Dragon Kingdom of Lugunica](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(ReZero).png) (Re:Zero)
 * Island = [Kararagi City-States](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(ReZero).png) (Re:Zero)
 * Swamp = [Fifth Great Nation](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(ReZero).png) (Re:Zero)
@@ -224,6 +225,7 @@ Collection currently at <img src="https://img.shields.io/badge/203-88E788?style=
 * Pit of Offerings = [Arc 3 Cave](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Pit%20of%20Offerings%20(ReZero).png) (Re:Zero)
 * Seaside Citadel = [Priestella Control Tower](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Seaside%20Citadel%20(ReZero).png) (Re:Zero)
 * High Market = [Royal Capital Commercial District](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/High%20Market%20(ReZero).png) (Re:Zero)
+* Rogue's Passage = [Arc 1 Alley](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Rogue%E2%80%99s%20Passage%20(ReZero).png) (Re:Zero)
 ### Shadowverse: Worlds Beyond `10`
 * Plains = [Aleister](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(Shadowverse).png) (Shadowverse: Worlds Beyond)
 * Island = [Togh Keyoh](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(Shadowverse).png) (Shadowverse: Worlds Beyond)

@@ -1,4 +1,6 @@
 ## 8/31/2026
+* 11:57:50.162 PM CDT - Rogue's Passage / Rogue’s Passage (ReZero) / Arc 1 Alley
+* 11:48:59.897 PM CDT - Hylda of the Icy Crown / Emilia, Spirit Arts Practitioner / Emilia, Spirit Arts Practitioner
 * 9:15:10.739 PM CDT - Snow-Covered Swamp / Snow-Covered Swamp (Touhou) / Sea of Tranquility (Near Side)
 * 9:15:10.463 PM CDT - Snow-Covered Island / Snow-Covered Island (Touhou) / Icy Cool Home
 * 8:49:52.244 PM CDT - Memnarch / Thomas Edison, King of Inventors / Thomas Edison, King of Inventors
