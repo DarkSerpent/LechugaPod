@@ -55,7 +55,7 @@ cards/Solitude Maximus, King of Imperium.png | 1787650326493.0847
 cards/Suwako Moriya, Mountain Goddess.png | 1787650326995.073
 cards/Suwako, Though the Wind Cries.png | 1787650327397.791
 cards/The Herta, Peerless Gem.png | 1787650327740.052
-cards/Toki, Abi-Eshuh Mode.png | 1787650328095.4517
+cards/Toki, Abi-Eshuh Mode.png | 1788226108832.1462
 cards/Toki, Regular Maid.png | 1787650328358.3245
 cards/Yukari Yakumo, Boundary Master.png | 1787650328723.0896
 lands/Academy Ruins (ReZero).png | 1787650844287.384

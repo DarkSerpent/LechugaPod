@@ -582,10 +582,23 @@ function findUuidForFilename(
       filename
     );
 
-  const idx =
-    xmlText.indexOf(
-      encoded
-    );
+  const encodedVariants = [
+    encoded,
+    encoded.replace(
+      /-/g,
+      '%2D'
+    )
+  ];
+
+  let idx = -1;
+
+  for (const variant of encodedVariants) {
+    idx = xmlText.indexOf(variant);
+
+    if (idx !== -1) {
+      break;
+    }
+  }
 
   if (idx === -1) {
     return null;
