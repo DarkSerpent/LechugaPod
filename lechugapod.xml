@@ -3823,6 +3823,32 @@ Whenever a creature with a bounty counter on it dies, put two +1/+1 counters on 
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Memnarch</name>
+            <text>{1}{U}{U}: Target permanent becomes an artifact in addition to its other types. (This effect lasts indefinitely.)
+{3}{U}: Gain control of target artifact. (This effect lasts indefinitely.)</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-predh>legal</format-predh>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>U</coloridentity>
+                <cmc>7</cmc>
+                <manacost>7</manacost>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Artifact Creature — Wizard</type>
+                <pt>4/5</pt>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000201" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Thomas%20Edison%2C%20King%20of%20Inventors.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

@@ -46,6 +46,7 @@ nokcy = http://pixiv.net/en/users/2716677
 Okazaki Takeshi = https://www.pixiv.net/en/users/821471
 okitakung = https://www.pixiv.net/en/users/1267809
 paGzWcszSw73714 = https://www.pixiv.net/en/users/113909352
+Pako = https://x.com/pakosun
 penguin say = https://www.pixiv.net/en/users/16710545
 Pixiv 227478 = https://www.pixiv.net/en/users/227478/artworks
 redlunaazrael = https://www.pixiv.net/en/users/14338530

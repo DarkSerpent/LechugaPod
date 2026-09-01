@@ -203,3 +203,4 @@ lands/Command Beacon (Arknights).png | 1788148269953.1497
 lands/Exotic Orchard (Arknights).png | 1788148567894.6492
 artifacts/Sol Ring (Arknights).png | 1788149103843.2754
 artifacts/Arcane Signet (Arknights).png | 1788149633788.6155
+cards/Thomas Edison, King of Inventors.png | 1788227392244.0576

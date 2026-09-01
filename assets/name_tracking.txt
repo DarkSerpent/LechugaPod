@@ -205,3 +205,4 @@ Command Beacon_0197 = Rhodes Island Terminal Service
 Exotic Orchard_0198 = Convalescent Garden
 Sol Ring_0199 = Infection Monitor
 Arcane Signet_0200 = Rhodes Island Identification Badge
+Memnarch_0201 = Thomas Edison, King of Inventors
