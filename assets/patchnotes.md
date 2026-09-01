@@ -1,4 +1,6 @@
 ## 8/31/2026
+* 9:15:10.739 PM CDT - Snow-Covered Swamp / Snow-Covered Swamp (Touhou) / Sea of Tranquility (Near Side)
+* 9:15:10.463 PM CDT - Snow-Covered Island / Snow-Covered Island (Touhou) / Icy Cool Home
 * 8:49:52.244 PM CDT - Memnarch / Thomas Edison, King of Inventors / Thomas Edison, King of Inventors
 
 ## 8/30/2026

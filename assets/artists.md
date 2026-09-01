@@ -216,6 +216,8 @@
 * lands/Plains (Touhou).png | [Team Shanghai Alice](https://www.zerochan.net/Team+Shanghai+Alice)
 * lands/Rogue’s Passage (Touhou).png | [Team Shanghai Alice](https://www.zerochan.net/Team+Shanghai+Alice)
 * lands/Seraph Sanctuary (Touhou).png | [Team Shanghai Alice](https://www.zerochan.net/Team+Shanghai+Alice)
+* lands/Snow-Covered Island (Touhou).png | [Team Shanghai Alice](https://www.zerochan.net/Team+Shanghai+Alice)
+* lands/Snow-Covered Swamp (Touhou).png | [Team Shanghai Alice](https://www.zerochan.net/Team+Shanghai+Alice)
 * lands/Swamp (Touhou).png | [ZUN](https://x.com/korindo)
 * lands/The Shire (Touhou).png | [Team Shanghai Alice](https://www.zerochan.net/Team+Shanghai+Alice)
 * lands/Twisted Landscape (Touhou).png | [Team Shanghai Alice](https://www.zerochan.net/Team+Shanghai+Alice)

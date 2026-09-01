@@ -14,7 +14,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 4. Open Cockatrice and confirm the custom set is working by navigating to "Browse Card Database" and typing in `set:CLM`.
 5. You're all set! If you want to automatically convert your decks to use all alternate card artworks from a given series, try out the [CLM Deck Converter](https://darkserpent.github.io/LechugaPod/site/) site!
 
-Collection currently at <img src="https://img.shields.io/badge/201-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/203-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -235,7 +235,7 @@ Collection currently at <img src="https://img.shields.io/badge/201-88E788?style=
 * Treasure Vault = [Ardent Torch](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Treasure%20Vault%20(Shadowverse).png) (Shadowverse: Worlds Beyond)
 * Dragon-Cursed Halls = [Fangs of Ardent Destruction](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Dragon-Cursed%20Halls%20(Shadowverse).png) (Shadowverse: Worlds Beyond)
 * Fabled Passage = [The Journey Ahead](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Fabled%20Passage%20(Shadowverse).png) (Shadowverse: Worlds Beyond)
-### Touhou Project `23`
+### Touhou Project `25`
 * Plains = [Garden of the Sun](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(Touhou).png) (Touhou Project)
 * Island = [Misty Lake](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(Touhou).png) (Touhou Project)
 * Swamp = [Muenzuka](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(Touhou).png) (Touhou Project)
@@ -259,6 +259,8 @@ Collection currently at <img src="https://img.shields.io/badge/201-88E788?style=
 * Otawara, Soaring City = [Shining Needle Castle](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Otawara%2C%20Soaring%20City%20(Touhou).png) (Touhou Project)
 * City of Brass = [Old Capital](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/City%20of%20Brass%20(Touhou).png) (Touhou Project)
 * Ancient Tomb = [Great Mausoleum](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Ancient%20Tomb%20(Touhou).png) (Touhou Project)
+* Snow-Covered Island = [Icy Cool Home](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Snow-Covered%20Island%20(Touhou).png) (Touhou Project)
+* Snow-Covered Swamp = [Sea of Tranquility (Near Side)](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Snow-Covered%20Swamp%20(Touhou).png) (Touhou Project)
 
 ## Tokens
 > [!NOTE]

@@ -3759,6 +3759,7 @@ Whenever a creature with a bounty counter on it dies, put two +1/+1 counters on 
                 <format-commander>legal</format-commander>
             </prop>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000186" flavorName="BlueArchive" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Snow-Covered%20Island%20(Blue%20Archive).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000202" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Snow-Covered%20Island%20(Touhou).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 
@@ -3847,6 +3848,36 @@ Whenever a creature with a bounty counter on it dies, put two +1/+1 counters on 
             </prop>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000201" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Thomas%20Edison%2C%20King%20of%20Inventors.png">CLM</set>
             <tablerow>2</tablerow>
+        </card>
+
+        <card>
+            <name>Snow-Covered Swamp</name>
+            <text>({T}: Add {B}.)</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-premodern>legal</format-premodern>
+                <format-timeless>legal</format-timeless>
+                <format-predh>legal</format-predh>
+                <format-gladiator>legal</format-gladiator>
+                <format-paupercommander>legal</format-paupercommander>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-pauper>legal</format-pauper>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>B</coloridentity>
+                <cmc>0</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Land</maintype>
+                <layout>normal</layout>
+                <type>Basic Snow Land — Swamp</type>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000203" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Snow-Covered%20Swamp%20(Touhou).png">CLM</set>
+            <tablerow>0</tablerow>
         </card>
 
 </cards>

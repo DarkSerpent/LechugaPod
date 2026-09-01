@@ -206,3 +206,5 @@ Exotic Orchard_0198 = Convalescent Garden
 Sol Ring_0199 = Infection Monitor
 Arcane Signet_0200 = Rhodes Island Identification Badge
 Memnarch_0201 = Thomas Edison, King of Inventors
+Snow-Covered Island_0202 = Icy Cool Home
+Snow-Covered Swamp_0203 = Sea of Tranquility (Near Side)
