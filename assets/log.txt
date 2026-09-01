@@ -153,7 +153,7 @@ artifacts/Herald’s Horn (Fate).png | 1787720921630.5469
 artifacts/Patchwork Banner (Fate).png | 1787721154429.4294
 artifacts/Helm of the Host (Fate).png | 1787721537337.3665
 artifacts/Swiftfoot Boots (Fate).png | 1787721799284.3357
-cards/Okita, Blade of Mibu.png | 1787723949289.919
+cards/Okita, Blade of Mibu.png | 1788240322488.9377
 cards/Hieda no Akyuu, Perfect Memory.png | 1787731357348.9788
 cards/Reines Archisorte, Princess.png | 1787732521615.0566
 planeswalkers/Lady Avalon, Dreamweaver.png | 1787733996488.2874
