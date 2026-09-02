@@ -36,6 +36,7 @@ Machi Kurotsuki = https://www.pixiv.net/en/users/99788933
 MAGES = https://en.wikipedia.org/wiki/Mages_(company)
 miHoYo = https://en.wikipedia.org/wiki/MiHoYo
 Miskal = https://www.pixiv.net/en/users/39366375
+miyako = https://www.pixiv.net/en/users/735123
 mqq11 = https://www.pixiv.net/en/users/32304575
 mutugi = https://www.pixiv.net/en/users/3839458
 na222222 = https://www.pixiv.net/en/users/3368740
