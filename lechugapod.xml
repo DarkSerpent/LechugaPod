@@ -3952,7 +3952,7 @@ At the beginning of combat on your turn, you may remove six sugar counters from 
                 <format-oathbreaker>legal</format-oathbreaker>
                 <side>front</side>
             </prop>
-            <set rarity="mythic" uuid="0001" flavorName="ZZZ" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/customs/Yuzuha%2C%20Mischief%20Maker.png">LMC</set>
+            <set rarity="mythic" uuid="00000000-0000-0001-XXXX-XXXXXXXXXXXX" flavorName="ZZZ" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/customs/Yuzuha%2C%20Mischief%20Maker.png">LMC</set>
             <tablerow>2</tablerow>
         </card>
 
