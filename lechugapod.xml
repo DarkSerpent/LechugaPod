@@ -4067,6 +4067,30 @@ Each creature card in your hand has ninjutsu {2}{U}{B}.</text>
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Mari, the Killing Quill</name>
+            <text>Whenever a creature an opponent controls dies, exile it with a hit counter on it.
+Assassins, Mercenaries, and Rogues you control have deathtouch and &quot;Whenever this creature deals combat damage to a player, you may remove a hit counter from a card that player owns in exile. If you do, draw a card and create two Treasure tokens.&quot;</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>B</coloridentity>
+                <cmc>3</cmc>
+                <manacost>1BB</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Vampire Assassin</type>
+                <pt>3/2</pt>
+                <format-commander>legal</format-commander>
+                <colors>B</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000221" flavorName="ZZZ" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Jane%20Doe%2C%20the%20Dark%20Thorn.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

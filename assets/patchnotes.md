@@ -1,4 +1,5 @@
 ## 9/1/2026
+* 11:11:06.853 PM CDT - Mari, the Killing Quill / Jane Doe, the Dark Thorn / Jane Doe, the Dark Thorn
 * 10:59:55.232 PM CDT - Satoru Umezawa / Miyabi, Void Hunter / Miyabi, Void Hunter
 * 10:27:54.313 PM CDT - Astor, Bearer of Blades / Anton, Gearheart Brawler / Anton, Gearheart Brawler
 * 10:17:02.653 PM CDT - Adriana, Captain of the Guard / Caesar, Calydon Warlord / Caesar, Calydon Warlord

@@ -225,3 +225,4 @@ Saheeli, the Gifted_0217 = Grace, Engineering Savant
 Adriana, Captain of the Guard_0218 = Caesar, Calydon Warlord
 Astor, Bearer of Blades_0219 = Anton, Gearheart Brawler
 Satoru Umezawa_0220 = Miyabi, Void Hunter
+Mari, the Killing Quill_0221 = Jane Doe, the Dark Thorn

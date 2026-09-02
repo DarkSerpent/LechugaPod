@@ -25,6 +25,7 @@
 * cards/Hieda no Akyuu, Perfect Memory.png | [thkani](https://www.pixiv.net/en/users/13134696)
 * cards/Hina, Prefect Team Chairman.png | [penguin say](https://www.pixiv.net/en/users/16710545)
 * cards/Hollow Heart Albion.png | [CHOCO](https://x.com/choco_mugi)
+* cards/Jane Doe, the Dark Thorn.png | [Wheelsnow7](https://www.pixiv.net/en/users/17706632)
 * cards/Kashin Koji, Fuuma Sorcerer.png | [Yoneyama Mai](https://www.pixiv.net/en/users/1554775)
 * cards/Kogasa Tatara, the Forgotten Umbrella.png | [Elina Noodles](https://www.pixiv.net/en/users/82051602)
 * cards/Leonardo da Vinci, Gran Cavallo.png | [Yamyom](https://www.pixiv.net/en/users/46328)
