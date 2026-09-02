@@ -3934,16 +3934,17 @@ Whenever a creature with a bounty counter on it dies, put two +1/+1 counters on 
 
         <card>
             <name>Yuzuha, Mischief Maker</name>
-            <text>Whenever a creature you control becomes blocked, you may pay {1}. When you do, goad target creature blocking it. If that creature is goaded this way, put two sugar counters on Yuzuha.
-At the beginning of combat on your turn, you may remove six sugar counters from Yuzuha. If you do, untap all creatures you control. After this phase, there is an additional combat phase.</text>
+            <text>Whenever a creature you control becomes blocked, you may pay {1}. When you do, goad target creature blocking it. Then, put two sugar counters on Yuzuha.
+Whenever one or more creatures you control deal combat damage to a player, put a sugar counter on Yuzuha.
+At the beginning of combat on your turn, you may remove six sugar counters from Yuzuha. If you do, untap all creatures you control. They gain menace until end of turn. After this phase, there is an additional combat phase.</text>
             <prop>
                 <layout>normal</layout>
                 <colors>UBR</colors>
                 <coloridentity>UBR</coloridentity>
-                <manacost>1UBR</manacost>
+                <manacost>UBR</manacost>
                 <format-commander>legal</format-commander>
                 <type>Legendary Creature — Human Mutant</type>
-                <cmc>4</cmc>
+                <cmc>3</cmc>
                 <format-legacy>legal</format-legacy>
                 <format-duel>legal</format-duel>
                 <pt>3/4</pt>
