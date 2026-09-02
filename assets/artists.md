@@ -62,6 +62,8 @@
 * planeswalkers/Black Swan, Memetic Entity.png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
 ### ReZero
 * planeswalkers/Halibel, the Admirer.png | [Shinichirou Otsuka](https://twitter.com/otsuka_shin)
+### Zenless Zone Zero
+* planeswalkers/Grace, Engineering Savant.png | [EDI](https://www.pixiv.net/en/users/75576278)
 
 ## Artifacts
 ### Arknights

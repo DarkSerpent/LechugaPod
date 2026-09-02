@@ -221,3 +221,4 @@ lands/Exotic Orchard (ZZZ).png | 1788313562319.585
 lands/Wastes (ZZZ).png | 1788313939460.672
 artifacts/Sol Ring (ZZZ).png | 1788314002056.2317
 artifacts/Arcane Signet (ZZZ).png | 1788314262810.8098
+planeswalkers/Grace, Engineering Savant.png | 1788318562433.0762

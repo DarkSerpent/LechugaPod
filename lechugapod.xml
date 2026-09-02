@@ -3956,6 +3956,32 @@ At the beginning of combat on your turn, you may remove six sugar counters from 
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Saheeli, the Gifted</name>
+            <text>[+1]: Create a 1/1 colorless Servo artifact creature token.
+[+1]: The next spell you cast this turn has affinity for artifacts. (It costs {1} less to cast for each artifact you control as you cast it.)
+[−7]: For each artifact you control, create a token that's a copy of it. Those tokens gain haste. Exile those tokens at the beginning of the next end step.
+Saheeli, the Gifted can be your commander.</text>
+            <prop>
+                <loyalty>4</loyalty>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>banned</format-oathbreaker>
+                <coloridentity>UR</coloridentity>
+                <cmc>4</cmc>
+                <manacost>2UR</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Planeswalker</maintype>
+                <layout>normal</layout>
+                <type>Legendary Planeswalker — Saheeli</type>
+                <format-commander>legal</format-commander>
+                <colors>UR</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000217" flavorName="ZZZ" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/planeswalkers/Grace%2C%20Engineering%20Savant.png">CLM</set>
+            <tablerow>1</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

@@ -7,6 +7,7 @@ CHOCO = https://x.com/choco_mugi
 Circa = https://www.pixiv.net/en/users/243039
 Cygames = https://en.wikipedia.org/wiki/Cygames
 Duca = https://www.pixiv.net/en/users/103606
+EDI = https://www.pixiv.net/en/users/75576278
 Elina Noodles = https://www.pixiv.net/en/users/82051602
 ell = https://www.pixiv.net/en/users/16408605
 Es3 = https://www.pixiv.net/en/users/18229340
