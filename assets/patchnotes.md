@@ -1,3 +1,16 @@
+## 9/1/2026
+* 8:57:42.810 PM CDT - Arcane Signet / Arcane Signet (ZZZ) / Inter-Knot Membership
+* 8:53:22.056 PM CDT - Sol Ring / Sol Ring (ZZZ) / Hi-Fi Master Copy
+* 8:52:19.460 PM CDT - Wastes / Wastes (ZZZ) / Old Eridu
+* 8:46:02.319 PM CDT - Exotic Orchard / Exotic Orchard (ZZZ) / Sixth Street
+* 8:42:35.752 PM CDT - Command Beacon / Command Beacon (ZZZ) / Hollow Deep Dive System
+* 8:37:12.451 PM CDT - Command Tower / Command Tower (ZZZ) / Random Play
+* 8:32:33.938 PM CDT - Forest / Forest (ZZZ) / Outer Ring
+* 8:30:29.539 PM CDT - Mountain / Mountain (ZZZ) / Brant Street Construction Site
+* 8:24:12.478 PM CDT - Swamp / Swamp (ZZZ) / Hollow Zero
+* 8:21:58.905 PM CDT - Island / Island (ZZZ) / Waifei Peninsula
+* 8:17:45.227 PM CDT - Plains / Plains (ZZZ) / Lumina Square
+
 ## 8/31/2026
 * 11:57:50.162 PM CDT - Rogue's Passage / Rogue’s Passage (ReZero) / Arc 1 Alley
 * 11:48:59.897 PM CDT - Hylda of the Icy Crown / Emilia, Spirit Arts Practitioner / Emilia, Spirit Arts Practitioner

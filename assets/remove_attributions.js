@@ -4,6 +4,7 @@ const sharp = require("sharp");
 
 const scriptDir = __dirname;
 const overlayPath = path.join(scriptDir, "remove_attributions.png");
+const IGNORED_DIRECTORIES = new Set(["setsymbols", "customs"]);
 
 const green = "\x1b[38;2;136;231;184m";
 const lightGreen = "\x1b[38;2;136;231;136m";
@@ -16,6 +17,7 @@ function findPngs(dir, isRoot = true) {
         const fullPath = path.join(dir, entry.name);
 
         if (entry.isDirectory()) {
+            if (IGNORED_DIRECTORIES.has(entry.name)) continue;
             results.push(...findPngs(fullPath, false));
         } else if (
             !isRoot &&

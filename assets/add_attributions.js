@@ -30,6 +30,7 @@ const XML_PATH = path.join(__dirname, '..', 'lechugapod.xml');
 const ARTISTS_FILE = path.join(__dirname, 'artists.md');
 const ARTISTS_TRACKING_FILE = path.join(__dirname, 'artists_tracking.txt');
 const SORTING_FILE = path.join(__dirname, 'artists_sorting.txt');
+const IGNORED_DIRECTORIES = new Set(['setsymbols', 'customs']);
 
 const CANVAS_W = 2010;
 const CANVAS_H = 2814;
@@ -99,7 +100,7 @@ function findSubfoldersWithPngs() {
   });
 
   const dirs = children
-    .filter((d) => d.isDirectory())
+    .filter((d) => d.isDirectory() && !IGNORED_DIRECTORIES.has(d.name))
     .map((d) => d.name)
     .sort((a, b) =>
       a.localeCompare(b, undefined, {

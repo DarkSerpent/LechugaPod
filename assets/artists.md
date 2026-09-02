@@ -115,6 +115,9 @@
 * artifacts/Skullclamp (Touhou).png | [Team Shanghai Alice](https://www.zerochan.net/Team+Shanghai+Alice)
 * artifacts/Sol Ring (Touhou).png | [Sakai Yoshikuni](https://www.pixiv.net/users/533800)
 * artifacts/The One Ring (Touhou).png | [Team Shanghai Alice](https://www.zerochan.net/Team+Shanghai+Alice)
+### ZZZ
+* artifacts/Arcane Signet (ZZZ).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
+* artifacts/Sol Ring (ZZZ).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
 
 ## Lands
 ### Arknights
@@ -227,6 +230,16 @@
 * lands/Vault of the Archangel (Touhou).png | [Team Shanghai Alice](https://www.zerochan.net/Team+Shanghai+Alice)
 * lands/Wastes (Touhou).png | [Yuzusoft](https://x.com/yuzusoft)
 * lands/Xander’s Lounge (Touhou).png | [Team Shanghai Alice](https://www.zerochan.net/Team+Shanghai+Alice)
+### ZZZ
+* lands/Command Beacon (ZZZ).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
+* lands/Command Tower (ZZZ).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
+* lands/Exotic Orchard (ZZZ).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
+* lands/Forest (ZZZ).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
+* lands/Island (ZZZ).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
+* lands/Mountain (ZZZ).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
+* lands/Plains (ZZZ).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
+* lands/Swamp (ZZZ).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
+* lands/Wastes (ZZZ).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
 
 ## Tokens
 ### Blue Archive

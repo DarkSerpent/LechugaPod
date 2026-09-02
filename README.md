@@ -14,7 +14,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 4. Open Cockatrice and confirm the custom set is working by navigating to "Browse Card Database" and typing in `set:CLM`.
 5. You're all set! If you want to automatically convert your decks to use all alternate card artworks from a given series, try out the [CLM Deck Converter](https://darkserpent.github.io/LechugaPod/site/) site!
 
-Collection currently at <img src="https://img.shields.io/badge/205-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/216-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -152,6 +152,9 @@ Collection currently at <img src="https://img.shields.io/badge/205-88E788?style=
 * Skullclamp = [Miraculous Ofuda](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Skullclamp%20(Touhou).png) (Touhou Project)
 * Fellwar Stone = [Kourindou's Curios](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Fellwar%20Stone%20(Touhou).png) (Touhou Project)
 
+### Zenless Zone Zero `2`
+* Sol Ring = [Hi-Fi Master Copy](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(ZZZ).png) (Zenless Zone Zero)
+* Arcane Signet = [Inter-Knot Membership](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Arcane%20Signet%20(ZZZ).png) (Zenless Zone Zero)
 ## Lands
 ### Arknights `9`
 * Plains = [Rhodes Island](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(Arknights).png) (Arknights)
@@ -263,6 +266,16 @@ Collection currently at <img src="https://img.shields.io/badge/205-88E788?style=
 * Ancient Tomb = [Great Mausoleum](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Ancient%20Tomb%20(Touhou).png) (Touhou Project)
 * Snow-Covered Island = [Icy Cool Home](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Snow-Covered%20Island%20(Touhou).png) (Touhou Project)
 * Snow-Covered Swamp = [Sea of Tranquility (Near Side)](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Snow-Covered%20Swamp%20(Touhou).png) (Touhou Project)
+### Zenless Zone Zero `9`
+* Plains = [Lumina Square](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(ZZZ).png) (Zenless Zone Zero)
+* Island = [Waifei Peninsula](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(ZZZ).png) (Zenless Zone Zero)
+* Swamp = [Hollow Zero](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(ZZZ).png) (Zenless Zone Zero)
+* Mountain = [Brant Street Construction Site](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Mountain%20(ZZZ).png) (Zenless Zone Zero)
+* Forest = [Outer Ring](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Forest%20(ZZZ).png) (Zenless Zone Zero)
+* Command Tower = [Random Play](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(ZZZ).png) (Zenless Zone Zero)
+* Command Beacon = [Hollow Deep Dive System](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Beacon%20(ZZZ).png) (Zenless Zone Zero)
+* Exotic Orchard = [Sixth Street](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Exotic%20Orchard%20(ZZZ).png) (Zenless Zone Zero)
+* Wastes = [Old Eridu](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Wastes%20(ZZZ).png) (Zenless Zone Zero)
 
 ## Tokens
 > [!NOTE]

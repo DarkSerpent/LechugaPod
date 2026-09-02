@@ -6,7 +6,8 @@ const SERIES = {
   ReZero: 'Re:Zero',
   Shakugan: 'Shakugan no Shana',
   Shadowverse: 'Shadowverse: Worlds Beyond',
-  Touhou: 'Touhou Project'
+  Touhou: 'Touhou Project',
+  ZZZ: 'Zenless Zone Zero'
 };
 
 const state = { file: null, text: '', proxyXml: null, savedXml: null };

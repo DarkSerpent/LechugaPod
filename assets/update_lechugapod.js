@@ -20,6 +20,7 @@ const SERIES_NAMES = [
     { key: 'Shadowverse', label: 'Shadowverse: Worlds Beyond' },
     { key: 'Touhou', label: 'Touhou Project' },
     { key: 'Honkai', label: 'Honkai: Star Rail' },
+    { key: 'ZZZ', label: 'Zenless Zone Zero' },
     { key: null, label: 'Unsorted' }
 ];
 
@@ -40,7 +41,8 @@ const TOKEN_FLAVOR_SUFFIXES = {
     Shakugan: 'SnS',
     Shadowverse: 'SWB',
     Touhou: 'TP',
-    Honkai: 'HSR'
+    Honkai: 'HSR',
+    ZZZ: 'ZZZ'
 };
 
 function decodeEntities(value) {

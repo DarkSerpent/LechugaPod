@@ -208,3 +208,16 @@ lands/Snow-Covered Island (Touhou).png | 1788228910463.5774
 lands/Snow-Covered Swamp (Touhou).png | 1788228910739.1724
 cards/Emilia, Spirit Arts Practitioner.png | 1788238169085.877
 lands/Rogue’s Passage (ReZero).png | 1788238670162.802
+customs/psd/Yuzuha, Mischief Maker.png | 1788308755825.5957
+customs/Yuzuha, Mischief Maker.png | 1788309408871.4287
+lands/Plains (ZZZ).png | 1788311865227.624
+lands/Island (ZZZ).png | 1788312154236.0554
+lands/Swamp (ZZZ).png | 1788312252478.1384
+lands/Mountain (ZZZ).png | 1788312629539.383
+lands/Forest (ZZZ).png | 1788312753938.48
+lands/Command Tower (ZZZ).png | 1788313032451.4807
+lands/Command Beacon (ZZZ).png | 1788313355752.4644
+lands/Exotic Orchard (ZZZ).png | 1788313562319.585
+lands/Wastes (ZZZ).png | 1788313939460.672
+artifacts/Sol Ring (ZZZ).png | 1788314002056.2317
+artifacts/Arcane Signet (ZZZ).png | 1788314262810.8098

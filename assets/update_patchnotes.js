@@ -11,6 +11,7 @@ const TRACKING_PATH = path.join(ASSETS_DIR, 'name_tracking.txt');
 const PATCHNOTES_PATH = path.join(ASSETS_DIR, 'patchnotes.md');
 const TIME_ZONE = 'America/Chicago';
 const IMAGE_DIRECTORIES = new Set(['cards', 'artifacts', 'lands', 'planeswalkers', 'tokens']);
+const IGNORED_DIRECTORIES = new Set(['setsymbols', 'customs']);
 let tokenTrackingKeys = null;
 
 function normalize(value) {
@@ -41,6 +42,7 @@ function findImages(directory = ASSETS_DIR) {
     for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
         const filePath = path.join(directory, entry.name);
         if (entry.isDirectory()) {
+            if (IGNORED_DIRECTORIES.has(entry.name)) continue;
             if (IMAGE_DIRECTORIES.has(entry.name)) images.push(...findImages(filePath));
         } else if (entry.isFile() && path.extname(entry.name).toLowerCase() === '.png') {
             images.push(filePath);

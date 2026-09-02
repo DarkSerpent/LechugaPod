@@ -8,6 +8,7 @@ const ROOT_DIR = path.resolve(__dirname, '..');
 const XML_PATH = path.join(ROOT_DIR, 'lechugapod.xml');
 const README_PATH = path.join(ROOT_DIR, 'README.md');
 const TRACKING_PATH = path.join(__dirname, 'name_tracking.txt');
+const IGNORED_DIRECTORIES = new Set(['setsymbols', 'customs']);
 
 const SERIES_NAMES = {
     Arknights: 'Arknights',
@@ -17,7 +18,8 @@ const SERIES_NAMES = {
     Shakugan: 'Shakugan no Shana',
     Shadowverse: 'Shadowverse: Worlds Beyond',
     Touhou: 'Touhou Project',
-    Honkai: 'Honkai: Star Rail'
+    Honkai: 'Honkai: Star Rail',
+    ZZZ: 'Zenless Zone Zero'
 };
 
 const CATEGORY_NAMES = {
@@ -43,6 +45,10 @@ function decodeEntities(value) {
         .replace(/&#x27;/gi, "'")
         .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
         .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)));
+}
+
+function shouldIgnoreDirectory(name) {
+    return IGNORED_DIRECTORIES.has(name);
 }
 
     function normalize(value) {
