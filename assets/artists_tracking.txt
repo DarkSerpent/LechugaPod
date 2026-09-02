@@ -10,6 +10,7 @@ Duca = https://www.pixiv.net/en/users/103606
 EDI = https://www.pixiv.net/en/users/75576278
 Elina Noodles = https://www.pixiv.net/en/users/82051602
 ell = https://www.pixiv.net/en/users/16408605
+Elmo = https://www.pixiv.net/en/users/62483113
 Es3 = https://www.pixiv.net/en/users/18229340
 fuyu700801 = https://www.pixiv.net/en/users/39110945
 Gabiran = https://www.pixiv.net/en/users/2003931

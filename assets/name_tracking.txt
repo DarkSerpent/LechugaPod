@@ -222,3 +222,4 @@ Wastes_0214 = Old Eridu
 Sol Ring_0215 = Hi-Fi Master Copy
 Arcane Signet_0216 = Inter-Knot Membership
 Saheeli, the Gifted_0217 = Grace, Engineering Savant
+Adriana, Captain of the Guard_0218 = Caesar, Calydon Warlord

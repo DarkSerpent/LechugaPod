@@ -1,4 +1,5 @@
 ## 9/1/2026
+* 10:17:02.653 PM CDT - Adriana, Captain of the Guard / Caesar, Calydon Warlord / Caesar, Calydon Warlord
 * 10:07:54.223 PM CDT - Saheeli, the Gifted / Grace, Engineering Savant / Grace, Engineering Savant
 * 8:57:42.810 PM CDT - Arcane Signet / Arcane Signet (ZZZ) / Inter-Knot Membership
 * 8:53:22.056 PM CDT - Sol Ring / Sol Ring (ZZZ) / Hi-Fi Master Copy

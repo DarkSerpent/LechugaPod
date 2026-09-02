@@ -3982,6 +3982,30 @@ Saheeli, the Gifted can be your commander.</text>
             <tablerow>1</tablerow>
         </card>
 
+        <card>
+            <name>Adriana, Captain of the Guard</name>
+            <text>Melee (Whenever this creature attacks, it gets +1/+1 until end of turn for each opponent you attacked this combat.)
+Other creatures you control have melee. (If a creature has multiple instances of melee, each triggers separately.)</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>WR</coloridentity>
+                <cmc>5</cmc>
+                <manacost>3RW</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Human Knight</type>
+                <pt>4/4</pt>
+                <format-commander>legal</format-commander>
+                <colors>WR</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000218" flavorName="ZZZ" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Caesar%2C%20Calydon%20Warlord.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>
