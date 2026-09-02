@@ -301,4 +301,10 @@ Collection currently at <img src="https://img.shields.io/badge/219-88E788?style=
 * Clue Token (RZ) = [The Witch of Greed](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Clue%20(ReZero).png) (Re:Zero)
    * Linked to: *Five Hundred Year Diary, Sarah Jane Smith*
 
+## Customs
+> [!NOTE]
+> This section does not count towards the card total and lists all of the custom, non-flavor name cards that are present in this collection. They are contained in a secondary, optional set called "LMC (Lechuga Moment Customs)".
+### Zenless Zone Zero `1`
+* [Yuzuha, Mischief Maker](https://github.com/DarkSerpent/LechugaPod/blob/main/assets/customs/Yuzuha,%20Mischief%20Maker.png?raw=true)[^1] — 1UBR — Human Mutant — 3/4
+
 [^1]: This card can be used as your Commander.
