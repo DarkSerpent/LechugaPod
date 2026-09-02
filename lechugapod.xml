@@ -4038,6 +4038,35 @@ Vehicles you control have crew 1.</text>
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Satoru Umezawa</name>
+            <text>Whenever you activate a ninjutsu ability, look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order. This ability triggers only once each turn.
+Each creature card in your hand has ninjutsu {2}{U}{B}.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>UB</coloridentity>
+                <cmc>3</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <manacost>1UB</manacost>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Human Ninja</type>
+                <pt>2/4</pt>
+                <format-commander>legal</format-commander>
+                <colors>UB</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000220" flavorName="ZZZ" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Miyabi%2C%20Void%20Hunter.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

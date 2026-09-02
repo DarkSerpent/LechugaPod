@@ -32,6 +32,7 @@
 * cards/Marisa Kirisame, Western Magician.png | [JILL](https://www.pixiv.net/en/users/54259522)
 * cards/Mash Kyrielight, Ritsuka’s Servant.png | [Takashi Takeuchi](https://www.zerochan.net/Takeuchi+Takashi)
 * cards/Melusine, Hand of Albion.png | [lack](https://www.pixiv.net/en/users/83739)
+* cards/Miyabi, Void Hunter.png | [ATdan](https://www.artstation.com/atdan)
 * cards/Natsuki Subaru, Accreting Life.png | [iwa_to_mushi](https://www.pixiv.net/en/users/15144367)
 * cards/Natsuki Subaru, Starting From Zero.png | [naru](https://www.pixiv.net/en/users/21015081)
 * cards/Okina Matara, Secret God.png | [Liu ycl](https://www.pixiv.net/en/users/98398171)

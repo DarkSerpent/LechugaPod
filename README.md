@@ -14,7 +14,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 4. Open Cockatrice and confirm the custom set is working by navigating to "Browse Card Database" and typing in `set:CLM`.
 5. You're all set! If you want to automatically convert your decks to use all alternate card artworks from a given series, try out the [CLM Deck Converter](https://darkserpent.github.io/LechugaPod/site/) site!
 
-Collection currently at <img src="https://img.shields.io/badge/219-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/220-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -80,9 +80,10 @@ Collection currently at <img src="https://img.shields.io/badge/219-88E788?style=
 * Volo, Guide to Monsters[^1] = [Hieda no Akyuu, Perfect Memory](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Hieda%20no%20Akyuu%2C%20Perfect%20Memory.png) (Touhou Project)
 * The Scarab God[^1] = [Eiki Shiki, Supreme Judge](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Eiki%20Shiki%2C%20Supreme%20Judge.png) (Touhou Project)
 * Obeka, Splitter of Seconds[^1] = [Okina Matara, Secret God](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Okina%20Matara%2C%20Secret%20God.png) (Touhou Project)
-### Zenless Zone Zero `2`
+### Zenless Zone Zero `3`
 * Adriana, Captain of the Guard[^1] = [Caesar, Calydon Warlord](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Caesar%2C%20Calydon%20Warlord.png) (Zenless Zone Zero)
 * Astor, Bearer of Blades[^1] = [Anton, Gearheart Brawler](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Anton%2C%20Gearheart%20Brawler.png) (Zenless Zone Zero)
+* Satoru Umezawa[^1] = [Miyabi, Void Hunter](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Miyabi%2C%20Void%20Hunter.png) (Zenless Zone Zero)
 
 <details>
   <summary><strong>▶ Click to View OCs</strong></summary>
@@ -304,7 +305,7 @@ Collection currently at <img src="https://img.shields.io/badge/219-88E788?style=
 ## Customs
 > [!NOTE]
 > This section does not count towards the card total and lists all of the custom, non-flavor name cards that are present in this collection. They are contained in a secondary, optional set called "LMC (Lechuga Moment Customs)".
-### Zenless Zone Zero `1`
+### Zenless Zone Zero `0`
 * [Yuzuha, Mischief Maker](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/customs/Yuzuha%2C%20Mischief%20Maker.png)[^1] — 1UBR — Human Mutant — 3/4
 
 [^1]: This card can be used as your Commander.

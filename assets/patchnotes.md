@@ -1,4 +1,5 @@
 ## 9/1/2026
+* 10:59:55.232 PM CDT - Satoru Umezawa / Miyabi, Void Hunter / Miyabi, Void Hunter
 * 10:27:54.313 PM CDT - Astor, Bearer of Blades / Anton, Gearheart Brawler / Anton, Gearheart Brawler
 * 10:17:02.653 PM CDT - Adriana, Captain of the Guard / Caesar, Calydon Warlord / Caesar, Calydon Warlord
 * 10:07:54.223 PM CDT - Saheeli, the Gifted / Grace, Engineering Savant / Grace, Engineering Savant

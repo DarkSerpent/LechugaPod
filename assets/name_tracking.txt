@@ -224,3 +224,4 @@ Arcane Signet_0216 = Inter-Knot Membership
 Saheeli, the Gifted_0217 = Grace, Engineering Savant
 Adriana, Captain of the Guard_0218 = Caesar, Calydon Warlord
 Astor, Bearer of Blades_0219 = Anton, Gearheart Brawler
+Satoru Umezawa_0220 = Miyabi, Void Hunter
