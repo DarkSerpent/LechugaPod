@@ -2,7 +2,7 @@ artifacts/Arcane Signet (Fate).png | 1787650308324.1458
 artifacts/Arcane Signet (Honkai Star Rail).png | 1787650308555.3865
 artifacts/Arcane Signet (Touhou).png | 1787650308999.8762
 artifacts/Azorius Signet (ReZero).png | 1787650309259.536
-artifacts/Commander’s Sphere (Honkai Star Rail).png | 1787650309502.3352
+artifacts/Commander’s Sphere (Honkai Star Rail).png | 1788428102613.561
 artifacts/Fellwar Stone (ReZero).png | 1787650309818.2087
 artifacts/Fellwar Stone (Touhou).png | 1787650310145.3882
 artifacts/Five Hundred Year Diary (ReZero).png | 1787650310504.1968
