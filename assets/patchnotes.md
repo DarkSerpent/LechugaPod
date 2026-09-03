@@ -1,4 +1,5 @@
 ## 9/2/2026
+* 8:28:01.731 PM CDT - Shorikai, Genesis Engine / New Jersey, the Black Dragon / New Jersey, the Black Dragon
 * 8:06:02.277 PM CDT - Unesh, Criosphinx Sovereign / Nareko, Confined Dousojin / Nareko, Confined Dousojin
 * 7:50:39.605 PM CDT - Samut, the Driving Force / Royal Travelling Incognito / Royal Travelling Incognito
 * 7:35:20.478 PM CDT - Razaketh, the Foulblooded / Nitocris Alter, Judgement / Nitocris Alter, Judgement

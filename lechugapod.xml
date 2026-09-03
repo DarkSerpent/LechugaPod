@@ -4279,6 +4279,30 @@ Whenever Unesh or another Sphinx you control enters, reveal the top four cards o
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Shorikai, Genesis Engine</name>
+            <text>{1}, {T}: Draw two cards, then discard a card. Create a 1/1 colorless Pilot creature token with &quot;This token crews Vehicles as though its power were 2 greater.&quot;
+Crew 8 (Tap any number of creatures you control with total power 8 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>WU</coloridentity>
+                <cmc>4</cmc>
+                <manacost>2WU</manacost>
+                <format-duel>restricted</format-duel>
+                <side>front</side>
+                <maintype>Artifact</maintype>
+                <layout>normal</layout>
+                <type>Legendary Artifact — Vehicle</type>
+                <pt>8/8</pt>
+                <format-commander>legal</format-commander>
+                <colors>WU</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000228" flavorName="AzurLane" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/New%20Jersey%2C%20the%20Black%20Dragon.png">CLM</set>
+            <tablerow>1</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

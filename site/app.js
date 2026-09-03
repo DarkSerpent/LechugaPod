@@ -1,5 +1,6 @@
 const SERIES = {
   Arknights: 'Arknights',
+  AzurLane: 'Azur Lane',
   BlueArchive: 'Blue Archive',
   Fate: 'Fate Grand Order',
   Honkai: 'Honkai: Star Rail',

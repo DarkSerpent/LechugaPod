@@ -13,6 +13,7 @@ const MAX_UUID_SUFFIX = (10 ** UUID_SUFFIX_LENGTH) - 1;
 
 const SERIES_NAMES = [
     { key: 'Arknights', label: 'Arknights' },
+    { key: 'AzurLane', label: 'Azur Lane' },
     { key: 'BlueArchive', label: 'Blue Archive' },
     { key: 'Fate', label: 'Fate Grand Order' },
     { key: 'ReZero', label: 'Re:Zero' },
@@ -35,6 +36,7 @@ const CARD_TYPES = [
 
 const TOKEN_FLAVOR_SUFFIXES = {
     Arknights: 'AK',
+    AzurLane: 'AL',
     BlueArchive: 'BA',
     Fate: 'FGO',
     ReZero: 'RZ',

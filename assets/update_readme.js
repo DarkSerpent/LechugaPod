@@ -12,6 +12,7 @@ const IGNORED_DIRECTORIES = new Set(['setsymbols', 'customs']);
 
 const SERIES_NAMES = {
     Arknights: 'Arknights',
+    AzurLane: 'Azur Lane',
     BlueArchive: 'Blue Archive',
     Fate: 'Fate Grand Order',
     ReZero: 'Re:Zero',
@@ -141,6 +142,7 @@ function isCommander(cardXml) {
     if (type.includes('Legendary Creature')) return true;
     if (type.includes('Legendary Artifact Creature')) return true;
     if (type.includes('Legendary Artifact — Spacecraft')) return true;
+    if (type.includes('Legendary Artifact — Vehicle')) return true;
     if (text.includes('can be your commander')) return true;
     return false;
 }

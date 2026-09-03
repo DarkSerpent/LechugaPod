@@ -14,7 +14,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 4. Open Cockatrice and confirm the custom set is working by navigating to "Browse Card Database" and typing in `set:CLM`.
 5. You're all set! If you want to automatically convert your decks to use all alternate card artworks from a given series, try out the [CLM Deck Converter](https://darkserpent.github.io/LechugaPod/site/) site!
 
-Collection currently at <img src="https://img.shields.io/badge/227-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/228-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -116,6 +116,8 @@ Collection currently at <img src="https://img.shields.io/badge/227-88E788?style=
 ### Arknights `2`
 * Sol Ring = [Infection Monitor](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Arknights).png) (Arknights)
 * Arcane Signet = [Rhodes Island Identification Badge](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Arcane%20Signet%20(Arknights).png) (Arknights)
+### Azur Lane `1`
+* Shorikai, Genesis Engine[^1] = [New Jersey, the Black Dragon](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/New%20Jersey%2C%20the%20Black%20Dragon.png) (Azur Lane)
 ### Blue Archive `1`
 * Sol Ring = [Shittim Chest](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Blue%20Archive).png) (Blue Archive)
 ### Fate Grand Order `12`
