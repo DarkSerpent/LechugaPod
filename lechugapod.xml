@@ -4328,6 +4328,28 @@ Triggered abilities you control can't cause you to sacrifice or exile creature t
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Thran Dynamo</name>
+            <text>{T}: Add {C}{C}{C}.</text>
+            <prop>
+                <format-premodern>legal</format-premodern>
+                <format-predh>legal</format-predh>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <cmc>4</cmc>
+                <manacost>4</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Artifact</maintype>
+                <layout>normal</layout>
+                <type>Artifact</type>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000230" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Thran%20Dynamo%20(Honkai).png">CLM</set>
+            <tablerow>1</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

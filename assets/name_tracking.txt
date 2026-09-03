@@ -234,3 +234,4 @@ Samut, the Driving Force_0226 = Royal Travelling Incognito
 Unesh, Criosphinx Sovereign_0227 = Nareko, Confined Dousojin
 Shorikai, Genesis Engine_0228 = New Jersey, the Black Dragon
 The Master, Multiplied_0229 = Sparxie & Sparkle, Masked Fools
+Thran Dynamo_0230 = Ancient Engine
