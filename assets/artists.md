@@ -98,6 +98,7 @@
 * artifacts/Swiftfoot Boots (Fate).png | [Takashi Takeuchi](https://www.zerochan.net/Takeuchi+Takashi)
 * artifacts/Thrumming Hivepool (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 ### Honkai
+* artifacts/Chromatic Lantern (Honkai).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
 * artifacts/Thran Dynamo (Honkai).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
 ### Honkai Star Rail
 * artifacts/Arcane Signet (Honkai Star Rail).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)

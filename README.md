@@ -14,7 +14,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 4. Open Cockatrice and confirm the custom set is working by navigating to "Browse Card Database" and typing in `set:CLM`.
 5. You're all set! If you want to automatically convert your decks to use all alternate card artworks from a given series, try out the [CLM Deck Converter](https://darkserpent.github.io/LechugaPod/site/) site!
 
-Collection currently at <img src="https://img.shields.io/badge/228-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/229-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -22,15 +22,15 @@ Collection currently at <img src="https://img.shields.io/badge/228-88E788?style=
 ### Collection By Series
 | Series | Cards | Collection |
 |:---|---:|---:|
-| **Arknights** | 12 | 5.3% |
+| **Arknights** | 12 | 5.2% |
 | **Azur Lane** | 1 | 0.4% |
-| **Blue Archive** | 20 | 8.8% |
-| **Fate Grand Order** | 56 | 24.6% |
-| **Honkai: Star Rail** | 26 | 11.4% |
+| **Blue Archive** | 20 | 8.7% |
+| **Fate Grand Order** | 56 | 24.5% |
+| **Honkai: Star Rail** | 27 | 11.8% |
 | **Re:Zero** | 37 | 16.2% |
-| **Shadowverse: Worlds Beyond** | 12 | 5.3% |
+| **Shadowverse: Worlds Beyond** | 12 | 5.2% |
 | **Shakugan no Shana** | 1 | 0.4% |
-| **Touhou Project** | 47 | 20.6% |
+| **Touhou Project** | 47 | 20.5% |
 | **Zenless Zone Zero** | 16 | 7.0% |
 
 ## Creature Cards
@@ -148,7 +148,7 @@ Collection currently at <img src="https://img.shields.io/badge/228-88E788?style=
 * Thrumming Hivepool = [Unleashed State](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Thrumming%20Hivepool%20(Fate).png) (Fate Grand Order)
 * Inspirit, Flagship Vessel[^1] = [Mash Kyrielight, Lord Camelot](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Mash%20Kyrielight%2C%20Lord%20Camelot.png) (Fate Grand Order)
 * Infinite Guideline Station[^1] = [Storm Border, the Last Ark](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Storm%20Border%2C%20the%20Last%20Ark.png) (Fate Grand Order)
-### Honkai: Star Rail `10`
+### Honkai: Star Rail `11`
 * Sol Ring = [Dimension Reduction Dice](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
 * Commander's Sphere = [A-Ruan Pouch](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Commander%E2%80%99s%20Sphere%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
 * Sensei's Divining Top = [Fortune Glue](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sensei%E2%80%99s%20Divining%20Top%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
@@ -159,6 +159,7 @@ Collection currently at <img src="https://img.shields.io/badge/228-88E788?style=
 * Talisman of Hierarchy = [Laurel Crown of Planar Shifts](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Talisman%20of%20Hierarchy%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
 * Lightning Greaves = [Shattered Star Bait](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Lightning%20Greaves%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
 * Thran Dynamo = [Ancient Engine](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Thran%20Dynamo%20(Honkai).png) (Honkai: Star Rail)
+* Chromatic Lantern = [Immortal Lumintwig](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Chromatic%20Lantern%20(Honkai).png) (Honkai: Star Rail)
 ### Re:Zero `13`
 * Sol Ring = [Cursed Mouth Ring](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(ReZero).png) (Re:Zero)
 * Thought Vessel = [Corridor of Memories](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Thought%20Vessel%20(ReZero).png) (Re:Zero)

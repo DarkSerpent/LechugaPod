@@ -2784,7 +2784,7 @@ Once each turn, you may play a card from exile with a collection counter on it i
                 <type>Artifact</type>
                 <format-commander>legal</format-commander>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000151" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Chromatic%20Lantern%20(Fate).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000151" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Chromatic%20Lantern%20(Fate).png">CLM</set>            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000231" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Chromatic%20Lantern%20(Honkai).png">CLM</set>
             <tablerow>1</tablerow>
         </card>
 
