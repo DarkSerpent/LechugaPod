@@ -35,7 +35,7 @@ cards/Cirno, Fairy of the Ice.png | 1787650318933.4336
 cards/Echidna, the Witch of Greed.png | 1787650319365.3035
 cards/Elliott, Administrator of the Ends.png | 1787650319629.4885
 cards/Fujimaru Ritsuka, Humanity’s Last.png | 1788401582304.499
-cards/Fujimaru Ritsuka, Stargazer.png | 1787650320271.433
+cards/Fujimaru Ritsuka, Stargazer.png | 1788401686173.584
 cards/Fujiwara no Mokou, the Immortal.png | 1787650320765.1387
 cards/Fujiwara no Mokou, the Undying.png | 1787650321272.2397
 cards/Galmieux, Ardor Manifest.png | 1787650321695.3174
