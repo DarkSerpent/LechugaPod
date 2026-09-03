@@ -328,7 +328,7 @@ Collection currently at <img src="https://img.shields.io/badge/226-88E788?style=
 ## Customs
 > [!NOTE]
 > This section does not count towards the card total and lists all of the custom, non-flavor name cards that are present in this collection. They are contained in a secondary, optional set called "LMC (Lechuga Moment Customs)".
-### Zenless Zone Zero `0`
+### Zenless Zone Zero `1`
 * [Yuzuha, Mischief Maker](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/customs/Yuzuha%2C%20Mischief%20Maker.png)[^1] — UBR — Human Mutant — 3/4
 
 [^1]: This card can be used as your Commander.

@@ -450,7 +450,7 @@ function updateTotalCount(lines, totalCards) {
 function computeExpectedCounts(rawCards) {
     const counts = new Map();
     for (const card of rawCards) {
-        if (card.isOC) continue;
+        if (card.isOC || isCustomCard(card)) continue;
         const key = `${card.category}||${card.seriesName}`;
         counts.set(key, (counts.get(key) || 0) + 1);
     }
@@ -467,6 +467,7 @@ function updateSeriesCounts(lines, expectedCounts) {
             const categoryMatch = line.match(/^## (.+?)(?: `(\d+)`)?$/);
             currentCategory = categoryMatch ? categoryMatch[1].trim() : line.replace(/^## /, '').trim();
             inDetails = false;
+            if (currentCategory === 'Customs') continue;
             if (categoryMatch && categoryMatch[2] !== undefined) {
                 const prefix = `${currentCategory}||`;
                 const expected = [...expectedCounts.entries()]
@@ -480,6 +481,7 @@ function updateSeriesCounts(lines, expectedCounts) {
             }
             continue;
         }
+        if (currentCategory === 'Customs') continue;
         if (line.startsWith('<details>')) {
             inDetails = true;
             continue;
@@ -514,7 +516,11 @@ function computeCollectionSeriesCounts(rawCards) {
 }
 
 function isCollectionCard(card) {
-    return !card.isToken && !card.isOC && !/\/customs\//i.test(card.picurl || '');
+    return !card.isToken && !card.isOC && !isCustomCard(card);
+}
+
+function isCustomCard(card) {
+    return /\/customs\//i.test(card.picurl || '');
 }
 
 function updateCollectionBySeries(lines, seriesCounts, totalCards) {
@@ -606,7 +612,7 @@ async function main() {
     }
     const totalCards = rawCards.filter(isCollectionCard).length;
 
-    const regularCards = rawCards.filter(c => !c.isOC);
+    const regularCards = rawCards.filter(c => !c.isOC && !isCustomCard(c));
     const groupedRegular = groupDfcCards(regularCards);
     groupedRegular.sort((a, b) => a.release - b.release);
 
