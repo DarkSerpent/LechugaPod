@@ -34,7 +34,7 @@ cards/Barghest, Gawain the Loving.png | 1787650843925.4536
 cards/Cirno, Fairy of the Ice.png | 1787650318933.4336
 cards/Echidna, the Witch of Greed.png | 1787650319365.3035
 cards/Elliott, Administrator of the Ends.png | 1787650319629.4885
-cards/Fujimaru Ritsuka, Humanity’s Last.png | 1787697084418.8828
+cards/Fujimaru Ritsuka, Humanity’s Last.png | 1788401582304.499
 cards/Fujimaru Ritsuka, Stargazer.png | 1787650320271.433
 cards/Fujiwara no Mokou, the Immortal.png | 1787650320765.1387
 cards/Fujiwara no Mokou, the Undying.png | 1787650321272.2397
