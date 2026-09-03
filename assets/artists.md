@@ -36,8 +36,11 @@
 * cards/Miyabi, Void Hunter.png | [ATdan](https://www.artstation.com/atdan)
 * cards/Natsuki Subaru, Accreting Life.png | [iwa_to_mushi](https://www.pixiv.net/en/users/15144367)
 * cards/Natsuki Subaru, Starting From Zero.png | [naru](https://www.pixiv.net/en/users/21015081)
+* cards/Nitocris Alter, Judgement.png | [oneheart](https://www.pixiv.net/en/users/39707192)
+* cards/Nitocris, Netherworld Mirror.png | [shima](https://www.pixiv.net/en/users/1259854)
 * cards/Okina Matara, Secret God.png | [Liu ycl](https://www.pixiv.net/en/users/98398171)
 * cards/Okita, Blade of Mibu.png | [nokcy](http://pixiv.net/en/users/2716677)
+* cards/Ozymandias, King of Kings.png | [Nemusuke](https://www.pixiv.net/en/users/336887)
 * cards/Professor James Moriarty.png | [Circa](https://www.pixiv.net/en/users/243039)
 * cards/Reines Archisorte, Princess.png | [fuyu700801](https://www.pixiv.net/en/users/39110945)
 * cards/Remilia Scarlet, Imperishable Night.png | [okitakung](https://www.pixiv.net/en/users/1267809)
@@ -57,6 +60,7 @@
 * cards/Tiamat, Mother of Genesis.png | [Hoojiro](https://www.pixiv.net/en/users/3664310)
 * cards/Toki, Abi-Eshuh Mode.png | [Machi Kurotsuki](https://www.pixiv.net/en/users/99788933)
 * cards/Toki, Regular Maid.png | [Nexon Games](https://en.wikipedia.org/wiki/Nexon)
+* cards/Tutankhamun, Excessive Heart.png | [Garakuta](https://www.pixiv.net/en/users/175143)
 * cards/Yukari Yakumo, Boundary Master.png | [Kyusoukyu](https://www.pixiv.net/en/users/66038798)
 
 ## Planeswalkers

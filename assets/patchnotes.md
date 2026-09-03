@@ -1,3 +1,9 @@
+## 9/2/2026
+* 7:35:20.478 PM CDT - Razaketh, the Foulblooded / Nitocris Alter, Judgement / Nitocris Alter, Judgement
+* 7:26:09.360 PM CDT - Djeru and Hazoret / Ozymandias, King of Kings / Ozymandias, King of Kings
+* 7:18:09.211 PM CDT - Varina, Lich Queen / Nitocris, Netherworld Mirror / Nitocris, Netherworld Mirror
+* 7:08:01.262 PM CDT - The Scorpion God / Tutankhamun, Excessive Heart / Tutankhamun, Excessive Heart
+
 ## 9/1/2026
 * 11:11:06.853 PM CDT - Mari, the Killing Quill / Jane Doe, the Dark Thorn / Jane Doe, the Dark Thorn
 * 10:59:55.232 PM CDT - Satoru Umezawa / Miyabi, Void Hunter / Miyabi, Void Hunter

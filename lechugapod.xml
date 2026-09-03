@@ -4092,6 +4092,124 @@ Assassins, Mercenaries, and Rogues you control have deathtouch and &quot;Wheneve
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>The Scorpion God</name>
+            <text>Whenever a creature with a -1/-1 counter on it dies, draw a card.
+{1}{B}{R}: Put a -1/-1 counter on another target creature.
+When The Scorpion God dies, return it to its owner's hand at the beginning of the next end step.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>BR</coloridentity>
+                <cmc>5</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <manacost>3BR</manacost>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — God</type>
+                <pt>6/5</pt>
+                <format-commander>legal</format-commander>
+                <colors>BR</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000222" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Tutankhamun%2C%20Excessive%20Heart.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
+        <card>
+            <name>Varina, Lich Queen</name>
+            <text>Whenever you attack with one or more Zombies, draw that many cards, then discard that many cards. You gain that much life.
+{2}, Exile two cards from your graveyard: Create a tapped 2/2 black Zombie creature token.</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>WUB</coloridentity>
+                <cmc>4</cmc>
+                <manacost>1WUB</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Zombie Wizard</type>
+                <pt>4/4</pt>
+                <format-commander>legal</format-commander>
+                <colors>WUB</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000223" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Nitocris%2C%20Netherworld%20Mirror.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
+        <card>
+            <name>Djeru and Hazoret</name>
+            <text>As long as you have one or fewer cards in hand, Djeru and Hazoret has vigilance and haste.
+Whenever Djeru and Hazoret attacks, look at the top six cards of your library. You may exile a legendary creature card from among them. Put the rest on the bottom of your library in a random order. Until end of turn, you may cast the exiled card without paying its mana cost.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>WR</coloridentity>
+                <cmc>5</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <manacost>2RRW</manacost>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Human God</type>
+                <pt>5/4</pt>
+                <format-commander>legal</format-commander>
+                <colors>WR</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000224" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Ozymandias%2C%20King%20of%20Kings.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
+        <card>
+            <name>Razaketh, the Foulblooded</name>
+            <text>Flying, trample
+Pay 2 life, Sacrifice another creature: Search your library for a card, put that card into your hand, then shuffle.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>B</coloridentity>
+                <cmc>8</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <manacost>5BBB</manacost>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Demon</type>
+                <pt>8/8</pt>
+                <format-commander>legal</format-commander>
+                <colors>B</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000225" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Nitocris%20Alter%2C%20Judgement.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>
