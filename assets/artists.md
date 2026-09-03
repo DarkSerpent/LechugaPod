@@ -54,7 +54,7 @@
 * cards/Shun, Gentle Instructor.png | [Nexon Games](https://en.wikipedia.org/wiki/Nexon)
 * cards/Solitude Maximus, King of Imperium.png | [Rythmi Mink](https://x.com/RythmiMink)
 * cards/Solomon, King of Magecraft.png | [yu ya](https://www.pixiv.net/en/users/969526)
-* cards/Sparkle & Sparxie, Masked Fools.png | [Scottie](https://www.pixiv.net/en/users/103410)
+* cards/Sparxie & Sparkle, Masked Fools.png | [Scottie](https://www.pixiv.net/en/users/103410)
 * cards/Suwako Moriya, Mountain Goddess.png | [M.Q](https://www.pixiv.net/en/users/9243247)
 * cards/Suwako, Though the Wind Cries.png | [Duca](https://www.pixiv.net/en/users/103606)
 * cards/The Herta, Peerless Gem.png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)

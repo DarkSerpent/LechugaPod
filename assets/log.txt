@@ -233,4 +233,4 @@ cards/Nitocris Alter, Judgement.png | 1788395720478.2437
 cards/Royal Travelling Incognito.png | 1788396713095.42
 cards/Nareko, Confined Dousojin.png | 1788397562277.8125
 artifacts/New Jersey, the Black Dragon.png | 1788398881731.4827
-cards/Sparkle & Sparxie, Masked Fools.png | 1788402688239.7234
+cards/Sparxie & Sparkle, Masked Fools.png | 1788403047057.5178

@@ -74,7 +74,7 @@ Collection currently at <img src="https://img.shields.io/badge/227-88E788?style=
 ### Honkai: Star Rail `3`
 * Aminatou, Veil Piercer[^1] = [The Herta, Peerless Gem](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/The%20Herta%2C%20Peerless%20Gem.png) (Honkai: Star Rail)
 * Fire Lord Azula[^1] = [Asta, Lead Astronomer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Asta%2C%20Lead%20Astronomer.png) (Honkai: Star Rail)
-* The Master, Multiplied[^1] = [Sparkle & Sparxie, Masked Fools](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Sparkle%20%26%20Sparxie%2C%20Masked%20Fools.png) (Honkai: Star Rail)
+* The Master, Multiplied[^1] = [Sparxie & Sparkle, Masked Fools](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Sparxie%20%26%20Sparkle%2C%20Masked%20Fools.png) (Honkai: Star Rail)
 ### Re:Zero `4`
 * The Sixth Doctor[^1] = [Echidna, the Witch of Greed](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Echidna%2C%20the%20Witch%20of%20Greed.png) (Re:Zero)
 * Romana II[^1] = [Natsuki Subaru, Accreting Life](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Natsuki%20Subaru%2C%20Accreting%20Life.png) (Re:Zero)

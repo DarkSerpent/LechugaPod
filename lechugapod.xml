@@ -4324,7 +4324,7 @@ Triggered abilities you control can't cause you to sacrifice or exile creature t
                 <format-commander>legal</format-commander>
                 <colors>BR</colors>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000229" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Sparkle%20%26%20Sparxie%2C%20Masked%20Fools.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000229" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Sparxie%20%26%20Sparkle%2C%20Masked%20Fools.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
