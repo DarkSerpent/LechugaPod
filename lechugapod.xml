@@ -4210,6 +4210,43 @@ Pay 2 life, Sacrifice another creature: Search your library for a card, put that
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Samut, the Driving Force</name>
+            <text>First strike, vigilance, haste
+Start your engines! (If you have no speed, it starts at 1. It increases once on each of your turns when an opponent loses life. Max speed is 4.)
+Other creatures you control get +X/+0, where X is your speed.
+Noncreature spells you cast cost {X} less to cast, where X is your speed.</text>
+            <prop>
+                <format-standard>legal</format-standard>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-standardbrawl>legal</format-standardbrawl>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>WRG</coloridentity>
+                <cmc>6</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <manacost>3RGW</manacost>
+                <format-alchemy>legal</format-alchemy>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Human Warrior Cleric</type>
+                <format-future>legal</format-future>
+                <pt>4/5</pt>
+                <format-commander>legal</format-commander>
+                <colors>WRG</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000226" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Royal%20Travelling%20Incognito.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

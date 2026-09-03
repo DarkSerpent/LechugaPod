@@ -230,3 +230,4 @@ The Scorpion God_0222 = Tutankhamun, Excessive Heart
 Varina, Lich Queen_0223 = Nitocris, Netherworld Mirror
 Djeru and Hazoret_0224 = Ozymandias, King of Kings
 Razaketh, the Foulblooded_0225 = Nitocris Alter, Judgement
+Samut, the Driving Force_0226 = Royal Travelling Incognito

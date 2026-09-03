@@ -45,6 +45,7 @@
 * cards/Reines Archisorte, Princess.png | [fuyu700801](https://www.pixiv.net/en/users/39110945)
 * cards/Remilia Scarlet, Imperishable Night.png | [okitakung](https://www.pixiv.net/en/users/1267809)
 * cards/Rin Kaenbyou, Shopping District.png | [Topia](https://www.pixiv.net/en/users/2827964)
+* cards/Royal Travelling Incognito.png | [Kouga Yun](https://www.pixiv.net/en/users/344457)
 * cards/Rumia, Youkai of the Dusk.png | [Spark621](https://www.pixiv.net/en/users/2488754/illustrations)
 * cards/Satsuki, Intelligence Director.png | [liuli xiao](https://www.pixiv.net/en/users/99083817)
 * cards/Seiga Kaku, the Wicked Hermit.png | [Tomoe](https://www.zerochan.net/Tomoe+%28Itigo%29)

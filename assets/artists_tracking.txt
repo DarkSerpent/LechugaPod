@@ -29,6 +29,7 @@ KAMONEGI = https://www.pixiv.net/en/users/13990950
 knt = https://www.pixiv.net/en/users/91997527
 Ko-yahu = https://www.pixiv.net/en/users/3424578
 Kotsu = https://www.zerochan.net/Kotsu
+Kouga Yun = https://www.pixiv.net/en/users/344457
 Kyusoukyu = https://www.pixiv.net/en/users/66038798
 lack = https://www.pixiv.net/en/users/83739
 Liu ycl = https://www.pixiv.net/en/users/98398171

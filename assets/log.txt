@@ -230,3 +230,4 @@ cards/Tutankhamun, Excessive Heart.png | 1788394081262.35
 cards/Nitocris, Netherworld Mirror.png | 1788394689211.7217
 cards/Ozymandias, King of Kings.png | 1788395169360.3684
 cards/Nitocris Alter, Judgement.png | 1788395720478.2437
+cards/Royal Travelling Incognito.png | 1788396713095.42

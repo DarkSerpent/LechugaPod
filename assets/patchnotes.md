@@ -1,4 +1,5 @@
 ## 9/2/2026
+* 7:50:39.605 PM CDT - Samut, the Driving Force / Royal Travelling Incognito / Royal Travelling Incognito
 * 7:35:20.478 PM CDT - Razaketh, the Foulblooded / Nitocris Alter, Judgement / Nitocris Alter, Judgement
 * 7:26:09.360 PM CDT - Djeru and Hazoret / Ozymandias, King of Kings / Ozymandias, King of Kings
 * 7:18:09.211 PM CDT - Varina, Lich Queen / Nitocris, Netherworld Mirror / Nitocris, Netherworld Mirror
