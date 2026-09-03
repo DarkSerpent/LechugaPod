@@ -14,10 +14,24 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 4. Open Cockatrice and confirm the custom set is working by navigating to "Browse Card Database" and typing in `set:CLM`.
 5. You're all set! If you want to automatically convert your decks to use all alternate card artworks from a given series, try out the [CLM Deck Converter](https://darkserpent.github.io/LechugaPod/site/) site!
 
-Collection currently at <img src="https://img.shields.io/badge/228-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/226-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
+
+### Collection By Series
+| Series | Cards | Collection |
+|:---|---:|---:|
+| **Arknights** | 12 | 5.3% |
+| **Azur Lane** | 1 | 0.4% |
+| **Blue Archive** | 20 | 8.8% |
+| **Fate Grand Order** | 56 | 24.8% |
+| **Honkai: Star Rail** | 24 | 10.6% |
+| **Re:Zero** | 37 | 16.4% |
+| **Shadowverse: Worlds Beyond** | 12 | 5.3% |
+| **Shakugan no Shana** | 1 | 0.4% |
+| **Touhou Project** | 47 | 20.8% |
+| **Zenless Zone Zero** | 16 | 7.1% |
 
 ## Creature Cards
 ### Arknights `1`

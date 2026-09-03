@@ -504,6 +504,55 @@ function updateSeriesCounts(lines, expectedCounts) {
     return changes;
 }
 
+function computeCollectionSeriesCounts(rawCards) {
+    const counts = new Map();
+    for (const card of rawCards) {
+        if (!isCollectionCard(card)) continue;
+        counts.set(card.seriesName, (counts.get(card.seriesName) || 0) + 1);
+    }
+    return counts;
+}
+
+function isCollectionCard(card) {
+    return !card.isToken && !card.isOC && !/\/customs\//i.test(card.picurl || '');
+}
+
+function updateCollectionBySeries(lines, seriesCounts, totalCards) {
+    const headingIndex = lines.indexOf('### Collection By Series');
+    if (headingIndex === -1) {
+        console.warn('Could not find the "Collection By Series" section in README.md; table not updated.');
+        return false;
+    }
+
+    const headerIndex = headingIndex + 1;
+    if (lines[headerIndex] !== '| Series | Cards | Collection |' ||
+        lines[headerIndex + 1] !== '|:---|---:|---:|') {
+        console.warn('Could not find the "Collection By Series" table in README.md; table not updated.');
+        return false;
+    }
+
+    let tableEnd = headerIndex + 2;
+    while (tableEnd < lines.length && lines[tableEnd].startsWith('|')) tableEnd++;
+
+    const rows = [...seriesCounts.entries()]
+        .sort(([first], [second]) => first.localeCompare(second, undefined, { sensitivity: 'base' }))
+        .map(([series, count]) => {
+            const percentage = totalCards === 0 ? '0.0' : (count / totalCards * 100).toFixed(1);
+            return `| **${series}** | ${count} | ${percentage}% |`;
+        });
+    const replacement = [
+        '| Series | Cards | Collection |',
+        '|:---|---:|---:|',
+        ...rows
+    ];
+    const current = lines.slice(headerIndex, tableEnd);
+    if (current.length === replacement.length && current.every((line, index) => line === replacement[index])) {
+        return false;
+    }
+    lines.splice(headerIndex, current.length, ...replacement);
+    return true;
+}
+
 function fixFootnotes(lines, cards) {
     const changes = [];
     for (let i = 0; i < lines.length; i++) {
@@ -555,7 +604,7 @@ async function main() {
     } finally {
         rl.close();
     }
-    const totalCards = rawCards.filter(card => !card.isToken).length;
+    const totalCards = rawCards.filter(isCollectionCard).length;
 
     const regularCards = rawCards.filter(c => !c.isOC);
     const groupedRegular = groupDfcCards(regularCards);
@@ -607,6 +656,8 @@ async function main() {
     const oldTotal = getCurrentTotal(lines) || 0;
     const expectedCounts = computeExpectedCounts(rawCards);
     const seriesChanges = updateSeriesCounts(lines, expectedCounts);
+    const collectionSeriesCounts = computeCollectionSeriesCounts(rawCards);
+    const collectionTableChanged = updateCollectionBySeries(lines, collectionSeriesCounts, totalCards);
 
     let totalChanged = false;
     if (oldTotal !== totalCards) {
@@ -614,7 +665,7 @@ async function main() {
         updateTotalCount(lines, totalCards);
     }
 
-    if (seriesChanges.length > 0 || totalChanged || added.length > 0 || footnoteChanges.length > 0) {
+    if (seriesChanges.length > 0 || collectionTableChanged || totalChanged || added.length > 0 || footnoteChanges.length > 0) {
         fs.writeFileSync(README_PATH, lines.join('\n'), 'utf8');
         if (seriesChanges.length > 0) {
             console.log('Series counts updated:');
