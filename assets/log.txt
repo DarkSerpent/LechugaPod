@@ -236,3 +236,4 @@ artifacts/New Jersey, the Black Dragon.png | 1788398881731.4827
 cards/Sparxie & Sparkle, Masked Fools.png | 1788403047057.5178
 artifacts/Thran Dynamo (Honkai).png | 1788404573088.5132
 artifacts/Chromatic Lantern (Honkai).png | 1788404875568.6467
+cards/Silver Wolf, Genius Hacker.png | 1788426378863.3389

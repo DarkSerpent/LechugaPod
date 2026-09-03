@@ -4350,6 +4350,32 @@ Triggered abilities you control can't cause you to sacrifice or exile creature t
             <tablerow>1</tablerow>
         </card>
 
+        <card>
+            <name>The Most Dangerous Gamer</name>
+            <text>Deathtouch
+Whenever The Most Dangerous Gamer enters or attacks, open an Attraction.
+Whenever you open an Attraction, put a +1/+1 counter on The Most Dangerous Gamer.
+Whenever you claim the prize of an Attraction, destroy target permanent.</text>
+            <prop>
+                <format-vintage>banned</format-vintage>
+                <format-legacy>banned</format-legacy>
+                <format-oathbreaker>banned</format-oathbreaker>
+                <coloridentity>BG</coloridentity>
+                <cmc>4</cmc>
+                <manacost>2BG</manacost>
+                <format-duel>banned</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Human Gamer Guest</type>
+                <pt>2/2</pt>
+                <format-commander>legal</format-commander>
+                <colors>BG</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000232" flavorName="Honkai" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Silver%20Wolf%2C%20Genius%20Hacker.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

@@ -88,4 +88,5 @@ Yoneyama Mai = https://www.pixiv.net/en/users/1554775
 yu ya = https://www.pixiv.net/en/users/969526
 Yuzusoft = https://x.com/yuzusoft
 Zap = https://www.pixiv.net/en/users/231653
+zcing = https://www.pixiv.net/en/users/18547342
 ZUN = https://x.com/korindo
