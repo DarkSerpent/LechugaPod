@@ -4247,6 +4247,38 @@ Noncreature spells you cast cost {X} less to cast, where X is your speed.</text>
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Unesh, Criosphinx Sovereign</name>
+            <text>Flying
+Sphinx spells you cast cost {2} less to cast.
+Whenever Unesh or another Sphinx you control enters, reveal the top four cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>U</coloridentity>
+                <cmc>6</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <manacost>4UU</manacost>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Sphinx</type>
+                <pt>4/4</pt>
+                <format-commander>legal</format-commander>
+                <colors>U</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000227" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Nareko%2C%20Confined%20Dousojin.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

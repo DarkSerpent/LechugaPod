@@ -18,6 +18,7 @@ Gabiran = https://www.pixiv.net/en/users/2003931
 Garakuta = https://www.pixiv.net/en/users/175143
 Genyaky = https://www.pixiv.net/en/users/1867047
 Hi Na 0729 = https://www.pixiv.net/en/users/5402792
+Hisona = https://www.pixiv.net/en/users/173260
 Hoojiro = https://www.pixiv.net/en/users/3664310
 hotosoka = https://www.pixiv.net/en/users/31082248
 Hypergryph = https://zh.wikipedia.org/zh-cn/%E9%B9%B0%E8%A7%92%E7%BD%91%E7%BB%9C

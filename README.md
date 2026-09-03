@@ -14,7 +14,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 4. Open Cockatrice and confirm the custom set is working by navigating to "Browse Card Database" and typing in `set:CLM`.
 5. You're all set! If you want to automatically convert your decks to use all alternate card artworks from a given series, try out the [CLM Deck Converter](https://darkserpent.github.io/LechugaPod/site/) site!
 
-Collection currently at <img src="https://img.shields.io/badge/226-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/227-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -69,7 +69,7 @@ Collection currently at <img src="https://img.shields.io/badge/226-88E788?style=
 * Gisela, Blade of Goldnight[^1] = [Shana, Flame-Haired Hunter](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Shana%2C%20Flame-Haired%20Hunter.png) (Shakugan no Shana)
 ### Shadowverse: Worlds Beyond `1`
 * Smaug the Impenetrable[^1] = [Galmieux, Ardor Manifest](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Galmieux%2C%20Ardor%20Manifest.png) (Shadowverse: Worlds Beyond)
-### Touhou Project `15`
+### Touhou Project `16`
 * Selenia, the Cursed Heart[^1] = [Seiga Kaku, the Wicked Hermit](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Seiga%20Kaku%2C%20the%20Wicked%20Hermit.png) (Touhou Project)
 * The Everforger[^1] = [Kogasa Tatara, the Forgotten Umbrella](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kogasa%20Tatara%2C%20the%20Forgotten%20Umbrella.png) (Touhou Project)
 * Avatar Roku, Firebender[^1] = [Fujiwara no Mokou, the Immortal](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujiwara%20no%20Mokou%2C%20the%20Immortal.png) (Touhou Project)
@@ -85,6 +85,7 @@ Collection currently at <img src="https://img.shields.io/badge/226-88E788?style=
 * Volo, Guide to Monsters[^1] = [Hieda no Akyuu, Perfect Memory](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Hieda%20no%20Akyuu%2C%20Perfect%20Memory.png) (Touhou Project)
 * The Scarab God[^1] = [Eiki Shiki, Supreme Judge](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Eiki%20Shiki%2C%20Supreme%20Judge.png) (Touhou Project)
 * Obeka, Splitter of Seconds[^1] = [Okina Matara, Secret God](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Okina%20Matara%2C%20Secret%20God.png) (Touhou Project)
+* Unesh, Criosphinx Sovereign[^1] = [Nareko, Confined Dousojin](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Nareko%2C%20Confined%20Dousojin.png) (Touhou Project)
 ### Zenless Zone Zero `4`
 * Adriana, Captain of the Guard[^1] = [Caesar, Calydon Warlord](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Caesar%2C%20Calydon%20Warlord.png) (Zenless Zone Zero)
 * Astor, Bearer of Blades[^1] = [Anton, Gearheart Brawler](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Anton%2C%20Gearheart%20Brawler.png) (Zenless Zone Zero)
