@@ -239,3 +239,4 @@ artifacts/Chromatic Lantern (Honkai).png | 1788404875568.6467
 cards/Silver Wolf, Genius Hacker.png | 1788426378863.3389
 cards/Angels of Delusion.png | 1788487479232.9153
 cards/Super Orion, Grand Archer.png | 1788489148727.8867
+cards/Silver Wolf, Emanator of Elation.png | 1788502695983.184

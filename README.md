@@ -14,7 +14,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 4. Open Cockatrice and confirm the custom set is working by navigating to "Browse Card Database" and typing in `set:CLM`.
 5. You're all set! If you want to automatically convert your decks to use all alternate card artworks from a given series, try out the [CLM Deck Converter](https://darkserpent.github.io/LechugaPod/site/) site!
 
-Collection currently at <img src="https://img.shields.io/badge/232-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/233-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -25,12 +25,12 @@ Collection currently at <img src="https://img.shields.io/badge/232-88E788?style=
 | **Arknights** | 12 | 5.2% |
 | **Azur Lane** | 1 | 0.4% |
 | **Blue Archive** | 20 | 8.6% |
-| **Fate Grand Order** | 57 | 24.6% |
-| **Honkai: Star Rail** | 28 | 12.1% |
+| **Fate Grand Order** | 57 | 24.5% |
+| **Honkai: Star Rail** | 29 | 12.4% |
 | **Re:Zero** | 37 | 15.9% |
 | **Shadowverse: Worlds Beyond** | 12 | 5.2% |
 | **Shakugan no Shana** | 1 | 0.4% |
-| **Touhou Project** | 47 | 20.3% |
+| **Touhou Project** | 47 | 20.2% |
 | **Zenless Zone Zero** | 17 | 7.3% |
 
 ## Creature Cards
@@ -72,11 +72,12 @@ Collection currently at <img src="https://img.shields.io/badge/232-88E788?style=
 * Razaketh, the Foulblooded[^1] = [Nitocris Alter, Judgement](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Nitocris%20Alter%2C%20Judgement.png) (Fate Grand Order)
 * Samut, the Driving Force[^1] = [Royal Travelling Incognito](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Royal%20Travelling%20Incognito.png) (Fate Grand Order)
 * Xenagos, God of Revels = [Super Orion, Grand Archer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Super%20Orion%2C%20Grand%20Archer.png) (Fate Grand Order)
-### Honkai: Star Rail `4`
+### Honkai: Star Rail `5`
 * Aminatou, Veil Piercer[^1] = [The Herta, Peerless Gem](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/The%20Herta%2C%20Peerless%20Gem.png) (Honkai: Star Rail)
 * Fire Lord Azula[^1] = [Asta, Lead Astronomer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Asta%2C%20Lead%20Astronomer.png) (Honkai: Star Rail)
 * The Master, Multiplied[^1] = [Sparxie & Sparkle, Masked Fools](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Sparxie%20%26%20Sparkle%2C%20Masked%20Fools.png) (Honkai: Star Rail)
 * The Most Dangerous Gamer[^1] = [Silver Wolf, Genius Hacker](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Silver%20Wolf%2C%20Genius%20Hacker.png) (Honkai: Star Rail)
+* Mishra, Eminent One[^1] = [Silver Wolf, Emanator of Elation](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Silver%20Wolf%2C%20Emanator%20of%20Elation.png) (Honkai: Star Rail)
 ### Re:Zero `4`
 * The Sixth Doctor[^1] = [Echidna, the Witch of Greed](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Echidna%2C%20the%20Witch%20of%20Greed.png) (Re:Zero)
 * Romana II[^1] = [Natsuki Subaru, Accreting Life](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Natsuki%20Subaru%2C%20Accreting%20Life.png) (Re:Zero)

@@ -1,3 +1,6 @@
+## 9/4/2026
+* 1:18:15.983 AM CDT - Mishra, Eminent One / Silver Wolf, Emanator of Elation / Silver Wolf, Emanator of Elation
+
 ## 9/3/2026
 * 9:32:28.727 PM CDT - Xenagos, God of Revels / Super Orion, Grand Archer / Super Orion, Grand Archer
 * 9:04:39.232 PM CDT - Trostani, Three Whispers / Angels of Delusion / Angels of Delusion

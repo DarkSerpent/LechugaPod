@@ -53,6 +53,7 @@
 * cards/Seiga Kaku, the Wicked Hermit.png | [Tomoe](https://www.zerochan.net/Tomoe+%28Itigo%29)
 * cards/Shana, Flame-Haired Hunter.png | [Kotsu](https://www.zerochan.net/Kotsu)
 * cards/Shun, Gentle Instructor.png | [Nexon Games](https://en.wikipedia.org/wiki/Nexon)
+* cards/Silver Wolf, Emanator of Elation.png | [isome](https://www.pixiv.net/en/users/73677402)
 * cards/Silver Wolf, Genius Hacker.png | [zcing](https://www.pixiv.net/en/users/18547342)
 * cards/Solitude Maximus, King of Imperium.png | [Rythmi Mink](https://x.com/RythmiMink)
 * cards/Solomon, King of Magecraft.png | [yu ya](https://www.pixiv.net/en/users/969526)
