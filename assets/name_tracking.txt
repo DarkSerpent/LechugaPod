@@ -238,3 +238,4 @@ Thran Dynamo_0230 = Ancient Engine
 Chromatic Lantern_0231 = Immortal Lumintwig
 The Most Dangerous Gamer_0232 = Silver Wolf, Genius Hacker
 Trostani, Three Whispers_0233 = Angels of Delusion
+Xenagos, God of Revels_0234 = Super Orion, Grand Archer
