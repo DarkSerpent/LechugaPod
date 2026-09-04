@@ -4376,6 +4376,41 @@ Whenever you claim the prize of an Attraction, destroy target permanent.</text>
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Trostani, Three Whispers</name>
+            <text>{1}{G}: Target creature gains deathtouch until end of turn.
+{G/W}: Target creature gains vigilance until end of turn.
+{2}{W}: Target creature gains double strike until end of turn.</text>
+            <prop>
+                <format-standard>legal</format-standard>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-standardbrawl>legal</format-standardbrawl>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>WG</coloridentity>
+                <cmc>3</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <manacost>G{G/W}W</manacost>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Dryad</type>
+                <format-future>legal</format-future>
+                <pt>4/4</pt>
+                <format-commander>legal</format-commander>
+                <colors>WG</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000233" flavorName="ZZZ" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Angels%20of%20Delusion.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

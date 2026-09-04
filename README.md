@@ -14,7 +14,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 4. Open Cockatrice and confirm the custom set is working by navigating to "Browse Card Database" and typing in `set:CLM`.
 5. You're all set! If you want to automatically convert your decks to use all alternate card artworks from a given series, try out the [CLM Deck Converter](https://darkserpent.github.io/LechugaPod/site/) site!
 
-Collection currently at <img src="https://img.shields.io/badge/230-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/231-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -25,13 +25,13 @@ Collection currently at <img src="https://img.shields.io/badge/230-88E788?style=
 | **Arknights** | 12 | 5.2% |
 | **Azur Lane** | 1 | 0.4% |
 | **Blue Archive** | 20 | 8.7% |
-| **Fate Grand Order** | 56 | 24.3% |
-| **Honkai: Star Rail** | 28 | 12.2% |
-| **Re:Zero** | 37 | 16.1% |
+| **Fate Grand Order** | 56 | 24.2% |
+| **Honkai: Star Rail** | 28 | 12.1% |
+| **Re:Zero** | 37 | 16.0% |
 | **Shadowverse: Worlds Beyond** | 12 | 5.2% |
 | **Shakugan no Shana** | 1 | 0.4% |
-| **Touhou Project** | 47 | 20.4% |
-| **Zenless Zone Zero** | 16 | 7.0% |
+| **Touhou Project** | 47 | 20.3% |
+| **Zenless Zone Zero** | 17 | 7.4% |
 
 ## Creature Cards
 ### Arknights `1`
@@ -102,11 +102,12 @@ Collection currently at <img src="https://img.shields.io/badge/230-88E788?style=
 * The Scarab God[^1] = [Eiki Shiki, Supreme Judge](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Eiki%20Shiki%2C%20Supreme%20Judge.png) (Touhou Project)
 * Obeka, Splitter of Seconds[^1] = [Okina Matara, Secret God](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Okina%20Matara%2C%20Secret%20God.png) (Touhou Project)
 * Unesh, Criosphinx Sovereign[^1] = [Nareko, Confined Dousojin](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Nareko%2C%20Confined%20Dousojin.png) (Touhou Project)
-### Zenless Zone Zero `4`
+### Zenless Zone Zero `5`
 * Adriana, Captain of the Guard[^1] = [Caesar, Calydon Warlord](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Caesar%2C%20Calydon%20Warlord.png) (Zenless Zone Zero)
 * Astor, Bearer of Blades[^1] = [Anton, Gearheart Brawler](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Anton%2C%20Gearheart%20Brawler.png) (Zenless Zone Zero)
 * Satoru Umezawa[^1] = [Miyabi, Void Hunter](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Miyabi%2C%20Void%20Hunter.png) (Zenless Zone Zero)
 * Mari, the Killing Quill[^1] = [Jane Doe, the Dark Thorn](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Jane%20Doe%2C%20the%20Dark%20Thorn.png) (Zenless Zone Zero)
+* Trostani, Three Whispers[^1] = [Angels of Delusion](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Angels%20of%20Delusion.png) (Zenless Zone Zero)
 
 <details>
   <summary><strong>▶ Click to View OCs</strong></summary>

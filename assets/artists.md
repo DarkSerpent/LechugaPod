@@ -1,4 +1,5 @@
 ## Creature Cards
+* cards/Angels of Delusion.png | [amaneko](https://www.pixiv.net/en/users/21000719)
 * cards/Anton, Gearheart Brawler.png | [miyako](https://www.pixiv.net/en/users/735123)
 * cards/Asta, Lead Astronomer.png | [Andoff](https://www.pixiv.net/en/users/50559593)
 * cards/Baobhan Sith, Blood Rose.png | [Genyaky](https://www.pixiv.net/en/users/1867047)
