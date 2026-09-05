@@ -242,3 +242,5 @@ Xenagos, God of Revels_0234 = Super Orion, Grand Archer
 Mishra, Eminent One_0235 = Silver Wolf, Emanator of Elation
 Captain America, First Avenger_0236 = Gilgamesh, Supreme Wise King
 Kira, Great Glass-Spinner_0237 = Lin the Violet
+Captain Marvel, Apex Avenger_0238 = Kara Zor-El, Supergirl
+Hyperion, Supreme Hero_0239 = Kal-El, Superman

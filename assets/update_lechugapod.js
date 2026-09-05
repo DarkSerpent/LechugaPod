@@ -16,6 +16,7 @@ const SERIES_NAMES = [
     { key: 'AzurLane', label: 'Azur Lane' },
     { key: 'BlueArchive', label: 'Blue Archive' },
     { key: 'Fate', label: 'Fate Grand Order' },
+    { key: 'MAWS', label: 'My Adventures with Superman' },
     { key: 'ReZero', label: 'Re:Zero' },
     { key: 'Shakugan', label: 'Shakugan no Shana' },
     { key: 'Shadowverse', label: 'Shadowverse: Worlds Beyond' },

@@ -1,4 +1,6 @@
 ## 9/5/2026
+* 6:40:14.044 PM CDT - Hyperion, Supreme Hero / Kal-El, Superman / Kal-El, Superman
+* 6:25:24.750 PM CDT - Captain Marvel, Apex Avenger / Kara Zor-El, Supergirl / Kara Zor-El, Supergirl
 * 3:28:03.893 AM CDT - Kira, Great Glass-Spinner / Lin the Violet / Lin the Violet
 * 2:22:35.230 AM CDT - Captain America, First Avenger / Gilgamesh, Supreme Wise King / Gilgamesh, Supreme Wise King
 

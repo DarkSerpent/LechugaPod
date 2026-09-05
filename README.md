@@ -14,7 +14,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 4. Open Cockatrice and confirm the custom set is working by navigating to "Browse Card Database" and typing in `set:CLM`.
 5. You're all set! If you want to automatically convert your decks to use all alternate card artworks from a given series, try out the [CLM Deck Converter](https://darkserpent.github.io/LechugaPod/site/) site!
 
-Collection currently at <img src="https://img.shields.io/badge/235-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/237-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -24,13 +24,14 @@ Collection currently at <img src="https://img.shields.io/badge/235-88E788?style=
 |:---|---:|---:|
 | **Arknights** | 13 | 5.5% |
 | **Azur Lane** | 1 | 0.4% |
-| **Blue Archive** | 20 | 8.5% |
-| **Fate Grand Order** | 58 | 24.7% |
-| **Honkai: Star Rail** | 29 | 12.3% |
-| **Re:Zero** | 37 | 15.7% |
+| **Blue Archive** | 20 | 8.4% |
+| **Fate Grand Order** | 58 | 24.5% |
+| **Honkai: Star Rail** | 29 | 12.2% |
+| **My Adventures with Superman** | 2 | 0.8% |
+| **Re:Zero** | 37 | 15.6% |
 | **Shadowverse: Worlds Beyond** | 12 | 5.1% |
 | **Shakugan no Shana** | 1 | 0.4% |
-| **Touhou Project** | 47 | 20.0% |
+| **Touhou Project** | 47 | 19.8% |
 | **Zenless Zone Zero** | 17 | 7.2% |
 
 ## Creature Cards
@@ -80,6 +81,9 @@ Collection currently at <img src="https://img.shields.io/badge/235-88E788?style=
 * The Master, Multiplied[^1] = [Sparxie & Sparkle, Masked Fools](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Sparxie%20%26%20Sparkle%2C%20Masked%20Fools.png) (Honkai: Star Rail)
 * The Most Dangerous Gamer[^1] = [Silver Wolf, Genius Hacker](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Silver%20Wolf%2C%20Genius%20Hacker.png) (Honkai: Star Rail)
 * Mishra, Eminent One[^1] = [Silver Wolf, Emanator of Elation](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Silver%20Wolf%2C%20Emanator%20of%20Elation.png) (Honkai: Star Rail)
+### My Adventures with Superman `2`
+* Captain Marvel, Apex Avenger[^1] = [Kara Zor-El, Supergirl](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kara%20Zor-El%2C%20Supergirl.png) (My Adventures with Superman)
+* Hyperion, Supreme Hero[^1] = [Kal-El, Superman](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kal-El%2C%20Superman.png) (My Adventures with Superman)
 ### Re:Zero `4`
 * The Sixth Doctor[^1] = [Echidna, the Witch of Greed](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Echidna%2C%20the%20Witch%20of%20Greed.png) (Re:Zero)
 * Romana II[^1] = [Natsuki Subaru, Accreting Life](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Natsuki%20Subaru%2C%20Accreting%20Life.png) (Re:Zero)
