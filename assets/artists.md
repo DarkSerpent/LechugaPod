@@ -20,6 +20,7 @@
 * cards/Fujiwara no Mokou, the Undying.png | [ichiTATa](https://www.pixiv.net/en/users/7497648)
 * cards/Galmieux, Ardor Manifest.png | [ell](https://www.pixiv.net/en/users/16408605)
 * cards/Gilgamesh, King of Heroes.png | [Pixiv 227478](https://www.pixiv.net/en/users/227478/artworks)
+* cards/Gilgamesh, Supreme Wise King.png | [Ginka](https://x.com/hagure_ginsu)
 * cards/Goetia, King of the Demon Gods.png | [KAMONEGI](https://www.pixiv.net/en/users/13990950)
 * cards/Goredolf Musik, Indomitable.png | [BLACK](https://typemoon.fandom.com/wiki/BLACK)
 * cards/Hassan of Serenity.png | [Hi Na 0729](https://www.pixiv.net/en/users/5402792)
