@@ -4494,6 +4494,37 @@ At the beginning of combat on your turn, another target creature you control gai
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Kira, Great Glass-Spinner</name>
+            <text>Flying
+Creatures you control have &quot;Whenever this creature becomes the target of a spell or ability for the first time each turn, counter that spell or ability.&quot;</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-predh>legal</format-predh>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>U</coloridentity>
+                <cmc>3</cmc>
+                <manacost>1UU</manacost>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Spirit</type>
+                <pt>2/2</pt>
+                <format-commander>legal</format-commander>
+                <colors>U</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000237" flavorName="Arknights" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Lin%20the%20Violet.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

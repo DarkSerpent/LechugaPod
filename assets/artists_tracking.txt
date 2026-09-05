@@ -32,6 +32,7 @@ Jeze = https://www.pixiv.net/users/42042821
 JILL = https://www.pixiv.net/en/users/54259522
 KADOKAWA = https://en.wikipedia.org/wiki/Kadokawa_Corporation
 KAMONEGI = https://www.pixiv.net/en/users/13990950
+kitutuki20 = https://www.pixiv.net/en/users/1808950
 knt = https://www.pixiv.net/en/users/91997527
 Ko-yahu = https://www.pixiv.net/en/users/3424578
 Kotsu = https://www.zerochan.net/Kotsu

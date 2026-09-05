@@ -14,7 +14,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 4. Open Cockatrice and confirm the custom set is working by navigating to "Browse Card Database" and typing in `set:CLM`.
 5. You're all set! If you want to automatically convert your decks to use all alternate card artworks from a given series, try out the [CLM Deck Converter](https://darkserpent.github.io/LechugaPod/site/) site!
 
-Collection currently at <img src="https://img.shields.io/badge/234-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/235-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -22,20 +22,21 @@ Collection currently at <img src="https://img.shields.io/badge/234-88E788?style=
 ### Collection By Series
 | Series | Cards | Collection |
 |:---|---:|---:|
-| **Arknights** | 12 | 5.1% |
+| **Arknights** | 13 | 5.5% |
 | **Azur Lane** | 1 | 0.4% |
 | **Blue Archive** | 20 | 8.5% |
-| **Fate Grand Order** | 58 | 24.8% |
-| **Honkai: Star Rail** | 29 | 12.4% |
-| **Re:Zero** | 37 | 15.8% |
+| **Fate Grand Order** | 58 | 24.7% |
+| **Honkai: Star Rail** | 29 | 12.3% |
+| **Re:Zero** | 37 | 15.7% |
 | **Shadowverse: Worlds Beyond** | 12 | 5.1% |
 | **Shakugan no Shana** | 1 | 0.4% |
-| **Touhou Project** | 47 | 20.1% |
-| **Zenless Zone Zero** | 17 | 7.3% |
+| **Touhou Project** | 47 | 20.0% |
+| **Zenless Zone Zero** | 17 | 7.2% |
 
 ## Creature Cards
-### Arknights `1`
+### Arknights `2`
 * Isshin, Two Heavens as One[^1] = [Chen Qianyu, Prodigy of Tanjian](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Chen%20Qianyu%2C%20Prodigy%20of%20Tanjian.png) (Arknights)
+* Kira, Great Glass-Spinner[^1] = [Lin the Violet](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Lin%20the%20Violet.png) (Arknights)
 ### Blue Archive `6`
 * Laughing Jasper Flint[^1] = [Satsuki, Intelligence Director](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Satsuki%2C%20Intelligence%20Director.png) (Blue Archive)
 * King T'Challa // Black Panther, Hope Enduring[^1] = [Toki, Regular Maid](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Toki%2C%20Regular%20Maid.png) // [Toki, Abi-Eshuh Mode](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Toki%2C%20Abi%2DEshuh%20Mode.png) (Blue Archive)

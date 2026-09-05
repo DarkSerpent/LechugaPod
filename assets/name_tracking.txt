@@ -241,3 +241,4 @@ Trostani, Three Whispers_0233 = Angels of Delusion
 Xenagos, God of Revels_0234 = Super Orion, Grand Archer
 Mishra, Eminent One_0235 = Silver Wolf, Emanator of Elation
 Captain America, First Avenger_0236 = Gilgamesh, Supreme Wise King
+Kira, Great Glass-Spinner_0237 = Lin the Violet

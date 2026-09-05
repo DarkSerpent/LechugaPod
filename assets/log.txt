@@ -241,3 +241,4 @@ cards/Angels of Delusion.png | 1788487479232.9153
 cards/Super Orion, Grand Archer.png | 1788489148727.8867
 cards/Silver Wolf, Emanator of Elation.png | 1788502695983.184
 cards/Gilgamesh, Supreme Wise King.png | 1788592955230.3384
+cards/Lin the Violet.png | 1788596883893.1736
