@@ -245,3 +245,4 @@ Kira, Great Glass-Spinner_0237 = Lin the Violet
 Captain Marvel, Apex Avenger_0238 = Kara Zor-El, Supergirl
 Hyperion, Supreme Hero_0239 = Kal-El, Superman
 Sheoldred, Whispering One_0240 = The Old Man of the Mountain
+Judith, Carnage Connoisseur_0241 = Antonio Salieri, Man in Grey

@@ -4614,6 +4614,41 @@ At the beginning of each opponent's upkeep, that player sacrifices a creature of
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Judith, Carnage Connoisseur</name>
+            <text>Whenever you cast an instant or sorcery spell, choose one —
+• That spell gains deathtouch and lifelink.
+• Create a 2/2 red Imp creature token with &quot;When this token dies, it deals 2 damage to each opponent.&quot;</text>
+            <prop>
+                <format-standard>legal</format-standard>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-standardbrawl>legal</format-standardbrawl>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>BR</coloridentity>
+                <cmc>5</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <manacost>3BR</manacost>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Human Shaman</type>
+                <format-future>legal</format-future>
+                <pt>3/4</pt>
+                <format-commander>legal</format-commander>
+                <colors>BR</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000241" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Antonio%20Salieri%2C%20Man%20in%20Grey.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>
