@@ -248,4 +248,4 @@ cards/The Old Man of the Mountain.png | 1788655942408.767
 cards/Antonio Salieri, Man in Grey.png | 1788656951780.846
 cards/Artoria Pendragon.png | 1788657952696.855
 cards/Mordred, Knight of Londinium.png | 1788659513007.4531
-cards/Jason, Leader of the Argonauts.png | 1788660085008.5222
+cards/Jason, Leader of the Argonauts.png | 1788660179945.946
