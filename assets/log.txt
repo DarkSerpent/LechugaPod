@@ -242,5 +242,5 @@ cards/Super Orion, Grand Archer.png | 1788489148727.8867
 cards/Silver Wolf, Emanator of Elation.png | 1788502695983.184
 cards/Gilgamesh, Supreme Wise King.png | 1788592955230.3384
 cards/Lin the Violet.png | 1788596883893.1736
-cards/Kara Zor-El, Supergirl.png | 1788650724750.0576
+cards/Kara Zor-El, Supergirl.png | 1788653127208.7307
 cards/Kal-El, Superman.png | 1788652541722.811
