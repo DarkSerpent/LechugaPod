@@ -4650,6 +4650,38 @@ At the beginning of each opponent's upkeep, that player sacrifices a creature of
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Syr Gwyn, Hero of Ashvale</name>
+            <text>Vigilance, menace
+Whenever an equipped creature you control attacks, you draw a card and you lose 1 life.
+Equipment you control have equip Knight {0}.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>WBR</coloridentity>
+                <cmc>6</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <manacost>3RWB</manacost>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Human Knight</type>
+                <pt>5/5</pt>
+                <format-commander>legal</format-commander>
+                <colors>WBR</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000243" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Mordred%2C%20Knight%20of%20Londinium.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

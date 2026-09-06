@@ -36,6 +36,7 @@ KAMONEGI = https://www.pixiv.net/en/users/13990950
 kitutuki20 = https://www.pixiv.net/en/users/1808950
 knt = https://www.pixiv.net/en/users/91997527
 Ko-yahu = https://www.pixiv.net/en/users/3424578
+kodama = https://www.pixiv.net/en/users/278495
 Kotsu = https://www.zerochan.net/Kotsu
 Kouga Yun = https://www.pixiv.net/en/users/344457
 Kyusoukyu = https://www.pixiv.net/en/users/66038798

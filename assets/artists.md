@@ -41,6 +41,7 @@
 * cards/Mash Kyrielight, Ritsuka’s Servant.png | [Takashi Takeuchi](https://www.zerochan.net/Takeuchi+Takashi)
 * cards/Melusine, Hand of Albion.png | [lack](https://www.pixiv.net/en/users/83739)
 * cards/Miyabi, Void Hunter.png | [ATdan](https://www.artstation.com/atdan)
+* cards/Mordred, Knight of Londinium.png | [kodama](https://www.pixiv.net/en/users/278495)
 * cards/Nareko, Confined Dousojin.png | [Hisona](https://www.pixiv.net/en/users/173260)
 * cards/Natsuki Subaru, Accreting Life.png | [iwa_to_mushi](https://www.pixiv.net/en/users/15144367)
 * cards/Natsuki Subaru, Starting From Zero.png | [naru](https://www.pixiv.net/en/users/21015081)
