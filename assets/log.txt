@@ -246,3 +246,4 @@ cards/Kara Zor-El, Supergirl.png | 1788653127208.7307
 cards/Kal-El, Superman.png | 1788652541722.811
 cards/The Old Man of the Mountain.png | 1788655942408.767
 cards/Antonio Salieri, Man in Grey.png | 1788656951780.846
+cards/Artoria Pendragon.png | 1788657952696.855

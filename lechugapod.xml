@@ -114,7 +114,8 @@ Whenever Sidar Jabari deals combat damage to a player, return target Knight crea
                 <format-oathbreaker>legal</format-oathbreaker>
                 <side>front</side>
             </prop>
-            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000004" flavorName="OC" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Solitude%20Maximus%2C%20King%20of%20Imperium.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000004" flavorName="OC" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Solitude%20Maximus%2C%20King%20of%20Imperium.png">CLM</set>            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000242" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Artoria%20Pendragon.png">CLM</set>
+
             <tablerow>2</tablerow>
         </card>
 
