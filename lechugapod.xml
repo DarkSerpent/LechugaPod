@@ -4682,6 +4682,32 @@ Equipment you control have equip Knight {0}.</text>
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Norin the Wary</name>
+            <text>When a player casts a spell or a creature attacks, exile Norin. Return it to the battlefield under its owner's control at the beginning of the next end step.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-predh>legal</format-predh>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>R</coloridentity>
+                <cmc></cmc>
+                <manacost>R</manacost>
+                <side>front</side>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <maintype>Creature</maintype>
+                <layout>reversible_card</layout>
+                <type>Legendary Creature — Human Warrior</type>
+                <pt>2/1</pt>
+                <format-commander>legal</format-commander>
+                <colors>R</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000244" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Jason%2C%20Leader%20of%20the%20Argonauts.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

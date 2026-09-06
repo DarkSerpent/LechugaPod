@@ -30,6 +30,7 @@
 * cards/Hina, Prefect Team Chairman.png | [penguin say](https://www.pixiv.net/en/users/16710545)
 * cards/Hollow Heart Albion.png | [CHOCO](https://x.com/choco_mugi)
 * cards/Jane Doe, the Dark Thorn.png | [Wheelsnow7](https://www.pixiv.net/en/users/17706632)
+* cards/Jason, Leader of the Argonauts.png | [kodama](https://www.pixiv.net/en/users/278495)
 * cards/Kal-El, Superman.png | [Pablo M Collar](https://marvel.fandom.com/wiki/Pablo_Collar)
 * cards/Kara Zor-El, Supergirl.png | [LDL](https://www.pixiv.net/en/users/9320645)
 * cards/Kashin Koji, Fuuma Sorcerer.png | [Yoneyama Mai](https://www.pixiv.net/en/users/1554775)

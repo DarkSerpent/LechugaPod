@@ -1,4 +1,5 @@
 ## 9/5/2026
+* 9:01:25.008 PM CDT - Norin the Wary / Jason, Leader of the Argonauts / Jason, Leader of the Argonauts
 * 8:51:53.007 PM CDT - Syr Gwyn, Hero of Ashvale / Mordred, Knight of Londinium / Mordred, Knight of Londinium
 * 8:25:52.696 PM CDT - Sidar Jabari of Zhalfir / Artoria Pendragon / Artoria Pendragon
 * 8:09:11.780 PM CDT - Judith, Carnage Connoisseur / Antonio Salieri, Man in Grey / Antonio Salieri, Man in Grey
