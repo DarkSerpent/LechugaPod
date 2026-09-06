@@ -4708,6 +4708,32 @@ Equipment you control have equip Knight {0}.</text>
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Templar Knight</name>
+            <text>Vigilance
+{W}, Tap five untapped attacking creatures you control named Templar Knight: Search your library for a legendary artifact card, put it onto the battlefield, then shuffle.
+A deck can have any number of cards named Templar Knight.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>W</coloridentity>
+                <cmc>2</cmc>
+                <manacost>1W</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Creature — Human Knight</type>
+                <pt>3/1</pt>
+                <format-commander>legal</format-commander>
+                <colors>W</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000245" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Templar%20Knight%20(Fate).png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

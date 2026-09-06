@@ -69,6 +69,7 @@
 * cards/Super Orion, Grand Archer.png | [I-IV](https://www.pixiv.net/en/users/36619)
 * cards/Suwako Moriya, Mountain Goddess.png | [M.Q](https://www.pixiv.net/en/users/9243247)
 * cards/Suwako, Though the Wind Cries.png | [Duca](https://www.pixiv.net/en/users/103606)
+* cards/Templar Knight (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * cards/The Herta, Peerless Gem.png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
 * cards/The Old Man of the Mountain.png | [MIKIMILK](https://www.pixiv.net/en/users/3019748)
 * cards/Thomas Edison, King of Inventors.png | [Pako](https://x.com/pakosun)
