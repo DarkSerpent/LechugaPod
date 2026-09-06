@@ -244,3 +244,4 @@ cards/Gilgamesh, Supreme Wise King.png | 1788592955230.3384
 cards/Lin the Violet.png | 1788596883893.1736
 cards/Kara Zor-El, Supergirl.png | 1788653127208.7307
 cards/Kal-El, Superman.png | 1788652541722.811
+cards/The Old Man of the Mountain.png | 1788655942408.767

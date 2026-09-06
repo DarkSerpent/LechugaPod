@@ -14,7 +14,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 4. Open Cockatrice and confirm the custom set is working by navigating to "Browse Card Database" and typing in `set:CLM`.
 5. You're all set! If you want to automatically convert your decks to use all alternate card artworks from a given series, try out the [CLM Deck Converter](https://darkserpent.github.io/LechugaPod/site/) site!
 
-Collection currently at <img src="https://img.shields.io/badge/237-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/238-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -25,14 +25,14 @@ Collection currently at <img src="https://img.shields.io/badge/237-88E788?style=
 | **Arknights** | 13 | 5.5% |
 | **Azur Lane** | 1 | 0.4% |
 | **Blue Archive** | 20 | 8.4% |
-| **Fate Grand Order** | 58 | 24.5% |
+| **Fate Grand Order** | 59 | 24.8% |
 | **Honkai: Star Rail** | 29 | 12.2% |
 | **My Adventures with Superman** | 2 | 0.8% |
-| **Re:Zero** | 37 | 15.6% |
-| **Shadowverse: Worlds Beyond** | 12 | 5.1% |
+| **Re:Zero** | 37 | 15.5% |
+| **Shadowverse: Worlds Beyond** | 12 | 5.0% |
 | **Shakugan no Shana** | 1 | 0.4% |
-| **Touhou Project** | 47 | 19.8% |
-| **Zenless Zone Zero** | 17 | 7.2% |
+| **Touhou Project** | 47 | 19.7% |
+| **Zenless Zone Zero** | 17 | 7.1% |
 
 ## Creature Cards
 ### Arknights `2`
@@ -44,7 +44,7 @@ Collection currently at <img src="https://img.shields.io/badge/237-88E788?style=
 * Ms. Bumbleflower[^1] = [Shun, Gentle Instructor](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Shun%2C%20Gentle%20Instructor.png) (Blue Archive)
 * The Capitoline Triad[^1] = [Malkuth, the Tenth Prophet](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Malkuth%2C%20the%20Tenth%20Prophet.png) (Blue Archive)
 * Shay Cormac[^1] = [Hina, Prefect Team Chairman](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Hina%2C%20Prefect%20Team%20Chairman.png) (Blue Archive)
-### Fate Grand Order `30`
+### Fate Grand Order `31`
 * Kilo, Apogee Mind[^1] = [Kashin Koji, Fuuma Sorcerer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kashin%20Koji%2C%20Fuuma%20Sorcerer.png) (Fate Grand Order)
 * Krark, the Thumbless[^1] = [Fujimaru Ritsuka, Stargazer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujimaru%20Ritsuka%2C%20Stargazer.png) (Fate Grand Order)
 * Kydele, Chosen of Kruphix[^1] = [Fujimaru Ritsuka, Humanity's Last](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujimaru%20Ritsuka%2C%20Humanity%E2%80%99s%20Last.png) (Fate Grand Order)
@@ -75,6 +75,7 @@ Collection currently at <img src="https://img.shields.io/badge/237-88E788?style=
 * Samut, the Driving Force[^1] = [Royal Travelling Incognito](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Royal%20Travelling%20Incognito.png) (Fate Grand Order)
 * Xenagos, God of Revels = [Super Orion, Grand Archer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Super%20Orion%2C%20Grand%20Archer.png) (Fate Grand Order)
 * Captain America, First Avenger[^1] = [Gilgamesh, Supreme Wise King](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Gilgamesh%2C%20Supreme%20Wise%20King.png) (Fate Grand Order)
+* Sheoldred, Whispering One[^1] = [The Old Man of the Mountain](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/The%20Old%20Man%20of%20the%20Mountain.png) (Fate Grand Order)
 ### Honkai: Star Rail `5`
 * Aminatou, Veil Piercer[^1] = [The Herta, Peerless Gem](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/The%20Herta%2C%20Peerless%20Gem.png) (Honkai: Star Rail)
 * Fire Lord Azula[^1] = [Asta, Lead Astronomer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Asta%2C%20Lead%20Astronomer.png) (Honkai: Star Rail)

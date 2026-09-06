@@ -4582,6 +4582,38 @@ If a source would deal damage to you or a Hero you control, prevent all but 1 of
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Sheoldred, Whispering One</name>
+            <text>Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)
+At the beginning of your upkeep, return target creature card from your graveyard to the battlefield.
+At the beginning of each opponent's upkeep, that player sacrifices a creature of their choice.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-predh>legal</format-predh>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>B</coloridentity>
+                <cmc>7</cmc>
+                <manacost>5BB</manacost>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Phyrexian Praetor</type>
+                <pt>6/6</pt>
+                <format-commander>legal</format-commander>
+                <colors>B</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000240" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/The%20Old%20Man%20of%20the%20Mountain.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>
