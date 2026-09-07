@@ -94,6 +94,7 @@ TYPE-MOON = https://en.wikipedia.org/wiki/Type-Moon
 Wheelsnow7 = https://www.pixiv.net/en/users/17706632
 xiaoraini = https://www.pixiv.net/en/users/53117627
 Yamyom = https://www.pixiv.net/en/users/46328
+yasu = https://www.pixiv.net/users/18643150
 Yonemuro = https://www.pixiv.net/en/users/10199606
 Yoneyama Mai = https://www.pixiv.net/en/users/1554775
 yu ya = https://www.pixiv.net/en/users/969526

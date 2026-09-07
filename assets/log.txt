@@ -252,3 +252,4 @@ cards/Jason, Leader of the Argonauts.png | 1788660179945.946
 cards/Templar Knight (Fate).png | 1788661335957.5608
 cards/Neco-Arc, Speed of Nyanyanya.png | 1788742958848.234
 cards/Rafaela, La Pluma.png | 1788745562262.7356
+cards/Lakshmi Bai, Rani of Jhansi.png | 1788749868356.7754
