@@ -4759,6 +4759,31 @@ Whenever a creature you control with flash or haste is dealt damage, create a ta
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Kelsien, the Plague</name>
+            <text>Vigilance, haste
+Kelsien gets +1/+1 for each experience counter you have.
+{T}: Kelsien deals 1 damage to target creature you don't control. When that creature dies this turn, you get an experience counter.</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>WBR</coloridentity>
+                <cmc>3</cmc>
+                <manacost>RWB</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Human Assassin</type>
+                <pt>2/2</pt>
+                <format-commander>legal</format-commander>
+                <colors>WBR</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000247" flavorName="Arknights" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Rafaela%2C%20La%20Pluma.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

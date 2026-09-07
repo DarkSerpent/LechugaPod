@@ -53,6 +53,7 @@
 * cards/Okita, Blade of Mibu.png | [nokcy](http://pixiv.net/en/users/2716677)
 * cards/Ozymandias, King of Kings.png | [Nemusuke](https://www.pixiv.net/en/users/336887)
 * cards/Professor James Moriarty.png | [Circa](https://www.pixiv.net/en/users/243039)
+* cards/Rafaela, La Pluma.png | [shuiyaoximushi](https://x.com/zebai7339)
 * cards/Reines Archisorte, Princess.png | [fuyu700801](https://www.pixiv.net/en/users/39110945)
 * cards/Remilia Scarlet, Imperishable Night.png | [okitakung](https://www.pixiv.net/en/users/1267809)
 * cards/Rin Kaenbyou, Shopping District.png | [Topia](https://www.pixiv.net/en/users/2827964)

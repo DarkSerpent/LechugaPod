@@ -1,4 +1,5 @@
 ## 9/6/2026
+* 8:26:30.520 PM CDT - Kelsien, the Plague / Rafaela, La Pluma / Rafaela, La Pluma
 * 7:57:15.889 PM CDT - Sonic the Hedgehog / Neco-Arc, Speed of Nyanyanya / Neco-Arc, Speed of Nyanyanya
 
 ## 9/5/2026

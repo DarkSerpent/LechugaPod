@@ -80,6 +80,7 @@ shark_waka = https://www.pixiv.net/en/users/2003931
 shima = https://www.pixiv.net/en/users/1259854
 shimachan 121 = https://www.pixiv.net/en/users/22741027
 Shinichirou Otsuka = https://twitter.com/otsuka_shin
+shuiyaoximushi = https://x.com/zebai7339
 Spark621 = https://www.pixiv.net/en/users/2488754/illustrations
 Taito = https://en.wikipedia.org/wiki/Taito
 Takashi Takeuchi = https://www.zerochan.net/Takeuchi+Takashi
