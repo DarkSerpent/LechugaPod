@@ -250,3 +250,4 @@ Sidar Jabari of Zhalfir_0242 = Artoria Pendragon
 Syr Gwyn, Hero of Ashvale_0243 = Mordred, Knight of Londinium
 Norin the Wary_0244 = Jason, Leader of the Argonauts
 Templar Knight_0245 = Enforcement Knight
+Sonic the Hedgehog_0246 = Neco-Arc, Speed of Nyanyanya

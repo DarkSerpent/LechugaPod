@@ -1,3 +1,6 @@
+## 9/6/2026
+* 7:57:15.889 PM CDT - Sonic the Hedgehog / Neco-Arc, Speed of Nyanyanya / Neco-Arc, Speed of Nyanyanya
+
 ## 9/5/2026
 * 9:22:15.957 PM CDT - Templar Knight / Templar Knight (Fate) / Enforcement Knight
 * 9:01:25.008 PM CDT - Norin the Wary / Jason, Leader of the Argonauts / Jason, Leader of the Argonauts

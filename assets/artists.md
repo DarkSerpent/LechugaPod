@@ -46,6 +46,7 @@
 * cards/Nareko, Confined Dousojin.png | [Hisona](https://www.pixiv.net/en/users/173260)
 * cards/Natsuki Subaru, Accreting Life.png | [iwa_to_mushi](https://www.pixiv.net/en/users/15144367)
 * cards/Natsuki Subaru, Starting From Zero.png | [naru](https://www.pixiv.net/en/users/21015081)
+* cards/Neco-Arc, Speed of Nyanyanya.png | [Takashi Takeuchi](https://www.zerochan.net/Takeuchi+Takashi)
 * cards/Nitocris Alter, Judgement.png | [oneheart](https://www.pixiv.net/en/users/39707192)
 * cards/Nitocris, Netherworld Mirror.png | [shima](https://www.pixiv.net/en/users/1259854)
 * cards/Okina Matara, Secret God.png | [Liu ycl](https://www.pixiv.net/en/users/98398171)
