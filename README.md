@@ -14,7 +14,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 4. Open Cockatrice and confirm the custom set is working by navigating to "Browse Card Database" and typing in `set:CLM`.
 5. You're all set! If you want to automatically convert your decks to use all alternate card artworks from a given series, try out the [CLM Deck Converter](https://darkserpent.github.io/LechugaPod/site/) site!
 
-Collection currently at <img src="https://img.shields.io/badge/247-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/248-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -22,14 +22,14 @@ Collection currently at <img src="https://img.shields.io/badge/247-88E788?style=
 ### Collection By Series
 | Series | Cards | Collection |
 |:---|---:|---:|
-| **Arknights** | 14 | 5.7% |
+| **Arknights** | 14 | 5.6% |
 | **Azur Lane** | 1 | 0.4% |
-| **Blue Archive** | 20 | 8.1% |
-| **Fate Grand Order** | 66 | 26.7% |
+| **Blue Archive** | 21 | 8.5% |
+| **Fate Grand Order** | 66 | 26.6% |
 | **Honkai: Star Rail** | 29 | 11.7% |
 | **My Adventures with Superman** | 2 | 0.8% |
-| **Re:Zero** | 37 | 15.0% |
-| **Shadowverse: Worlds Beyond** | 12 | 4.9% |
+| **Re:Zero** | 37 | 14.9% |
+| **Shadowverse: Worlds Beyond** | 12 | 4.8% |
 | **Shakugan no Shana** | 1 | 0.4% |
 | **Touhou Project** | 48 | 19.4% |
 | **Zenless Zone Zero** | 17 | 6.9% |
@@ -39,12 +39,13 @@ Collection currently at <img src="https://img.shields.io/badge/247-88E788?style=
 * Isshin, Two Heavens as One[^1] = [Chen Qianyu, Prodigy of Tanjian](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Chen%20Qianyu%2C%20Prodigy%20of%20Tanjian.png) (Arknights)
 * Kira, Great Glass-Spinner[^1] = [Lin the Violet](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Lin%20the%20Violet.png) (Arknights)
 * Kelsien, the Plague[^1] = [Rafaela, La Pluma](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Rafaela%2C%20La%20Pluma.png) (Arknights)
-### Blue Archive `6`
+### Blue Archive `7`
 * Laughing Jasper Flint[^1] = [Satsuki, Intelligence Director](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Satsuki%2C%20Intelligence%20Director.png) (Blue Archive)
 * King T'Challa // Black Panther, Hope Enduring[^1] = [Toki, Regular Maid](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Toki%2C%20Regular%20Maid.png) // [Toki, Abi-Eshuh Mode](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Toki%2C%20Abi%2DEshuh%20Mode.png) (Blue Archive)
 * Ms. Bumbleflower[^1] = [Shun, Gentle Instructor](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Shun%2C%20Gentle%20Instructor.png) (Blue Archive)
 * The Capitoline Triad[^1] = [Malkuth, the Tenth Prophet](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Malkuth%2C%20the%20Tenth%20Prophet.png) (Blue Archive)
 * Shay Cormac[^1] = [Hina, Prefect Team Chairman](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Hina%2C%20Prefect%20Team%20Chairman.png) (Blue Archive)
+* Yuriko, the Tiger's Shadow[^1] = [Michiru, Ninjutsu Researcher](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Michiru%2C%20Ninjutsu%20Researcher.png) (Blue Archive)
 ### Fate Grand Order `38`
 * Kilo, Apogee Mind[^1] = [Kashin Koji, Fuuma Sorcerer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kashin%20Koji%2C%20Fuuma%20Sorcerer.png) (Fate Grand Order)
 * Krark, the Thumbless[^1] = [Fujimaru Ritsuka, Stargazer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujimaru%20Ritsuka%2C%20Stargazer.png) (Fate Grand Order)

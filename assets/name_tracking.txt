@@ -254,3 +254,4 @@ Sonic the Hedgehog_0246 = Neco-Arc, Speed of Nyanyanya
 Kelsien, the Plague_0247 = Rafaela, La Pluma
 Winota, Joiner of Forces_0248 = Lakshmi Bai, Rani of Jhansi
 Obeka, Brute Chronologist_0249 = Sakuya, Perfect & Elegant Maid
+Yuriko, the Tiger's Shadow_0250 = Michiru, Ninjutsu Researcher
