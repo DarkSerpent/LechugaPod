@@ -254,3 +254,4 @@ cards/Neco-Arc, Speed of Nyanyanya.png | 1788742958848.234
 cards/Rafaela, La Pluma.png | 1788745562262.7356
 cards/Lakshmi Bai, Rani of Jhansi.png | 1788749868356.7754
 cards/Sakuya, Perfect & Elegant Maid.png | 1788833936887.5308
+cards/Michiru, Ninjutsu Researcher.png | 1788841799619.1433

@@ -42,6 +42,7 @@
 * cards/Marisa Kirisame, Western Magician.png | [JILL](https://www.pixiv.net/en/users/54259522)
 * cards/Mash Kyrielight, Ritsuka’s Servant.png | [Takashi Takeuchi](https://www.zerochan.net/Takeuchi+Takashi)
 * cards/Melusine, Hand of Albion.png | [lack](https://www.pixiv.net/en/users/83739)
+* cards/Michiru, Ninjutsu Researcher.png | [hotarihotaru](https://www.pixiv.net/en/users/35206539)
 * cards/Miyabi, Void Hunter.png | [ATdan](https://www.artstation.com/atdan)
 * cards/Mordred, Knight of Londinium.png | [kodama](https://www.pixiv.net/en/users/278495)
 * cards/Nareko, Confined Dousojin.png | [Hisona](https://www.pixiv.net/en/users/173260)
