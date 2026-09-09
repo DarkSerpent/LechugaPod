@@ -4899,6 +4899,34 @@ Whenever a creature you control attacks, that creature deals 1 damage to each op
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Lotus Token (FGO)</name>
+            <text>Sacrifice this token: Add three mana of any color.</text>
+            <prop>
+                <type>Token Artifact</type>
+                <maintype>Artifact</maintype>
+                <cmc>0</cmc>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0006-XXXXXXXXXXXX" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Lotus%20(Fate).png">CLM</set>
+            <reverse-related>Kwia Vigorbloom</reverse-related>
+            <token>1</token>
+            <tablerow>1</tablerow>
+        </card>
+
+        <card>
+            <name>Wizard Soldier (FGO)</name>
+            <prop>
+                <type>Token Creature — Wizard Soldier</type>
+                <maintype>Creature</maintype>
+                <cmc>0</cmc>
+                <pt>2/2</pt>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0007-XXXXXXXXXXXX" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Wizard%20Soldier%20(Fate).png">CLM</set>
+            <reverse-related>Ingris Stingerquill</reverse-related>
+            <token>1</token>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

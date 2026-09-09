@@ -257,3 +257,5 @@ Obeka, Brute Chronologist_0249 = Sakuya, Perfect & Elegant Maid
 Yuriko, the Tiger's Shadow_0250 = Michiru, Ninjutsu Researcher
 Kwia Vigorbloom_0251 = Holy Maiden of Winter
 Ingris Stingerquill_0252 = The Black Grail
+Lotus Token (FGO)_6X = Heaven's Feel
+Wizard Soldier (FGO)_7X = A Prime

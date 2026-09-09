@@ -1,4 +1,6 @@
 ## 9/8/2026
+* 9:10:15.672 PM CDT - Wizard Soldier (FGO) / Wizard Soldier (Fate) / A Prime
+* 8:49:36.264 PM CDT - Lotus Token (FGO) / Lotus (Fate) / Heaven's Feel
 * 8:06:08.600 PM CDT - Ingris Stingerquill / The Black Grail / The Black Grail
 * 8:06:08.228 PM CDT - Kwia Vigorbloom / Holy Maiden of Winter / Holy Maiden of Winter
 

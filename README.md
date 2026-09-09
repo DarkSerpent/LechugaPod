@@ -340,13 +340,17 @@ Collection currently at <img src="https://img.shields.io/badge/250-88E788?style=
 ### Blue Archive `1`
 * The Capitoline Triad Emblem = [The Final Coming](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/The%20Capitoline%20Triad%20Emblem%20(Blue%20Archive).png) (Blue Archive)
    * Linked to: *The Capitoline Triad*
-### Fate Grand Order `3`
+### Fate Grand Order `5`
 * Robot Token = [Nemo Series](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Robot%20(Fate).png) (Fate Grand Order)
    * Linked to: *Infinite Guideline Station*
 * Mask = [Hero Creation](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Mask%20(Fate).png) (Fate Grand Order)
    * Linked to: *Estrid, the Masked*
 * Clue Token (FGO) = [Whodunnit?](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Clue%20(Fate).png) (Fate Grand Order)
    * Linked to: *Martha Jones, The Fugitive Doctor, The Third Doctor*
+* Lotus Token (FGO) = [Heaven's Feel](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Lotus%20(Fate).png) (Fate Grand Order)
+   * Linked to: *Kwia Vigorbloom*
+* Wizard Soldier (FGO) = [A Prime](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Wizard%20Soldier%20(Fate).png) (Fate Grand Order)
+   * Linked to: *Ingris Stingerquill*
 ### Re:Zero `1`
 * Clue Token (RZ) = [The Witch of Greed](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Clue%20(ReZero).png) (Re:Zero)
    * Linked to: *Five Hundred Year Diary, Sarah Jane Smith*

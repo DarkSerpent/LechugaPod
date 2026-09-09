@@ -285,8 +285,10 @@
 * tokens/The Capitoline Triad Emblem (Blue Archive).png | [knt](https://www.pixiv.net/en/users/91997527)
 ### Fate
 * tokens/Clue (Fate).png | [Nakai Jun](https://x.com/jacomamire)
+* tokens/Lotus (Fate).png | [Wada Arco](https://www.pixiv.net/en/users/611443)
 * tokens/Mask (Fate).png | [Zap](https://www.pixiv.net/en/users/231653)
 * tokens/Robot (Fate).png | [hotosoka](https://www.pixiv.net/en/users/31082248)
+* tokens/Wizard Soldier (Fate).png | [Kasukabe Akira](https://www.pixiv.net/en/users/307442)
 ### ReZero
 * tokens/Clue (ReZero).png | [SEGA](https://en.wikipedia.org/wiki/Sega)
 
