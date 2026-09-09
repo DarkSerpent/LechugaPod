@@ -255,3 +255,5 @@ cards/Rafaela, La Pluma.png | 1788745562262.7356
 cards/Lakshmi Bai, Rani of Jhansi.png | 1788749868356.7754
 cards/Sakuya, Perfect & Elegant Maid.png | 1788833936887.5308
 cards/Michiru, Ninjutsu Researcher.png | 1788841799619.1433
+cards/Holy Maiden of Winter.png | 1788915968228.691
+cards/The Black Grail.png | 1788915968600.931

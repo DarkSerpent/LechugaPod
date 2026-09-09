@@ -1,3 +1,7 @@
+## 9/8/2026
+* 8:06:08.600 PM CDT - Ingris Stingerquill / The Black Grail / The Black Grail
+* 8:06:08.228 PM CDT - Kwia Vigorbloom / Holy Maiden of Winter / Holy Maiden of Winter
+
 ## 9/7/2026
 * 11:29:59.619 PM CDT - Yuriko, the Tiger's Shadow / Michiru, Ninjutsu Researcher / Michiru, Ninjutsu Researcher
 * 9:18:56.887 PM CDT - Obeka, Brute Chronologist / Sakuya, Perfect & Elegant Maid / Sakuya, Perfect & Elegant Maid

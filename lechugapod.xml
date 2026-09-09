@@ -4862,6 +4862,43 @@ Whenever a Ninja you control deals combat damage to a player, reveal the top car
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Kwia Vigorbloom</name>
+            <text>Flying, vigilance, lifelink, ward {2}
+Whenever you gain life, create a colorless artifact token named Lotus with &quot;{T}, Sacrifice this token: Add three mana of any one color.&quot; This ability triggers only once each turn.</text>
+            <prop>
+                <coloridentity>WG</coloridentity>
+                <side>front</side>
+                <layout>normal</layout>
+                <maintype>Creature</maintype>
+                <type>Legendary Creature — Elder Sphinx</type>
+                <manacost>3GWW</manacost>
+                <pt>6/6</pt>
+                <cmc>6</cmc>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000251" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Holy%20Maiden%20of%20Winter.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
+        <card>
+            <name>Ingris Stingerquill</name>
+            <text>Flying
+Whenever a creature you control attacks, that creature deals 1 damage to each opponent.
+{4}: Create a 2/2 colorless Wizard Soldier creature token named Cadet. Then creatures you control gain haste until end of turn.</text>
+            <prop>
+                <coloridentity>BR</coloridentity>
+                <side>front</side>
+                <layout>normal</layout>
+                <maintype>Creature</maintype>
+                <type>Legendary Creature — Elder Sphinx</type>
+                <manacost>BRR</manacost>
+                <pt>1/4</pt>
+                <cmc>3</cmc>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000252" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/The%20Black%20Grail.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>
