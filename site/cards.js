@@ -20,7 +20,7 @@ const CATEGORIES = [
   { key: 'tokens', label: 'Tokens' }
 ];
 
-const state = { cards: [], category: 'cards', series: new Set(), search: '', sort: 'alphabetical' };
+const state = { cards: [], category: 'cards', series: new Set(), search: '', sort: 'alphabetical', hideOc: true };
 const categoryTabs = document.querySelector('#categoryTabs');
 const seriesTabs = document.querySelector('#seriesTabs');
 const cardSearch = document.querySelector('#cardSearch');
@@ -28,6 +28,7 @@ const cardGrid = document.querySelector('#cardGrid');
 const galleryTitle = document.querySelector('#galleryTitle');
 const resultCount = document.querySelector('#resultCount');
 const sortSelect = document.querySelector('#sortSelect');
+const hideOcToggle = document.querySelector('#hideOcToggle');
 const emptyState = document.querySelector('#emptyState');
 const loadingStatus = document.querySelector('#loadingStatus');
 const cardModal = document.querySelector('#cardModal');
@@ -111,7 +112,9 @@ function parseCards(xmlText, tracking, releases, artists) {
         artworkName,
         trackedName,
         category,
+        flavorName: set.getAttribute('flavorName') || '',
         series: SERIES_NAMES[set.getAttribute('flavorName')] || '',
+        isOc: set.getAttribute('flavorName') === 'OC',
         uuid: set.getAttribute('uuid') || '',
         release: releases.get(normalize(artworkName)) || '0000-01-01T00:00:00',
         artist: artists.get(normalize(`${category}/${artworkName}`)) || null,
@@ -128,7 +131,7 @@ function renderTabs() {
 }
 
 function filteredCards() {
-  const cards = state.cards.filter(card => card.category === state.category && (!state.series.size || state.series.has(card.series)) && (!state.search || card.searchText.includes(state.search)));
+  const cards = state.cards.filter(card => card.category === state.category && (!state.series.size || state.series.has(card.flavorName)) && (!state.hideOc || !card.isOc) && (!state.search || card.searchText.includes(state.search)));
   return cards.sort((first, second) => {
     if (state.sort === 'alphabetical') return first.trackedName.localeCompare(second.trackedName, undefined, { sensitivity: 'base' }) || first.uuid.localeCompare(second.uuid);
     if (state.sort === 'release') return second.release.localeCompare(first.release) || first.uuid.localeCompare(second.uuid);
@@ -196,6 +199,11 @@ cardSearch.addEventListener('input', event => {
 
 sortSelect.addEventListener('change', event => {
   state.sort = event.target.value;
+  renderCards();
+});
+
+hideOcToggle.addEventListener('change', event => {
+  state.hideOc = event.target.checked;
   renderCards();
 });
 

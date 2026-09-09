@@ -86,6 +86,8 @@ footer { display: flex; justify-content: space-between; padding-top: 24px; color
 .filter-group { display: grid; gap: 10px; }
 .filter-label { margin: 0; color: var(--muted); font: 500 11px 'DM Mono', monospace; text-transform: uppercase; }
 .filter-tabs { display: flex; flex-wrap: wrap; gap: 8px; }
+.oc-toggle { display: flex; align-items: center; gap: 8px; margin-top: 3px; color: var(--muted); font-size: 13px; cursor: pointer; }
+.oc-toggle input { width: 15px; height: 15px; margin: 0; accent-color: var(--mint-deep); }
 .filter-tab { padding: 9px 13px; color: var(--ink); background: transparent; border: 1px solid var(--line); cursor: pointer; font: 500 13px 'Space Grotesk', sans-serif; transition: .2s ease; }
 .filter-tab:hover { border-color: var(--mint-deep); transform: translateY(-1px); }
 .filter-tab.is-active { color: var(--panel); background: var(--ink); border-color: var(--ink); }
