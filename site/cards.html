@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CLM Card Gallery</title>
+  <meta name="description" content="Browse every CLM Set card by type and series.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CLM Card Gallery">
+  <meta property="og:description" content="Browse every CLM Set card by type and series.">
+  <meta property="og:image" content="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/main/site/site-assets/clm_deck_converter.png">
+  <meta property="og:image:alt" content="CLM Card Gallery">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="CLM Card Gallery">
+  <meta name="twitter:description" content="Browse every CLM Set card by type and series.">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/main/site/site-assets/clm_deck_converter.png">
+  <meta name="twitter:image:alt" content="CLM Card Gallery">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="site-assets/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="site-assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="site-assets/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="site-assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="site-assets/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="site-assets/android-chrome-512x512.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="cards-page">
+  <main class="cards-shell">
+    <header class="cards-header">
+      <div class="cards-heading">
+        <div class="brand-mark" aria-hidden="true"><img src="site-assets/clm_deck_converter.png" width=50px></div>
+        <div>
+          <p class="eyebrow">Browse every LechugaPod card by type and series.</p>
+          <h1>Card Gallery</h1>
+        </div>
+      </div>
+      <a class="back-link" href="index.html">.COD Converter <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <section class="gallery-controls" aria-label="Card gallery controls">
+      <label class="search-box">
+        <span class="search-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Search cards</span>
+        <input id="cardSearch" type="search" placeholder="Search by card or artwork name" autocomplete="off">
+      </label>
+      <div class="filter-group">
+        <p class="filter-label">Card type</p>
+        <div class="filter-tabs" id="categoryTabs" role="tablist" aria-label="Card type"></div>
+      </div>
+      <div class="filter-group">
+        <p class="filter-label">Series</p>
+        <div class="filter-tabs series-tabs" id="seriesTabs" role="group" aria-label="Series"></div>
+      </div>
+    </section>
+
+    <section class="gallery-status" aria-live="polite">
+      <h2 id="galleryTitle">Creatures</h2>
+      <div class="gallery-status-controls">
+        <span id="resultCount"></span>
+        <label class="sort-control" for="sortSelect">Sort By
+          <select id="sortSelect">
+            <option value="alphabetical">Alphabetical</option>
+            <option value="release">Release Date</option>
+            <option value="uuid">UUID</option>
+          </select>
+        </label>
+      </div>
+    </section>
+    <section class="card-grid" id="cardGrid" aria-label="Cards"></section>
+    <p class="empty-state" id="emptyState" hidden>No cards match these filters.</p>
+
+    <footer>
+      <span>github.com/darkSerpent</span>
+      <span id="loadingStatus">Loading card data...</span>
+    </footer>
+    <footer>
+      <span><a href="https://github.com/DarkSerpent/LechugaPod" style="position: relative; top: -16px;">Return to repository</a></span>
+    </footer>
+  </main>
+
+  <dialog class="card-modal" id="cardModal" aria-label="Card preview">
+    <button class="modal-close" id="modalClose" type="button" aria-label="Close preview">×</button>
+    <img id="modalImage" alt="">
+    <p id="modalCaption"></p>
+  </dialog>
+  <script src="cards.js"></script>
+</body>
+</html>
