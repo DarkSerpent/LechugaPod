@@ -34,6 +34,7 @@ const loadingStatus = document.querySelector('#loadingStatus');
 const cardModal = document.querySelector('#cardModal');
 const modalImage = document.querySelector('#modalImage');
 const modalCaption = document.querySelector('#modalCaption');
+const modalProxyCaption = document.querySelector('#modalProxyCaption');
 const modalClose = document.querySelector('#modalClose');
 
 function textContent(element, selector) {
@@ -307,6 +308,20 @@ cardGrid.addEventListener('click', event => {
     artistLink.textContent = card.artist.name;
     modalCaption.append(artistLink);
   }
+  modalProxyCaption.replaceChildren();
+  const scryfallIcon = document.createElement('img');
+  scryfallIcon.className = 'scryfall-favicon';
+  scryfallIcon.src = 'https://scryfall.com/favicon.ico';
+  scryfallIcon.alt = '';
+  scryfallIcon.setAttribute('aria-hidden', 'true');
+  const proxyLink = document.createElement('a');
+  proxyLink.href = `http://scryfall.com/search?q=${encodeURIComponent(card.originalName)}`;
+  proxyLink.target = '_blank';
+  proxyLink.rel = 'noopener noreferrer';
+  proxyLink.textContent = card.originalName;
+  proxyLink.setAttribute('aria-label', `View ${card.originalName} on Scryfall`);
+  modalProxyCaption.append(scryfallIcon);
+  modalProxyCaption.append(proxyLink);
   cardModal.showModal();
   if (state.imageStatus.get(imageKey(card)) === 'loaded') {
     modalImage.src = card.image;

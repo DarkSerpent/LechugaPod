@@ -115,11 +115,12 @@ footer { display: flex; justify-content: space-between; padding-top: 24px; color
 .empty-state { padding: 50px 0; color: var(--muted); text-align: center; }
 .card-modal { width: min(92vw, 580px); max-height: 94vh; padding: 18px; color: var(--panel); background: var(--ink); border: 0; box-shadow: 0 24px 80px rgba(0, 0, 0, .35); }
 .card-modal::backdrop { background: rgba(23, 34, 30, .82); backdrop-filter: blur(4px); }
-.card-modal img { display: block; width: 100%; max-height: 82vh; aspect-ratio: 63 / 88; object-fit: contain; opacity: 0; transition: opacity .2s ease; }
-.card-modal img.is-loaded { opacity: 1; }
+.card-modal > #modalImage { display: block; width: 100%; max-height: 82vh; aspect-ratio: 63 / 88; object-fit: contain; opacity: 0; transition: opacity .2s ease; }
+.card-modal > #modalImage.is-loaded { opacity: 1; }
 .card-modal:not(.is-image-loaded)::after { content: ''; width: 28px; height: 28px; position: absolute; top: 50%; left: 50%; border: 3px solid rgba(141, 226, 178, .25); border-top-color: var(--mint); border-radius: 50%; animation: spin .8s linear infinite; }
 .card-modal p { margin: 12px 0 0; color: #bdc9c1; font: 12px 'DM Mono', monospace; }
 .card-modal a { color: var(--mint); }
+.scryfall-favicon { width: 16px; height: 16px; display: inline-block; max-height: none; margin-right: 6px; vertical-align: -3px; object-fit: contain; opacity: 1; }
 .modal-close { width: 36px; height: 36px; display: grid; place-items: center; position: absolute; top: 10px; right: 10px; color: var(--ink); background: var(--mint); border: 0; border-radius: 50%; cursor: pointer; font-size: 25px; line-height: 1; }
 .visually-hidden { width: 1px; height: 1px; position: absolute; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 @keyframes spin { to { transform: rotate(360deg); } }
