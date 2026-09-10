@@ -20,7 +20,7 @@ const CATEGORIES = [
   { key: 'tokens', label: 'Tokens' }
 ];
 
-const state = { cards: [], category: 'cards', series: new Set(), search: '', sort: 'alphabetical', hideOc: true };
+const state = { cards: [], category: 'cards', series: new Set(), search: '', sort: 'alphabetical', hideOc: true, imageQueue: [], queuedImages: new Set(), loadingImage: false, imageStatus: new Map(), imageObserver: null, modalCard: null };
 const categoryTabs = document.querySelector('#categoryTabs');
 const seriesTabs = document.querySelector('#seriesTabs');
 const cardSearch = document.querySelector('#cardSearch');
@@ -139,13 +139,95 @@ function filteredCards() {
   });
 }
 
+function imageKey(card) {
+  return card.image;
+}
+
+function enqueueImage(cardIndex, priority = false) {
+  const card = state.cards[cardIndex];
+  if (!card || state.imageStatus.get(imageKey(card)) === 'loaded' || state.imageStatus.get(imageKey(card)) === 'loading') return;
+  if (state.queuedImages.has(cardIndex)) {
+    if (priority) {
+      state.imageQueue = state.imageQueue.filter(index => index !== cardIndex);
+      state.imageQueue.unshift(cardIndex);
+    }
+  } else {
+    state.queuedImages.add(cardIndex);
+    if (priority) state.imageQueue.unshift(cardIndex);
+    else state.imageQueue.push(cardIndex);
+  }
+  processImageQueue();
+}
+
+function processImageQueue() {
+  if (state.loadingImage) return;
+  const cardIndex = state.imageQueue.shift();
+  if (cardIndex === undefined) return;
+  state.queuedImages.delete(cardIndex);
+  const card = state.cards[cardIndex];
+  const image = cardGrid.querySelector(`img[data-card-index="${cardIndex}"]`);
+  if (!card || !image) {
+    processImageQueue();
+    return;
+  }
+  state.loadingImage = true;
+  state.imageStatus.set(imageKey(card), 'loading');
+  const wrapper = image.closest('.card-image-wrap');
+  image.addEventListener('load', () => {
+    state.imageStatus.set(imageKey(card), 'loaded');
+    state.loadingImage = false;
+    cardGrid.querySelectorAll(`img[data-card-index="${cardIndex}"]`).forEach(currentImage => {
+      currentImage.src = card.image;
+      currentImage.closest('.card-image-wrap').classList.add('is-loaded');
+    });
+    if (state.modalCard === card) {
+      modalImage.src = card.image;
+      modalImage.classList.add('is-loaded');
+      cardModal.classList.add('is-image-loaded');
+    }
+    processImageQueue();
+  }, { once: true });
+  image.addEventListener('error', () => {
+    state.imageStatus.set(imageKey(card), 'failed');
+    state.loadingImage = false;
+    wrapper.classList.add('is-error');
+    processImageQueue();
+  }, { once: true });
+  image.src = card.image;
+}
+
+function queueVisibleImages(entries) {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) enqueueImage(Number(entry.target.dataset.cardIndex), true);
+  });
+}
+
+function queueBackgroundImages(cards) {
+  window.setTimeout(() => cards.forEach(card => enqueueImage(state.cards.indexOf(card))), 150);
+}
+
 function renderCards() {
   const cards = filteredCards();
   const category = CATEGORIES.find(item => item.key === state.category);
   galleryTitle.textContent = category.label;
   resultCount.textContent = `${cards.length} card${cards.length === 1 ? '' : 's'}`;
   emptyState.hidden = cards.length > 0;
-  cardGrid.innerHTML = cards.map((card, index) => `<article class="card-tile" style="--card-index: ${index % 12}"><button class="card-button" type="button" data-card-index="${state.cards.indexOf(card)}" aria-label="Preview ${card.trackedName}"><span class="card-image-wrap"><img src="${card.image}" alt="${card.trackedName}" loading="lazy"><span class="zoom-icon" aria-hidden="true"></span></span><span class="card-name">${card.trackedName}</span><span class="card-series">${card.series || 'Uncategorized'}</span></button></article>`).join('');
+  state.imageQueue = [];
+  state.queuedImages.clear();
+  state.imageObserver?.disconnect();
+  cardGrid.innerHTML = cards.map((card, index) => `<article class="card-tile" style="--card-index: ${index % 12}"><button class="card-button" type="button" data-card-index="${state.cards.indexOf(card)}" aria-label="Preview ${card.trackedName}"><span class="card-image-wrap" data-card-index="${state.cards.indexOf(card)}"><span class="image-spinner" aria-hidden="true"></span><img data-card-index="${state.cards.indexOf(card)}" alt="${card.trackedName}"><span class="zoom-icon" aria-hidden="true"></span></span><span class="card-name">${card.trackedName}</span><span class="card-series">${card.series || 'Uncategorized'}</span></button></article>`).join('');
+  cards.forEach(card => {
+    const cardIndex = state.cards.indexOf(card);
+    const status = state.imageStatus.get(imageKey(card));
+    if (status === 'loaded' || status === 'loading') {
+      const image = cardGrid.querySelector(`img[data-card-index="${cardIndex}"]`);
+      image.src = card.image;
+      if (status === 'loaded') image.closest('.card-image-wrap').classList.add('is-loaded');
+    }
+  });
+  state.imageObserver = new IntersectionObserver(queueVisibleImages, { rootMargin: '240px 0px' });
+  cardGrid.querySelectorAll('.card-image-wrap').forEach(wrapper => state.imageObserver.observe(wrapper));
+  queueBackgroundImages(cards);
 }
 
 function setSeries(series) {
@@ -211,7 +293,9 @@ cardGrid.addEventListener('click', event => {
   const button = event.target.closest('[data-card-index]');
   if (!button) return;
   const card = state.cards[button.dataset.cardIndex];
-  modalImage.src = card.image;
+  state.modalCard = card;
+  modalImage.classList.remove('is-loaded');
+  cardModal.classList.remove('is-image-loaded');
   modalImage.alt = card.trackedName;
   modalCaption.replaceChildren(document.createTextNode(`${card.trackedName} · ${card.series || 'Uncategorized'}`));
   if (card.artist) {
@@ -224,6 +308,13 @@ cardGrid.addEventListener('click', event => {
     modalCaption.append(artistLink);
   }
   cardModal.showModal();
+  if (state.imageStatus.get(imageKey(card)) === 'loaded') {
+    modalImage.src = card.image;
+    modalImage.classList.add('is-loaded');
+    cardModal.classList.add('is-image-loaded');
+  } else {
+    enqueueImage(Number(button.dataset.cardIndex), true);
+  }
 });
 
 modalClose.addEventListener('click', () => cardModal.close());
