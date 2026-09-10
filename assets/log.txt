@@ -259,3 +259,4 @@ cards/Holy Maiden of Winter.png | 1788915968228.691
 cards/The Black Grail.png | 1788915968600.931
 tokens/Lotus (Fate).png | 1788918576264.5771
 tokens/Wizard Soldier (Fate).png | 1788919815672.6448
+cards/Galatea, Artisanal Soul.png | 1789006576582.9966

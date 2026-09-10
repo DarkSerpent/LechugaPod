@@ -1,3 +1,6 @@
+## 9/9/2026
+* 9:15:16.571 PM CDT - Karn, Gilded Guardian / Galatea, Artisanal Soul / Galatea, Artisanal Soul
+
 ## 9/8/2026
 * 9:10:15.672 PM CDT - Wizard Soldier (FGO) / Wizard Soldier (Fate) / A Prime
 * 8:49:36.264 PM CDT - Lotus Token (FGO) / Lotus (Fate) / Heaven's Feel

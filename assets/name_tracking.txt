@@ -259,3 +259,4 @@ Kwia Vigorbloom_0251 = Holy Maiden of Winter
 Ingris Stingerquill_0252 = The Black Grail
 Lotus Token (FGO)_6X = Heaven's Feel
 Wizard Soldier (FGO)_7X = A Prime
+Karn, Gilded Guardian_0253 = Galatea, Artisanal Soul

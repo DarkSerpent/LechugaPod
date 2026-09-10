@@ -4927,6 +4927,22 @@ Whenever a creature you control attacks, that creature deals 1 damage to each op
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Karn, Gilded Guardian</name>
+            <text>Vigilance, trample
+When Karn enters, draw a card for each color among other artifacts you control.</text>
+            <prop>
+                <colors>BGRUW</colors>
+                <type>Legendary Artifact Creature — Golem</type>
+                <maintype>Creature</maintype>
+                <cmc>10</cmc>
+                <manacost>2/W2/U2/B2/R2/G</manacost>
+                <pt>5/5</pt>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000253" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Galatea%2C%20Artisanal%20Soul.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>
