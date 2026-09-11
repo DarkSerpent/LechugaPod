@@ -260,3 +260,6 @@ Ingris Stingerquill_0252 = The Black Grail
 Lotus Token (FGO)_6X = Heaven's Feel
 Wizard Soldier (FGO)_7X = A Prime
 Karn, Gilded Guardian_0253 = Galatea, Artisanal Soul
+Oswald Fiddlebender_0254 = Charles Babbage, King of Steam
+Monument to Endurance_0255 = True Difference Engine
+Tezzeret, Cruel Captain_0256 = Charles Babbage, Iron Visionary

@@ -1,3 +1,8 @@
+## 9/11/2026
+* 6:28:21.436 PM CDT - Tezzeret, Cruel Captain / Charles Babbage, Iron Visionary / Charles Babbage, Iron Visionary
+* 6:22:24.347 PM CDT - Monument to Endurance / Monument to Endurance (Fate) / True Difference Engine
+* 6:20:18.020 PM CDT - Oswald Fiddlebender / Charles Babbage, King of Steam / Charles Babbage, King of Steam
+
 ## 9/9/2026
 * 9:15:16.571 PM CDT - Karn, Gilded Guardian / Galatea, Artisanal Soul / Galatea, Artisanal Soul
 

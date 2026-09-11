@@ -4943,6 +4943,102 @@ When Karn enters, draw a card for each color among other artifacts you control.<
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Oswald Fiddlebender</name>
+            <text>Magical Tinkering — {W}, {T}, Sacrifice an artifact: Search your library for an artifact card with mana value equal to 1 plus the sacrificed artifact's mana value, put it onto the battlefield, then shuffle. Activate only as a sorcery.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>W</coloridentity>
+                <cmc>2</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <manacost>1W</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Gnome Artificer</type>
+                <pt>2/2</pt>
+                <format-commander>legal</format-commander>
+                <colors>W</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000254" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Charles%20Babbage%2C%20King%20of%20Steam.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
+        <card>
+            <name>Monument to Endurance</name>
+            <text>Whenever you discard a card, choose one that hasn't been chosen this turn —
+• Draw a card.
+• Create a Treasure token.
+• Each opponent loses 3 life.</text>
+            <prop>
+                <format-standard>legal</format-standard>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-standardbrawl>legal</format-standardbrawl>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <cmc>3</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <manacost>3</manacost>
+                <format-alchemy>legal</format-alchemy>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Artifact</maintype>
+                <layout>normal</layout>
+                <type>Artifact</type>
+                <format-future>legal</format-future>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000255" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Monument%20to%20Endurance%20(Fate).png">CLM</set>
+            <tablerow>1</tablerow>
+        </card>
+
+        <card>
+            <name>Tezzeret, Cruel Captain</name>
+            <text>Whenever an artifact you control enters, put a loyalty counter on Tezzeret.
+[0]: Untap target artifact or creature. If it's an artifact creature, put a +1/+1 counter on it.
+[−3]: Search your library for an artifact card with mana value 1 or less, reveal it, put it into your hand, then shuffle.
+[−7]: You get an emblem with &quot;At the beginning of combat on your turn, put three +1/+1 counters on target artifact you control. If it's not a creature, it becomes a 0/0 Robot artifact creature.&quot;</text>
+            <prop>
+                <format-standard>legal</format-standard>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <loyalty>4</loyalty>
+                <format-gladiator>legal</format-gladiator>
+                <format-standardbrawl>legal</format-standardbrawl>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <cmc>3</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <manacost>3</manacost>
+                <format-alchemy>legal</format-alchemy>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Planeswalker</maintype>
+                <layout>normal</layout>
+                <type>Legendary Planeswalker — Tezzeret</type>
+                <format-future>legal</format-future>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000256" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/planeswalkers/Charles%20Babbage%2C%20Iron%20Visionary.png">CLM</set>
+            <tablerow>1</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

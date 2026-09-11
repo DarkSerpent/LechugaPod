@@ -18,7 +18,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 4. Open Cockatrice and confirm the custom set is working by navigating to "Browse Card Database" and typing in `set:CLM`.
 5. You're all set! If you want to automatically convert your decks to use all alternate card artworks from a given series, try out the [CLM Deck Converter](https://darkserpent.github.io/LechugaPod/site/) site!
 
-Collection currently at <img src="https://img.shields.io/badge/251-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/254-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -26,17 +26,17 @@ Collection currently at <img src="https://img.shields.io/badge/251-88E788?style=
 ### Collection By Series
 | Series | Cards | Collection |
 |:---|---:|---:|
-| **Arknights** | 14 | 5.6% |
+| **Arknights** | 14 | 5.5% |
 | **Azur Lane** | 1 | 0.4% |
-| **Blue Archive** | 21 | 8.4% |
-| **Fate Grand Order** | 69 | 27.5% |
-| **Honkai: Star Rail** | 29 | 11.6% |
+| **Blue Archive** | 21 | 8.3% |
+| **Fate Grand Order** | 72 | 28.3% |
+| **Honkai: Star Rail** | 29 | 11.4% |
 | **My Adventures with Superman** | 2 | 0.8% |
-| **Re:Zero** | 37 | 14.7% |
-| **Shadowverse: Worlds Beyond** | 12 | 4.8% |
+| **Re:Zero** | 37 | 14.6% |
+| **Shadowverse: Worlds Beyond** | 12 | 4.7% |
 | **Shakugan no Shana** | 1 | 0.4% |
-| **Touhou Project** | 48 | 19.1% |
-| **Zenless Zone Zero** | 17 | 6.8% |
+| **Touhou Project** | 48 | 18.9% |
+| **Zenless Zone Zero** | 17 | 6.7% |
 
 ## Creature Cards
 ### Arknights `3`
@@ -50,7 +50,7 @@ Collection currently at <img src="https://img.shields.io/badge/251-88E788?style=
 * The Capitoline Triad[^1] = [Malkuth, the Tenth Prophet](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Malkuth%2C%20the%20Tenth%20Prophet.png) (Blue Archive)
 * Shay Cormac[^1] = [Hina, Prefect Team Chairman](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Hina%2C%20Prefect%20Team%20Chairman.png) (Blue Archive)
 * Yuriko, the Tiger's Shadow[^1] = [Michiru, Ninjutsu Researcher](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Michiru%2C%20Ninjutsu%20Researcher.png) (Blue Archive)
-### Fate Grand Order `41`
+### Fate Grand Order `42`
 * Kilo, Apogee Mind[^1] = [Kashin Koji, Fuuma Sorcerer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kashin%20Koji%2C%20Fuuma%20Sorcerer.png) (Fate Grand Order)
 * Krark, the Thumbless[^1] = [Fujimaru Ritsuka, Stargazer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujimaru%20Ritsuka%2C%20Stargazer.png) (Fate Grand Order)
 * Kydele, Chosen of Kruphix[^1] = [Fujimaru Ritsuka, Humanity's Last](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujimaru%20Ritsuka%2C%20Humanity%E2%80%99s%20Last.png) (Fate Grand Order)
@@ -92,6 +92,7 @@ Collection currently at <img src="https://img.shields.io/badge/251-88E788?style=
 * Kwia Vigorbloom[^1] = [Holy Maiden of Winter](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Holy%20Maiden%20of%20Winter.png) (Fate Grand Order)
 * Ingris Stingerquill[^1] = [The Black Grail](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/The%20Black%20Grail.png) (Fate Grand Order)
 * Karn, Gilded Guardian[^1] = [Galatea, Artisanal Soul](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Galatea%2C%20Artisanal%20Soul.png) (Fate Grand Order)
+* Oswald Fiddlebender[^1] = [Charles Babbage, King of Steam](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Charles%20Babbage%2C%20King%20of%20Steam.png) (Fate Grand Order)
 ### Honkai: Star Rail `5`
 * Aminatou, Veil Piercer[^1] = [The Herta, Peerless Gem](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/The%20Herta%2C%20Peerless%20Gem.png) (Honkai: Star Rail)
 * Fire Lord Azula[^1] = [Asta, Lead Astronomer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Asta%2C%20Lead%20Astronomer.png) (Honkai: Star Rail)
@@ -146,8 +147,9 @@ Collection currently at <img src="https://img.shields.io/badge/251-88E788?style=
 </details>
 
 ## Planeswalkers
-### Fate Grand Order `1`
+### Fate Grand Order `2`
 * Estrid, the Masked[^1] = [Lady Avalon, Dreamweaver](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/planeswalkers/Lady%20Avalon%2C%20Dreamweaver.png) (Fate Grand Order)
+* Tezzeret, Cruel Captain = [Charles Babbage, Iron Visionary](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/planeswalkers/Charles%20Babbage%2C%20Iron%20Visionary.png) (Fate Grand Order)
 ### Honkai: Star Rail `1`
 * Aminatou, the Fateshifter[^1] = [Black Swan, Memetic Entity](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/planeswalkers/Black%20Swan%2C%20Memetic%20Entity.png) (Honkai: Star Rail)
 ### Re:Zero `1`
@@ -163,7 +165,7 @@ Collection currently at <img src="https://img.shields.io/badge/251-88E788?style=
 * Shorikai, Genesis Engine[^1] = [New Jersey, the Black Dragon](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/New%20Jersey%2C%20the%20Black%20Dragon.png) (Azur Lane)
 ### Blue Archive `1`
 * Sol Ring = [Shittim Chest](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Blue%20Archive).png) (Blue Archive)
-### Fate Grand Order `12`
+### Fate Grand Order `13`
 * Sol Ring = [Holy Grail](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Fate).png) (Fate Grand Order)
 * Arcane Signet = [LAPLACE, Phenomenon Recorder](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Arcane%20Signet%20(Fate).png) (Fate Grand Order)
 * Dawnsire, Sunstar Dreadnought[^1] = [Altera, Teardrop Photon Ray](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Altera%2C%20Teardrop%20Photon%20Ray.png) (Fate Grand Order)
@@ -176,6 +178,7 @@ Collection currently at <img src="https://img.shields.io/badge/251-88E788?style=
 * Thrumming Hivepool = [Unleashed State](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Thrumming%20Hivepool%20(Fate).png) (Fate Grand Order)
 * Inspirit, Flagship Vessel[^1] = [Mash Kyrielight, Lord Camelot](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Mash%20Kyrielight%2C%20Lord%20Camelot.png) (Fate Grand Order)
 * Infinite Guideline Station[^1] = [Storm Border, the Last Ark](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Storm%20Border%2C%20the%20Last%20Ark.png) (Fate Grand Order)
+* Monument to Endurance = [True Difference Engine](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Monument%20to%20Endurance%20(Fate).png) (Fate Grand Order)
 ### Honkai: Star Rail `11`
 * Sol Ring = [Dimension Reduction Dice](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
 * Commander's Sphere = [A-Ruan Pouch](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Commander%E2%80%99s%20Sphere%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)

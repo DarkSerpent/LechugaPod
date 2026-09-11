@@ -8,6 +8,7 @@
 * cards/Barghest, Eater of Those She Loves.png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * cards/Barghest, Gawain the Loving.png | [Nakaga Eri](https://www.pixiv.net/users/15830750)
 * cards/Caesar, Calydon Warlord.png | [Elmo](https://www.pixiv.net/en/users/62483113)
+* cards/Charles Babbage, King of Steam.png | [I-IV](https://www.pixiv.net/en/users/36619)
 * cards/Chen Qianyu, Prodigy of Tanjian.png | [xiaoraini](https://www.pixiv.net/en/users/53117627)
 * cards/Cirno, Fairy of the Ice.png | [S1zl](https://www.pixiv.net/en/users/76625350)
 * cards/Detective Sherlock Holmes.png | [mqq11](https://www.pixiv.net/en/users/32304575)
@@ -91,6 +92,7 @@
 ## Planeswalkers
 ### Fate
 * planeswalkers/Lady Avalon, Dreamweaver.png | [Es3](https://www.pixiv.net/en/users/18229340)
+* planeswalkers/Charles Babbage, Iron Visionary.png | [ebisukinosuke](https://www.pixiv.net/en/users/24594374)
 ### Honkai Star Rail
 * planeswalkers/Black Swan, Memetic Entity.png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
 ### ReZero
@@ -114,6 +116,7 @@
 * artifacts/Helm of the Host (Fate).png | [Teruru](https://www.pixiv.net/en/users/40632349)
 * artifacts/Herald’s Horn (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * artifacts/Mash Kyrielight, Lord Camelot.png | [Takashi Takeuchi](https://www.zerochan.net/Takeuchi+Takashi)
+* artifacts/Monument to Endurance (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * artifacts/Patchwork Banner (Fate).png | [arrow](https://www.pixiv.net/en/users/23682897)
 * artifacts/Sol Ring (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * artifacts/Storm Border, the Last Ark.png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
