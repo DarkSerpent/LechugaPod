@@ -260,6 +260,6 @@ cards/The Black Grail.png | 1788915968600.931
 tokens/Lotus (Fate).png | 1788918576264.5771
 tokens/Wizard Soldier (Fate).png | 1788919815672.6448
 cards/Galatea, Artisanal Soul.png | 1789006576582.9966
-cards/Charles Babbage, King of Steam.png | 1789168818020.41
+cards/Charles Babbage, King of Steam.png | 1789169639517.342
 artifacts/Monument to Endurance (Fate).png | 1789168944347.8906
 planeswalkers/Charles Babbage, Iron Visionary.png | 1789169301436.323
