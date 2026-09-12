@@ -266,3 +266,4 @@ planeswalkers/Charles Babbage, Iron Visionary.png | 1789169301436.323
 cards/Avicebron, Golem Master.png | 1789172330947.7036
 cards/Roche Frain Yggdmillennia.png | 1789172576978.387
 cards/Blightsteel Colossus (Fate).png | 1789173323475.079
+lands/Snow-Covered Plains (Fate).png | 1789173892671.6206

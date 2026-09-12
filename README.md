@@ -18,7 +18,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 4. Open Cockatrice and confirm the custom set is working by navigating to "Browse Card Database" and typing in `set:CLM`.
 5. You're all set! If you want to automatically convert your decks to use all alternate card artworks from a given series, try out the [CLM Deck Converter](https://darkserpent.github.io/LechugaPod/site/) site!
 
-Collection currently at <img src="https://img.shields.io/badge/257-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/258-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -28,14 +28,14 @@ Collection currently at <img src="https://img.shields.io/badge/257-88E788?style=
 |:---|---:|---:|
 | **Arknights** | 14 | 5.4% |
 | **Azur Lane** | 1 | 0.4% |
-| **Blue Archive** | 21 | 8.2% |
-| **Fate Grand Order** | 75 | 29.2% |
-| **Honkai: Star Rail** | 29 | 11.3% |
+| **Blue Archive** | 21 | 8.1% |
+| **Fate Grand Order** | 76 | 29.5% |
+| **Honkai: Star Rail** | 29 | 11.2% |
 | **My Adventures with Superman** | 2 | 0.8% |
-| **Re:Zero** | 37 | 14.4% |
+| **Re:Zero** | 37 | 14.3% |
 | **Shadowverse: Worlds Beyond** | 12 | 4.7% |
 | **Shakugan no Shana** | 1 | 0.4% |
-| **Touhou Project** | 48 | 18.7% |
+| **Touhou Project** | 48 | 18.6% |
 | **Zenless Zone Zero** | 17 | 6.6% |
 
 ## Creature Cards
@@ -246,7 +246,7 @@ Collection currently at <img src="https://img.shields.io/badge/257-88E788?style=
 * Snow-Covered Plains = [Red Winter Federal Academy](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Snow-Covered%20Plains%20(Blue%20Archive).png) (Blue Archive)
 * Snow-Covered Island = [Red Winter Academy Presidential Office](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Snow-Covered%20Island%20(Blue%20Archive).png) (Blue Archive)
 * Snow-Covered Forest = [Red Winter Academy Main School Lunch Club](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Snow-Covered%20Forest%20(Blue%20Archive).png) (Blue Archive)
-### Fate Grand Order `15`
+### Fate Grand Order `16`
 * Command Tower = [CHALDEAS, Celestial Body Simulator](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(Fate).png) (Fate Grand Order)
 * Exotic Orchard = [SHEBA, Near-Future Observation Lens](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Exotic%20Orchard%20(Fate).png) (Fate Grand Order)
 * Command Beacon = [TRISMEGISTUS, Spiritron Calculation Engine](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Beacon%20(Fate).png) (Fate Grand Order)
@@ -262,6 +262,7 @@ Collection currently at <img src="https://img.shields.io/badge/257-88E788?style=
 * Godless Shrine = [Temple of Time](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Godless%20Shrine%20(Fate).png) (Fate Grand Order)
 * Sliver Hive = [Chaos Tide](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Sliver%20Hive%20(Fate).png) (Fate Grand Order)
 * Reflecting Pool = [Reverse Side of the World](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Reflecting%20Pool%20(Fate).png) (Fate Grand Order)
+* Snow-Covered Plains = [Lostbelt 1, Permafrost Russia](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Snow-Covered%20Plains%20(Fate).png) (Fate Grand Order)
 ### Honkai: Star Rail `12`
 * Plains = [Belobog](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
 * Island = [Styxia](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)

@@ -266,3 +266,4 @@ Tezzeret, Cruel Captain_0256 = Charles Babbage, Iron Visionary
 Ich-Tekik, Salvage Splicer_0257 = Avicebron, Golem Master
 Rebbec, Architect of Ascension_0258 = Roche Frain Yggdmillennia
 Blightsteel Colossus_0259 = Golem Keter Malkuth
+Snow-Covered Plains_0260 = Lostbelt 1, Permafrost Russia
