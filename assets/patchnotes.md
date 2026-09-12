@@ -1,4 +1,7 @@
 ## 9/11/2026
+* 7:35:23.475 PM CDT - Blightsteel Colossus / Blightsteel Colossus (Fate) / Golem Keter Malkuth
+* 7:22:56.978 PM CDT - Rebbec, Architect of Ascension / Roche Frain Yggdmillennia / Roche Frain Yggdmillennia
+* 7:18:50.947 PM CDT - Ich-Tekik, Salvage Splicer / Avicebron, Golem Master / Avicebron, Golem Master
 * 6:28:21.436 PM CDT - Tezzeret, Cruel Captain / Charles Babbage, Iron Visionary / Charles Babbage, Iron Visionary
 * 6:22:24.347 PM CDT - Monument to Endurance / Monument to Endurance (Fate) / True Difference Engine
 * 6:20:18.020 PM CDT - Oswald Fiddlebender / Charles Babbage, King of Steam / Charles Babbage, King of Steam

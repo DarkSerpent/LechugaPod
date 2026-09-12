@@ -263,3 +263,6 @@ cards/Galatea, Artisanal Soul.png | 1789006576582.9966
 cards/Charles Babbage, King of Steam.png | 1789169639517.342
 artifacts/Monument to Endurance (Fate).png | 1789168944347.8906
 planeswalkers/Charles Babbage, Iron Visionary.png | 1789169301436.323
+cards/Avicebron, Golem Master.png | 1789172330947.7036
+cards/Roche Frain Yggdmillennia.png | 1789172576978.387
+cards/Blightsteel Colossus (Fate).png | 1789173323475.079

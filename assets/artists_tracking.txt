@@ -41,6 +41,7 @@ Ko-yahu = https://www.pixiv.net/en/users/3424578
 kodama = https://www.pixiv.net/en/users/278495
 Kotsu = https://www.zerochan.net/Kotsu
 Kouga Yun = https://www.pixiv.net/en/users/344457
+KSUWABE = https://www.pixiv.net/en/users/24517
 Kyusoukyu = https://www.pixiv.net/en/users/66038798
 lack = https://www.pixiv.net/en/users/83739
 LDL = https://www.pixiv.net/en/users/9320645

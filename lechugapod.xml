@@ -5039,6 +5039,79 @@ When Karn enters, draw a card for each color among other artifacts you control.<
             <tablerow>1</tablerow>
         </card>
 
+        <card>
+            <name>Ich-Tekik, Salvage Splicer</name>
+            <text>When Ich-Tekik enters, create a 3/3 colorless Phyrexian Golem artifact creature token.
+Whenever an artifact is put into a graveyard from the battlefield, put a +1/+1 counter on Ich-Tekik and a +1/+1 counter on each Golem you control.
+Partner (You can have two commanders if both have partner.)</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>G</coloridentity>
+                <cmc>5</cmc>
+                <manacost>4G</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Phyrexian Human Artificer</type>
+                <pt>1/1</pt>
+                <format-commander>legal</format-commander>
+                <colors>G</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000257" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Avicebron%2C%20Golem%20Master.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
+        <card>
+            <name>Rebbec, Architect of Ascension</name>
+            <text>Artifacts you control have protection from each mana value among artifacts you control.
+Partner (You can have two commanders if both have partner.)</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>W</coloridentity>
+                <cmc>4</cmc>
+                <manacost>3W</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Human Artificer</type>
+                <pt>3/4</pt>
+                <format-commander>legal</format-commander>
+                <colors>W</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000258" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Roche%20Frain%20Yggdmillennia.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
+        <card>
+            <name>Blightsteel Colossus</name>
+            <text>Trample, infect, indestructible
+If Blightsteel Colossus would be put into a graveyard from anywhere, reveal Blightsteel Colossus and shuffle it into its owner's library instead.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-predh>legal</format-predh>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <cmc>12</cmc>
+                <manacost>12</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Artifact Creature — Phyrexian Golem</type>
+                <pt>11/11</pt>
+                <format-commander>legal</format-commander>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000259" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Blightsteel%20Colossus%20(Fate).png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

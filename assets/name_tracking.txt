@@ -263,3 +263,6 @@ Karn, Gilded Guardian_0253 = Galatea, Artisanal Soul
 Oswald Fiddlebender_0254 = Charles Babbage, King of Steam
 Monument to Endurance_0255 = True Difference Engine
 Tezzeret, Cruel Captain_0256 = Charles Babbage, Iron Visionary
+Ich-Tekik, Salvage Splicer_0257 = Avicebron, Golem Master
+Rebbec, Architect of Ascension_0258 = Roche Frain Yggdmillennia
+Blightsteel Colossus_0259 = Golem Keter Malkuth
