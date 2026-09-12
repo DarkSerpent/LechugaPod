@@ -3778,6 +3778,7 @@ Whenever a creature with a bounty counter on it dies, put two +1/+1 counters on 
             </prop>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000186" flavorName="BlueArchive" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Snow-Covered%20Island%20(Blue%20Archive).png">CLM</set>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000202" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Snow-Covered%20Island%20(Touhou).png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000264" flavorName="Arknights" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Snow-Covered%20Island%20(Arknights).png">CLM</set>
             <tablerow>0</tablerow>
         </card>
 

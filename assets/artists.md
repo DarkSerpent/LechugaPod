@@ -177,6 +177,7 @@
 * lands/Island (Arknights).png | [Hypergryph](https://zh.wikipedia.org/zh-cn/%E9%B9%B0%E8%A7%92%E7%BD%91%E7%BB%9C)
 * lands/Mountain (Arknights).png | [Hypergryph](https://zh.wikipedia.org/zh-cn/%E9%B9%B0%E8%A7%92%E7%BD%91%E7%BB%9C)
 * lands/Plains (Arknights).png | [Hypergryph](https://zh.wikipedia.org/zh-cn/%E9%B9%B0%E8%A7%92%E7%BD%91%E7%BB%9C)
+* lands/Snow-Covered Island (Arknights).png | [Hypergryph](https://zh.wikipedia.org/zh-cn/%E9%B9%B0%E8%A7%92%E7%BD%91%E7%BB%9C)
 * lands/Swamp (Arknights).png | [Hypergryph](https://zh.wikipedia.org/zh-cn/%E9%B9%B0%E8%A7%92%E7%BD%91%E7%BB%9C)
 * lands/Wastes (Arknights).png | [Hypergryph](https://zh.wikipedia.org/zh-cn/%E9%B9%B0%E8%A7%92%E7%BD%91%E7%BB%9C)
 ### Blue Archive
