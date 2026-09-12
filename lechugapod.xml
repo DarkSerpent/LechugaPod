@@ -5145,6 +5145,33 @@ When Uldaros Theorix enters, if you cast him, exile up to one target nonland car
           <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Alaundo the Seer</name>
+            <text>{T}: Draw a card, then exile a card from your hand and put a number of time counters on it equal to its mana value. It gains &quot;When the last time counter is removed from this card, if it's exiled, you may cast it without paying its mana cost. If you cast a creature spell this way, it gains haste until end of turn.&quot; Then remove a time counter from each other card you own in exile.</text>
+            <prop>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>UG</coloridentity>
+                <cmc>4</cmc>
+                <manacost>2GU</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Human Shaman</type>
+                <pt>3/5</pt>
+                <format-commander>legal</format-commander>
+                <colors>UG</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000263" flavorName="Arknights" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Mostima%2C%20Keeper%20of%20the%20Lock.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

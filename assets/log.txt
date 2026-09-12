@@ -269,3 +269,4 @@ cards/Blightsteel Colossus (Fate).png | 1789173323475.079
 lands/Snow-Covered Plains (Fate).png | 1789173892671.6206
 artifacts/The Echoverse Fulcrum (Fate).png | 1789175656950.1045
 cards/Muelsyse, Director of Ecology.png | 1789179800882.194
+cards/Mostima, Keeper of the Lock.png | 1789183445640.8606

@@ -50,6 +50,7 @@
 * cards/Michiru, Ninjutsu Researcher.png | [hotarihotaru](https://www.pixiv.net/en/users/35206539)
 * cards/Miyabi, Void Hunter.png | [ATdan](https://www.artstation.com/atdan)
 * cards/Mordred, Knight of Londinium.png | [kodama](https://www.pixiv.net/en/users/278495)
+* cards/Mostima, Keeper of the Lock.png | [Umio Geso](https://www.pixiv.net/en/users/20884)
 * cards/Muelsyse, Director of Ecology.png | [Ufoliving](https://www.pixiv.net/en/users/19094005)
 * cards/Nareko, Confined Dousojin.png | [Hisona](https://www.pixiv.net/en/users/173260)
 * cards/Natsuki Subaru, Accreting Life.png | [iwa_to_mushi](https://www.pixiv.net/en/users/15144367)

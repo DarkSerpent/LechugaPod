@@ -96,6 +96,7 @@ Tomoe = https://www.zerochan.net/Tomoe+%28Itigo%29
 Topia = https://www.pixiv.net/en/users/2827964
 TYPE-MOON = https://en.wikipedia.org/wiki/Type-Moon
 Ufoliving = https://www.pixiv.net/en/users/19094005
+Umio Geso = https://www.pixiv.net/en/users/20884
 Uncle Ri Kodama = https://www.pixiv.net/en/users/210517
 Wada Arco = https://www.pixiv.net/en/users/611443
 Wheelsnow7 = https://www.pixiv.net/en/users/17706632
