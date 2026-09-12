@@ -18,7 +18,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 4. Open Cockatrice and confirm the custom set is working by navigating to "Browse Card Database" and typing in `set:CLM`.
 5. You're all set! If you want to automatically convert your decks to use all alternate card artworks from a given series, try out the [CLM Deck Converter](https://darkserpent.github.io/LechugaPod/site/) site!
 
-Collection currently at <img src="https://img.shields.io/badge/258-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/259-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -29,13 +29,13 @@ Collection currently at <img src="https://img.shields.io/badge/258-88E788?style=
 | **Arknights** | 14 | 5.4% |
 | **Azur Lane** | 1 | 0.4% |
 | **Blue Archive** | 21 | 8.1% |
-| **Fate Grand Order** | 76 | 29.5% |
+| **Fate Grand Order** | 77 | 29.7% |
 | **Honkai: Star Rail** | 29 | 11.2% |
 | **My Adventures with Superman** | 2 | 0.8% |
 | **Re:Zero** | 37 | 14.3% |
-| **Shadowverse: Worlds Beyond** | 12 | 4.7% |
+| **Shadowverse: Worlds Beyond** | 12 | 4.6% |
 | **Shakugan no Shana** | 1 | 0.4% |
-| **Touhou Project** | 48 | 18.6% |
+| **Touhou Project** | 48 | 18.5% |
 | **Zenless Zone Zero** | 17 | 6.6% |
 
 ## Creature Cards
@@ -168,7 +168,7 @@ Collection currently at <img src="https://img.shields.io/badge/258-88E788?style=
 * Shorikai, Genesis Engine[^1] = [New Jersey, the Black Dragon](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/New%20Jersey%2C%20the%20Black%20Dragon.png) (Azur Lane)
 ### Blue Archive `1`
 * Sol Ring = [Shittim Chest](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Blue%20Archive).png) (Blue Archive)
-### Fate Grand Order `13`
+### Fate Grand Order `14`
 * Sol Ring = [Holy Grail](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Fate).png) (Fate Grand Order)
 * Arcane Signet = [LAPLACE, Phenomenon Recorder](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Arcane%20Signet%20(Fate).png) (Fate Grand Order)
 * Dawnsire, Sunstar Dreadnought[^1] = [Altera, Teardrop Photon Ray](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Altera%2C%20Teardrop%20Photon%20Ray.png) (Fate Grand Order)
@@ -182,6 +182,7 @@ Collection currently at <img src="https://img.shields.io/badge/258-88E788?style=
 * Inspirit, Flagship Vessel[^1] = [Mash Kyrielight, Lord Camelot](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Mash%20Kyrielight%2C%20Lord%20Camelot.png) (Fate Grand Order)
 * Infinite Guideline Station[^1] = [Storm Border, the Last Ark](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Storm%20Border%2C%20the%20Last%20Ark.png) (Fate Grand Order)
 * Monument to Endurance = [True Difference Engine](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Monument%20to%20Endurance%20(Fate).png) (Fate Grand Order)
+* The Echoverse Fulcrum = [TRI-HERMES, Spiritronic Processor](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/The%20Echoverse%20Fulcrum%20(Fate).png) (Fate Grand Order)
 ### Honkai: Star Rail `11`
 * Sol Ring = [Dimension Reduction Dice](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
 * Commander's Sphere = [A-Ruan Pouch](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Commander%E2%80%99s%20Sphere%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)

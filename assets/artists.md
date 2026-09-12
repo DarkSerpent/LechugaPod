@@ -124,6 +124,7 @@
 * artifacts/Sol Ring (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * artifacts/Storm Border, the Last Ark.png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * artifacts/Swiftfoot Boots (Fate).png | [Takashi Takeuchi](https://www.zerochan.net/Takeuchi+Takashi)
+* artifacts/The Echoverse Fulcrum (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * artifacts/Thrumming Hivepool (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 ### Honkai
 * artifacts/Chromatic Lantern (Honkai).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)

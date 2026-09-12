@@ -5113,6 +5113,22 @@ If Blightsteel Colossus would be put into a graveyard from anywhere, reveal Blig
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>The Echoverse Fulcrum</name>
+            <text>When The Echoverse Fulcrum enters, draw a card, then discard a card.
+{5}, {T}, Exile The Echoverse Fulcrum: Destroy all creatures. Activate only as a sorcery.</text>
+            <prop>
+                <cmc>2</cmc>
+                <manacost>2</manacost>
+                <side>front</side>
+                <maintype>Artifact</maintype>
+                <layout>normal</layout>
+                <type>Legendary Artifact</type>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000261" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/The%20Echoverse%20Fulcrum%20(Fate).png">CLM</set>
+            <tablerow>1</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>
