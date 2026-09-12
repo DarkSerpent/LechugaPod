@@ -268,3 +268,4 @@ Rebbec, Architect of Ascension_0258 = Roche Frain Yggdmillennia
 Blightsteel Colossus_0259 = Golem Keter Malkuth
 Snow-Covered Plains_0260 = Lostbelt 1, Permafrost Russia
 The Echoverse Fulcrum_0261 = TRI-HERMES, Spiritronic Processor
+Uldaros Theorix_0262 = Muelsyse, Director of Ecology

@@ -5129,6 +5129,22 @@ If Blightsteel Colossus would be put into a graveyard from anywhere, reveal Blig
             <tablerow>1</tablerow>
         </card>
 
+        <card>
+          <name>Uldaros Theorix</name>
+          <text>Flying
+When Uldaros Theorix enters, if you cast him, exile up to one target nonland card of each card type from your graveyard. Copy those cards. You may cast any number of spells with total mana value 6 or less from among the copies without paying their mana costs. (Permanent spells cast this way become tokens.)</text>
+          <prop>
+            <colors>BU</colors>
+            <type>Legendary Creature — Elder Sphinx</type>
+            <maintype>Creature</maintype>
+            <cmc>6</cmc>
+            <manacost>3UBB</manacost>
+            <pt>5/5</pt>
+          </prop>
+          <set rarity="rare" uuid="00000000-0000-0000-0000-000000000262" flavorName="Arknights" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Muelsyse%2C%20Director%20of%20Ecology.png">CLM</set>
+          <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>
