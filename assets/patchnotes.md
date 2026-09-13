@@ -1,4 +1,5 @@
 ## 9/12/2026
+* 9:33:20.982 PM CDT - Captain N'ghathrod / Royal Fortune, Deep Guardian / Royal Fortune, Deep Guardian
 * 8:50:06.541 PM CDT - Sol Ring / Sol Ring (Azur Lane) / Sol Ring (Azur Lane)
 * 8:50:06.541 PM CDT - Sol Ring / Sol Ring (Azur Lane) / Wisdom Cube
 * 8:29:41.819 PM CDT - Drakuseth, Maw of Flames / Prinz Rupprecht, Iron Princess / Prinz Rupprecht, Iron Princess

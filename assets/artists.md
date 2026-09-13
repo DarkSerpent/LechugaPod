@@ -68,6 +68,7 @@
 * cards/Remilia Scarlet, Imperishable Night.png | [okitakung](https://www.pixiv.net/en/users/1267809)
 * cards/Rin Kaenbyou, Shopping District.png | [Topia](https://www.pixiv.net/en/users/2827964)
 * cards/Roche Frain Yggdmillennia.png | Inooka[^1]
+* cards/Royal Fortune, Deep Guardian.png | [XQ](https://www.pixiv.net/en/users/38015536)
 * cards/Royal Travelling Incognito.png | [Kouga Yun](https://www.pixiv.net/en/users/344457)
 * cards/Rumia, Youkai of the Dusk.png | [Spark621](https://www.pixiv.net/en/users/2488754/illustrations)
 * cards/Sakuya, Perfect & Elegant Maid.png | [Kyusoukyu](https://www.pixiv.net/en/users/66038798)

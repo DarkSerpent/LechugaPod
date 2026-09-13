@@ -5217,6 +5217,31 @@ Whenever Drakuseth attacks, it deals 4 damage to any target and 3 damage to each
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Captain N'ghathrod</name>
+            <text>Horrors you control have menace.
+Whenever a Horror you control deals combat damage to a player, that player mills that many cards.
+At the beginning of your end step, choose target artifact or creature card in an opponent's graveyard that was put there from their library this turn. Put it onto the battlefield under your control.</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>UB</coloridentity>
+                <cmc>5</cmc>
+                <manacost>3UB</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Horror Pirate</type>
+                <pt>3/6</pt>
+                <format-commander>legal</format-commander>
+                <colors>UB</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000275" flavorName="AzurLane" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Royal%20Fortune%2C%20Deep%20Guardian.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>
