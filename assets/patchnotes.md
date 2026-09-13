@@ -1,4 +1,6 @@
 ## 9/12/2026
+* 8:50:06.541 PM CDT - Sol Ring / Sol Ring (Azur Lane) / Sol Ring (Azur Lane)
+* 8:50:06.541 PM CDT - Sol Ring / Sol Ring (Azur Lane) / Wisdom Cube
 * 8:29:41.819 PM CDT - Drakuseth, Maw of Flames / Prinz Rupprecht, Iron Princess / Prinz Rupprecht, Iron Princess
 * 7:45:49.805 PM CDT - Exotic Orchard / Exotic Orchard (Azur Lane) / World Expo
 * 7:29:06.057 PM CDT - Command Tower / Command Tower (Azur Lane) / Azur Lane Port
