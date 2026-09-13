@@ -18,7 +18,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 4. Open Cockatrice and confirm the custom set is working by navigating to "Browse Card Database" and typing in `set:CLM`.
 5. You're all set! If you want to automatically convert your decks to use all alternate card artworks from a given series, try out the [CLM Deck Converter](https://darkserpent.github.io/LechugaPod/site/) site!
 
-Collection currently at <img src="https://img.shields.io/badge/262-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/270-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -26,17 +26,17 @@ Collection currently at <img src="https://img.shields.io/badge/262-88E788?style=
 ### Collection By Series
 | Series | Cards | Collection |
 |:---|---:|---:|
-| **Arknights** | 17 | 6.5% |
-| **Azur Lane** | 1 | 0.4% |
-| **Blue Archive** | 21 | 8.0% |
-| **Fate Grand Order** | 77 | 29.4% |
-| **Honkai: Star Rail** | 29 | 11.1% |
-| **My Adventures with Superman** | 2 | 0.8% |
-| **Re:Zero** | 37 | 14.1% |
-| **Shadowverse: Worlds Beyond** | 12 | 4.6% |
+| **Arknights** | 17 | 6.3% |
+| **Azur Lane** | 9 | 3.3% |
+| **Blue Archive** | 21 | 7.8% |
+| **Fate Grand Order** | 77 | 28.5% |
+| **Honkai: Star Rail** | 29 | 10.7% |
+| **My Adventures with Superman** | 2 | 0.7% |
+| **Re:Zero** | 37 | 13.7% |
+| **Shadowverse: Worlds Beyond** | 12 | 4.4% |
 | **Shakugan no Shana** | 1 | 0.4% |
-| **Touhou Project** | 48 | 18.3% |
-| **Zenless Zone Zero** | 17 | 6.5% |
+| **Touhou Project** | 48 | 17.8% |
+| **Zenless Zone Zero** | 17 | 6.3% |
 
 ## Creature Cards
 ### Arknights `5`
@@ -236,6 +236,15 @@ Collection currently at <img src="https://img.shields.io/badge/262-88E788?style=
 * Command Beacon = [Rhodes Island Terminal Service](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Beacon%20(Arknights).png) (Arknights)
 * Exotic Orchard = [Convalescent Garden](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Exotic%20Orchard%20(Arknights).png) (Arknights)
 * Snow-Covered Island = [Kjerag](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Snow-Covered%20Island%20(Arknights).png) (Arknights)
+### Azur Lane `8`
+* Plains = [Iris Orthodoxy](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(Azur%20Lane).png) (Azur Lane)
+* Island = [Scapa Flow](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(Azur%20Lane).png) (Azur Lane)
+* Swamp = [Mirror Sea](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(Azur%20Lane).png) (Azur Lane)
+* Mountain = [Floating Fortress Perimeter](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Mountain%20(Azur%20Lane).png) (Azur Lane)
+* Forest = [Sacred Sakura Sanctuary](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Forest%20(Azur%20Lane).png) (Azur Lane)
+* Wastes = [Outside the Singularity](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Wastes%20(Azur%20Lane).png) (Azur Lane)
+* Command Tower = [Azur Lane Port](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(Azur%20Lane).png) (Azur Lane)
+* Exotic Orchard = [World Expo](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Exotic%20Orchard%20(Azur%20Lane).png) (Azur Lane)
 ### Blue Archive `13`
 * Command Tower = [SCHALE, Main Office](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(Blue%20Archive).png) (Blue Archive)
 * Command Beacon = [The Sanctum Tower](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Beacon%20(Blue%20Archive).png) (Blue Archive)

@@ -271,3 +271,11 @@ artifacts/The Echoverse Fulcrum (Fate).png | 1789175656950.1045
 cards/Muelsyse, Director of Ecology.png | 1789179800882.194
 cards/Mostima, Keeper of the Lock.png | 1789188710102.7195
 lands/Snow-Covered Island (Arknights).png | 1789185819762.0981
+lands/Plains (Azur Lane).png | 1789256957046.206
+lands/Island (Azur Lane).png | 1789257383866.9417
+lands/Swamp (Azur Lane).png | 1789257599291.4443
+lands/Mountain (Azur Lane).png | 1789258012801.2046
+lands/Forest (Azur Lane).png | 1789258638845.3894
+lands/Wastes (Azur Lane).png | 1789258922349.1843
+lands/Command Tower (Azur Lane).png | 1789259346057.773
+lands/Exotic Orchard (Azur Lane).png | 1789260349805.3843

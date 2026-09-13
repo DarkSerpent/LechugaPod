@@ -80,6 +80,7 @@ s73d = https://www.pixiv.net/en/users/12532
 Sakai Yoshikuni = https://www.pixiv.net/users/533800
 Scottie = https://www.pixiv.net/en/users/103410
 SEGA = https://en.wikipedia.org/wiki/Sega
+Shanghai Manjuu Network Technology = https://ja.wikipedia.org/wiki/Manjuu
 shark_waka = https://www.pixiv.net/en/users/2003931
 shima = https://www.pixiv.net/en/users/1259854
 shimachan 121 = https://www.pixiv.net/en/users/22741027

@@ -1,3 +1,13 @@
+## 9/12/2026
+* 7:45:49.805 PM CDT - Exotic Orchard / Exotic Orchard (Azur Lane) / World Expo
+* 7:29:06.057 PM CDT - Command Tower / Command Tower (Azur Lane) / Azur Lane Port
+* 7:22:02.349 PM CDT - Wastes / Wastes (Azur Lane) / Outside the Singularity
+* 7:17:18.845 PM CDT - Forest / Forest (Azur Lane) / Sacred Sakura Sanctuary
+* 7:06:52.801 PM CDT - Mountain / Mountain (Azur Lane) / Floating Fortress Perimeter
+* 6:59:59.291 PM CDT - Swamp / Swamp (Azur Lane) / Mirror Sea
+* 6:56:23.866 PM CDT - Island / Island (Azur Lane) / Scapa Flow
+* 6:31:48.397 PM CDT - Plains / Plains (Azur Lane) / Iris Orthodoxy
+
 ## 9/11/2026
 * 11:03:39.762 PM CDT - Snow-Covered Island / Snow-Covered Island (Arknights) / Kjerag
 * 10:24:05.640 PM CDT - Alaundo the Seer / Mostima, Keeper of the Lock / Mostima, Keeper of the Lock
