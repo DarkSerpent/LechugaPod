@@ -284,3 +284,4 @@ artifacts/Sol Ring (Azur Lane).png | 1789264206541.0464
 cards/Royal Fortune, Deep Guardian.png | 1789266800982.9314
 cards/Alsace, the Guardian Blade.png | 1789270164487.8318
 cards/Fargo, Reliable Drone Transport.png | 1789270624249.4607
+cards/Sao Martinho, Untarnishable.png | 1789272675930.1248

@@ -5309,6 +5309,35 @@ Each other Angel you control enters with an additional +1/+1 counter on it for e
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Admiral Brass, Unsinkable</name>
+            <text>When Admiral Brass enters, mill four cards.
+At the beginning of combat on your turn, you may return target Pirate creature card from your graveyard to the battlefield with a finality counter on it. It has base power and toughness 4/4. It gains haste until end of turn. (If a creature with a finality counter on it would die, exile it instead.)</text>
+            <prop>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>UBR</coloridentity>
+                <cmc>5</cmc>
+                <manacost>2UBR</manacost>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Human Pirate</type>
+                <pt>3/3</pt>
+                <format-commander>legal</format-commander>
+                <colors>UBR</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000278" flavorName="AzurLane" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Sao%20Martinho%2C%20Untarnishable.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

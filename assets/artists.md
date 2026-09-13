@@ -74,6 +74,7 @@
 * cards/Royal Travelling Incognito.png | [Kouga Yun](https://www.pixiv.net/en/users/344457)
 * cards/Rumia, Youkai of the Dusk.png | [Spark621](https://www.pixiv.net/en/users/2488754/illustrations)
 * cards/Sakuya, Perfect & Elegant Maid.png | [Kyusoukyu](https://www.pixiv.net/en/users/66038798)
+* cards/Sao Martinho, Untarnishable.png | [hisin](https://www.pixiv.net/en/users/17059550)
 * cards/Satsuki, Intelligence Director.png | [liuli xiao](https://www.pixiv.net/en/users/99083817)
 * cards/Seiga Kaku, the Wicked Hermit.png | [Tomoe](https://www.zerochan.net/Tomoe+%28Itigo%29)
 * cards/Shana, Flame-Haired Hunter.png | [Kotsu](https://www.zerochan.net/Kotsu)

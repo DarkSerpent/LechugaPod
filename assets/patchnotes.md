@@ -1,4 +1,5 @@
 ## 9/12/2026
+* 11:11:15.930 PM CDT - Admiral Brass, Unsinkable / Sao Martinho, Untarnishable / São Martinho, Untarnishable
 * 10:37:04.249 PM CDT - Sai, Master Thopterist / Fargo, Reliable Drone Transport / Fargo, Reliable Drone Transport
 * 10:29:24.487 PM CDT - Giada, Font of Hope / Alsace, the Guardian Blade / Alsace, the Guardian Blade
 * 9:33:20.982 PM CDT - Captain N'ghathrod / Royal Fortune, Deep Guardian / Royal Fortune, Deep Guardian
