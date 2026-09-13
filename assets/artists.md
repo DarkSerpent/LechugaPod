@@ -1,4 +1,5 @@
 ## Creature Cards
+* cards/Alsace, the Guardian Blade.png | [Shanghai Manjuu Network Technology](https://ja.wikipedia.org/wiki/Manjuu)
 * cards/Angels of Delusion.png | [amaneko](https://www.pixiv.net/en/users/21000719)
 * cards/Anton, Gearheart Brawler.png | [miyako](https://www.pixiv.net/en/users/735123)
 * cards/Antonio Salieri, Man in Grey.png | [lack](https://www.pixiv.net/en/users/83739)
@@ -18,6 +19,7 @@
 * cards/Eiki Shiki, Supreme Judge.png | [redlunaazrael](https://www.pixiv.net/en/users/14338530)
 * cards/Elliott, Administrator of the Ends.png | [shark_waka](https://www.pixiv.net/en/users/2003931)
 * cards/Emilia, Spirit Arts Practitioner.png | [Shinichirou Otsuka](https://twitter.com/otsuka_shin)
+* cards/Fargo, Reliable Drone Transport.png | [Shanghai Manjuu Network Technology](https://ja.wikipedia.org/wiki/Manjuu)
 * cards/Fran, the Evil Boss’s Daughter.png | [Okazaki Takeshi](https://www.pixiv.net/en/users/821471)
 * cards/Fujimaru Ritsuka, Humanity’s Last.png | [na222222](https://www.pixiv.net/en/users/3368740)
 * cards/Fujimaru Ritsuka, Stargazer.png | [na222222](https://www.pixiv.net/en/users/3368740)

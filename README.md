@@ -18,7 +18,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 4. Open Cockatrice and confirm the custom set is working by navigating to "Browse Card Database" and typing in `set:CLM`.
 5. You're all set! If you want to automatically convert your decks to use all alternate card artworks from a given series, try out the [CLM Deck Converter](https://darkserpent.github.io/LechugaPod/site/) site!
 
-Collection currently at <img src="https://img.shields.io/badge/273-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/275-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -27,15 +27,15 @@ Collection currently at <img src="https://img.shields.io/badge/273-88E788?style=
 | Series | Cards | Collection |
 |:---|---:|---:|
 | **Arknights** | 17 | 6.2% |
-| **Azur Lane** | 12 | 4.4% |
-| **Blue Archive** | 21 | 7.7% |
-| **Fate Grand Order** | 77 | 28.2% |
-| **Honkai: Star Rail** | 29 | 10.6% |
+| **Azur Lane** | 14 | 5.1% |
+| **Blue Archive** | 21 | 7.6% |
+| **Fate Grand Order** | 77 | 28.0% |
+| **Honkai: Star Rail** | 29 | 10.5% |
 | **My Adventures with Superman** | 2 | 0.7% |
-| **Re:Zero** | 37 | 13.6% |
+| **Re:Zero** | 37 | 13.5% |
 | **Shadowverse: Worlds Beyond** | 12 | 4.4% |
 | **Shakugan no Shana** | 1 | 0.4% |
-| **Touhou Project** | 48 | 17.6% |
+| **Touhou Project** | 48 | 17.5% |
 | **Zenless Zone Zero** | 17 | 6.2% |
 
 ## Creature Cards
@@ -45,9 +45,11 @@ Collection currently at <img src="https://img.shields.io/badge/273-88E788?style=
 * Kelsien, the Plague[^1] = [Rafaela, La Pluma](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Rafaela%2C%20La%20Pluma.png) (Arknights)
 * Uldaros Theorix[^1] = [Muelsyse, Director of Ecology](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Muelsyse%2C%20Director%20of%20Ecology.png) (Arknights)
 * Alaundo the Seer[^1] = [Mostima, Keeper of the Lock](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Mostima%2C%20Keeper%20of%20the%20Lock.png) (Arknights)
-### Azur Lane `2`
+### Azur Lane `4`
 * Drakuseth, Maw of Flames[^1] = [Prinz Rupprecht, Iron Princess](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Prinz%20Rupprecht%2C%20Iron%20Princess.png) (Azur Lane)
 * Captain N'ghathrod[^1] = [Royal Fortune, Deep Guardian](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Royal%20Fortune%2C%20Deep%20Guardian.png) (Azur Lane)
+* Giada, Font of Hope[^1] = [Alsace, the Guardian Blade](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Alsace%2C%20the%20Guardian%20Blade.png) (Azur Lane)
+* Sai, Master Thopterist[^1] = [Fargo, Reliable Drone Transport](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fargo%2C%20Reliable%20Drone%20Transport.png) (Azur Lane)
 ### Blue Archive `7`
 * Laughing Jasper Flint[^1] = [Satsuki, Intelligence Director](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Satsuki%2C%20Intelligence%20Director.png) (Blue Archive)
 * King T'Challa // Black Panther, Hope Enduring[^1] = [Toki, Regular Maid](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Toki%2C%20Regular%20Maid.png) // [Toki, Abi-Eshuh Mode](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Toki%2C%20Abi%2DEshuh%20Mode.png) (Blue Archive)

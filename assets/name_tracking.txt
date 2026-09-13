@@ -282,3 +282,5 @@ Exotic Orchard_0272 = World Expo
 Drakuseth, Maw of Flames_0273 = Prinz Rupprecht, Iron Princess
 Sol Ring_0274 = Wisdom Cube
 Captain N'ghathrod_0275 = Royal Fortune, Deep Guardian
+Giada, Font of Hope_0276 = Alsace, the Guardian Blade
+Sai, Master Thopterist_0277 = Fargo, Reliable Drone Transport

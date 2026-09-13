@@ -5242,6 +5242,73 @@ At the beginning of your end step, choose target artifact or creature card in an
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Giada, Font of Hope</name>
+            <text>Flying, vigilance
+Each other Angel you control enters with an additional +1/+1 counter on it for each Angel you already control.
+{T}: Add {W}. Spend this mana only to cast an Angel spell.</text>
+            <prop>
+                <format-standard>legal</format-standard>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-standardbrawl>legal</format-standardbrawl>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>W</coloridentity>
+                <cmc>2</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <manacost>1W</manacost>
+                <format-alchemy>legal</format-alchemy>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Angel</type>
+                <format-future>legal</format-future>
+                <pt>2/2</pt>
+                <format-commander>legal</format-commander>
+                <colors>W</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000276" flavorName="AzurLane" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Alsace%2C%20the%20Guardian%20Blade.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
+        <card>
+            <name>Sai, Master Thopterist</name>
+            <text>Whenever you cast an artifact spell, create a 1/1 colorless Thopter artifact creature token with flying.
+{1}{U}, Sacrifice two artifacts: Draw a card.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>U</coloridentity>
+                <cmc>3</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <manacost>2U</manacost>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Human Artificer</type>
+                <pt>1/4</pt>
+                <format-commander>legal</format-commander>
+                <colors>U</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000277" flavorName="AzurLane" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fargo%2C%20Reliable%20Drone%20Transport.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

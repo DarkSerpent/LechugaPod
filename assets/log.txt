@@ -282,3 +282,5 @@ lands/Exotic Orchard (Azur Lane).png | 1789260349805.3843
 cards/Prinz Rupprecht, Iron Princess.png | 1789262981819.2634
 artifacts/Sol Ring (Azur Lane).png | 1789264206541.0464
 cards/Royal Fortune, Deep Guardian.png | 1789266800982.9314
+cards/Alsace, the Guardian Blade.png | 1789270164487.8318
+cards/Fargo, Reliable Drone Transport.png | 1789270624249.4607
