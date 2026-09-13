@@ -37,6 +37,32 @@ const modalCaption = document.querySelector('#modalCaption');
 const modalProxyCaption = document.querySelector('#modalProxyCaption');
 const modalClose = document.querySelector('#modalClose');
 
+function restoreUrlState() {
+  const params = new URLSearchParams(window.location.search);
+  const category = CATEGORIES.some(item => item.key === params.get('category')) ? params.get('category') : state.category;
+  const sort = ['alphabetical', 'release', 'uuid'].includes(params.get('sort')) ? params.get('sort') : state.sort;
+  const series = (params.get('series') || '').split(',').filter(key => Object.hasOwn(SERIES_NAMES, key));
+  state.category = category;
+  state.sort = sort;
+  state.series = new Set(series);
+  state.search = params.get('search') || '';
+  state.hideOc = params.get('oc') !== 'show';
+  cardSearch.value = state.search;
+  sortSelect.value = state.sort;
+  hideOcToggle.checked = state.hideOc;
+}
+
+function updateUrl() {
+  const params = new URLSearchParams();
+  if (state.category !== 'cards') params.set('category', state.category);
+  if (state.series.size) params.set('series', [...state.series].join(','));
+  if (state.sort !== 'alphabetical') params.set('sort', state.sort);
+  if (state.search) params.set('search', state.search);
+  if (!state.hideOc) params.set('oc', 'show');
+  const query = params.toString();
+  window.history.replaceState(null, '', `${window.location.pathname}${query ? `?${query}` : ''}${window.location.hash}`);
+}
+
 function textContent(element, selector) {
   return element.querySelector(selector)?.textContent.trim() || '';
 }
@@ -127,8 +153,11 @@ function parseCards(xmlText, tracking, releases, artists) {
 }
 
 function renderTabs() {
-  categoryTabs.innerHTML = CATEGORIES.map((category, index) => `<button class="filter-tab${index === 0 ? ' is-active' : ''}" type="button" role="tab" aria-selected="${index === 0}" data-category="${category.key}">${category.label}</button>`).join('');
-  seriesTabs.innerHTML = `<button class="filter-tab is-active" type="button" aria-pressed="true" data-series="">All</button>${Object.entries(SERIES_NAMES).map(([key, label]) => `<button class="filter-tab" type="button" aria-pressed="false" data-series="${key}">${label}</button>`).join('')}`;
+  categoryTabs.innerHTML = CATEGORIES.map(category => {
+    const selected = category.key === state.category;
+    return `<button class="filter-tab${selected ? ' is-active' : ''}" type="button" role="tab" aria-selected="${selected}" data-category="${category.key}">${category.label}</button>`;
+  }).join('');
+  seriesTabs.innerHTML = `<button class="filter-tab${state.series.size ? '' : ' is-active'}" type="button" aria-pressed="${!state.series.size}" data-series="">All</button>${Object.entries(SERIES_NAMES).map(([key, label]) => `<button class="filter-tab${state.series.has(key) ? ' is-active' : ''}" type="button" aria-pressed="${state.series.has(key)}" data-series="${key}">${label}</button>`).join('')}`;
 }
 
 function filteredCards() {
@@ -240,6 +269,7 @@ function setSeries(series) {
     button.classList.toggle('is-active', selected);
     button.setAttribute('aria-pressed', selected);
   });
+  updateUrl();
   renderCards();
 }
 
@@ -267,6 +297,7 @@ categoryTabs.addEventListener('click', event => {
     tab.classList.toggle('is-active', selected);
     tab.setAttribute('aria-selected', selected);
   });
+  updateUrl();
   renderCards();
 });
 
@@ -277,16 +308,19 @@ seriesTabs.addEventListener('click', event => {
 
 cardSearch.addEventListener('input', event => {
   state.search = event.target.value.trim().toLowerCase();
+  updateUrl();
   renderCards();
 });
 
 sortSelect.addEventListener('change', event => {
   state.sort = event.target.value;
+  updateUrl();
   renderCards();
 });
 
 hideOcToggle.addEventListener('change', event => {
   state.hideOc = event.target.checked;
+  updateUrl();
   renderCards();
 });
 
@@ -336,4 +370,5 @@ modalClose.addEventListener('click', () => cardModal.close());
 cardModal.addEventListener('click', event => { if (event.target === cardModal) cardModal.close(); });
 document.addEventListener('keydown', event => { if (event.key === 'Escape' && cardModal.open) cardModal.close(); });
 
+restoreUrlState();
 load();
