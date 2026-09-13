@@ -279,3 +279,4 @@ lands/Forest (Azur Lane).png | 1789258638845.3894
 lands/Wastes (Azur Lane).png | 1789258922349.1843
 lands/Command Tower (Azur Lane).png | 1789259346057.773
 lands/Exotic Orchard (Azur Lane).png | 1789260349805.3843
+cards/Prinz Rupprecht, Iron Princess.png | 1789262981819.2634

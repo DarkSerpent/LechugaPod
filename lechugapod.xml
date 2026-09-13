@@ -5181,6 +5181,41 @@ When Uldaros Theorix enters, if you cast him, exile up to one target nonland car
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Drakuseth, Maw of Flames</name>
+            <text>Flying
+Whenever Drakuseth attacks, it deals 4 damage to any target and 3 damage to each of up to two other targets.</text>
+            <prop>
+                <format-standard>legal</format-standard>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-standardbrawl>legal</format-standardbrawl>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>R</coloridentity>
+                <cmc>7</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <manacost>4RRR</manacost>
+                <format-alchemy>legal</format-alchemy>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Dragon</type>
+                <format-future>legal</format-future>
+                <pt>7/7</pt>
+                <format-commander>legal</format-commander>
+                <colors>R</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000273" flavorName="AzurLane" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Prinz%20Rupprecht%2C%20Iron%20Princess.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

@@ -279,3 +279,4 @@ Forest_0269 = Sacred Sakura Sanctuary
 Wastes_0270 = Outside the Singularity
 Command Tower_0271 = Azur Lane Port
 Exotic Orchard_0272 = World Expo
+Drakuseth, Maw of Flames_0273 = Prinz Rupprecht, Iron Princess
