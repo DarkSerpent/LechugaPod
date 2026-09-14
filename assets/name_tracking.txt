@@ -285,3 +285,4 @@ Captain N'ghathrod_0275 = Royal Fortune, Deep Guardian
 Giada, Font of Hope_0276 = Alsace, the Guardian Blade
 Sai, Master Thopterist_0277 = Fargo, Reliable Drone Transport
 Admiral Brass, Unsinkable_0278 = São Martinho, Untarnishable
+Avacyn, Angel of Hope_0279 = Laffey II, Bunbun Scout

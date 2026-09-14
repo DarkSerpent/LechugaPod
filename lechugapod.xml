@@ -5338,6 +5338,35 @@ At the beginning of combat on your turn, you may return target Pirate creature c
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Avacyn, Angel of Hope</name>
+            <text>Flying, vigilance, indestructible
+Other permanents you control have indestructible.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>W</coloridentity>
+                <cmc>8</cmc>
+                <manacost>5WWW</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Angel</type>
+                <pt>8/8</pt>
+                <format-commander>legal</format-commander>
+                <colors>W</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000279" flavorName="AzurLane" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Laffey%20II%2C%20Bunbun%20Scout.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

@@ -42,6 +42,7 @@
 * cards/Kara Zor-El, Supergirl.png | [LDL](https://www.pixiv.net/en/users/9320645)
 * cards/Kashin Koji, Fuuma Sorcerer.png | [Yoneyama Mai](https://www.pixiv.net/en/users/1554775)
 * cards/Kogasa Tatara, the Forgotten Umbrella.png | [Elina Noodles](https://www.pixiv.net/en/users/82051602)
+* cards/Laffey II, Bunbun Scout.png | [Shanghai Manjuu Network Technology](https://ja.wikipedia.org/wiki/Manjuu)
 * cards/Lakshmi Bai, Rani of Jhansi.png | [yasu](https://www.pixiv.net/users/18643150)
 * cards/Leonardo da Vinci, Gran Cavallo.png | [Yamyom](https://www.pixiv.net/en/users/46328)
 * cards/Lin the Violet.png | [kitutuki20](https://www.pixiv.net/en/users/1808950)
