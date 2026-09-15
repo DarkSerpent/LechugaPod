@@ -1,4 +1,17 @@
+## 9/15/2026
+* 12:18:57.379 AM CDT - Sol Ring / Sol Ring (Kingdom Hearts) / Kingdom Key
+* 12:04:07.565 AM CDT - Reliquary Tower / Reliquary Tower (Kingdom Hearts) / Twilight Town
+
 ## 9/14/2026
+* 11:54:41.469 PM CDT - Command Beacon / Command Beacon (Kingdom Hearts) / Traverse Town
+* 11:50:46.277 PM CDT - Exotic Orchard / Exotic Orchard (Kingdom Hearts) / Secret Forest
+* 11:46:03.700 PM CDT - Command Tower / Command Tower (Kingdom Hearts) / Castle That Never Was
+* 11:40:33.710 PM CDT - Wastes / Wastes (Kingdom Hearts) / Keyblade Graveyard
+* 11:37:23.516 PM CDT - Forest / Forest (Kingdom Hearts) / Deep Jungle
+* 11:33:47.447 PM CDT - Mountain / Mountain (Kingdom Hearts) / Olympus Coliseum
+* 11:22:16.388 PM CDT - Swamp / Swamp (Kingdom Hearts) / Halloween Town
+* 11:18:31.752 PM CDT - Island / Island (Kingdom Hearts) / Destiny Island
+* 11:15:34.018 PM CDT - Plains / Plains (Kingdom Hearts) / World Between Worlds
 * 10:38:03.791 PM CDT - Tovolar, the Midnight Scourge / Saix, Nobody of Isa / Saïx, Nobody of Isa
 * 10:16:01.318 PM CDT - Tovolar, Dire Overlord / Saix, the Luna Diviner / Saïx, the Luna Diviner
 * 9:24:53.456 PM CDT - Night / Night (Kingdom Hearts) / Realm of Darkness

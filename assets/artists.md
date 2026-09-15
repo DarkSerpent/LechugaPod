@@ -151,6 +151,8 @@
 * artifacts/Talisman of Dominance (Honkai Star Rail).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
 * artifacts/Talisman of Hierarchy (Honkai Star Rail).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
 * artifacts/Talisman of Progress (Honkai Star Rail).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
+### Kingdom Hearts
+* artifacts/Sol Ring (Kingdom Hearts).png | [Marduk-Kurios](https://www.deviantart.com/marduk-kurios/gallery)
 ### ReZero
 * artifacts/Azorius Signet (ReZero).png | [Tianjin Tianxiang Interactive Technology](https://www.zerochan.net/Tianjin+Tianxiang+Interactive+Technology)
 * artifacts/Fellwar Stone (ReZero).png | [Tianjin Tianxiang Interactive Technology](https://www.zerochan.net/Tianjin+Tianxiang+Interactive+Technology)
@@ -243,6 +245,17 @@
 * lands/Swamp (Honkai Star Rail).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
 * lands/Wastes (Honkai Star Rail).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
 * lands/Watery Grave (Honkai Star Rail).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
+### Kingdom Hearts
+* lands/Command Beacon (Kingdom Hearts).png | [SQUARE ENIX](https://en.wikipedia.org/wiki/Square_Enix)
+* lands/Command Tower (Kingdom Hearts).png | [SQUARE ENIX](https://en.wikipedia.org/wiki/Square_Enix)
+* lands/Exotic Orchard (Kingdom Hearts).png | [SQUARE ENIX](https://en.wikipedia.org/wiki/Square_Enix)
+* lands/Forest (Kingdom Hearts).png | [SQUARE ENIX](https://en.wikipedia.org/wiki/Square_Enix)
+* lands/Island (Kingdom Hearts).png | [SQUARE ENIX](https://en.wikipedia.org/wiki/Square_Enix)
+* lands/Mountain (Kingdom Hearts).png | [SQUARE ENIX](https://en.wikipedia.org/wiki/Square_Enix)
+* lands/Plains (Kingdom Hearts).png | [nezuminezumi](https://www.pixiv.net/en/users/3330515)
+* lands/Reliquary Tower (Kingdom Hearts).png | [SQUARE ENIX](https://en.wikipedia.org/wiki/Square_Enix)
+* lands/Swamp (Kingdom Hearts).png | [SQUARE ENIX](https://en.wikipedia.org/wiki/Square_Enix)
+* lands/Wastes (Kingdom Hearts).png | [RedMoonDragon](https://x.com/RedMoonDragon_)
 ### ReZero
 * lands/Academy Ruins (ReZero).png | [MAGES](https://en.wikipedia.org/wiki/Mages_(company))
 * lands/Bountiful Promenade (ReZero).png | [Tianjin Tianxiang Interactive Technology](https://www.zerochan.net/Tianjin+Tianxiang+Interactive+Technology)

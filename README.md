@@ -18,7 +18,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 4. Open Cockatrice and confirm the custom set is working by navigating to "Browse Card Database" and typing in `set:CLM`.
 5. You're all set! If you want to automatically convert your decks to use all alternate card artworks from a given series, try out the [CLM Deck Converter](https://darkserpent.github.io/LechugaPod/site/) site!
 
-Collection currently at <img src="https://img.shields.io/badge/280-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/291-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -26,19 +26,19 @@ Collection currently at <img src="https://img.shields.io/badge/280-88E788?style=
 ### Collection By Series
 | Series | Cards | Collection |
 |:---|---:|---:|
-| **Arknights** | 17 | 6.1% |
-| **Azur Lane** | 16 | 5.7% |
-| **Blue Archive** | 21 | 7.5% |
-| **F·R·I·E·N·D·S** | 1 | 0.4% |
-| **Fate Grand Order** | 77 | 27.5% |
-| **Honkai: Star Rail** | 29 | 10.4% |
-| **Kingdom Hearts** | 2 | 0.7% |
+| **Arknights** | 17 | 5.8% |
+| **Azur Lane** | 16 | 5.5% |
+| **Blue Archive** | 21 | 7.2% |
+| **F·R·I·E·N·D·S** | 1 | 0.3% |
+| **Fate Grand Order** | 77 | 26.5% |
+| **Honkai: Star Rail** | 29 | 10.0% |
+| **Kingdom Hearts** | 13 | 4.5% |
 | **My Adventures with Superman** | 2 | 0.7% |
-| **Re:Zero** | 37 | 13.2% |
-| **Shadowverse: Worlds Beyond** | 12 | 4.3% |
-| **Shakugan no Shana** | 1 | 0.4% |
-| **Touhou Project** | 48 | 17.1% |
-| **Zenless Zone Zero** | 17 | 6.1% |
+| **Re:Zero** | 37 | 12.7% |
+| **Shadowverse: Worlds Beyond** | 12 | 4.1% |
+| **Shakugan no Shana** | 1 | 0.3% |
+| **Touhou Project** | 48 | 16.5% |
+| **Zenless Zone Zero** | 17 | 5.8% |
 
 ## Creature Cards
 ### Arknights `5`
@@ -212,6 +212,8 @@ Collection currently at <img src="https://img.shields.io/badge/280-88E788?style=
 * Lightning Greaves = [Shattered Star Bait](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Lightning%20Greaves%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
 * Thran Dynamo = [Ancient Engine](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Thran%20Dynamo%20(Honkai).png) (Honkai: Star Rail)
 * Chromatic Lantern = [Immortal Lumintwig](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Chromatic%20Lantern%20(Honkai).png) (Honkai: Star Rail)
+### Kingdom Hearts `1`
+* Sol Ring = [Kingdom Key](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Kingdom%20Hearts).png) (Kingdom Hearts)
 ### Re:Zero `13`
 * Sol Ring = [Cursed Mouth Ring](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(ReZero).png) (Re:Zero)
 * Thought Vessel = [Corridor of Memories](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Thought%20Vessel%20(ReZero).png) (Re:Zero)
@@ -304,6 +306,17 @@ Collection currently at <img src="https://img.shields.io/badge/280-88E788?style=
 * Bojuka Bog = [Fyxestroll Garden](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Bojuka%20Bog%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
 * Exotic Orchard = [Grove of Epiphany](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Exotic%20Orchard%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
 * Command Beacon = [Pillars of Creation](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Beacon%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
+### Kingdom Hearts `10`
+* Plains = [World Between Worlds](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(Kingdom%20Hearts).png) (Kingdom Hearts)
+* Island = [Destiny Island](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(Kingdom%20Hearts).png) (Kingdom Hearts)
+* Swamp = [Halloween Town](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Swamp%20(Kingdom%20Hearts).png) (Kingdom Hearts)
+* Mountain = [Olympus Coliseum](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Mountain%20(Kingdom%20Hearts).png) (Kingdom Hearts)
+* Forest = [Deep Jungle](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Forest%20(Kingdom%20Hearts).png) (Kingdom Hearts)
+* Wastes = [Keyblade Graveyard](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Wastes%20(Kingdom%20Hearts).png) (Kingdom Hearts)
+* Command Tower = [Castle That Never Was](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Tower%20(Kingdom%20Hearts).png) (Kingdom Hearts)
+* Exotic Orchard = [Secret Forest](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Exotic%20Orchard%20(Kingdom%20Hearts).png) (Kingdom Hearts)
+* Command Beacon = [Traverse Town](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Command%20Beacon%20(Kingdom%20Hearts).png) (Kingdom Hearts)
+* Reliquary Tower = [Twilight Town](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Reliquary%20Tower%20(Kingdom%20Hearts).png) (Kingdom Hearts)
 ### Re:Zero `19`
 * Plains = [Dragon Kingdom of Lugunica](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Plains%20(ReZero).png) (Re:Zero)
 * Island = [Kararagi City-States](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/lands/Island%20(ReZero).png) (Re:Zero)
