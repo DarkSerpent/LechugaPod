@@ -18,7 +18,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 4. Open Cockatrice and confirm the custom set is working by navigating to "Browse Card Database" and typing in `set:CLM`.
 5. You're all set! If you want to automatically convert your decks to use all alternate card artworks from a given series, try out the [CLM Deck Converter](https://darkserpent.github.io/LechugaPod/site/) site!
 
-Collection currently at <img src="https://img.shields.io/badge/278-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/280-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -27,16 +27,17 @@ Collection currently at <img src="https://img.shields.io/badge/278-88E788?style=
 | Series | Cards | Collection |
 |:---|---:|---:|
 | **Arknights** | 17 | 6.1% |
-| **Azur Lane** | 16 | 5.8% |
-| **Blue Archive** | 21 | 7.6% |
+| **Azur Lane** | 16 | 5.7% |
+| **Blue Archive** | 21 | 7.5% |
 | **F·R·I·E·N·D·S** | 1 | 0.4% |
-| **Fate Grand Order** | 77 | 27.7% |
+| **Fate Grand Order** | 77 | 27.5% |
 | **Honkai: Star Rail** | 29 | 10.4% |
+| **Kingdom Hearts** | 2 | 0.7% |
 | **My Adventures with Superman** | 2 | 0.7% |
-| **Re:Zero** | 37 | 13.3% |
+| **Re:Zero** | 37 | 13.2% |
 | **Shadowverse: Worlds Beyond** | 12 | 4.3% |
 | **Shakugan no Shana** | 1 | 0.4% |
-| **Touhou Project** | 48 | 17.3% |
+| **Touhou Project** | 48 | 17.1% |
 | **Zenless Zone Zero** | 17 | 6.1% |
 
 ## Creature Cards
@@ -114,6 +115,9 @@ Collection currently at <img src="https://img.shields.io/badge/278-88E788?style=
 * The Master, Multiplied[^1] = [Sparxie & Sparkle, Masked Fools](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Sparxie%20%26%20Sparkle%2C%20Masked%20Fools.png) (Honkai: Star Rail)
 * The Most Dangerous Gamer[^1] = [Silver Wolf, Genius Hacker](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Silver%20Wolf%2C%20Genius%20Hacker.png) (Honkai: Star Rail)
 * Mishra, Eminent One[^1] = [Silver Wolf, Emanator of Elation](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Silver%20Wolf%2C%20Emanator%20of%20Elation.png) (Honkai: Star Rail)
+### Kingdom Hearts `2`
+* Tovolar, Dire Overlord[^1] = [Saïx, the Luna Diviner](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Saix%2C%20the%20Luna%20Diviner.png) (Kingdom Hearts)
+* Tovolar, the Midnight Scourge[^1] = [Saïx, Nobody of Isa](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Saix%2C%20Nobody%20of%20Isa.png) (Kingdom Hearts)
 ### My Adventures with Superman `2`
 * Captain Marvel, Apex Avenger[^1] = [Kara Zor-El, Supergirl](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kara%20Zor-El%2C%20Supergirl.png) (My Adventures with Superman)
 * Hyperion, Supreme Hero[^1] = [Kal-El, Superman](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kal-El%2C%20Superman.png) (My Adventures with Superman)
@@ -387,6 +391,9 @@ Collection currently at <img src="https://img.shields.io/badge/278-88E788?style=
    * Linked to: *Kwia Vigorbloom*
 * Wizard Soldier (FGO) = [A Prime](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Wizard%20Soldier%20(Fate).png) (Fate Grand Order)
    * Linked to: *Ingris Stingerquill*
+### Kingdom Hearts `2`
+* Day = [Door to Darkness](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Day%20(Kingdom%20Hearts).png) (Kingdom Hearts)
+* Night = [Realm of Darkness](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Night%20(Kingdom%20Hearts).png) (Kingdom Hearts)
 ### Re:Zero `1`
 * Clue Token (RZ) = [The Witch of Greed](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Clue%20(ReZero).png) (Re:Zero)
    * Linked to: *Five Hundred Year Diary, Sarah Jane Smith*

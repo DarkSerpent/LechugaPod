@@ -75,6 +75,8 @@
 * cards/Royal Fortune, Deep Guardian.png | [XQ](https://www.pixiv.net/en/users/38015536)
 * cards/Royal Travelling Incognito.png | [Kouga Yun](https://www.pixiv.net/en/users/344457)
 * cards/Rumia, Youkai of the Dusk.png | [Spark621](https://www.pixiv.net/en/users/2488754/illustrations)
+* cards/Saix, Nobody of Isa.png | [Kaa](https://kaapng.artstation.com/)
+* cards/Saix, the Luna Diviner.png | [gogo](https://www.pixiv.net/en/users/2534956)
 * cards/Sakuya, Perfect & Elegant Maid.png | [Kyusoukyu](https://www.pixiv.net/en/users/66038798)
 * cards/Sao Martinho, Untarnishable.png | [hisin](https://www.pixiv.net/en/users/17059550)
 * cards/Satsuki, Intelligence Director.png | [liuli xiao](https://www.pixiv.net/en/users/99083817)
@@ -318,6 +320,9 @@
 * tokens/Mask (Fate).png | [Zap](https://www.pixiv.net/en/users/231653)
 * tokens/Robot (Fate).png | [hotosoka](https://www.pixiv.net/en/users/31082248)
 * tokens/Wizard Soldier (Fate).png | [Kasukabe Akira](https://www.pixiv.net/en/users/307442)
+### Kingdom Hearts
+* tokens/Day (Kingdom Hearts).png | [SQUARE ENIX](https://en.wikipedia.org/wiki/Square_Enix)
+* tokens/Night (Kingdom Hearts).png | [SQUARE ENIX](https://en.wikipedia.org/wiki/Square_Enix)
 ### ReZero
 * tokens/Clue (ReZero).png | [SEGA](https://en.wikipedia.org/wiki/Sega)
 

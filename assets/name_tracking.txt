@@ -287,3 +287,7 @@ Sai, Master Thopterist_0277 = Fargo, Reliable Drone Transport
 Admiral Brass, Unsinkable_0278 = São Martinho, Untarnishable
 Avacyn, Angel of Hope_0279 = Laffey II, Bunbun Scout
 Chandler_0280 = Chandler Bing
+Day_8X = Door to Darkness
+Night_9X = Realm of Darkness
+Tovolar, Dire Overlord_0281 = Saïx, the Luna Diviner
+Tovolar, the Midnight Scourge_0282 = Saïx, Nobody of Isa

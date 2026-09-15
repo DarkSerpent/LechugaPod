@@ -17,6 +17,7 @@ const SERIES_NAMES = [
     { key: 'BlueArchive', label: 'Blue Archive' },
     { key: 'Fate', label: 'Fate Grand Order' },
     { key: 'Friends', label: 'F·R·I·E·N·D·S' },
+    { key: 'KingdomHearts', label: 'Kingdom Hearts' },
     { key: 'MAWS', label: 'My Adventures with Superman' },
     { key: 'ReZero', label: 'Re:Zero' },
     { key: 'Shakugan', label: 'Shakugan no Shana' },
@@ -40,8 +41,9 @@ const TOKEN_FLAVOR_SUFFIXES = {
     Arknights: 'AK',
     AzurLane: 'AL',
     BlueArchive: 'BA',
-    Friends: 'FR',
     Fate: 'FGO',
+    Friends: 'FR',
+    KingdomHearts: 'KH',
     ReZero: 'RZ',
     Shakugan: 'SnS',
     Shadowverse: 'SWB',
@@ -334,7 +336,8 @@ async function main() {
         if (isToken) {
             const associationType = await chooseByNumber(rl, 'Do you want to associate one card or multiple cards? ', [
                 { value: 'one', label: 'one card' },
-                { value: 'multiple', label: 'multiple' }
+                { value: 'multiple', label: 'multiple' },
+                { value: 'none', label: 'none' }
             ]);
             if (associationType.value === 'one') {
                 const relatedName = await ask(rl, 'Enter a card to reverse relate to the token: ');
@@ -342,7 +345,7 @@ async function main() {
                 const relatedBlock = findExistingCard(xml, relatedName);
                 if (!relatedBlock) throw new Error(`Could not find card "${relatedName}" in lechugapod.xml.`);
                 relatedCards.push({ block: relatedBlock, name: tagValue(relatedBlock, 'name') });
-            } else {
+            } else if (associationType.value === 'multiple') {
                 console.log('Enter card names to reverse relate them to the token. When you are done, leave your response blank and hit ENTER:');
                 while (true) {
                     const relatedName = await ask(rl, '');

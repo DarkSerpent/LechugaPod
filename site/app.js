@@ -3,6 +3,7 @@ const SERIES = {
   AzurLane: 'Azur Lane',
   BlueArchive: 'Blue Archive',
   Fate: 'Fate Grand Order',
+  KingdomHearts: 'Kingdom Hearts',
   MAWS: 'My Adventures with Superman',
   Honkai: 'Honkai: Star Rail',
   ReZero: 'Re:Zero',

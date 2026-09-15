@@ -5394,6 +5394,101 @@ Other permanents you control have indestructible.</text>
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Day</name>
+            <text>(If it becomes day or night or if a daybound permanent enters the battlefield, track day/night for the rest of the game.)
+As it becomes day, transform all nightbound permanents.
+If a player casts no spells during their own turn, it becomes night next turn.</text>
+            <prop>
+                <type>State</type>
+                <maintype>State</maintype>
+            </prop>
+            <related attach="transform">Night</related>
+            <token>1</token>
+            <set rarity="rare" uuid="00000000-0000-0000-0008-XXXXXXXXXXXX" flavorName="KingdomHearts" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Day%20(Kingdom%20Hearts).png">CLM</set>
+            <tablerow>1</tablerow>
+        </card>
+
+        <card>
+            <name>Night</name>
+            <text>As it becomes night, transform all daybound permanents.
+Permanents enter the battlefield nightbound.
+If a player casts at least two spells during their own turn, it becomes day next turn.</text>
+            <prop>
+                <type>State</type>
+                <maintype>State</maintype>
+            </prop>
+            <related attach="transform">Day</related>
+            <token>1</token>
+            <set rarity="rare" uuid="00000000-0000-0000-0009-XXXXXXXXXXXX" flavorName="KingdomHearts" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Night%20(Kingdom%20Hearts).png">CLM</set>
+            <tablerow>1</tablerow>
+        </card>
+
+        <card>
+            <name>Tovolar, Dire Overlord</name>
+            <text>Whenever a Wolf or Werewolf you control deals combat damage to a player, draw a card.
+At the beginning of your upkeep, if you control three or more Wolves and/or Werewolves, it becomes night. Then transform any number of Human Werewolves you control.
+Daybound</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>RG</coloridentity>
+                <cmc>3</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <manacost>1RG</manacost>
+                <side>front</side>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <maintype>Creature</maintype>
+                <layout>transform</layout>
+                <type>Legendary Creature — Human Werewolf</type>
+                <pt>3/3</pt>
+                <format-commander>legal</format-commander>
+                <colors>RG</colors>
+            </prop>
+            <related attach="transform">Tovolar, the Midnight Scourge</related>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000281" flavorName="KingdomHearts" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Saix%2C%20the%20Luna%20Diviner.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
+        <card>
+            <name>Tovolar, the Midnight Scourge</name>
+            <text>Whenever a Wolf or Werewolf you control deals combat damage to a player, draw a card.
+{X}{R}{G}: Target Wolf or Werewolf you control gets +X/+0 and gains trample until end of turn.
+Nightbound</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>RG</coloridentity>
+                <cmc>0</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <side>back</side>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <maintype>Creature</maintype>
+                <layout>transform</layout>
+                <type>Legendary Creature — Werewolf</type>
+                <pt>4/4</pt>
+                <format-commander>legal</format-commander>
+                <colors>RG</colors>
+            </prop>
+            <related attach="transform">Tovolar, Dire Overlord</related>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000282" flavorName="KingdomHearts" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Saix%2C%20Nobody%20of%20Isa.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

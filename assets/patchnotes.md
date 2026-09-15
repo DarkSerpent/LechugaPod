@@ -1,4 +1,8 @@
 ## 9/14/2026
+* 10:38:03.791 PM CDT - Tovolar, the Midnight Scourge / Saix, Nobody of Isa / Saïx, Nobody of Isa
+* 10:16:01.318 PM CDT - Tovolar, Dire Overlord / Saix, the Luna Diviner / Saïx, the Luna Diviner
+* 9:24:53.456 PM CDT - Night / Night (Kingdom Hearts) / Realm of Darkness
+* 9:24:52.964 PM CDT - Day / Day (Kingdom Hearts) / Door to Darkness
 * 7:25:32.975 PM CDT - Chandler / Chandler (Friends) / Chandler Bing
 
 ## 9/13/2026
