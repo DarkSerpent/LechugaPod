@@ -291,7 +291,7 @@ tokens/Day (Kingdom Hearts).png | 1789439282819.5652
 tokens/Night (Kingdom Hearts).png | 1789439283461.9163
 cards/Saix, the Luna Diviner.png | 1789442161318.3135
 cards/Saix, Nobody of Isa.png | 1789443483791.5972
-lands/Plains (Kingdom Hearts).png | 1789445734018.3657
+lands/Plains (Kingdom Hearts).png | 1789449896546.4006
 lands/Island (Kingdom Hearts).png | 1789448221836.4543
 lands/Swamp (Kingdom Hearts).png | 1789446136388.7646
 lands/Mountain (Kingdom Hearts).png | 1789448349421.8809
