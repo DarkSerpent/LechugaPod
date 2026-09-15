@@ -116,8 +116,7 @@ Collection currently at <img src="https://img.shields.io/badge/291-88E788?style=
 * The Most Dangerous Gamer[^1] = [Silver Wolf, Genius Hacker](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Silver%20Wolf%2C%20Genius%20Hacker.png) (Honkai: Star Rail)
 * Mishra, Eminent One[^1] = [Silver Wolf, Emanator of Elation](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Silver%20Wolf%2C%20Emanator%20of%20Elation.png) (Honkai: Star Rail)
 ### Kingdom Hearts `2`
-* Tovolar, Dire Overlord[^1] = [Saïx, the Luna Diviner](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Saix%2C%20the%20Luna%20Diviner.png) (Kingdom Hearts)
-* Tovolar, the Midnight Scourge[^1] = [Saïx, Nobody of Isa](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Saix%2C%20Nobody%20of%20Isa.png) (Kingdom Hearts)
+* Tovolar, Dire Overlord // Tovolar, the Midnight Scourge[^1] = [Saïx, the Luna Diviner](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Saix%2C%20the%20Luna%20Diviner.png) // [Saïx, Nobody of Isa](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Saix%2C%20Nobody%20of%20Isa.png) (Kingdom Hearts)
 ### My Adventures with Superman `2`
 * Captain Marvel, Apex Avenger[^1] = [Kara Zor-El, Supergirl](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kara%20Zor-El%2C%20Supergirl.png) (My Adventures with Superman)
 * Hyperion, Supreme Hero[^1] = [Kal-El, Superman](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kal-El%2C%20Superman.png) (My Adventures with Superman)

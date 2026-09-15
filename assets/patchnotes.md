@@ -12,8 +12,8 @@
 * 11:22:16.388 PM CDT - Swamp / Swamp (Kingdom Hearts) / Halloween Town
 * 11:18:31.752 PM CDT - Island / Island (Kingdom Hearts) / Destiny Island
 * 11:15:34.018 PM CDT - Plains / Plains (Kingdom Hearts) / World Between Worlds
-* 10:38:03.791 PM CDT - Tovolar, the Midnight Scourge / Saix, Nobody of Isa / Saïx, Nobody of Isa
-* 10:16:01.318 PM CDT - Tovolar, Dire Overlord / Saix, the Luna Diviner / Saïx, the Luna Diviner
+* 10:38:03.791 PM CDT - Tovolar, Dire Overlord // Tovolar, the Midnight Scourge / Saix, Nobody of Isa / Saïx, Nobody of Isa
+* 10:16:01.318 PM CDT - Tovolar, Dire Overlord // Tovolar, the Midnight Scourge / Saix, the Luna Diviner / Saïx, the Luna Diviner
 * 9:24:53.456 PM CDT - Night / Night (Kingdom Hearts) / Realm of Darkness
 * 9:24:52.964 PM CDT - Day / Day (Kingdom Hearts) / Door to Darkness
 * 7:25:32.975 PM CDT - Chandler / Chandler (Friends) / Chandler Bing

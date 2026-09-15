@@ -77,6 +77,11 @@ function allTagContents(xml, tag) {
         .filter(Boolean);
 }
 
+function relatedTransformName(xml) {
+    const match = xml.match(/<related\b[^>]*\battach="transform"[^>]*>([\s\S]*?)<\/related>/i);
+    return match ? decodeEntities(match[1].trim()) : null;
+}
+
 function attribute(xml, name) {
     const match = xml.match(new RegExp(`${name}\\s*=\\s*"([^"]*)"`, 'i'));
     return match ? decodeEntities(match[1]) : null;
@@ -219,10 +224,12 @@ async function parseCards(xml, tracking, rl) {
                 release: uuidNumber(uuid),
                 trackedName,
                 layout,
+                side: tagContents(prop, 'side') || null,
                 num: num || null,
                 isOC,
                 isCommander: isCommanderCard,
                 isToken,
+                transformRelated: isToken ? null : relatedTransformName(cardXml),
                 reverseRelated: isToken
                     ? allTagContents(cardXml, 'reverse-related')
                         .filter(relatedName => cardMatches.some(relatedBlock => {
@@ -255,17 +262,39 @@ async function parseCards(xml, tracking, rl) {
 function groupDfcCards(cards) {
     const groups = new Map();
     const standalone = [];
+    const grouped = new Set();
     for (const card of cards) {
         if (card.layout === 'modal_dfc' && card.num) {
             if (!groups.has(card.num)) groups.set(card.num, []);
             groups.get(card.num).push(card);
-        } else {
-            standalone.push(card);
+            continue;
         }
+        if (card.layout === 'transform' && card.transformRelated) {
+            const related = cards.find(candidate =>
+                candidate !== card &&
+                candidate.layout === 'transform' &&
+                candidate.flavorName === card.flavorName &&
+                candidate.name === card.transformRelated &&
+                candidate.transformRelated === card.name
+            );
+            if (related) {
+                const key = [card.name, related.name].sort().join('\u0000');
+                if (!grouped.has(key)) {
+                    grouped.add(key);
+                    groups.set(key, [card, related]);
+                }
+                continue;
+            }
+        }
+        standalone.push(card);
     }
     const combined = [];
     for (const [num, group] of groups) {
-        group.sort((a, b) => a.release - b.release);
+        group.sort((a, b) => {
+            if (a.side === 'front' && b.side !== 'front') return -1;
+            if (b.side === 'front' && a.side !== 'front') return 1;
+            return a.release - b.release;
+        });
         const front = group[0];
         const combinedCard = {
             isDfc: true,
