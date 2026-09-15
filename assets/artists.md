@@ -152,6 +152,7 @@
 * artifacts/Talisman of Hierarchy (Honkai Star Rail).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
 * artifacts/Talisman of Progress (Honkai Star Rail).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
 ### Kingdom Hearts
+* artifacts/Arcane Signet (Kingdom Hearts).png | [SQUARE ENIX](https://en.wikipedia.org/wiki/Square_Enix)
 * artifacts/Sol Ring (Kingdom Hearts).png | [Marduk-Kurios](https://www.deviantart.com/marduk-kurios/gallery)
 ### ReZero
 * artifacts/Azorius Signet (ReZero).png | [Tianjin Tianxiang Interactive Technology](https://www.zerochan.net/Tianjin+Tianxiang+Interactive+Technology)

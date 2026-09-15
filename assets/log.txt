@@ -302,3 +302,4 @@ lands/Exotic Orchard (Kingdom Hearts).png | 1789447846277.5344
 lands/Command Beacon (Kingdom Hearts).png | 1789448081469.03
 lands/Reliquary Tower (Kingdom Hearts).png | 1789448647565.252
 artifacts/Sol Ring (Kingdom Hearts).png | 1789449537379.6992
+artifacts/Arcane Signet (Kingdom Hearts).png | 1789451095242.538

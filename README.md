@@ -18,7 +18,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 4. Open Cockatrice and confirm the custom set is working by navigating to "Browse Card Database" and typing in `set:CLM`.
 5. You're all set! If you want to automatically convert your decks to use all alternate card artworks from a given series, try out the [CLM Deck Converter](https://darkserpent.github.io/LechugaPod/site/) site!
 
-Collection currently at <img src="https://img.shields.io/badge/291-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/292-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -30,14 +30,14 @@ Collection currently at <img src="https://img.shields.io/badge/291-88E788?style=
 | **Azur Lane** | 16 | 5.5% |
 | **Blue Archive** | 21 | 7.2% |
 | **F·R·I·E·N·D·S** | 1 | 0.3% |
-| **Fate Grand Order** | 77 | 26.5% |
-| **Honkai: Star Rail** | 29 | 10.0% |
-| **Kingdom Hearts** | 13 | 4.5% |
+| **Fate Grand Order** | 77 | 26.4% |
+| **Honkai: Star Rail** | 29 | 9.9% |
+| **Kingdom Hearts** | 14 | 4.8% |
 | **My Adventures with Superman** | 2 | 0.7% |
 | **Re:Zero** | 37 | 12.7% |
 | **Shadowverse: Worlds Beyond** | 12 | 4.1% |
 | **Shakugan no Shana** | 1 | 0.3% |
-| **Touhou Project** | 48 | 16.5% |
+| **Touhou Project** | 48 | 16.4% |
 | **Zenless Zone Zero** | 17 | 5.8% |
 
 ## Creature Cards
@@ -211,8 +211,9 @@ Collection currently at <img src="https://img.shields.io/badge/291-88E788?style=
 * Lightning Greaves = [Shattered Star Bait](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Lightning%20Greaves%20(Honkai%20Star%20Rail).png) (Honkai: Star Rail)
 * Thran Dynamo = [Ancient Engine](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Thran%20Dynamo%20(Honkai).png) (Honkai: Star Rail)
 * Chromatic Lantern = [Immortal Lumintwig](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Chromatic%20Lantern%20(Honkai).png) (Honkai: Star Rail)
-### Kingdom Hearts `1`
+### Kingdom Hearts `2`
 * Sol Ring = [Kingdom Key](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(Kingdom%20Hearts).png) (Kingdom Hearts)
+* Arcane Signet = [Wayfinder](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Arcane%20Signet%20(Kingdom%20Hearts).png) (Kingdom Hearts)
 ### Re:Zero `13`
 * Sol Ring = [Cursed Mouth Ring](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Sol%20Ring%20(ReZero).png) (Re:Zero)
 * Thought Vessel = [Corridor of Memories](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Thought%20Vessel%20(ReZero).png) (Re:Zero)

@@ -302,3 +302,4 @@ Exotic Orchard_0290 = Secret Forest
 Command Beacon_0291 = Traverse Town
 Reliquary Tower_0292 = Twilight Town
 Sol Ring_0293 = Kingdom Key
+Arcane Signet_0294 = Wayfinder

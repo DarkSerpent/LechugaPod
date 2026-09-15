@@ -1,4 +1,5 @@
 ## 9/15/2026
+* 12:44:55.242 AM CDT - Arcane Signet / Arcane Signet (Kingdom Hearts) / Wayfinder
 * 12:18:57.379 AM CDT - Sol Ring / Sol Ring (Kingdom Hearts) / Kingdom Key
 * 12:04:07.565 AM CDT - Reliquary Tower / Reliquary Tower (Kingdom Hearts) / Twilight Town
 
