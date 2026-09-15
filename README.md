@@ -18,7 +18,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 4. Open Cockatrice and confirm the custom set is working by navigating to "Browse Card Database" and typing in `set:CLM`.
 5. You're all set! If you want to automatically convert your decks to use all alternate card artworks from a given series, try out the [CLM Deck Converter](https://darkserpent.github.io/LechugaPod/site/) site!
 
-Collection currently at <img src="https://img.shields.io/badge/277-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/278-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -29,10 +29,11 @@ Collection currently at <img src="https://img.shields.io/badge/277-88E788?style=
 | **Arknights** | 17 | 6.1% |
 | **Azur Lane** | 16 | 5.8% |
 | **Blue Archive** | 21 | 7.6% |
-| **Fate Grand Order** | 77 | 27.8% |
-| **Honkai: Star Rail** | 29 | 10.5% |
+| **F·R·I·E·N·D·S** | 1 | 0.4% |
+| **Fate Grand Order** | 77 | 27.7% |
+| **Honkai: Star Rail** | 29 | 10.4% |
 | **My Adventures with Superman** | 2 | 0.7% |
-| **Re:Zero** | 37 | 13.4% |
+| **Re:Zero** | 37 | 13.3% |
 | **Shadowverse: Worlds Beyond** | 12 | 4.3% |
 | **Shakugan no Shana** | 1 | 0.4% |
 | **Touhou Project** | 48 | 17.3% |
@@ -59,6 +60,8 @@ Collection currently at <img src="https://img.shields.io/badge/277-88E788?style=
 * The Capitoline Triad[^1] = [Malkuth, the Tenth Prophet](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Malkuth%2C%20the%20Tenth%20Prophet.png) (Blue Archive)
 * Shay Cormac[^1] = [Hina, Prefect Team Chairman](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Hina%2C%20Prefect%20Team%20Chairman.png) (Blue Archive)
 * Yuriko, the Tiger's Shadow[^1] = [Michiru, Ninjutsu Researcher](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Michiru%2C%20Ninjutsu%20Researcher.png) (Blue Archive)
+### F·R·I·E·N·D·S `1`
+* Chandler[^1] = [Chandler Bing](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Chandler%20(Friends).png) (F·R·I·E·N·D·S)
 ### Fate Grand Order `45`
 * Kilo, Apogee Mind[^1] = [Kashin Koji, Fuuma Sorcerer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kashin%20Koji%2C%20Fuuma%20Sorcerer.png) (Fate Grand Order)
 * Krark, the Thumbless[^1] = [Fujimaru Ritsuka, Stargazer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujimaru%20Ritsuka%2C%20Stargazer.png) (Fate Grand Order)

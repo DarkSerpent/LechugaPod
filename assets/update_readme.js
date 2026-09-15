@@ -15,6 +15,7 @@ const SERIES_NAMES = {
     AzurLane: 'Azur Lane',
     BlueArchive: 'Blue Archive',
     Fate: 'Fate Grand Order',
+    Friends: 'F·R·I·E·N·D·S',
     MAWS: 'My Adventures with Superman',
     ReZero: 'Re:Zero',
     Shakugan: 'Shakugan no Shana',

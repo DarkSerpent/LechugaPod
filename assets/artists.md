@@ -11,6 +11,7 @@
 * cards/Barghest, Gawain the Loving.png | [Nakaga Eri](https://www.pixiv.net/users/15830750)
 * cards/Blightsteel Colossus (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * cards/Caesar, Calydon Warlord.png | [Elmo](https://www.pixiv.net/en/users/62483113)
+* cards/Chandler (Friends).png | [Andreo Magno](https://www.artstation.com/andreomagno)
 * cards/Charles Babbage, King of Steam.png | [I-IV](https://www.pixiv.net/en/users/36619)
 * cards/Chen Qianyu, Prodigy of Tanjian.png | [xiaoraini](https://www.pixiv.net/en/users/53117627)
 * cards/Cirno, Fairy of the Ice.png | [S1zl](https://www.pixiv.net/en/users/76625350)

@@ -9,10 +9,67 @@ const SERIES = {
   Shakugan: 'Shakugan no Shana',
   Shadowverse: 'Shadowverse: Worlds Beyond',
   Touhou: 'Touhou Project',
-  ZZZ: 'Zenless Zone Zero'
+  ZZZ: 'Zenless Zone Zero',
+  OldSchool: 'Old School'
 };
 
-const state = { file: null, text: '', proxyXml: null, savedXml: null };
+const OLDSCHOOL_SETS = [
+  { codes: ['AN', 'ARN'], blackBorder: true },
+  { codes: ['AQ', 'ATQ'], blackBorder: true },
+  { codes: ['LE', 'LEG'], blackBorder: true },
+  { codes: ['LEB'], blackBorder: true },
+  { codes: ['DK', 'DRK'], blackBorder: true },
+  { codes: ['FE', 'FEM'], blackBorder: true },
+  { codes: ['4E', '4ED'], blackBorder: false },
+  { codes: ['IA', 'ICE'], blackBorder: true },
+  { codes: ['CH', 'CHR'], blackBorder: false },
+  { codes: ['REN'], blackBorder: false },
+  { codes: ['HM', 'HML'], blackBorder: true },
+  { codes: ['AL', 'ALL'], blackBorder: true },
+  { codes: ['MI', 'MIR'], blackBorder: true },
+  { codes: ['VI', 'VIS'], blackBorder: true },
+  { codes: ['5E', '5ED'], blackBorder: false },
+  { codes: ['PO', 'POR'], blackBorder: true },
+  { codes: ['WL', 'WTH'], blackBorder: true },
+  { codes: ['TE', 'TMP'], blackBorder: true },
+  { codes: ['ST', 'STH'], blackBorder: true },
+  { codes: ['EX', 'EXO'], blackBorder: true },
+  { codes: ['P2', 'P02'], blackBorder: true },
+  { codes: ['UG', 'UGL'], blackBorder: true },
+  { codes: ['UZ', 'USG'], blackBorder: true },
+  { codes: ['ATH'], blackBorder: false },
+  { codes: ['UL', 'ULG'], blackBorder: true },
+  { codes: ['6E', '6ED'], blackBorder: false },
+  { codes: ['PK', 'PTK'], blackBorder: true },
+  { codes: ['UD', 'UDS'], blackBorder: true },
+  { codes: ['P3', 'S99'], blackBorder: false },
+  { codes: ['MM', 'MMQ'], blackBorder: true },
+  { codes: ['BRC'], blackBorder: true },
+  { codes: ['BR', 'BRB'], blackBorder: false },
+  { codes: ['BRR'], blackBorder: true },
+  { codes: ['NE', 'NEM'], blackBorder: true },
+  { codes: ['S00'], blackBorder: false },
+  { codes: ['PR', 'PCY'], blackBorder: true },
+  { codes: ['IN', 'INV'], blackBorder: true },
+  { codes: ['BTD'], blackBorder: false },
+  { codes: ['PS', 'PLS'], blackBorder: true },
+  { codes: ['JUD'], blackBorder: true },
+  { codes: ['7E', '7ED'], blackBorder: false },
+  { codes: ['AP', 'APC'], blackBorder: true },
+  { codes: ['OD', 'ODY'], blackBorder: true },
+  { codes: ['TSR'], blackBorder: true },
+  { codes: ['P23'], blackBorder: true }
+];
+
+const OLDSCHOOL_FALLBACKS = [
+  { code: 'AFR', blackBorder: true },
+  { code: '5DN', blackBorder: true },
+  { code: 'M12', blackBorder: true }
+];
+
+const BASIC_LAND_NAMES = new Set(['plains', 'island', 'swamp', 'mountain', 'forest', 'wastes']);
+
+const state = { file: null, text: '', proxyXml: null, oldSchoolCards: null };
 const dropZone = document.querySelector('#dropZone');
 const fileInput = document.querySelector('#fileInput');
 const uploadButton = document.querySelector('#uploadButton');
@@ -59,11 +116,63 @@ function findProxy(name, flavor) {
   return candidates.flatMap(card => [...card.querySelectorAll('set')].map(set => ({ card, set }))).find(item => attribute(item.set, 'flavorName') === flavor) || null;
 }
 
-function latestPrinting(name) {
-  const card = allCards(state.savedXml).find(item => cardName(item).toLowerCase() === name.toLowerCase());
-  if (!card) return null;
-  const sets = [...card.querySelectorAll('set')];
-  return sets.length ? sets[sets.length - 1] : null;
+async function loadOldSchoolCards(names) {
+  if (state.oldSchoolCards) return state.oldSchoolCards;
+  const allSets = [
+    ...OLDSCHOOL_SETS,
+    ...OLDSCHOOL_FALLBACKS.map(code => ({ codes: [code.code], blackBorder: code.blackBorder, fallback: true })),
+    { codes: ['PRM'], blackBorder: true }
+  ];
+  const setData = new Map();
+  await Promise.all(allSets.map(async set => {
+    const code = set.codes[set.codes.length - 1];
+    const response = await fetch(`https://mtgjson.com/api/v5/${code}.json`);
+    if (!response.ok) {
+      if (set.optional) return;
+      throw new Error(`Could not load Old School set ${code}.`);
+    }
+    setData.set(code, (await response.json()).data);
+  }));
+
+  const cards = new Map();
+  const findCard = (code, name, predicate = () => true) =>
+    (setData.get(code)?.cards || []).find(card => card.name.toLowerCase() === name && predicate(card));
+  const choose = (name, candidates) => candidates.map(code => findCard(code, name)).find(Boolean);
+
+  for (const name of names) {
+    if (name === 'prismatic vista') {
+      const card = findCard('PRM', name, item =>
+        item.number === '91399' && item.identifiers?.scryfallId === 'bac5d6f2-e7f9-4d94-b4e7-b480c7e04460'
+      );
+      if (card) {
+        cards.set(name, { card });
+        continue;
+      }
+    }
+
+    if (BASIC_LAND_NAMES.has(name)) {
+      const card = choose(name, name === 'wastes' ? ['TSR'] : ['POR', 'TMP', 'MIR']);
+      if (card) {
+        cards.set(name, { card });
+        continue;
+      }
+    }
+
+    const mainCandidates = OLDSCHOOL_SETS.flatMap(set => set.codes.map(code => ({
+      code,
+      blackBorder: set.blackBorder,
+      card: findCard(code, name)
+    }))).filter(item => item.card && (!item.blackBorder || item.card.borderColor === 'black'));
+    const main = mainCandidates.find(item => item.blackBorder) || mainCandidates[0];
+    const fallback = OLDSCHOOL_FALLBACKS
+      .map(set => findCard(set.code, name, card => !set.blackBorder || card.borderColor === 'black'))
+      .find(Boolean);
+    const selected = main?.card || fallback;
+    if (selected) cards.set(name, { card: selected });
+  }
+
+  state.oldSchoolCards = cards;
+  return cards;
 }
 
 function isClm(card) {
@@ -84,6 +193,14 @@ function applyFallback(deckCard, printing) {
   else deckCard.removeAttribute('collectorNumber');
 }
 
+function applyOldSchool(deckCard, printing) {
+  deckCard.setAttribute('setShortName', printing.card.setCode);
+  deckCard.setAttribute('collectorNumber', printing.card.number);
+  const uuid = printing.card.identifiers?.scryfallId;
+  if (uuid) deckCard.setAttribute('uuid', uuid);
+  else deckCard.removeAttribute('uuid');
+}
+
 function cardQuantity(deckCard) {
   const quantity = Number.parseInt(deckCard.getAttribute('number') || '1', 10);
   return Number.isFinite(quantity) && quantity > 0 ? quantity : 1;
@@ -99,7 +216,7 @@ function download(text, name) {
   URL.revokeObjectURL(url);
 }
 
-function convert() {
+async function convert() {
   try {
     const deck = parseXml(state.text);
     const flavor = seriesSelect.value;
@@ -108,24 +225,25 @@ function convert() {
     let fallbacks = 0;
     let untouched = 0;
     const notes = [];
+    const names = new Set(deckCards.map(card => cardName(card).toLowerCase()));
+    const oldSchoolCards = flavor === 'OldSchool' ? await loadOldSchoolCards(names) : null;
 
     for (const deckCard of deckCards) {
       const name = cardName(deckCard);
       const quantity = cardQuantity(deckCard);
+      if (flavor === 'OldSchool') {
+        const printing = oldSchoolCards.get(name.toLowerCase());
+        if (printing) {
+          applyOldSchool(deckCard, printing);
+          proxies += quantity;
+          continue;
+        }
+      }
       const proxy = findProxy(name, flavor);
       if (proxy) {
         applyProxy(deckCard, proxy.set);
         proxies += quantity;
         continue;
-      }
-      if (isClm(deckCard)) {
-        const fallback = latestPrinting(name);
-        if (fallback) {
-          applyFallback(deckCard, fallback);
-          fallbacks += quantity;
-          notes.push(`${name}: no ${SERIES[flavor]} proxy, restored latest printing`);
-          continue;
-        }
       }
       untouched += quantity;
     }
@@ -133,6 +251,7 @@ function convert() {
     const output = new XMLSerializer().serializeToString(deck);
     download(output, state.file.name);
     document.querySelector('#proxyCount').textContent = proxies;
+    document.querySelector('#proxyLabel').textContent = flavor === 'OldSchool' ? 'old school printings' : 'proxies updated';
     document.querySelector('#fallbackCount').textContent = fallbacks;
     document.querySelector('#untouchedCount').textContent = untouched;
     document.querySelector('#summaryTitle').textContent = `✅ Your ${SERIES[flavor]} deck is ready!`;
@@ -152,9 +271,9 @@ async function acceptFile(file) {
   try {
     state.file = file;
     state.text = await file.text();
+    state.oldSchoolCards = null;
     parseXml(state.text);
     if (!state.proxyXml) state.proxyXml = await loadReference('../lechugapod.xml');
-    if (!state.savedXml) state.savedXml = await loadReference('https://raw.githubusercontent.com/Cockatrice/Cockatrice/refs/heads/master/tests/carddatabase/data/cards.xml');
     fileTitle.textContent = file.name;
     fileHint.textContent = 'Ready to Convert!';
     convertButton.disabled = false;

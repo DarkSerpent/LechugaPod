@@ -5367,6 +5367,33 @@ Other permanents you control have indestructible.</text>
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Chandler</name>
+            <text>{R}{R}{R}, {T}: Destroy target artifact creature.</text>
+            <prop>
+                <format-premodern>legal</format-premodern>
+                <format-predh>legal</format-predh>
+                <format-paupercommander>legal</format-paupercommander>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-pauper>legal</format-pauper>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>R</coloridentity>
+                <cmc>5</cmc>
+                <manacost>4R</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Human Rogue</type>
+                <pt>3/3</pt>
+                <format-commander>legal</format-commander>
+                <colors>R</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000280" flavorName="Friends" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Chandler%20(Friends).png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

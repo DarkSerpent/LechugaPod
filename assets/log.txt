@@ -286,3 +286,4 @@ cards/Alsace, the Guardian Blade.png | 1789270164487.8318
 cards/Fargo, Reliable Drone Transport.png | 1789270624249.4607
 cards/Sao Martinho, Untarnishable.png | 1789272757282.0132
 cards/Laffey II, Bunbun Scout.png | 1789361835707.3467
+cards/Chandler (Friends).png | 1789431961648.6697
