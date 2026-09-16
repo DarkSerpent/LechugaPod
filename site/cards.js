@@ -16,6 +16,9 @@ const CATEGORIES = [
   { key: 'cards', label: 'Creatures' },
   { key: 'planeswalkers', label: 'Planeswalkers' },
   { key: 'artifacts', label: 'Artifacts' },
+  { key: 'enchantments', label: 'Enchantments' },
+  { key: 'instants', label: 'Instants' },
+  { key: 'sorceries', label: 'Sorceries' },
   { key: 'lands', label: 'Lands' },
   { key: 'tokens', label: 'Tokens' }
 ];
@@ -89,7 +92,7 @@ function artistMap(text) {
 }
 
 function cardCategory(url) {
-  const match = url.match(/\/assets\/(cards|planeswalkers|artifacts|lands|tokens)\//i);
+  const match = url.match(/\/assets\/(cards|planeswalkers|artifacts|enchantments|instants|sorceries|lands|tokens)\//i);
   return match ? match[1].toLowerCase() : null;
 }
 
@@ -153,7 +156,12 @@ function parseCards(xmlText, tracking, releases, artists) {
 }
 
 function renderTabs() {
-  categoryTabs.innerHTML = CATEGORIES.map(category => {
+  const availableCategories = CATEGORIES.filter(category => state.cards.some(card => card.category === category.key));
+  if (!availableCategories.some(category => category.key === state.category)) {
+    state.category = availableCategories[0]?.key || 'cards';
+    updateUrl();
+  }
+  categoryTabs.innerHTML = availableCategories.map(category => {
     const selected = category.key === state.category;
     return `<button class="filter-tab${selected ? ' is-active' : ''}" type="button" role="tab" aria-selected="${selected}" data-category="${category.key}">${category.label}</button>`;
   }).join('');
