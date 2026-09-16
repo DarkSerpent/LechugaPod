@@ -7,6 +7,7 @@ arrow = https://www.pixiv.net/en/users/23682897
 ATdan = https://www.artstation.com/atdan
 BBBOX = https://www.pixiv.net/en/users/1200836
 BLACK = https://typemoon.fandom.com/wiki/BLACK
+C_QDe = https://www.pixiv.net/en/users/127574431
 CHOCO = https://x.com/choco_mugi
 Circa = https://www.pixiv.net/en/users/243039
 Cygames = https://en.wikipedia.org/wiki/Cygames

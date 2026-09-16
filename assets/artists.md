@@ -50,6 +50,7 @@
 * cards/Lin the Violet.png | [kitutuki20](https://www.pixiv.net/en/users/1808950)
 * cards/Malkuth, the Tenth Prophet.png | [paGzWcszSw73714](https://www.pixiv.net/en/users/113909352)
 * cards/Marisa Kirisame, Western Magician.png | [JILL](https://www.pixiv.net/en/users/54259522)
+* cards/Marluxia, Graceful Assassin.png | [C_QDe](https://www.pixiv.net/en/users/127574431)
 * cards/Mash Kyrielight, Ritsuka’s Servant.png | [Takashi Takeuchi](https://www.zerochan.net/Takeuchi+Takashi)
 * cards/Melusine, Hand of Albion.png | [lack](https://www.pixiv.net/en/users/83739)
 * cards/Michiru, Ninjutsu Researcher.png | [hotarihotaru](https://www.pixiv.net/en/users/35206539)

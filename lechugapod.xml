@@ -5594,6 +5594,30 @@ Whenever the Ring tempts you, you may discard your hand. If you do, draw four ca
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Ixhel, Scion of Atraxa</name>
+            <text>Flying, vigilance, toxic 2
+Corrupted — At the beginning of your end step, each opponent who has three or more poison counters exiles the top card of their library face down. You may look at and play those cards for as long as they remain exiled, and you may spend mana as though it were mana of any color to cast those spells.</text>
+            <prop>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>WBG</coloridentity>
+                <cmc>4</cmc>
+                <manacost>1WBG</manacost>
+                <format-duel>legal</format-duel>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Phyrexian Angel</type>
+                <pt>2/5</pt>
+                <format-commander>legal</format-commander>
+                <colors>WBG</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000297" flavorName="KingdomHearts" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Marluxia%2C%20Graceful%20Assassin.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>
