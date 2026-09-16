@@ -320,6 +320,9 @@ function saveArtistsLog(map) {
     'cards',
     'planeswalkers',
     'artifacts',
+    'enchantments',
+    'instants',
+    'sorceries',
     'lands',
     'tokens'
   ].filter((folder) => folderNames.includes(folder));

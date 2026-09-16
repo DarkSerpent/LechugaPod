@@ -185,6 +185,10 @@
 * artifacts/Arcane Signet (ZZZ).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
 * artifacts/Sol Ring (ZZZ).png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
 
+## Sorceries
+### Fate
+* sorceries/Primal Surge (Fate).png | [yume32ki](https://www.pixiv.net/en/users/217889)
+
 ## Lands
 ### Arknights
 * lands/Command Beacon (Arknights).png | [Hypergryph](https://zh.wikipedia.org/zh-cn/%E9%B9%B0%E8%A7%92%E7%BD%91%E7%BB%9C)

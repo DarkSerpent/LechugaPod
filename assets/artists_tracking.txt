@@ -119,6 +119,7 @@ yasu = https://www.pixiv.net/users/18643150
 Yonemuro = https://www.pixiv.net/en/users/10199606
 Yoneyama Mai = https://www.pixiv.net/en/users/1554775
 yu ya = https://www.pixiv.net/en/users/969526
+yume32ki = https://www.pixiv.net/en/users/217889
 Yuzusoft = https://x.com/yuzusoft
 Zap = https://www.pixiv.net/en/users/231653
 zcing = https://www.pixiv.net/en/users/18547342

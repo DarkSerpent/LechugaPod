@@ -10,7 +10,7 @@ const README_PATH = path.join(ROOT_DIR, 'README.md');
 const TRACKING_PATH = path.join(ASSETS_DIR, 'name_tracking.txt');
 const PATCHNOTES_PATH = path.join(ASSETS_DIR, 'patchnotes.md');
 const TIME_ZONE = 'America/Chicago';
-const IMAGE_DIRECTORIES = new Set(['cards', 'artifacts', 'lands', 'planeswalkers', 'tokens']);
+const IMAGE_DIRECTORIES = new Set(['cards', 'artifacts', 'enchantments', 'instants', 'sorceries', 'lands', 'planeswalkers', 'tokens']);
 const IGNORED_DIRECTORIES = new Set(['setsymbols', 'customs']);
 let tokenTrackingKeys = null;
 

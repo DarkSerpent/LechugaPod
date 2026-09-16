@@ -33,6 +33,7 @@ const CATEGORY_NAMES = {
     Battle: 'Battle Cards',
     Enchantment: 'Enchantment Cards',
     Instant: 'Instant Cards',
+    Sorcery: 'Sorcery Cards',
     Land: 'Lands',
     Token: 'Tokens'
 };

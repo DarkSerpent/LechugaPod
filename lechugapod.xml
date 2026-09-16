@@ -5648,6 +5648,30 @@ Corrupted — At the beginning of your end step, each opponent who has three or 
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Primal Surge</name>
+            <text>Exile the top card of your library. If it's a permanent card, you may put it onto the battlefield. If you do, repeat this process.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>banned</format-oathbreaker>
+                <coloridentity>G</coloridentity>
+                <cmc>10</cmc>
+                <manacost>8GG</manacost>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Sorcery</maintype>
+                <layout>normal</layout>
+                <type>Sorcery</type>
+                <format-commander>legal</format-commander>
+                <colors>G</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000299" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/sorceries/Primal%20Surge%20(Fate).png">CLM</set>
+            <tablerow>3</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

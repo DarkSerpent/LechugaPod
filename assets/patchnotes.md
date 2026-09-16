@@ -1,4 +1,5 @@
 ## 9/16/2026
+* 6:45:03.745 PM CDT - Primal Surge / Primal Surge (Fate) / The Blank Scripture
 * 7:59:49.724 AM CDT - Codie, Vociferous Codex / Francesca & Francois Prelati / Francesca & Francois Prelati
 
 ## 9/15/2026
