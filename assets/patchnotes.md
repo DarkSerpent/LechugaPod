@@ -1,3 +1,6 @@
+## 9/16/2026
+* 7:59:49.724 AM CDT - Codie, Vociferous Codex / Francesca & Francois Prelati / Francesca & Francois Prelati
+
 ## 9/15/2026
 * 11:30:16.157 PM CDT - Ixhel, Scion of Atraxa / Marluxia, Graceful Assassin / Marluxia, Graceful Assassin
 * 10:26:34.398 PM CDT - Sauron, the Dark Lord / The Demon Tower / The Demon Tower

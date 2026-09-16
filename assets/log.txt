@@ -306,3 +306,4 @@ artifacts/Arcane Signet (Kingdom Hearts).png | 1789451095242.538
 cards/Adventure, Paranoid Prepper.png | 1789526694424.5034
 cards/The Demon Tower.png | 1789529194398.1387
 cards/Marluxia, Graceful Assassin.png | 1789533417050.723
+cards/Francesca & Francois Prelati.png | 1789563589724.3074

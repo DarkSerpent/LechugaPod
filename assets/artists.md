@@ -23,6 +23,7 @@
 * cards/Emilia, Spirit Arts Practitioner.png | [Shinichirou Otsuka](https://twitter.com/otsuka_shin)
 * cards/Fargo, Reliable Drone Transport.png | [Shanghai Manjuu Network Technology](https://ja.wikipedia.org/wiki/Manjuu)
 * cards/Fran, the Evil Boss’s Daughter.png | [Okazaki Takeshi](https://www.pixiv.net/en/users/821471)
+* cards/Francesca & Francois Prelati.png | [amanogawa](https://www.pixiv.net/en/users/56716987)
 * cards/Fujimaru Ritsuka, Humanity’s Last.png | [na222222](https://www.pixiv.net/en/users/3368740)
 * cards/Fujimaru Ritsuka, Stargazer.png | [na222222](https://www.pixiv.net/en/users/3368740)
 * cards/Fujiwara no Mokou, the Immortal.png | [mutugi](https://www.pixiv.net/en/users/3839458)

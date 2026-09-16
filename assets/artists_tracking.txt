@@ -1,5 +1,6 @@
 77gl = https://www.pixiv.net/en/users/480448
 amaneko = https://www.pixiv.net/en/users/21000719
+amanogawa = https://www.pixiv.net/en/users/56716987
 Andoff = https://www.pixiv.net/en/users/50559593
 Andreo Magno = https://www.artstation.com/andreomagno
 Aoha = https://www.pixiv.net/en/users/66609
