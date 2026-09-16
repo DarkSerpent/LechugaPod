@@ -1,4 +1,5 @@
 ## Creature Cards
+* cards/Adventure, Paranoid Prepper.png | [Shanghai Manjuu Network Technology](https://ja.wikipedia.org/wiki/Manjuu)
 * cards/Alsace, the Guardian Blade.png | [Shanghai Manjuu Network Technology](https://ja.wikipedia.org/wiki/Manjuu)
 * cards/Angels of Delusion.png | [amaneko](https://www.pixiv.net/en/users/21000719)
 * cards/Anton, Gearheart Brawler.png | [miyako](https://www.pixiv.net/en/users/735123)
@@ -93,6 +94,7 @@
 * cards/Suwako, Though the Wind Cries.png | [Duca](https://www.pixiv.net/en/users/103606)
 * cards/Templar Knight (Fate).png | [TYPE-MOON](https://en.wikipedia.org/wiki/Type-Moon)
 * cards/The Black Grail.png | [Nakahara](https://www.pixiv.net/en/users/208060)
+* cards/The Demon Tower.png | [SQUARE ENIX](https://en.wikipedia.org/wiki/Square_Enix)
 * cards/The Herta, Peerless Gem.png | [miHoYo](https://en.wikipedia.org/wiki/MiHoYo)
 * cards/The Old Man of the Mountain.png | [MIKIMILK](https://www.pixiv.net/en/users/3019748)
 * cards/Thomas Edison, King of Inventors.png | [Pako](https://x.com/pakosun)

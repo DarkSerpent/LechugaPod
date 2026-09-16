@@ -303,3 +303,5 @@ Command Beacon_0291 = Traverse Town
 Reliquary Tower_0292 = Twilight Town
 Sol Ring_0293 = Kingdom Key
 Arcane Signet_0294 = Wayfinder
+Hope Estheim_0295 = Adventure, Paranoid Prepper
+Sauron, the Dark Lord_0296 = The Demon Tower
