@@ -4,6 +4,7 @@
 * cards/Angels of Delusion.png | [amaneko](https://www.pixiv.net/en/users/21000719)
 * cards/Anton, Gearheart Brawler.png | [miyako](https://www.pixiv.net/en/users/735123)
 * cards/Antonio Salieri, Man in Grey.png | [lack](https://www.pixiv.net/en/users/83739)
+* cards/Aqua, Dancing Waters.png | [detteiu de](https://www.pixiv.net/en/users/2534956)
 * cards/Artoria Pendragon.png | [BBBOX](https://www.pixiv.net/en/users/1200836)
 * cards/Asta, Lead Astronomer.png | [Andoff](https://www.pixiv.net/en/users/50559593)
 * cards/Avicebron, Golem Master.png | [KSUWABE](https://www.pixiv.net/en/users/24517)

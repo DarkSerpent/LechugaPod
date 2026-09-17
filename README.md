@@ -18,7 +18,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 4. Open Cockatrice and confirm the custom set is working by navigating to "Browse Card Database" and typing in `set:CLM`.
 5. You're all set! If you want to automatically convert your decks to use all alternate card artworks from a given series, try out the [CLM Deck Converter](https://darkserpent.github.io/LechugaPod/site/) site!
 
-Collection currently at <img src="https://img.shields.io/badge/298-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/299-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -32,7 +32,7 @@ Collection currently at <img src="https://img.shields.io/badge/298-88E788?style=
 | **F·R·I·E·N·D·S** | 1 | 0.3% |
 | **Fate Grand Order** | 80 | 26.8% |
 | **Honkai: Star Rail** | 29 | 9.7% |
-| **Kingdom Hearts** | 16 | 5.4% |
+| **Kingdom Hearts** | 17 | 5.7% |
 | **My Adventures with Superman** | 2 | 0.7% |
 | **Re:Zero** | 37 | 12.4% |
 | **Shadowverse: Worlds Beyond** | 12 | 4.0% |
@@ -117,10 +117,11 @@ Collection currently at <img src="https://img.shields.io/badge/298-88E788?style=
 * The Master, Multiplied[^1] = [Sparxie & Sparkle, Masked Fools](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Sparxie%20%26%20Sparkle%2C%20Masked%20Fools.png) (Honkai: Star Rail)
 * The Most Dangerous Gamer[^1] = [Silver Wolf, Genius Hacker](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Silver%20Wolf%2C%20Genius%20Hacker.png) (Honkai: Star Rail)
 * Mishra, Eminent One[^1] = [Silver Wolf, Emanator of Elation](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Silver%20Wolf%2C%20Emanator%20of%20Elation.png) (Honkai: Star Rail)
-### Kingdom Hearts `4`
+### Kingdom Hearts `5`
 * Tovolar, Dire Overlord // Tovolar, the Midnight Scourge[^1] = [Saïx, the Luna Diviner](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Saix%2C%20the%20Luna%20Diviner.png) // [Saïx, Nobody of Isa](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Saix%2C%20Nobody%20of%20Isa.png) (Kingdom Hearts)
 * Sauron, the Dark Lord[^1] = [The Demon Tower](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/The%20Demon%20Tower.png) (Kingdom Hearts)
 * Ixhel, Scion of Atraxa[^1] = [Marluxia, Graceful Assassin](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Marluxia%2C%20Graceful%20Assassin.png) (Kingdom Hearts)
+* Hylda of the Icy Crown[^1] = [Aqua, Dancing Waters](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Aqua%2C%20Dancing%20Waters.png) (Kingdom Hearts)
 ### My Adventures with Superman `2`
 * Captain Marvel, Apex Avenger[^1] = [Kara Zor-El, Supergirl](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kara%20Zor-El%2C%20Supergirl.png) (My Adventures with Superman)
 * Hyperion, Supreme Hero[^1] = [Kal-El, Superman](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kal-El%2C%20Superman.png) (My Adventures with Superman)

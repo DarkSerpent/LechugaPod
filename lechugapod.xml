@@ -3952,6 +3952,7 @@ Whenever a creature with a bounty counter on it dies, put two +1/+1 counters on 
                 <colors>WU</colors>
             </prop>
             <set rarity="rare" uuid="00000000-0000-0000-0000-000000000204" flavorName="ReZero" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Emilia%2C%20Spirit%20Arts%20Practitioner.png">CLM</set>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000301" flavorName="KingdomHearts" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Aqua%2C%20Dancing%20Waters.png">CLM</set>
             <tablerow>2</tablerow>
         </card>
 
