@@ -187,6 +187,7 @@
 
 ## Sorceries
 ### Fate
+* sorceries/Glimpse of Tomorrow (Fate).png | [Akita Ken](https://www.pixiv.net/en/users/12196573)
 * sorceries/Primal Surge (Fate).png | [yume32ki](https://www.pixiv.net/en/users/217889)
 
 ## Lands

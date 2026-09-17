@@ -5672,6 +5672,30 @@ Corrupted — At the beginning of your end step, each opponent who has three or 
             <tablerow>3</tablerow>
         </card>
 
+        <card>
+            <name>Glimpse of Tomorrow</name>
+            <text>Suspend 3—{R}{R}
+Shuffle all permanents you own into your library, then reveal that many cards from the top of your library. Put all non-Aura permanent cards revealed this way onto the battlefield, then do the same for Aura cards, then put the rest on the bottom of your library in a random order.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>R</coloridentity>
+                <cmc>0</cmc>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Sorcery</maintype>
+                <layout>normal</layout>
+                <type>Sorcery</type>
+                <format-commander>legal</format-commander>
+                <colors>R</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000300" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/sorceries/Glimpse%20of%20Tomorrow%20(Fate).png">CLM</set>
+            <tablerow>3</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

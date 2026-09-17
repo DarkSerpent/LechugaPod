@@ -308,3 +308,4 @@ Sauron, the Dark Lord_0296 = The Demon Tower
 Ixhel, Scion of Atraxa_0297 = Marluxia, Graceful Assassin
 Codie, Vociferous Codex_0298 = Francesca & Francois Prelati
 Primal Surge_0299 = The Blank Scripture
+Glimpse of Tomorrow_0300 = Letter From a Friend

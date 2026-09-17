@@ -18,7 +18,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 4. Open Cockatrice and confirm the custom set is working by navigating to "Browse Card Database" and typing in `set:CLM`.
 5. You're all set! If you want to automatically convert your decks to use all alternate card artworks from a given series, try out the [CLM Deck Converter](https://darkserpent.github.io/LechugaPod/site/) site!
 
-Collection currently at <img src="https://img.shields.io/badge/297-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/298-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -28,16 +28,16 @@ Collection currently at <img src="https://img.shields.io/badge/297-88E788?style=
 |:---|---:|---:|
 | **Arknights** | 17 | 5.7% |
 | **Azur Lane** | 17 | 5.7% |
-| **Blue Archive** | 21 | 7.1% |
+| **Blue Archive** | 21 | 7.0% |
 | **F·R·I·E·N·D·S** | 1 | 0.3% |
-| **Fate Grand Order** | 79 | 26.6% |
-| **Honkai: Star Rail** | 29 | 9.8% |
+| **Fate Grand Order** | 80 | 26.8% |
+| **Honkai: Star Rail** | 29 | 9.7% |
 | **Kingdom Hearts** | 16 | 5.4% |
 | **My Adventures with Superman** | 2 | 0.7% |
-| **Re:Zero** | 37 | 12.5% |
+| **Re:Zero** | 37 | 12.4% |
 | **Shadowverse: Worlds Beyond** | 12 | 4.0% |
 | **Shakugan no Shana** | 1 | 0.3% |
-| **Touhou Project** | 48 | 16.2% |
+| **Touhou Project** | 48 | 16.1% |
 | **Zenless Zone Zero** | 17 | 5.7% |
 
 ## Creature Cards
@@ -246,8 +246,9 @@ Collection currently at <img src="https://img.shields.io/badge/297-88E788?style=
 * Arcane Signet = [Inter-Knot Membership](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/artifacts/Arcane%20Signet%20(ZZZ).png) (Zenless Zone Zero)
 
 ## Sorcery Cards
-### Fate Grand Order `1`
+### Fate Grand Order `2`
 * Primal Surge = [The Blank Scripture](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/sorceries/Primal%20Surge%20(Fate).png) (Fate Grand Order)
+* Glimpse of Tomorrow = [Letter From a Friend](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/sorceries/Glimpse%20of%20Tomorrow%20(Fate).png) (Fate Grand Order)
 
 ## Lands
 ### Arknights `10`
