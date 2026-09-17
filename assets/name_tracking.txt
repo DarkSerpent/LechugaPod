@@ -310,3 +310,4 @@ Codie, Vociferous Codex_0298 = Francesca & Francois Prelati
 Primal Surge_0299 = The Blank Scripture
 Glimpse of Tomorrow_0300 = Letter From a Friend
 Hylda of the Icy Crown_0301 = Aqua, Dancing Waters
+Ashling, Flame Dancer_0302 = Axel, Flurry of Dancing Flames
