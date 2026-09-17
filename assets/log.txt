@@ -54,7 +54,7 @@ cards/Shun, Gentle Instructor.png | 1787650326069.875
 cards/Solitude Maximus, King of Imperium.png | 1787650326493.0847
 cards/Suwako Moriya, Mountain Goddess.png | 1787650326995.073
 cards/Suwako, Though the Wind Cries.png | 1787650327397.791
-cards/The Herta, Peerless Gem.png | 1787650327740.052
+cards/The Herta, Peerless Gem.png | 1789604594644.052
 cards/Toki, Abi-Eshuh Mode.png | 1788226108832.1462
 cards/Toki, Regular Maid.png | 1787650328358.3245
 cards/Yukari Yakumo, Boundary Master.png | 1787650328723.0896
@@ -157,7 +157,7 @@ cards/Okita, Blade of Mibu.png | 1789363378979.0576
 cards/Hieda no Akyuu, Perfect Memory.png | 1787731357348.9788
 cards/Reines Archisorte, Princess.png | 1787732521615.0566
 planeswalkers/Lady Avalon, Dreamweaver.png | 1787733996488.2874
-cards/Eiki Shiki, Supreme Judge.png | 1787736728987.9614
+cards/Eiki Shiki, Supreme Judge.png | 1789604724127.0605
 cards/Okina Matara, Secret God.png | 1787737328809.4692
 cards/Melusine, Hand of Albion.png | 1787787921858.93
 cards/Tiamat, Mother of Genesis.png | 1789188037683.9346
@@ -224,7 +224,7 @@ artifacts/Arcane Signet (ZZZ).png | 1788314262810.8098
 planeswalkers/Grace, Engineering Savant.png | 1788318562433.0762
 cards/Caesar, Calydon Warlord.png | 1788319022653.184
 cards/Anton, Gearheart Brawler.png | 1789260848196.8132
-cards/Miyabi, Void Hunter.png | 1788321595232.7668
+cards/Miyabi, Void Hunter.png | 1789604193314.5198
 cards/Jane Doe, the Dark Thorn.png | 1788323397471.4868
 cards/Tutankhamun, Excessive Heart.png | 1789363332325.1604
 cards/Nitocris, Netherworld Mirror.png | 1788394689211.7217
