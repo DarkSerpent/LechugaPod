@@ -231,7 +231,7 @@ cards/Nitocris, Netherworld Mirror.png | 1788394689211.7217
 cards/Ozymandias, King of Kings.png | 1788395169360.3684
 cards/Nitocris Alter, Judgement.png | 1788395720478.2437
 cards/Royal Travelling Incognito.png | 1788396713095.42
-cards/Nareko, Confined Dousojin.png | 1788397562277.8125
+cards/Nareko, Confined Dousojin.png | 1789708041696.709
 artifacts/New Jersey, the Black Dragon.png | 1789260761732.3152
 cards/Sparxie & Sparkle, Masked Fools.png | 1788403047057.5178
 artifacts/Thran Dynamo (Honkai).png | 1788404573088.5132
