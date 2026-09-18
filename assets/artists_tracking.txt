@@ -99,6 +99,7 @@ shima = https://www.pixiv.net/en/users/1259854
 shimachan 121 = https://www.pixiv.net/en/users/22741027
 Shinichirou Otsuka = https://twitter.com/otsuka_shin
 shuiyaoximushi = https://x.com/zebai7339
+SioN = https://www.pixiv.net/en/users/1706592
 Spark621 = https://www.pixiv.net/en/users/2488754/illustrations
 SQUARE ENIX = https://en.wikipedia.org/wiki/Square_Enix
 Taito = https://en.wikipedia.org/wiki/Taito

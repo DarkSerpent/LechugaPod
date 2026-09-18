@@ -5727,6 +5727,38 @@ Magecraft — Whenever you cast or copy an instant or sorcery spell, discard a c
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Ruric Thar, the Unbowed</name>
+            <text>Reach, vigilance
+Ruric Thar attacks each combat if able.
+Whenever a player casts a noncreature spell, Ruric Thar deals 6 damage to that player.</text>
+            <prop>
+                <format-modern>legal</format-modern>
+                <format-historic>legal</format-historic>
+                <format-timeless>legal</format-timeless>
+                <format-gladiator>legal</format-gladiator>
+                <format-vintage>legal</format-vintage>
+                <format-legacy>legal</format-legacy>
+                <format-brawl>legal</format-brawl>
+                <format-oathbreaker>legal</format-oathbreaker>
+                <coloridentity>RG</coloridentity>
+                <cmc>6</cmc>
+                <format-pioneer>legal</format-pioneer>
+                <manacost>4RG</manacost>
+                <format-duel>legal</format-duel>
+                <format-penny>legal</format-penny>
+                <side>front</side>
+                <maintype>Creature</maintype>
+                <layout>normal</layout>
+                <type>Legendary Creature — Ogre Warrior</type>
+                <pt>6/6</pt>
+                <format-commander>legal</format-commander>
+                <colors>RG</colors>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000303" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Ibaraki%20Doji%2C%20Burning%20Demon.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

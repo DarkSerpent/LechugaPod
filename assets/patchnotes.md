@@ -1,3 +1,6 @@
+## 9/17/2026
+* 11:15:25.151 PM CDT - Ruric Thar, the Unbowed / Ibaraki Doji, Burning Demon / Ibaraki Doji, Burning Demon
+
 ## 9/16/2026
 * 9:52:27.948 PM CDT - Ashling, Flame Dancer / Axel, Flurry of Dancing Flames / Axel, Flurry of Dancing Flames
 * 9:22:44.360 PM CDT - Hylda of the Icy Crown / Aqua, Dancing Waters / Aqua, Dancing Waters

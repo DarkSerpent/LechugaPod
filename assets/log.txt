@@ -311,3 +311,4 @@ sorceries/Primal Surge (Fate).png | 1789602303745.8462
 sorceries/Glimpse of Tomorrow (Fate).png | 1789607559234.6274
 cards/Aqua, Dancing Waters.png | 1789611829399.6409
 cards/Axel, Flurry of Dancing Flames.png | 1789616442830.4062
+cards/Ibaraki Doji, Burning Demon.png | 1789704925151.1443
