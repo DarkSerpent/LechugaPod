@@ -5759,6 +5759,23 @@ Whenever a player casts a noncreature spell, Ruric Thar deals 6 damage to that p
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+      <name>The Ur-Sphinx</name>
+      <text>Eminence — As long as The Ur-Sphinx is in the command zone or on the battlefield, other Sphinx spells you cast cost {1} less to cast.
+Flying
+Whenever one or more Sphinxes you control attack, each player mills that many cards. For each player, you may cast a card that player milled this way without paying its mana cost.</text>
+      <prop>
+        <colors>BUW</colors>
+        <type>Legendary Creature — Sphinx Avatar</type>
+        <maintype>Creature</maintype>
+        <cmc>9</cmc>
+        <manacost>6WUB</manacost>
+        <pt>10/10</pt>
+      </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000304" flavorName="Touhou" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Nareko%2C%20Sacred%20Guardian.png">CLM</set>
+      <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

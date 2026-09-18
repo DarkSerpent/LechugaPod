@@ -1,3 +1,6 @@
+## 9/18/2026
+* 12:04:26.883 AM CDT - The Ur-Sphinx / Nareko, Sacred Guardian / Nareko, Sacred Guardian
+
 ## 9/17/2026
 * 11:15:25.151 PM CDT - Ruric Thar, the Unbowed / Ibaraki Doji, Burning Demon / Ibaraki Doji, Burning Demon
 

@@ -63,6 +63,7 @@
 * cards/Mostima, Keeper of the Lock.png | [Umio Geso](https://www.pixiv.net/en/users/20884)
 * cards/Muelsyse, Director of Ecology.png | [Ufoliving](https://www.pixiv.net/en/users/19094005)
 * cards/Nareko, Confined Dousojin.png | [Hisona](https://www.pixiv.net/en/users/173260)
+* cards/Nareko, Sacred Guardian.png | [dtvisu](https://www.pixiv.net/en/users/6066544)
 * cards/Natsuki Subaru, Accreting Life.png | [iwa_to_mushi](https://www.pixiv.net/en/users/15144367)
 * cards/Natsuki Subaru, Starting From Zero.png | [naru](https://www.pixiv.net/en/users/21015081)
 * cards/Neco-Arc, Speed of Nyanyanya.png | [Takashi Takeuchi](https://www.zerochan.net/Takeuchi+Takashi)

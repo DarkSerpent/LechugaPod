@@ -14,6 +14,7 @@ CHOCO = https://x.com/choco_mugi
 Circa = https://www.pixiv.net/en/users/243039
 Cygames = https://en.wikipedia.org/wiki/Cygames
 detteiu de = https://www.pixiv.net/en/users/2534956
+dtvisu = https://www.pixiv.net/en/users/6066544
 Duca = https://www.pixiv.net/en/users/103606
 EDI = https://www.pixiv.net/en/users/75576278
 Elina Noodles = https://www.pixiv.net/en/users/82051602
