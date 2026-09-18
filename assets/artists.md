@@ -69,6 +69,7 @@
 * cards/Neco-Arc, Speed of Nyanyanya.png | [Takashi Takeuchi](https://www.zerochan.net/Takeuchi+Takashi)
 * cards/Nitocris Alter, Judgement.png | [oneheart](https://www.pixiv.net/en/users/39707192)
 * cards/Nitocris, Netherworld Mirror.png | [shima](https://www.pixiv.net/en/users/1259854)
+* cards/Nursery Rhyme, Dreaming Together.png | [Wada Arco](https://www.pixiv.net/en/users/611443)
 * cards/Okina Matara, Secret God.png | [Liu ycl](https://www.pixiv.net/en/users/98398171)
 * cards/Okita, Blade of Mibu.png | [nokcy](http://pixiv.net/en/users/2716677)
 * cards/Ozymandias, King of Kings.png | [Nemusuke](https://www.pixiv.net/en/users/336887)

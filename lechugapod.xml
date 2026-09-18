@@ -5792,6 +5792,21 @@ Whenever one or more Sphinxes you control attack, each player mills that many ca
       <tablerow>2</tablerow>
         </card>
 
+        <card>
+      <name>Codie, Ravenous Codex</name>
+      <text>Whenever you cast a prepared spell, copy it. You may choose new targets for the copy.
+{W}{U}{B}{R}{G}, {T}: Each creature you control becomes prepared. (Only creatures with prepare spells can become prepared.)</text>
+      <prop>
+        <type>Legendary Artifact Creature — Book Construct</type>
+        <maintype>Creature</maintype>
+        <cmc>3</cmc>
+        <manacost>3</manacost>
+        <pt>1/4</pt>
+      </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000306" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Nursery%20Rhyme%2C%20Dreaming%20Together.png">CLM</set>
+      <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

@@ -314,3 +314,4 @@ Ashling, Flame Dancer_0302 = Axel, Flurry of Dancing Flames
 Ruric Thar, the Unbowed_0303 = Ibaraki Doji, Burning Demon
 The Ur-Sphinx_0304 = Nareko, Sacred Guardian
 Tam, the Possibility_0305 = Sajyou Manaka, the Great Mother
+Codie, Ravenous Codex_0306 = Nursery Rhyme, Dreaming Together
