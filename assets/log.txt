@@ -313,3 +313,4 @@ cards/Aqua, Dancing Waters.png | 1789611829399.6409
 cards/Axel, Flurry of Dancing Flames.png | 1789616442830.4062
 cards/Ibaraki Doji, Burning Demon.png | 1789704925151.1443
 cards/Nareko, Sacred Guardian.png | 1789707866883.579
+cards/Sajyou Manaka, the Great Mother.png | 1789737157607.7637

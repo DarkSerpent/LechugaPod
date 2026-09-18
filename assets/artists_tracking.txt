@@ -40,6 +40,7 @@ isome = https://www.pixiv.net/en/users/73677402
 iwa_to_mushi = https://www.pixiv.net/en/users/15144367
 Jeze = https://www.pixiv.net/users/42042821
 JILL = https://www.pixiv.net/en/users/54259522
+K7 = https://www.pixiv.net/en/users/4264871
 Kaa = https://kaapng.artstation.com/
 KADOKAWA = https://en.wikipedia.org/wiki/Kadokawa_Corporation
 KAMONEGI = https://www.pixiv.net/en/users/13990950

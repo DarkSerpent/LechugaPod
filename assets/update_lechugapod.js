@@ -7,6 +7,7 @@ const readline = require('readline');
 const ROOT_DIR = path.resolve(__dirname, '..');
 const XML_PATH = path.join(ROOT_DIR, 'lechugapod.xml');
 const SAVED_CARDS_PATH = path.join(ROOT_DIR, 'saved', 'cards.xml');
+const SAVED_SPOILER_PATH = path.join(ROOT_DIR, 'saved', 'spoiler.xml');
 const SAVED_TOKENS_PATH = path.join(ROOT_DIR, 'saved', 'tokens.xml');
 const UUID_SUFFIX_LENGTH = 12;
 const MAX_UUID_SUFFIX = (10 ** UUID_SUFFIX_LENGTH) - 1;
@@ -124,6 +125,10 @@ function findMatches(query, blocks) {
         .sort((a, b) => b.score - a.score || a.name.localeCompare(b.name));
 }
 
+function findExactMatch(query, matches) {
+    return matches.find(match => normalize(match.name) === normalize(query));
+}
+
 function ask(rl, question) {
     return new Promise(resolve => rl.question(question, answer => resolve(answer.trim())));
 }
@@ -174,6 +179,22 @@ function seriesFromImageName(imageName) {
 
 function findExistingCard(xml, name) {
     return cardBlocks(xml).find(block => normalize(tagValue(block, 'name')) === normalize(name));
+}
+
+function findSavedCard(name) {
+    if (fs.existsSync(SAVED_CARDS_PATH)) {
+        const savedCardsXml = fs.readFileSync(SAVED_CARDS_PATH, 'utf8');
+        const savedCard = findExistingCard(savedCardsXml, name);
+        if (savedCard) return savedCard;
+    }
+
+    if (fs.existsSync(SAVED_SPOILER_PATH)) {
+        const spoilerXml = fs.readFileSync(SAVED_SPOILER_PATH, 'utf8');
+        const spoilerCard = findExistingCard(spoilerXml, name);
+        if (spoilerCard) return spoilerCard;
+    }
+
+    return null;
 }
 
 function highestUuid(xml) {
@@ -283,9 +304,24 @@ async function main() {
         if (!query) throw new Error(`A ${isToken ? 'token' : 'card'} name is required.`);
 
         const existingMatch = isToken ? null : findExistingCard(xml, query);
-        const savedMatch = existingMatch
-            ? { block: existingMatch, name: tagValue(existingMatch, 'name') }
-            : await chooseMatch(rl, query, findMatches(query, savedBlocks), isToken);
+        let savedMatch;
+        if (existingMatch) {
+            savedMatch = { block: existingMatch, name: tagValue(existingMatch, 'name') };
+        } else {
+            const savedMatches = findMatches(query, savedBlocks);
+            const exactSavedMatch = findExactMatch(query, savedMatches);
+            if (exactSavedMatch || isToken) {
+                savedMatch = await chooseMatch(rl, query, savedMatches, isToken);
+            } else {
+                const spoilerXml = fs.existsSync(SAVED_SPOILER_PATH)
+                    ? fs.readFileSync(SAVED_SPOILER_PATH, 'utf8')
+                    : '';
+                const exactSpoilerMatch = findExactMatch(query, findMatches(query, cardBlocks(spoilerXml)));
+                savedMatch = exactSpoilerMatch
+                    ? await chooseMatch(rl, query, [exactSpoilerMatch])
+                    : await chooseMatch(rl, query, savedMatches, isToken);
+            }
+        }
         const savedName = savedMatch.name;
         const detectedType = isToken ? null : cardTypeFromBlock(savedMatch.block);
         const type = isToken
@@ -342,8 +378,9 @@ async function main() {
             if (associationType.value === 'one') {
                 const relatedName = await ask(rl, 'Enter a card to reverse relate to the token: ');
                 if (!relatedName) throw new Error('A card name is required for reverse relation.');
-                const relatedBlock = findExistingCard(xml, relatedName);
-                if (!relatedBlock) throw new Error(`Could not find card "${relatedName}" in lechugapod.xml.`);
+                let relatedBlock = findExistingCard(xml, relatedName);
+                if (!relatedBlock) relatedBlock = findSavedCard(relatedName);
+                if (!relatedBlock) throw new Error(`Could not find card "${relatedName}" in lechugapod.xml, saved/cards.xml, or saved/spoilers.xml.`);
                 relatedCards.push({ block: relatedBlock, name: tagValue(relatedBlock, 'name') });
             } else if (associationType.value === 'multiple') {
                 console.log('Enter card names to reverse relate them to the token. When you are done, leave your response blank and hit ENTER:');

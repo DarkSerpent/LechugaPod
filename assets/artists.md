@@ -84,6 +84,7 @@
 * cards/Rumia, Youkai of the Dusk.png | [Spark621](https://www.pixiv.net/en/users/2488754/illustrations)
 * cards/Saix, Nobody of Isa.png | [Kaa](https://kaapng.artstation.com/)
 * cards/Saix, the Luna Diviner.png | [gogo](https://www.pixiv.net/en/users/2534956)
+* cards/Sajyou Manaka, the Great Mother.png | [K7](https://www.pixiv.net/en/users/4264871)
 * cards/Sakuya, Perfect & Elegant Maid.png | [Kyusoukyu](https://www.pixiv.net/en/users/66038798)
 * cards/Sao Martinho, Untarnishable.png | [hisin](https://www.pixiv.net/en/users/17059550)
 * cards/Satsuki, Intelligence Director.png | [liuli xiao](https://www.pixiv.net/en/users/99083817)
