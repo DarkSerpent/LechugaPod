@@ -1,4 +1,5 @@
 ## 9/18/2026
+* 8:52:47.099 PM CDT - Nissa, Leyline Tamer / Aesc the Savior / Aesc the Savior
 * 8:22:47.622 PM CDT - Denzilore Fatehold / Louhi, Witch of Pohjola / Louhi, Witch of Pohjola
 * 7:29:39.757 PM CDT - Sculpture Treasure Token / Sculpture Treasure (Fate) / Great Stone Statue
 * 7:12:09.288 PM CDT - Vraska, Soul of Stone / Ganesha, Great Statue God / Ganesha, Great Statue God

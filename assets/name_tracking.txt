@@ -318,3 +318,4 @@ Codie, Ravenous Codex_0306 = Nursery Rhyme, Dreaming Together
 Vraska, Soul of Stone_0307 = Ganesha, Great Statue God
 Sculpture Treasure Token_10X = Great Stone Statue
 Denzilore Fatehold_0308 = Louhi, Witch of Pohjola
+Nissa, Leyline Tamer_0309 = Aesc the Savior

@@ -1,4 +1,5 @@
 77gl = https://www.pixiv.net/en/users/480448
+aimii mii = https://www.pixiv.net/en/users/65732244
 Akita Ken = https://www.pixiv.net/en/users/12196573
 amaneko = https://www.pixiv.net/en/users/21000719
 amanogawa = https://www.pixiv.net/en/users/56716987

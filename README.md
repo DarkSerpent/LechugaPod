@@ -18,7 +18,7 @@ This repo contains Custom Cards for my MTG Pod. Running the BATCH file grabs the
 4. Open Cockatrice and confirm the custom set is working by navigating to "Browse Card Database" and typing in `set:CLM`.
 5. You're all set! If you want to automatically convert your decks to use all alternate card artworks from a given series, try out the [CLM Deck Converter](https://darkserpent.github.io/LechugaPod/site/) site!
 
-Collection currently at <img src="https://img.shields.io/badge/306-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
+Collection currently at <img src="https://img.shields.io/badge/307-88E788?style=for-the-badge" height="50" valign="middle"> cards. Sorted alphabetically by series, with the contents of each series sorted by release.
 
 > [!WARNING]
 > THE AUTOMATED BAT FILE ONLY WORKS WITH <ins>NON-PORTABLE</ins> INSTALLATIONS! If you have a Portable Build of Cockatrice, you'll need to navigate into `data/customsets` and manually drop the XML file in.
@@ -26,19 +26,19 @@ Collection currently at <img src="https://img.shields.io/badge/306-88E788?style=
 ### Collection By Series
 | Series | Cards | Collection |
 |:---|---:|---:|
-| **Arknights** | 17 | 5.6% |
-| **Azur Lane** | 17 | 5.6% |
-| **Blue Archive** | 21 | 6.9% |
+| **Arknights** | 17 | 5.5% |
+| **Azur Lane** | 17 | 5.5% |
+| **Blue Archive** | 21 | 6.8% |
 | **F·R·I·E·N·D·S** | 1 | 0.3% |
-| **Fate Grand Order** | 85 | 27.8% |
-| **Honkai: Star Rail** | 29 | 9.5% |
+| **Fate Grand Order** | 86 | 28.0% |
+| **Honkai: Star Rail** | 29 | 9.4% |
 | **Kingdom Hearts** | 18 | 5.9% |
 | **My Adventures with Superman** | 2 | 0.7% |
 | **Re:Zero** | 37 | 12.1% |
 | **Shadowverse: Worlds Beyond** | 12 | 3.9% |
 | **Shakugan no Shana** | 1 | 0.3% |
 | **Touhou Project** | 49 | 16.0% |
-| **Zenless Zone Zero** | 17 | 5.6% |
+| **Zenless Zone Zero** | 17 | 5.5% |
 
 ## Creature Cards
 ### Arknights `5`
@@ -64,7 +64,7 @@ Collection currently at <img src="https://img.shields.io/badge/306-88E788?style=
 * Yuriko, the Tiger's Shadow[^1] = [Michiru, Ninjutsu Researcher](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Michiru%2C%20Ninjutsu%20Researcher.png) (Blue Archive)
 ### F·R·I·E·N·D·S `1`
 * Chandler[^1] = [Chandler Bing](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Chandler%20(Friends).png) (F·R·I·E·N·D·S)
-### Fate Grand Order `51`
+### Fate Grand Order `52`
 * Kilo, Apogee Mind[^1] = [Kashin Koji, Fuuma Sorcerer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Kashin%20Koji%2C%20Fuuma%20Sorcerer.png) (Fate Grand Order)
 * Krark, the Thumbless[^1] = [Fujimaru Ritsuka, Stargazer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujimaru%20Ritsuka%2C%20Stargazer.png) (Fate Grand Order)
 * Kydele, Chosen of Kruphix[^1] = [Fujimaru Ritsuka, Humanity's Last](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Fujimaru%20Ritsuka%2C%20Humanity%E2%80%99s%20Last.png) (Fate Grand Order)
@@ -116,6 +116,7 @@ Collection currently at <img src="https://img.shields.io/badge/306-88E788?style=
 * Codie, Ravenous Codex[^1] = [Nursery Rhyme, Dreaming Together](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Nursery%20Rhyme%2C%20Dreaming%20Together.png) (Fate Grand Order)
 * Vraska, Soul of Stone[^1] = [Ganesha, Great Statue God](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Ganesha%2C%20Great%20Statue%20God.png) (Fate Grand Order)
 * Denzilore Fatehold[^1] = [Louhi, Witch of Pohjola](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Louhi%2C%20Witch%20of%20Pohjola.png) (Fate Grand Order)
+* Nissa, Leyline Tamer[^1] = [Aesc the Savior](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Aesc%20the%20Savior.png) (Fate Grand Order)
 ### Honkai: Star Rail `5`
 * Aminatou, Veil Piercer[^1] = [The Herta, Peerless Gem](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/The%20Herta%2C%20Peerless%20Gem.png) (Honkai: Star Rail)
 * Fire Lord Azula[^1] = [Asta, Lead Astronomer](https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Asta%2C%20Lead%20Astronomer.png) (Honkai: Star Rail)

@@ -5858,6 +5858,22 @@ Whenever you scry or surveil, put a +1/+1 counter on each creature you control.<
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+      <name>Nissa, Leyline Tamer</name>
+      <text>Deathtouch, vigilance
+Landfall — Whenever a land you control enters, draw a card. Then if this is the first time this ability has resolved this turn, reveal cards from the top of your library until you reveal a creature card. Put that card onto the battlefield and the rest on the bottom of your library in a random order.</text>
+      <prop>
+        <colors>BRUW</colors>
+        <type>Legendary Creature — Elf Wizard</type>
+        <maintype>Creature</maintype>
+        <cmc>7</cmc>
+        <manacost>3WUBR</manacost>
+        <pt>5/5</pt>
+      </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000309" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Aesc%20the%20Savior.png">CLM</set>
+      <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>
