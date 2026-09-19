@@ -5807,6 +5807,37 @@ Whenever one or more Sphinxes you control attack, each player mills that many ca
       <tablerow>2</tablerow>
         </card>
 
+        <card>
+      <name>Vraska, Soul of Stone</name>
+      <text>Artifact creatures you control have vigilance.
+Whenever you cast a noncreature spell, create a 1/1 colorless Sculpture Treasure artifact creature token with "{T}, Sacrifice this token: Add one mana of any color."</text>
+      <prop>
+        <colors>RUW</colors>
+        <type>Legendary Creature — Gorgon Wizard</type>
+        <maintype>Creature</maintype>
+        <cmc>3</cmc>
+        <manacost>URW</manacost>
+        <pt>3/3</pt>
+      </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000307" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Ganesha%2C%20Great%20Statue%20God.png">CLM</set>
+      <tablerow>2</tablerow>
+        </card>
+
+        <card>
+            <name>Sculpture Treasure Token</name>
+            <text>{T}, Sacrifice this token: Add one mana of any color.</text>
+            <prop>
+                <cmc>0</cmc>
+                <type>Token Artifact Creature — Sculpture Treasure</type>
+                <maintype>Creature</maintype>
+                <pt>1/1</pt>
+            </prop>
+            <token>1</token>
+            <reverse-related>Vraska, Soul of Stone</reverse-related>
+            <set rarity="rare" uuid="00000000-0000-0000-0010-XXXXXXXXXXXX" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/tokens/Sculpture%20Treasure%20(Fate).png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>

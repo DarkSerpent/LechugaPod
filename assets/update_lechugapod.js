@@ -310,8 +310,18 @@ async function main() {
         } else {
             const savedMatches = findMatches(query, savedBlocks);
             const exactSavedMatch = findExactMatch(query, savedMatches);
-            if (exactSavedMatch || isToken) {
-                savedMatch = await chooseMatch(rl, query, savedMatches, isToken);
+            if (isToken) {
+                if (exactSavedMatch) {
+                    savedMatch = exactSavedMatch;
+                } else {
+                    const spoilerXml = fs.existsSync(SAVED_SPOILER_PATH)
+                        ? fs.readFileSync(SAVED_SPOILER_PATH, 'utf8')
+                        : '';
+                    const exactSpoilerMatch = findExactMatch(query, findMatches(query, cardBlocks(spoilerXml)));
+                    savedMatch = exactSpoilerMatch || await chooseMatch(rl, query, savedMatches, true);
+                }
+            } else if (exactSavedMatch) {
+                savedMatch = await chooseMatch(rl, query, savedMatches);
             } else {
                 const spoilerXml = fs.existsSync(SAVED_SPOILER_PATH)
                     ? fs.readFileSync(SAVED_SPOILER_PATH, 'utf8')

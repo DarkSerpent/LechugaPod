@@ -1,4 +1,6 @@
 ## 9/18/2026
+* 7:29:39.757 PM CDT - Sculpture Treasure Token / Sculpture Treasure (Fate) / Great Stone Statue
+* 7:12:09.288 PM CDT - Vraska, Soul of Stone / Ganesha, Great Statue God / Ganesha, Great Statue God
 * 5:39:02.422 PM CDT - Codie, Ravenous Codex / Nursery Rhyme, Dreaming Together / Nursery Rhyme, Dreaming Together
 * 7:39:00.126 AM CDT - Tam, the Possibility / Sajyou Manaka, the Great Mother / Sajyou Manaka, the Great Mother
 * 12:04:26.883 AM CDT - The Ur-Sphinx / Nareko, Sacred Guardian / Nareko, Sacred Guardian

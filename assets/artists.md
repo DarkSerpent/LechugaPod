@@ -32,6 +32,7 @@
 * cards/Fujiwara no Mokou, the Undying.png | [ichiTATa](https://www.pixiv.net/en/users/7497648)
 * cards/Galatea, Artisanal Soul.png | [Uncle Ri Kodama](https://www.pixiv.net/en/users/210517)
 * cards/Galmieux, Ardor Manifest.png | [ell](https://www.pixiv.net/en/users/16408605)
+* cards/Ganesha, Great Statue God.png | [White Black ill](https://www.pixiv.net/en/users/35314462)
 * cards/Gilgamesh, King of Heroes.png | [Pixiv 227478](https://www.pixiv.net/en/users/227478/artworks)
 * cards/Gilgamesh, Supreme Wise King.png | [Ginka](https://x.com/hagure_ginsu)
 * cards/Goetia, King of the Demon Gods.png | [KAMONEGI](https://www.pixiv.net/en/users/13990950)
@@ -348,6 +349,7 @@
 * tokens/Lotus (Fate).png | [Wada Arco](https://www.pixiv.net/en/users/611443)
 * tokens/Mask (Fate).png | [Zap](https://www.pixiv.net/en/users/231653)
 * tokens/Robot (Fate).png | [hotosoka](https://www.pixiv.net/en/users/31082248)
+* tokens/Sculpture Treasure (Fate).png | [Wada Arco](https://www.pixiv.net/en/users/611443)
 * tokens/Wizard Soldier (Fate).png | [Kasukabe Akira](https://www.pixiv.net/en/users/307442)
 ### Kingdom Hearts
 * tokens/Day (Kingdom Hearts).png | [SQUARE ENIX](https://en.wikipedia.org/wiki/Square_Enix)

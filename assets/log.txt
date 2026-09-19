@@ -315,3 +315,5 @@ cards/Ibaraki Doji, Burning Demon.png | 1789704925151.1443
 cards/Nareko, Sacred Guardian.png | 1789707866883.579
 cards/Sajyou Manaka, the Great Mother.png | 1789737157607.7637
 cards/Nursery Rhyme, Dreaming Together.png | 1789774836990.453
+cards/Ganesha, Great Statue God.png | 1789776729288.536
+tokens/Sculpture Treasure (Fate).png | 1789777779757.8052
