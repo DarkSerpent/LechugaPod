@@ -317,3 +317,4 @@ cards/Sajyou Manaka, the Great Mother.png | 1789737157607.7637
 cards/Nursery Rhyme, Dreaming Together.png | 1789774836990.453
 cards/Ganesha, Great Statue God.png | 1789778131664.1863
 tokens/Sculpture Treasure (Fate).png | 1789777779757.8052
+cards/Louhi, Witch of Pohjola.png | 1789780967622.5134

@@ -5838,6 +5838,26 @@ Whenever you cast a noncreature spell, create a 1/1 colorless Sculpture Treasure
             <tablerow>2</tablerow>
         </card>
 
+        <card>
+            <name>Denzilore Fatehold</name>
+            <text>Flash
+Flying
+Whenever you scry or surveil, put a +1/+1 counter on each creature you control.</text>
+            <prop>
+                <cmc>4</cmc>
+                <manacost>1WUU</manacost>
+                <coloridentity>WU</coloridentity>
+                <type>Legendary Creature — Elder Sphinx</type>
+                <maintype>Creature</maintype>
+                <side>front</side>
+                <colors>WU</colors>
+                <layout>normal</layout>
+                <pt>3/4</pt>
+            </prop>
+            <set rarity="rare" uuid="00000000-0000-0000-0000-000000000308" flavorName="Fate" picurl="https://raw.githubusercontent.com/DarkSerpent/LechugaPod/refs/heads/main/assets/cards/Louhi%2C%20Witch%20of%20Pohjola.png">CLM</set>
+            <tablerow>2</tablerow>
+        </card>
+
 </cards>
 
 </cockatrice_carddatabase>
