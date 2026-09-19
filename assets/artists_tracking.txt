@@ -106,6 +106,7 @@ shuiyaoximushi = https://x.com/zebai7339
 SioN = https://www.pixiv.net/en/users/1706592
 Spark621 = https://www.pixiv.net/en/users/2488754/illustrations
 SQUARE ENIX = https://en.wikipedia.org/wiki/Square_Enix
+Sukaliya = https://www.pixiv.net/en/users/26631029
 Taito = https://en.wikipedia.org/wiki/Taito
 Takashi Takeuchi = https://www.zerochan.net/Takeuchi+Takashi
 Team Shanghai Alice = https://www.zerochan.net/Team+Shanghai+Alice

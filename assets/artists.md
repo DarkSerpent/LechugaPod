@@ -55,7 +55,7 @@
 * cards/Leonardo da Vinci, Gran Cavallo.png | [Yamyom](https://www.pixiv.net/en/users/46328)
 * cards/Lin the Violet.png | [kitutuki20](https://www.pixiv.net/en/users/1808950)
 * cards/Louhi, Witch of Pohjola.png | [matumotodan](https://www.pixiv.net/en/users/104087605)
-* cards/Malkuth, the Tenth Prophet.png | [paGzWcszSw73714](https://www.pixiv.net/en/users/113909352)
+* cards/Malkuth, the Tenth Prophet.png | [Sukaliya](https://www.pixiv.net/en/users/26631029)
 * cards/Marisa Kirisame, Western Magician.png | [JILL](https://www.pixiv.net/en/users/54259522)
 * cards/Marluxia, Graceful Assassin.png | [C_QDe](https://www.pixiv.net/en/users/127574431)
 * cards/Mash Kyrielight, Ritsuka’s Servant.png | [Takashi Takeuchi](https://www.zerochan.net/Takeuchi+Takashi)
