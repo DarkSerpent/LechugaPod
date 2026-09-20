@@ -34,7 +34,7 @@
 * cards/Galatea, Artisanal Soul.png | [Uncle Ri Kodama](https://www.pixiv.net/en/users/210517)
 * cards/Galmieux, Ardor Manifest.png | [ell](https://www.pixiv.net/en/users/16408605)
 * cards/Ganesha, Great Statue God.png | [White Black ill](https://www.pixiv.net/en/users/35314462)
-* cards/Gilgamesh, King of Heroes.png | [Pixiv 227478](https://www.pixiv.net/en/users/227478/artworks)
+* cards/Gilgamesh, King of Heroes.png | [Huzakenna](https://www.pixiv.net/en/users/2593590)
 * cards/Gilgamesh, Supreme Wise King.png | [Ginka](https://x.com/hagure_ginsu)
 * cards/Goetia, King of the Demon Gods.png | [KAMONEGI](https://www.pixiv.net/en/users/13990950)
 * cards/Goredolf Musik, Indomitable.png | [BLACK](https://typemoon.fandom.com/wiki/BLACK)
