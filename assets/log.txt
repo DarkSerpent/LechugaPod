@@ -47,7 +47,7 @@ cards/Natsuki Subaru, Starting From Zero.png | 1787650323789.6526
 cards/Remilia Scarlet, Imperishable Night.png | 1787650324120.0754
 cards/Rin Kaenbyou, Shopping District.png | 1787650324518.188
 cards/Rumia, Youkai of the Dusk.png | 1787650324844.1829
-cards/Satsuki, Intelligence Director.png | 1787650325126.111
+cards/Satsuki, Intelligence Director.png | 1789864094034.7512
 cards/Seiga Kaku, the Wicked Hermit.png | 1787650325491.4211
 cards/Shana, Flame-Haired Hunter.png | 1787650325783.4092
 cards/Shun, Gentle Instructor.png | 1787650326069.875
