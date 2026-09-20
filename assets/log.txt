@@ -138,7 +138,7 @@ planeswalkers/Black Swan, Memetic Entity.png | 1787734965867.8633
 planeswalkers/Halibel, the Admirer.png | 1787734966195.0647
 cards/Barghest, Eater of Those She Loves.png | 1787650843535.8882
 artifacts/Altera, Teardrop Photon Ray.png | 1787706638499.204
-cards/Gilgamesh, King of Heroes.png | 1789871299831.3574
+cards/Gilgamesh, King of Heroes.png | 1789871920675.2632
 lands/Forest (Fate).png | 1787712426770.1008
 lands/Island (Fate).png | 1787712426998.0034
 lands/Mountain (Fate).png | 1787712427359.0022
